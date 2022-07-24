@@ -12,6 +12,11 @@ def download(url):
     urlp = "https://doi.org/" + url
     print(urlp)
     driver.get(urlp)
-    time.sleep(1000)
+    elem_pdf = driver.find_element(By.CSS_SELECTOR, "a[aria-label='PDF']")
+    elem_pdf.click()
+    time.sleep(3)
+    elem_download = driver.find_element(By.CSS_SELECTOR, ".navbar-download")
+    elem_download.click();
+    time.sleep(3)
 for line in sys.stdin:
     download(line.rstrip())

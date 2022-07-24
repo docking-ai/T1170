@@ -1,0 +1,665 @@
+Proc. Nati. Acad. Sci. USA
+
+Vol. 89, pp. 9257-9261, October 1992
+Biochemistry
+
+Escherichia coli biotin holoenzyme synthetase/bio repressor crystal
+structure delineates the biotin- and DNA-binding domains
+KEITH P. WILSON*t, LISA M. SHEWCHUK*, RICHARD G. BRENNAN*t, ANTHONY J. OTSUKA§,
+AND BRIAN W. MATTHEWS*
+*Institute of Molecular Biology, Howard Hughes Medical Institute and Department of Physics, University of Oregon, Eugene, OR 97403; and §Department of
+Biological Sciences, Illinois State University, Normal, IL 61761-6901
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 21, 2022 from IP address 108.172.119.208.
+
+Contributed by Brian W. Matthews, July 1, 1992
+
+alous data in cross-phased difference Fourier maps showed the
+space group to be P43212 rather than its enantiomorph.
+Refined heavy-atom parameters were employed to compute multiple isomorphous replacement phases to 3.0-A
+resolution. The mean figure of merit, including anomalous
+scattering data, was 0.62 to 3.0-A resolution. The electron
+density map calculated with these phases could be interpreted for about 75% of the molecule. Cycles of model
+building, refinement (12), and phase combination served to
+improve the map. The current map is consistent with the
+derived amino acid sequence of BirA (6) and the chemical
+nature of the heavy-atom substitutions. The model (Fig. 1)
+has an R factor of 19.0% against all observed data between 20and 2.3-A resolution, with root-mean-square deviation from
+ideal bond lengths and bond angles of 0.013 A and 2.40,
+respectively. It includes 287 of the 321 amino acids in the
+repressor sequence (see below) and 44 bound solvent molecules. The distribution of 4 and 4i angles is shown in Fig. 2.¶
+Description of the Structure
+Domain I. The BirA monomer has approximate dimensions
+of 75 A x 35 A x 30 A and is organized in three domains (Fig.
+1 Left). The N-terminal domain (residues 1-60) consists of
+three a-helices [A (residues 4-15), B (22-29), and C (33-46)]
+packed against two strands of antiparallel 3-sheet [1 (49-54)
+and 2 (56-60)]. Sequence comparisons with members of the
+DNA-binding helix-turn-helix family suggested that residues
+22-46 of BirA constituted a helix-turn-helix motif (13). The
+structure determination confirms that a-helices B and C
+correspond to the helix-turn-helix motif. The a-carbon atoms of residues 22-42 of BirA superimpose on a-carbons
+16-36 of Cro protein from phage A (14) with root-mean-square
+discrepancy of 0.91 A. The discrepancy between residues
+22-42 of BirA with residues 169-189 of the catabolite gene
+activator protein (15) is 0.67 A. These values correspond well
+with the agreement between other known helix-turn-helix
+motifs (16, 17). The tenuous coupling of the DNA-binding
+domain to the rest of the protein suggests that large-scale
+conformational changes could easily occur both in solution
+and on binding DNA.
+Domain II. The topology of the central domain of BirA (Fig.
+1 Left) appears to be novel. A comparison with proteins in the
+Brookhaven Data Bank using the method of Subbarao and
+Haneef (18) revealed no corresponding structural fold. The
+domain consists of five a-helices [D (residues 68-76), E
+(89-97), F (147-164), G (234-256), and H (259-269)] and a
+mixed P-sheet consisting of seven strands [3 (80-84), 4 (104-
+
+The three-dimensional structure of BirA, the
+ABSTRACT
+repressor of the Escherichia col biotin biosynthetic operon, has
+been determined by x-ray crystallography and refined to a
+crystallographic residual of 19.0% at 2.3-A resolution. BirA is
+a sequence-specific DNA-binding protein that also catalyzes the
+formation of biotinyl-5'-adenylate from biotin and ATP and
+transfers the biotin moiety to other proteins. The level of biotin
+biosynthetic enzymes in the cell is controlled by the amount of
+biotinyl-5'-adenylate, which is the BirA corepressor. The structure provides an example of a transcription factor that is also an
+enzyme. The structure ofBirA is highly asymmetric and consists
+of three domains. The N-terminal domain is mostly a-helical,
+contains a helix-turn-helix DNA-binding motif, and is loosely
+connected to the remainder of the molecule. The central domain
+consists of a seven-stranded mixed 13-sheet with a-helices covering one face. The other side of the sheet is largely solventexposed and contains the active site. The C-terminal domain
+comprises a six-stranded, antiparallel 13-sheet sandwich. The
+location of biotin binding is consistent with mutations that affect
+enzymatic activity. A nearby loop has a sequence that has been
+associated with phosphate binding in other proteins. It is inferred that ATP binds in this region, adjacent to the biotin. It is
+proposed that the binding of corepressor to monomeric BirA
+may promote DNA binding by facilitating the formation of a
+multimeric BirA-corepressor-DNA complex. The structural
+details of this complex remain an open question, however.
+
+The biotin operon repressor, BirA, is a 33.5-kDa protein that
+regulates transcription of the Escherichia coli biotin operon
+(1-3). BirA is bifunctional, serving both as the biotin (vitamin
+H)-activating enzyme and as a transcriptional regulator. It
+catalyzes the formation of biotinyl-5'-adenylate from biotin
+and ATP and transfers biotin to a specific lysine residue on
+the biotin carboxyl carrier protein, a subunit of acetyl-CoA
+carboxylase (4, 5). If all the biotin-accepting proteins in the
+cell have been biotinylated, the BirA-biotinyl-5'-AMP complex accumulates and binds to the 40-base-pair bio operator,
+repressing transcription of the biotin biosynthetic genes (4,
+6-8). Thus BirA synthesizes its own corepressor, a unique
+property among known DNA-binding proteins. BirA represses transcription when biotinyl-5'-AMP is bound to the
+enzyme, suggesting that binding of corepressor helps form
+the BirA-DNA complex.
+Structure Determination
+
+Crystals of BirA were grown as described (9) and equilibrated
+with 2.05 M phosphate, pH 6.5/5% (vol/vol) glycerol. Native
+and derivative data sets were collected by using film or a
+Xuong-Hamlin (10) area detector (Table 1). Inclusion of anom-
+
+tPresent address: Vertex Pharmaceuticals Inc., 40 Allston Street,
+Cambridge, MA 02139.
+tPresent address: Department of Biochemistry and Molecular Biology, Oregon Health Sciences University, 3181 SW Sam Jackson
+Park Road, Portland, OR 97201.
+1The atomic coordinates and structure factors have been deposited
+in the Protein Data Bank, Chemistry Department, Brookhaven
+National Laboratory, Upton, NY 11973 (reference PlBIA, PlBIB).
+
+The publication costs of this article were defrayed in part by page charge
+payment. This article must therefore be hereby marked "advertisement"
+in accordance with 18 U.S.C. §1734 solely to indicate this fact.
+
+9257
+
+9258
+
+Biochemistry: Wilson et al.
+
+Proc. Nati. Acad. Sci. USA 89 (1992)
+
+Table 1. Data collection and heavy-atom statistics
+Unit cell
+Data
+Phasing
+dimensions, A
+No. of
+Completeness
+collection
+power
+c
+sites
+of data, %
+method
+a,b
+Resolution, A
+Rc
+Rmere, %
+7.5
+114.0
+60.2
+70
+20.0-2.3
+Film
+59.8
+3.8
+113.7
+82
+20.0-2.6
+X-H
+114.1
+60.0
+4.9
+91
+20.0-2.8
+X-H
+0.71
+2
+59.9
+0.67
+114.4
+4.2
+20.0-3.0
+73
+X-H
+1.07
+0.70
+3
+59.3
+96
+113.9
+4.7
+20.0-3.0
+X-H
+IrCl3
+1.42
+0.68
+4
+60.0
+114.1
+96
+4.1
+20.0-3.0
+X-H
+cis-Pt
+0.75
+0.70
+3
+114.0
+60.2
+7.5
+93
+X-H
+20.0-3.8
+DANP
+1.31
+0.67
+5
+59.6
+114.4
+6.8
+98
+20.0-4.0
+X-H
+PtCL4
+chloride
+is
+iridium(III)
+saturated),
+IrCl3
+acid
+soak,
+(3-day
+bioK is biotinylated lysine (1-day soak, saturated). pCMB is p-chloromercuribenzoic
+(2-day soak, 10.0 mM), Cis-Pt is cis-platinum(II)diammine dichloride (5-day soak, saturated), DANP is diaminodinitroplatinum (20-hr soak, 10%
+saturated solution), and PtCL4 is platinum tetrachloride (1-day soak, 5.0 mM). Data were collected by an oscillation method (film) or on a
+Xuong-Hamlin (X-H) area detector (10). The number of heavy-atom binding sites is indicated where appropriate. The platinum compounds
+shared common sites but with different relative occupancies. Rffrpe gives the agreement between repeated intensity measurements, Rc is the
+Cullis R factor for centrosymmetric reflections, and the phasing power is the ratio of the average heavy-atom scattering to the average lack of
+closure of the phase triangles (11).
+
+Protein
+modification
+Native
+Native
+bioK
+pCMB
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 21, 2022 from IP address 108.172.119.208.
+
+109), 5 (129-139), 6 (170-173), 7 (175-180), 8 (182-192), and 9
+(200-210)]. The two parallel strands are inaccessible to solvent, as is strand 5. The remainder of the sheet has one face
+largely solvent-exposed and contains the active site (Fig. 1).
+Domain II contains four loops, which appear to be mobile
+or unstructured and cannot be visualized in electron density
+maps. These loops occur in pairs in the three-dimensional
+structure (Fig. 1 Left). One disordered loop (residues 116124) contains the sequence GRGRRG, previously identified
+
+-1.k,
+
+as a consensus sequence (GXGXXG) associated with ATP
+binding (19, 20). In the nearby unstructured region (residues
+212-223), limited proteolysis has revealed a subtilisinsensitive bond that is partially protected from cleavage in the
+presence of corepressor (Dorothy Beckett, personal communication). This also suggests that this region of the protein is
+at or close to the site of binding of corepressor.
+Doman M. Domain III is comprised of two three-stranded
+antiparallel ,-sheets that cross each other at an angle of about
+
+.A
+
+-Ah-,
+i'a-
+
+FIG. 1. (Left) Ribbon drawing showing the overall topology of the biotin repressor. a-Helices are colored blue and identified (A, B, . . .)
+according to their position in the primary sequence. a-Sheets are colored red and identified (1, 2, . . ). The relationship between the DNA
+recognition helix (yellow) and biotin (also yellow) is depicted. The locations of mutations that influence DNA binding (arrowheads) and
+enzymatic activity (arrows) are shown. Mutations that can be complemented and may form part of the proposed dimer interface are indicated
+by diamonds. (Right) Relationship between helix-turn-helix units (yellow), biotin binding sites (dark blue), and complementation sites (sites
+in green partially complement those in red) in a pair of BirA monomers related by the crystallographic dyad axis (vertical). It seems unlikely,
+but is not excluded, that the dimer as shown persists in solution.
+
+Lou
+
+Biochemistry: Wilson et al.
+
+60.
+
+Proc. NatL. Acad. Sci. USA 89 (1992)
+
+-I
+
+9
+
+i
+
+Glu-190 changes its X1 value by 1150 and forms a salt bridge
+with Arg-116.
+The ATP Binding Site
+
+-4-
+
+-60-
+
+-------
+
+----
+
+----------
+
+-180 A
+
+-180
+
+-60
+
+60
+
+180
+
+FIG. 2. Ramachandran diagram showing the distribution of and
+di angles for the refined model of the biotin repressor. Glycine
+residues are indicated by squares and non-glycines by crosses.
+
+750 (Fig. 1 Left). Strands 10-15 make
+
+up
+
+this structure [10
+
+(residues 274-280), 11 (283-287), 12 (288-293), 13 (296-302),
+
+14 (305-309), and 15 (313-317)] and form a 13-sandwich that
+end of the biotin repressor.
+
+caps one
+
+The Biotin Binding Site
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 21, 2022 from IP address 108.172.119.208.
+
+9259
+
+Exposure of BirA crystals to biotin or corepressor resulted in
+severe cracking and crystal destruction. This suggests that a
+conformational change accompanies corepressor binding.
+Because BirA transfers biotin to a specific lysine residue of
+biotin carboxyl carrier protein, attempts were also made to
+soak crystals of BirA with biotinylated lysine, and these
+proved to be successful in locating the biotin binding site (Fig.
+3 Top). Coordinates of the complex were refined to a crystallographic residual of 17.3% at 2.8-A resolution. Average
+deviations in bond lengths and angles from ideal values were
+0.015 A and 2.70, respectively.
+Biotin occupies a portion of the 13-sheet face that is exposed
+to solvent in domain II, and makes contacts with parts of
+three 13-strands (strands 5, 8, and 9), the N terminus of helix
+E, and main-chain atoms of residues 114-118 (Fig. 1 Left).
+Residues 116-118 are disordered in the apoprotein. Upon
+biotin binding they become localized and partially bury the
+biotin. The biotin binding pocket has hydrophobic sides with
+a more hydrophilic center. The biotin carbonyl and ureido
+nitrogens interact via hydrogen bonding with the hydrophilic
+interior of the cavity, while the hydrophobic tail and
+thiophene ring interact with the hydrophobic sides of the
+pocket. The thiophene ring contacts glycine residues 186,
+204, and 206 (Fig. 3 Middle and Bottom). An absence of side
+chains at these three positions permits the thiophene ring to
+sit on a hydrophobic, relatively flat binding site. The bound
+biotin is less enclosed and appears to have less hydrophobic
+interaction with surrounding protein than is the case in the
+very tight complex of biotin with streptavidin (21, 22).
+Specificity is derived from several hydrogen bonds between the biotin and the protein (Fig. 3 Middle). Particularly
+striking are the hydrogen bonds from the amide nitrogen of
+Arg-116 to the carbonyl oxygen of the biotin molecule, and
+from the carbonyl oxygen of Arg-116 to one of the biotin
+ureido nitrogens. In this instance the hydrogen bond donors
+and acceptors on the biotin participate in hydrogen bonds
+with the protein that are characteristic of 1-sheet structure.
+There is also a hydrogen bond between the biotin carbonyl
+oxygen and the side-chain oxygen of Ser-89. The remaining
+ureido nitrogen participates in bidentate hydrogen bonds with
+the side-chain oxygen atoms of Thr-90 and Gln-112. The
+carboxyl group at the end of the hydrocarbon tail hydrogen
+bonds to the amino group of Lys-183. Upon biotin binding
+
+No direct crystallographic evidence for the ATP binding site
+has been obtained to date. Several lines of evidence, however, suggest that ATP will bind adjacent to the biotin. (i)
+ATP and biotin must be spatially close to permit the formation of biotinyl-5'-adenylate from biotin and ATP. (ii) Biotin
+binding orders the N-terminal portion of the presumed phosphate-binding loop. (iii) Mutations that affect enzymatic
+activity map to the region of the biotin binding site.
+Correlation with Mutant Data
+Mutants of the biotin repressor have been used to identify
+regions of the protein that are presumed to be involved in
+DNA binding, enzymatic activity, and/or protein dimerization (4, 6, 13). A subset of these is summarized in Table 2. In
+most cases knowledge of the three-dimensional structure
+permits rationalization of the observed phenotype. At the
+same time, the location of the mutation sites helps confirm
+the interpretation of the electron density map.
+Regions of BirA likely to interact with DNA are suggested
+by mutants that inactivate repressor function but have little
+effect on enzymatic activity (13). Such mutations are restricted to three adjacent residues, amino acids 32-34 (Table
+2), which had been predicted on the basis of sequence
+homology to occur in a helix-turn-helix motif (13). The
+three-dimensional structure shows that these three amino
+acids are located within the first turn of the recognition helix
+(Fig. 1 Left). The substitutions are =40 A away from the
+biotin binding site, consistent with the observation that they
+have little effect on enzymatic activity. The remaining amino
+acid substitutions in Table 2 that are defective in repression
+(residues 118, 119, 142, and 197) are located at least 20 A
+away from the DNA recognition helix. These mutations could
+disrupt direct communication between the corepressor binding site and the DNA-binding domain, or they might have a
+more indirect effect such as interference with protein dimerization that accompanies DNA binding (see below).
+Mutations that affect the enzymatic activity of BirA occur
+at residues 107, 115, and 189 (Table 2), which are within 10
+A of the crystallographically determined biotin binding site
+(Fig. 1 Left). The side chain of Cys-107 is buried in the
+three-dimensional structure with its sulfur atom in van der
+Waals contact (3.9 A) with the y-methyl group of Thr-90. The
+-oxygen of Thr-90 in turn makes a hydrogen bond to the
+biotin. The Cys-107 -- Gly substitution could disrupt this
+bond. Gly-115 is adjacent to the residues that become ordered
+upon biotin binding. The side chain of a non-glycine at
+residue 115 would protrude directly into the biotin binding
+site. Replacing Val-189 with glycine could affect the formation of the salt bridge between Glu-190 and Arg-116 that
+accompanies biotin binding.
+Mutations in BirA that prevent growth at elevated temperatures presumably destabilize the protein. These mutations
+are located at positions 83, 142, 207, and 235, which are
+distributed throughout the three-dimensional structure.
+Val-83 is completely shielded from solvent. Its replacement
+with glycine would be expected to decrease hydrophobic and
+van der Waals interactions. Ile-207 is completely buried in the
+three-dimensional structure. Its replacement with serine presumably would place a hydrophilic amino acid within the
+protein core and so reduce stability. Arg-235 is involved in a
+solvent-inaccessible ion pair with Glu-110 and its replacement with cysteine would disrupt this salt bridge.
+
+9260
+
+4
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 21, 2022 from IP address 108.172.119.208.
+
+Proc. Natl. Acad. Sci. USA 89 (1992)
+
+Biochemistry: Wilson et al.
+
+4
+
+FIG. 3. (Top) Stereo map showing the difference in electron density between crystals of BirA
+soaked in biotinylated lysine and crystals of the
+apoprotein. A saturating amount (3.5 mg/ml) of
+biotinylated lysine (bioK) (Fluka) was dissolved in
+2.05 M sodium potassium phosphate/5% glycerol,
+pH 6.5. One large crystal (0.6 mm x 0.4 mm x 0.4
+mm) was soaked overnight in this solution and used
+to collect three-dimensional diffraction data to
+2.8-A resolution. Similar results were obtained with
+crystals soaked in the competitive inhibitor biotin
+methyl ester. Two significant positive difference
+peaks were found in each case, one corresponding
+to the biotin moiety and the other corresponding to
+several amino acids that become ordered upon
+biotin binding. Coefficients are FbioK - Fpo and
+phases are from the refined coordinates of the
+apoprotein. Positive contours (solid lines) and negative contours (broken lines) are drawn at levels of
+± 3.0 a, where ar is the root-mean-square density
+throughout the unit cell. The refined coordinates of
+the structure in the presence of biotinylated lysine
+are superimposed. Oxygen and sulfur atoms are
+drawn solid, carbon atoms open, and nitrogen atoms partially shaded. Amino acids are identified by
+their one-letter codes and by sequence position. No
+evidence for the location of the lysine portion of the
+biotinylated lysine was observed. (Middle) Stereo
+view of the hydrogen bonds (dashed lines) between
+the biotin molecule and BirA. Carbon atoms are
+drawn as open circles, oxygen and sulfur atoms are
+drawn solid, and nitrogen atoms are partially
+shaded. Amino acids are identified by their oneletter codes and by sequence position. Hydrogen
+bond distances are as follows: Arg-116 N to biotin
+0, 2.8 A; Arg-116 0 to biotin N3, 3.0 A; Ser-89 OY
+to biotin 0, 2.9 A; Thr-90 OY to biotin N1, 2.8 A;
+Gln-112 Of to biotin N1, 2.9 A. (Bottom) Spacefilling representation of the biotin binding pocket.
+Oxygen atoms are colored red, nitrogens blue, and
+carbons yellow. The biotin molecule is represented
+as a stick figure. Residues around the biotin pocket
+are identified.
+
+Repression by BirA
+
+Many helix-turn-helix DNA-binding proteins are dimeric
+and bind to their operators with twofold-related recognition
+helices occupying successive major grooves of the DNA
+(e.g., refs. 14 and 23-27). There are, however, several
+indications that BirA may not follow this pattern. First, the
+operator site for BirA is extended, encompassing 40 or so
+base pairs (4, 7, 8, 28). Also, experiments using analytical gel
+filtration chromatography and equilibrium analytical ultracentrifugation indicate that BirA remains monomeric in 50
+mM Tris CI/200 mM KCI/2.5 mM MgCl2 at pH 7.5 and 200C
+at concentrations ranging from 0.25 to 30 1LM (Dorothy
+Beckett, personal communication). These concentrations are
+well above those at which specific binding to the biotin
+
+operator occurs. In the crystal structure, two adjacent monomers of BirA are in contact and are related by a twofold axis
+of symmetry (Fig. 1 Right). Because the area of contact is
+1100 A2, substantially less than the 160 A2 of buried surface
+area expected for dimeric proteins with subunit molecular
+masses in the 24- to 40-kDa range (29), the crystal contact
+may not represent a dimer contact in solution. While partial
+complementation of different birA alleles has been taken to
+suggest that a multimeric form may be involved in repression
+(4), none of the known complementation sites occurs at the
+crystal contact described above.
+One way to at least partially integrate the data available at
+the present time is to assume that BirA oligomerizes as it
+binds to DNA. It was recently demonstrated that binding of
+BirA monomers to DNA is cooperative (Dorothy Beckett,
+
+Biochemistry: Wilson et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 21, 2022 from IP address 108.172.119.208.
+
+Table 2. Mutants of BirA (adapted from ref. 13)
+Repression
+Comple- Mutation Amino acid
+Allele
+(1 mM biotin) mentation position
+substitution
+Defective in repression
+birA361
+ND
+32
+Ser - Arg
+birA106
+ND
+32
+Ser - Ile
+birA825
+ND
+33
+Argo Leu
+birA331
+ND
+34
+Ala- Glu
+birA91
+A
+118
+Arg Gly
+B
+birA352
+119
+Arg Trp
+birA7l
+ND
+142
+Gly Cys
+birA301
+B
+197
+Asp- Tyr
+Mutations that map to the active-site region
++
+birA815
+ND
+107
+Cyst Gly
+birAl
++
+ND
+115
+Glyp- Ser
++
+birA215
+A
+189
+Val - Gly
+Temperature-sensitive phenotypes
++
+birA879
+A
+83
+Val- Gly
+birA7l
+ND
+142
+Gly Cys
++
+birA104
+ND
+207
+Ileu- Ser
+birA85
+ND
+235
+Arg - Cys
+
+personal communication). Precedent for the oligomerization
+of a protein as it binds to DNA is provided by several
+examples (30, 31). In the case of BirA it would be assumed
+that the binding of corepressor favors formation of a dimeric
+or possibly multimeric complex of BirA on the operator. In
+such a complex the substitutions that complement one another (Table 2) might be spatially adjacent.
+A second model involves restructuring upon ligand binding. In this case the formation of biotinyl-5'-adenylate on the
+catalytic domain would change the relative positions of the
+structural domains and would enhance affinity of monomeric
+BirA for DNA in some unspecified manner.
+It is difficult, however, to predict the exact mode of
+alignment of BirA on DNA and so to differentiate between
+these and other possible models. Although the helix-turnhelix unit is usually well conserved in different helix-turnhelix DNA-binding proteins, the mode of interaction with
+DNA can vary substantially (23-27). The DNA can also bend
+to a greater or lesser degree (23-26). In the present case the
+apparent flexibility of the DNA-binding domain relative to
+the rest of the protein adds another uncertainty. A full
+understanding of the regulation of the biotin operon will
+require the crystal structure of the BirA-corepressor-DNA
+complex.
+We thank Drs. Larry Weaver and William Tulip for help with data
+collection and other aspects, Dr. Dorothy Beckett for helpful discussions and for communicating results in advance of publication,
+and Drs. Allan M. Campbell and Max A. Eisenberg for comments on
+the manuscript. L.M.S. is a Fellow of the Jane Coffin Childs
+Memorial Fund for Medical Research. This work was supported in
+
+Proc. Natl. Acad. Sci. USA 89 (1992)
+
+9261
+
+part by grants from the National Institutes of Health (GM31757 to
+A.J.O.; GM20066 to B.W.M.), the Jane Coffin Childs Memorial Fund
+for Medical Research, and the Lucille P. Markey Charitable Trust.
+1. Eisenberg, M. A. (1984) Ann. N. Y. Acad. Sci. 447, 335-349.
+2. Otsuka, A. J., Buoncristiani, M. R., Howard, P. K., Matsuzaki, J., Ruppert, J., Shaw, J., Uchida, K. M. & Vasu, J.
+(1988) Mol. Gen. (Life Sci. Adv.) 7, 131-134.
+3. Cronan, J. E. (1989) Cell 58, 427-429.
+4. Barker, D. F. & Campbell, A. M. (1981) J. Mol. Biol. 146,
+451-467.
+5. Eisenberg, M. A., Prakash, 0. & Hsiung, S.-C. (1982) J. Biol.
+Chem. 257, 15167-15173.
+6. Howard, P. K., Shaw, J. & Otsuka, A. J. (1985) Gene 35,
+321-331.
+7. Prakash, 0. & Eisenberg, M. A. (1979) Proc. Natl. Acad. Sci.
+USA 76, 5592-5595.
+8. Cronan, J. E. (1988) J. Biol. Chem. 263, 10332-10336.
+9. Brennan, R. G., Sanjay, V., Matthews, B. W. & Otsuka, A. J.
+(1989) J. Biol. Chem. 264, 5.
+10. Xuong, N. H., Nielsen, C., Hamlin, R. & Anderson, D. (1985)
+J. Appl. Crystallogr. 181, 342-350.
+11. Blundell, T. L. & Johnson, L. N. (1976) Protein Crystallography (Academic, New York).
+12. Tronrud, D. E., Ten Eyck, L. F. & Matthews, B. W. (1987)
+Acta Crystallogr. A 43, 489-503.
+13. Buoncristiani, M. R., Howard, P. K. & Otsuka, A. J. (1986)
+Gene 44, 255-261.
+14. Anderson, W. F., Ohlendorf, D. H., Takeda, Y. & Matthews,
+B. W. (1981) Nature (London)290, 754-758.
+15. McKay, D. B. & Steitz, T. A. (1981) Nature (London) 290,
+744-749.
+16. Steitz, T. A., Ohlendorf, D. H., McKay, D. B., Anderson,
+W. F. & Matthews, B. W. (1982) Proc. Natl. Acad. Sci. USA
+79, 3097-3100.
+17. Brennan, R. G. & Matthews, B. W. (1989) J. Biol. Chem. 264,
+1903-1906.
+18. Subbarao, N. & Haneef, I. (1991) Protein Eng. 4, 877-884.
+19. Wierenga, R. K. & Hol, W. G. (1982) Nature (London) 302,
+842-844.
+20. Schulz, G. E. (1992) Curr. Opin. Struct. Biol. 2, 61-67.
+21. Weber, P. C., Ohlendorf, D. H., Wendoloski, J. J. & Salemme, F. R. (1989) Science 243, 85-88.
+22. Hendrickson., W. A., Pahler, A., Smith, J. L., Satow, Y.,
+Merritt, E. A. & Phizerlackerley, R. P. (1989) Proc. Natl.
+Acad. Sci. USA 86, 2190-2194.
+23. Jordan, S. R. & Pabo, C. 0. (1988) Science 242, 893-899.
+24. Aggarwal, A. K., Rodgers, D., Drottar, M., Ptashne, M. &
+Harrison, S. C. (1988) Science 242, 899-907.
+25. Otwinowski, R. W., Schevitz, R. W., Zhang, R.-G., Lawson,
+C. L., Joachimiak, A., Marmorstein, R. Q., Luisi, B. F. &
+Sigler, P. B. (1988) Nature (London) 335, 321-329.
+26. Brennan, R. G., Roderick, S. L., Takeda, Y. & Matthews,
+B. W. (1990) Proc. Natl. Acad. Sci. USA 87, 8165-8169.
+27. Matthews, B. W. (1988) Nature (London) 335, 294-295.
+28. Otsuka, A. & Abelson, J. (1978) Nature (London) 276,689-693.
+29. Miller, S., Lesk, A. M., Janin, J. & Chothia, C. (1987) Nature
+(London) 328, 834-836.
+30. Harrison, S. C. (1991) Nature (London) 353, 715-719.
+31. Kim, B. & Little, J. W. (1992) Science 255, 203-206.
+
+

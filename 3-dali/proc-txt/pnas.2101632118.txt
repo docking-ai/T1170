@@ -1,0 +1,716 @@
+Molecular mechanism underlying transport and
+allosteric inhibition of bicarbonate transporter SbtA
+Sunzhenhe Fanga,b,1, Xiaowei Huanga,b,1, Xue Zhang (张雪)a,1,2, Minhua Zhanga, Yahui Haoa,b, Hui Guoa,
+Lu-Ning Liuc, Fang Yud, and Peng Zhanga,2
+a
+
+National Key Laboratory of Plant Molecular Genetics, Center for Excellence in Molecular Plant Sciences, Institute of Plant Physiology and Ecology, Chinese
+Academy of Sciences, Shanghai 200032, China; bUniversity of Chinese Academy of Sciences, 100039 Beijing, China; cInstitute of Systems, Molecular and
+Integrative Biology, University of Liverpool, L69 7ZB Liverpool, United Kingdom; and dShanghai Key Laboratory of Plant Molecular Sciences, College of Life
+Sciences, Shanghai Normal University, Shanghai 200234, China
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+SbtA is a high-affinity, sodium-dependent bicarbonate transporter
+found in the cyanobacterial CO2-concentrating mechanism (CCM).
+SbtA forms a complex with SbtB, while SbtB allosterically regulates
+the transport activity of SbtA by binding with adenyl nucleotides.
+The underlying mechanism of transport and regulation of SbtA is
+largely unknown. In this study, we report the three-dimensional
+structures of the cyanobacterial Synechocystis sp. PCC 6803 SbtA–
+SbtB complex in both the presence and absence of HCO3− and/or
+AMP at 2.7 Å and 3.2 Å resolution. An analysis of the inward-facing
+state of the SbtA structure reveals the HCO3−/Na+ binding site,
+providing evidence for the functional unit as a trimer. A structural
+comparison found that SbtA adopts an elevator mechanism for bicarbonate transport. A structure-based analysis revealed that the allosteric inhibition of SbtA by SbtB occurs mainly through the T-loop
+of SbtB, which binds to both the core domain and the scaffold domain of SbtA and locks it in an inward-facing state. T-loop conformation is stabilized by the AMP molecules binding at the SbtB trimer
+interfaces and may be adjusted by other adenyl nucleotides. The
+unique regulatory mechanism of SbtA by SbtB makes it important
+to study inorganic carbon uptake systems in CCM, which can be used
+to modify photosynthesis in crops.
+
+|
+
+bicarbonate transporter CO2-concentrating mechanism
+inhibition structure photosynthesis
+
+|
+
+|
+
+C
+
+| allosteric
+
+yanobacteria have evolved a unique CO2-concentrating mechanism (CCM) in carbon fixation. This increases the intracellular
+concentration of CO2 feeding ribulose bisphosphate carboxylaseoxygenase (RuBisCO) that is encapsulated in carboxysomes, improving photosynthetic performance (1, 2). The CCM contains five
+distinct uptake systems that transport dissolved inorganic carbon
+(Ci), HCO3−, and CO2 into the cell (3). Among them, SbtA and
+BicA are sodium-dependent HCO3− transporters with high affinity
+and medium affinity, respectively (4, 5). BCT1, or CmpABCD, is a
+HCO3− transporter complex powered by ATP hydrolysis (6), while
+NDH-I3 and NDH-I4 complexes are responsible for CO2 uptake
+(7, 8). These Ci uptake systems are ideal targets for enhancing
+photosynthesis in C3 plants (9–14).
+Ci uptake systems are regulated at different levels to adapt to
+a changing environment. CmpABCD was first identified as a cyanobacterial Ci transporter whose expression level is induced by Ci
+limitation (6), as are SbtA and NDH-I3, which are regulated by the
+LysR-type transcription factor NdhR (15). The molecular mechanism
+underlying transcriptional regulation has previously been studied (16).
+As a transcription repressor, NdhR controls the expression levels
+of ndh-I3, BicA, and SbtA/B, while the Ci limitation metabolite
+2-phosphoglycerate can bind to NdhR to alter its conformation
+and release repression.
+Ci transporter activity is allosterically or posttranslationally regulated. SbtA forms a complex with SbtB, while SbtB regulates the
+transport of SbtA via binding with AMP or cAMP (17). The active
+form of BicA is a dimer stabilized by the C-terminal sulfate transporter and anti-sigma factor antagonist (STAS) domain; however,
+PNAS 2021 Vol. 118 No. 22 e2101632118
+
+this activity could not be reconstructed in a heterologous expression system (18, 19). This suggests that transporter activity could
+require additional regulatory proteins or posttranslational modification. In addition, it is considered that the CmpABCD transporter
+activity is regulated by the cytoplasmic HCO3− concentration since
+the CmpC subunit contains an extra substrate-binding domain in
+addition to the nucleotide-binding domain (3). The molecular
+mechanisms of transport and activity regulation of Ci transporters
+remain largely unknown, which, to a large extent, limits their application in photosynthesis improvement (20–22).
+This study focuses on the structural and mechanistic analysis
+of the bicarbonate transporter SbtA by determining its complex
+structure with the regulatory subunit SbtB, both in the presence
+and absence of HCO3− and/or AMP. A structure-based analysis
+suggests molecular mechanisms underlying transport and regulation.
+Results
+SbtA Activity and Allosteric Inhibition by SbtB. Can encodes the
+carbonic anhydrase, which is required for the growth of Escherichia
+coli under normal air conditions; a can paralog, cynT, can replace
+can for normal growth when induced with azide (23). This finding
+was used successfully for active bicarbonate transporter screening
+(24). We generated the can knockout strain using E. coli C43(DE3)
+[C43(DE3)-Δcan], which was used to characterize the activity of
+Synechocystis sp. PCC 6803 SbtA, SbtA–SbtB, and its derivative
+
+Significance
+SbtA is a sodium-dependent, high-affinity bicarbonate transporter in the cyanobacterial CO2-concentrating mechanism (CCM).
+The transport activity of SbtA is regulated by SbtB, which is additionally influenced by adenyl nucleotides. We determined the
+three-dimensional structures of SbtA in complex with SbtB in two
+different conformations: A model summarizing the molecular
+mechanism of transport and allosteric inhibition of SbtA was
+established based on structural and biochemical data. The transport and regulatory mechanism revealed by our study represents
+a valuable case to investigate allosteric regulation of membrane
+transporters and, more importantly, will benefit plant photosynthesis improvement using the CCM system.
+Author contributions: S.F., X.H., X.Z., and P.Z. designed research; S.F., X.H., and X.Z.
+performed research; S.F., X.H., X.Z., M.Z., Y.H., H.G., L.-N.L., F.Y., and P.Z. analyzed data;
+and X.Z. and P.Z. wrote the paper.
+The authors declare no competing interest.
+This article is a PNAS Direct Submission.
+Published under the PNAS license.
+1
+
+S.F., X.H., and X.Z. contributed equally to this work.
+
+2
+
+To whom correspondence may be addressed. Email: zhangxue2015@cemps.ac.cn or
+pengzhang01@cemps.ac.cn.
+
+This article contains supporting information online at https://www.pnas.org/lookup/suppl/
+doi:10.1073/pnas.2101632118/-/DCSupplemental.
+Published May 24, 2021.
+
+https://doi.org/10.1073/pnas.2101632118 | 1 of 8
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+Edited by Eva-Mari Aro, University of Turku, Turku, Finland, and approved April 13, 2021 (received for review January 26, 2021)
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+mutations. Consistent with previous results, the C43(DE3)-Δcan
+strain cannot grow under normal air conditions but can grow in
+the presence of 1 mM azide (SI Appendix, Fig. S1). The transfer of
+the SbtA gene into C43(DE3)-Δcan partially complements growth
+failure under normal air conditions, but the cotransfer of SbtA
+and SbtB genes fails to do so (Fig. 1 A and B). This suggests that
+Synechocystis sp. PCC 6803 SbtA alone possesses bicarbonate
+transporter activity when it is expressed in E. coli C43(DE3),
+while SbtB allosterically inhibits transporter activity, which is
+consistent with previous studies (24).
+Overall Structure of SbtA in Complex with SbtB. To obtain SbtA and
+SbtB protein complex for structural analysis, we coexpressed the
+Synechocystis sp. PCC 6803–originated SbtA and SbtB in E. coli
+C43 (DE3). We found that the addition of 2 mM AMP or ADP but
+not cAMP or ATP in the purification buffer was necessary for a
+stable 1:1 molar ratio complex formation (Fig. 2A). This is consistent with previous results suggesting that the membrane association of SbtB depends on the presence of AMP/ADP but not on
+cAMP (17). The purified SbtA–SbtB complex protein sample was
+used for both cryo-electron microscopy (cryo-EM) and crystallization analysis. The cryo-EM structure of SbtA–SbtB complex was
+obtained in lipid nanodiscs at 2.7 Å resolution (SbtABEM) (Fig. 2 B
+and C and SI Appendix, Fig. S2 and Table S1). The map quality
+was high, and numerous additional densities around SbtA were
+assigned as annular membrane lipids (SI Appendix, Fig. S3), allowing
+us to build an accurate model. The resulting model was then used as
+a template to determine the crystal structure by molecular replacement, resulting in the 3.2 Å resolution crystal structure of
+the SbtA–SbtB complex (SbtABXtal) (Fig. 2D and SI Appendix,
+Table S2). The overall structures of SbtABEM and SbtABXtal are
+similar, which form a three-fold complex with a rmsd of 0.635 Å
+
+over 1,178 Cα atoms. SbtA and SbtB form homotrimers in the
+membrane and cytoplasm, respectively, and each SbtB protomer
+binds to the cytoplasmic surface of a SbtA protomer to form a
+heterodimer (Fig. 2 B–D). Similar trimeric transporter structures
+have been reported in the bacteria ammonium transporter AmtB
+(25, 26), the glutamate transporter homolog Gltph (27), the
+human excitatory amino acid transporter EAAT1 (28), and the
+human concentrative nucleoside transporter CNT3 (29), suggesting that the trimer is the functional unit of SbtA as proposed
+in other studies (24).
+The SbtA molecule in both SbtABEM and SbtABXtal structures
+is composed of 10 transmembrane helices (TMs). Of these, TMs
+1, 4, 6, and 9 are interrupted by short loops (Fig. 2 C and E). The
+long loop connecting TM5 and TM6 (residues 165 to 207 in
+SbtABEM and residues 170 to 207 in SbtABXtal), which may be
+involved in activity regulation (30), is missing in both structures.
+Both the N and C termini face the periplasm, which confirms the
+previous experimental results (30). SbtA contains a scaffold domain,
+consisting of TMs 1 to 2 and 6 to 7, that mediates the interactions
+between SbtA molecules formed along the trimer. It also contains a
+core domain consisting of TMs 3 to 5 and 8 to 10 (Fig. 2 C, E,
+and F). A narrow cleft is present between two domains (Fig. 2F).
+The SbtB structure is a typical PII fold, characterized by a four
+antiparallel–stranded β-sheet inserted by two helices, and the long
+loop comprising residues 40 to 58 (previously named T-loop) is
+inserted between β2 and β3 (Fig. 2C).
+SbtA in both the SbtABEM and SbtABXtal structures is positioned in an inward-facing state. However, the HCO3− substrate
+is clearly defined in each SbtA molecule of the SbtABXtal structure
+but not in the SbtABEM structure. Three AMP molecules are well
+defined in the SbtB trimer interfaces of the SbtABEM structure but
+are disordered in the SbtABXtal structure. Accordingly, the T-loop
+in the SbtB structure is well defined in the SbtABEM structure but
+disordered in the SbtABXtal structure (Fig. 2 C and D). Metal ion
+binding sites, which are supposed to be sodium, are observed in
+both the SbtABEM and SbtABXtal structures (Fig. 3F and SI Appendix, Fig. S4 A and B).
+Substrate-Binding Site. Seen from the SbtABXtal structure, the
+
+Fig. 1. Functional characterization of SbtA and SbtB. Complementation of
+the Δcan strain was conducted by expression of SbtA, SbtA-SbtB, or empty
+vector as a control. The wild-type strain was used as a positive control.
+Growth curve (A) and dilution spotting assay (B) are shown, respectively. The
+error bars in A represent SD, and n = 4 technical replicates.
+
+2 of 8 | PNAS
+https://doi.org/10.1073/pnas.2101632118
+
+substrate HCO3− binding site is located at the interface of the core
+domain and the scaffold domain (Fig. 3A). Two discontinuous
+TMs, TM4a/4b and TM9a/9b, are surrounded by other TMs and
+form a TM cross. HCO3− binds to the pericentral side of the cross
+(Fig. 3 A and B and SI Appendix, Fig. S4C). The HCO3− binding
+site is accessible from the cytoplasm through a cavity composed of
+the TMs 2, 6a, 7, and 9b (Fig. 3A). The side chains of residues
+Ser114 and Ser116 from TM4b and Asp325 and Ser327 from
+TM9b form hydrogen bonds with HCO3− either directly or through
+a water molecule; the main chain oxygen of Ser324 and two water
+molecules form hydrogen bonds with HCO3− (Fig. 3C). Notably,
+residues Ser116, Asp325, and Ser327 are subjected to conformational changes in the SbtA molecule of the SbtABEM structure,
+which may distort the binding of HCO3− (Fig. 3D and SI Appendix,
+Fig. S4 C and D). The mutation of the HCO3− binding residue
+could significantly impair the complementary function of SbtA
+(Fig. 3E and SI Appendix, Fig. S5). On the peripheral side of the
+TM cross, there was a clear electron density peak that was supposed
+to be an Na+ binding site (Fig. 3B and SI Appendix, Fig. S4 A and B);
+it forms five bonds [usually seen in sodium-dependent transporters
+(19, 31)] with the main chain oxygens of residues Phe110, Gly111,
+and Ala112 from TM4a and Ala-320 and Ser322 from TM9a
+(Fig. 3F). Most of the residues involved in HCO3− and Na+ binding
+are conserved among cyanobacterial SbtA proteins (SI Appendix,
+Fig. S6), suggesting a conserved binding mode. In summary, the
+SbtA structures captured in SbtABEM and SbtABXtal complexes
+represent substrate-free and substrate-binding conformations of
+the inward-facing state, respectively.
+
+Fang et al.
+Molecular mechanism underlying transport and allosteric inhibition of bicarbonate
+transporter SbtA
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Interactions between SbtA and SbtB and Functional Role of AMP.
+
+While SbtA and SbtB form similar heterodimers in the SbtABEM
+and SbtABXtal structures, the interaction surfaces are significantly different. In the SbtABEM structure, the interaction surface of SbtA and SbtB is clearly defined and buries about 807.4
+Å2 (Fig. 4A); it is constituted by the β1-α1 loop, the α2-β4 loop,
+and the T-loop from SbtB as well as TM2, 7, 9b, and 10 from SbtA.
+The T-loop of SbtB inserts itself into the cytoplasmic cavity of SbtA
+constituted by TMs 2, 6a, 7, and 9b, and the interactions are primarily van der Waals’ contacts (Fig. 4A). Additionally, hydrogenbonding interactions are found between the side chains of residues
+Glu265, Ser268, Arg269, and Arg333 from SbtA and the side
+chains of residues Glu13, Asn52, and Tyr87, the backbones of residues Arg46, Thr53, and Asp86 from SbtB (Fig. 4 B and C). However, in the SbtABXtal structure, the T-loop of SbtB is disordered and
+the interactions between SbtB and SbtA are restricted to the β1-α1/
+α2-β4 loops and TM9b, while the interaction surface area is reduced
+to 127.6 Å2 (SI Appendix, Fig. S7A).
+We analyzed the determinants stabilizing the SbtB T-loop
+conformation in the SbtABEM structure and found that the
+AMP molecule bound in SbtB plays a critical role (Fig. 4A). The
+AMP binds at the intermolecular cleft of two neighboring SbtB
+molecules (Fig. 4D and SI Appendix, Fig. S8), which is similar to
+the previous SbtB trimeric structure (17, 32). However, a detailed
+analysis revealed more extensive hydrogen bonds surrounding AMP
+in our structure (Fig. 4D). In particular, the residues Ser42 and
+Arg43 from the T-loop and the residue Gly89 from the b4 form four
+hydrogen bonds with the phosphate group of AMP. Additionally,
+the guanidine group of Arg43 forms a hydrogen bond with the main
+chain oxygen of residue Asp86 from the α2-β4 loop; Arg46 forms
+hydrogen bonds with the Arg43 main chain oxygen and Asn59.
+
+These interactions dictate and stabilize the T-loop conformation
+of SbtB when binding with SbtA.
+We identified key residues involved in SbtA–SbtB interactions
+and AMP binding to perform mutation-based functional analyses. Pull-down results show that the mutant SbtA(R333A)-SbtB
+almost abolishes the SbtA–SbtB complex formation, while SbtASbtB(E13D) impairs complex formation (Fig. 4E). Point mutations
+aiming to reduce the SbtB T-loop interactions with SbtA, such as
+SbtA(R269A)-SbtB, SbtA(E265A)-SbtB, and SbtA-SbtB(V45L),
+have relatively minor effects on complex formation, which may
+be due to their extensive interaction surface areas. However,
+SbtA-SbtB(S47Q) mutation aiming to introduce steric confliction at the interaction surface disrupts the complex formation (SI
+Appendix, Fig. S7B). Furthermore, mutations of residues involving
+AMP binding, SbtA-SbtB(S42A/R43A) and SbtA-SbtB(R46A),
+significantly reduce the complex formation (Fig. 4E). Accordingly, mutations that abolish the complex formation, such as
+SbtA-SbtB(S47Q) and SbtA(R333A)-SbtB, could significantly
+reduce the growth failure of C43(DE3)-Δcan-SbtAB, while mutations
+that impair the complex formation, such as SbtA-SbtB(E13D), SbtASbtB(S42A/R43A), SbtA-SbtB(R46A), and SbtA(E269A)-SbtB, have
+a positive effect on the growth (Fig. 4F and SI Appendix, Fig. S9).
+Therefore, we conclude that the inhibition of SbtA activity by
+SbtB relies on the SbtA–SbtB complex formation, which is greatly
+strengthened by AMP binding, as is also proposed in other work
+(17, 24).
+These results provide a molecular explanation for why the addition of AMP during the protein purification greatly enhances the
+complex formation of SbtA–SbtB (Fig. 2A), and they also explain
+well why the association of SbtB with the membrane largely
+depends on the presence of AMP (17). To investigate why the
+addition of cAMP impairs the SbtA–SbtB complex formation,
+
+Fang et al.
+Molecular mechanism underlying transport and allosteric inhibition of bicarbonate
+transporter SbtA
+
+PNAS | 3 of 8
+https://doi.org/10.1073/pnas.2101632118
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+Fig. 2. Overall structure of SbtA–SbtB complex. (A) Pull-down assay results show the interaction between SbtA and SbtB with/without the addition of
+different adenyl nucleotides. A total of 2 mM ATP, 2 mM ADP, 2 mM AMP, or 2 mM cAMP was added to the purification buffer in the assay, respectively. (B)
+Cryo-EM map of SbtABEM in side view colored by molecules. (C) Structure of SbtA–SbtB heterodimer formed in SbtABEM complex. Structure elements of SbtB
+are labeled. Scaffold domain of SbtA, slate blue; core domain of SbtA, light blue; SbtB, green; T-loop of SbtB, orange red. (D) Crystal structure of SbtABXtal
+presented as a trimer. SbtA, gold; SbtB, green. (E) Topology of SbtA. The TMs are numbered from 1 to 10. Numbers indicate the beginning/ending residue
+positions. (F) Extracellular view of SbtA trimer. The scaffold domain and core domain are displayed as cylinders and colored accordingly; the narrow cleft
+between two domains is indicated by gray shadow.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 3. Substrate-binding site of SbtA. (A) Intracellular view of the substrate-binding site in the SbtABXtal structure. The scaffold domain and core domain are
+shown in electrostatic surface and ribbon, respectively. Blue and red colors represent positive and negative charges. Bicarbonate and sodium ion are indicated
+as yellow and purple spheres, respectively. (B) TM cross constituted by TM4a/b and TM9a/b. (C) Bicarbonate binding site in the SbtABXtal structure. Bicarbonate
+and residues involved in coordination are labeled and shown as sticks. Water molecules are indicated as red spheres. 2Fo-Fc electron densities of bicarbonate
+and water molecules are contoured at 1.5 σ. (D) Comparison of the bicarbonate binding site in SbtABXtal (gold) and SbtABEM (slate blue). (E) Growth assay of
+substrate-binding site mutants in the Δcan strain. Complementation of the Δcan strain was conducted by the expression of four mutants involved in bicarbonate binding or empty vector as a control. The wild-type strain was used as a positive control. The error bars represent SD, and n = 3 technical replicates.
+(F) Sodium binding site in the SbtABXtal structure. Residues involved in coordination are labeled and shown as sticks. 2Fo-Fc electron densities of sodium ion
+are contoured at 1.5 σ.
+
+we superimposed the cAMP molecule to the AMP binding site of
+the SbtABEM structure (Fig. 4G). Our results suggest that the
+binding mode of the adenine moiety of cAMP overlaps with AMP,
+while the hydrogen bonds formed via residues Ser42 and Arg43 may
+be lost in the presence of cAMP. Additionally, cAMP displays a
+steric clash with the sidechain of Arg46. These processes could distort the T-loop conformation and diminish SbtA–SbtB interactions.
+Transport and Regulatory Mechanism. The TM cross is a typical
+structural feature of the substrate-binding site in the SbtA protein
+(Fig. 3B) and resembles the structure of some solute carrier (SLC)
+family transporters. A protein structure comparison via DALI
+server (33) produced four matches (z-score over 10), all of which
+were sodium-dependent SLC family transporters [NhaA, NhaP,
+NapA, and ASBT; respective corresponding Protein Data Bank
+(PDB) accession codes 4atv, 4cz8, 4bwz, and 3zux (34–37)]. These
+not only share a similar structure feature at the substrate-binding
+site but also similar overall topology (Fig. 5A). Of particular interest is the ASBTNM, which is a bacterial homolog (Neisseria
+meningitidis) of the animal sodium-dependent bile acid symporter
+ASBT (34). While SbtA and ASBTNM only share ∼10% sequence
+identity, both structures contain 10 TMs, and over 80% of their
+structural elements were aligned. All structures of these transporters contain two domains: a core domain for substrate binding and a scaffold domain for oligomerization. The transport
+mechanism of these transporters has been proposed based on
+4 of 8 | PNAS
+https://doi.org/10.1073/pnas.2101632118
+
+their structures (34–38), which could take the form of a rocking
+bundle or elevator mechanism involving rigid body movement of
+the core domain between inward-facing and outward-facing states.
+SbtA could follow a similar transport mechanism (Fig. 5B), and the
+core domain may undergo rigid movement to translocate HCO3−
+into the plasma membrane.
+Current and previous results both demonstrate that SbtB can
+inhibit the bicarbonate transporter activity of SbtA when heterologously expressed in E. coli (24) (Fig. 1 A and B), suggesting
+that SbtB allosterically inhibits the transport activity of SbtA by
+forming complexes under certain physiological conditions. An
+analysis of our structural data reveals the underlying molecular
+mechanism of the allosteric inhibition of SbtA by SbtB. In the
+SbtABEM structure, the SbtA–SbtB interaction surface involves
+both the core domain and the scaffold domain of SbtA; in particular, the T-loop of SbtB inserts itself into the cytoplasmic cavity
+formed between the two domains of SbtA. This could preclude the
+core domain movement during transport and lock the SbtA at the
+inward-facing substrate-free conformation (Fig. 5B). However, in
+the SbtABXtal structure, the intermolecular interactions are restricted to the core domain of SbtA due to the disordered T-loop
+or the absence of AMP in the SbtB molecule (Fig. 5B), and the
+SbtA protein is located in the inward-facing substrate-binding
+conformation. This implies that the SbtABXtal structure could
+represent a prestep of allosteric inhibition. Therefore, we conclude that high AMP concentrations stabilize the SbtB T-loop
+
+Fang et al.
+Molecular mechanism underlying transport and allosteric inhibition of bicarbonate
+transporter SbtA
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 4. Interaction between SbtA and SbtB. (A) Side view of SbtA–SbtB interface in SbtABEM structure. SbtA and SbtB are shown in electrostatic surface and
+ribbon, respectively. Structure elements involved in SbA–SbtB interaction are labeled. (B and C) Hydrophilic interactions between SbtA and T-loop (B) or b1a1/a2-b4 loop (C) of SbtB. Residues involved are labeled and shown as sticks. The hydrogen bonds are indicated by dashed lines. (D) A detailed view of AMP
+binding pocket. The neighboring SbtB molecule is shown and colored in gray. (E) Pull-down assay of SbtAB mutants involved in SbtA–SbtB interaction and
+AMP binding. (F) Growth assay of SbtAB mutants in the Δcan strain. Complementation of the Δcan strain was conducted by the expression of six SbtAB
+mutants involved in SbtA–SbtB interaction and two in AMP binding. The wild-type strain was used as a positive control. The error bars represent SD, and n = 4
+technical replicates. (G) Binding pocket of adenyl nucleotide superimposed with cAMP (pink). The dashed circle shows the conflict between cAMP and SbtB
+with key residues indicated.
+
+conformation and help insert it into the cytoplasmic cavity of
+SbtA, which locks the conformation of the scaffold domain and
+core domain of SbtA in the inward-facing state and inhibits bicarbonate transporter activity. Additionally, the presence of cAMP
+can compete with AMP to bind with SbtB, inducing conformational change in the T-loop and precluding its interaction with
+SbtA, relieving SbtB inhibition toward SbtA. Therefore, the T-loop
+of SbtB could regulate the transporter engine SbtA in response to
+environmental AMP or cAMP concentration.
+Discussion
+The mechanism of allosteric regulation of SbtA by SbtB is similar
+to the regulation of the ammonium transporter AmtB by GlnK in
+bacteria, where GlnK also forms a trimer with ADP molecules
+binding at the neighboring dimeric interface to allosterically inhibit
+the transporter activity of AmtB (39). Both SbtB and GlnK belong
+to the PII family of proteins, which help regulate various aspects of
+nitrogen assimilation and carbon homeostasis via binding with
+adenyl nucleotides (21). This regulation mechanism is found in
+many different species despite long-term evolution.
+Cyanobacterial CCM contains three bicarbonate transporters.
+Of these, SbtA can be allosterically inhibited by SbtB. The inhibitory
+
+effect relies on the StbA and SbtB complex formation and is
+adjusted by the adenyl nucleotides binding with SbtB. The presence
+of AMP stabilizes the SbtA–SbtB complex, while cAMP disrupts
+the complex (Fig. 2A), as is also shown in other studies (17). The
+T-loop of SbtB could be involved in the interaction between SbtA
+and SbtB but is disorganized in structures where SbtB is associated
+with AMP, ADP, or cAMP (17, 32). Therefore, the structure of
+how SbtA–SbtB complexes bind with AMP explains the inhibitory
+mechanism of SbtA by SbtB. A recently reported Ca2+-ATP:SbtB
+structure from Cyanobium sp. 7001 revealed that Ca2+ could
+stabilize the T-loop conformation, which is required for allosteric
+regulation of SbtA (32). However, additional structural analysis
+demonstrates that the T-loop conformation in Ca2+-ATP:SbtB
+structure is different from the structure we outlined and conflicts
+with SbtA when aligned to the SbtABEM structure (SI Appendix,
+Fig. S10). These results are consistent with our biochemical data,
+which demonstrates that the presence of ATP decreases the
+SbtA–SbtB complex formation (Fig. 2A). The SbtA–SbtB complex was also destabilized by cAMP both in vivo and in vitro, and
+cAMP was considered a physiologically high carbon signal (21).
+This seems to be in conflict with the notion that Ci transporter
+activity can be activated at low carbon levels and inhibited at high
+
+Fang et al.
+Molecular mechanism underlying transport and allosteric inhibition of bicarbonate
+transporter SbtA
+
+PNAS | 5 of 8
+https://doi.org/10.1073/pnas.2101632118
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 5. Transport and regulatory mechanism of SbtA. (A) Structure comparison of SbtA with topological homologs. Protomers of SbtA, NhaA, NhaP, NapA,
+and ASBT are displayed in intracellular view. The scaffold domain and core domain are colored by slate blue and light blue, respectively. (B) Proposed
+transport and regulatory mechanism of SbtA. Distinct conformations are indicated. The top illustrates key conformational states of SbtA during the transport
+of substrate. In the outward state, the TM cross is exposed to the periplasm, and Na+-binding may facilitate the binding of substrate. Converting to the inward
+state, the core domain undergoes rigid movement in order to translocate HCO3− into the plasma membrane. The bottom illustrates the allosteric inhibition of
+SbtA by SbtB. In the presence of AMP, T-loop of SbtB inserts into the cytoplasmic cavity formed between the two domains of SbtA, which locks SbtA at an
+inward substrate-free state and inhibits the bicarbonate transporter activity.
+
+carbon levels; however, it could accommodate specific physiological environmental transitions (24, 32). The unique regulatory
+mechanism of SbtA by SbtB makes it important to investigate Ci
+uptake systems, which could facilitate the photosynthetic modification of CCM in crops (40).
+Materials and Methods
+Gene Cloning and Protein Purification. The genes encoding SbtA and SbtB
+were amplified by PCR from Synechocystis sp. PCC 6803 genomic DNA. The
+fragment SbtA and SbtB were digested with NcoI/SalI and NdeI/XhoI, respectively, and were subsequently ligated into the MCS1 and MCS2 of
+pRSFDuet plasmid, respectively. The recombinant plasmid pRSFDuet-SbtASbtB, including a C-terminal His-tag on SbtA, was used to transform E. coli
+C43(DE3) for expression. Bacterial cells were grown at 37 °C in Luria broth
+(LB) medium with 50 μg/mL kanamycin, and protein expression was induced
+by 0.25 mM β-d-thiogalactopyranoside (IPTG) at around optical density
+(OD)600 = 1.2.
+After 14 h at 37 °C, the cells were collected and homogenized in buffer A
+(100 mM NaCl, 20 mM Tris HCl, pH 8.0, 5% [vol/vol] glycerol, and 2 mM AMP)
+and lysed using a French press. Cell debris was removed by centrifugation.
+The supernatant was collected and centrifuged using ultracentrifugation at
+150,000 × g for 1 h. The membrane fraction was incubated with 1% (wt/vol)
+n-dodecyl-β-d-maltopyranoside (DDM; Bluepus) for 2 h at 4 °C. After another centrifugation step at 20,000 × g for 45 min, the supernatant was
+loaded onto an Ni2+-NTA affinity column (Qiagen) and then washed with
+buffer B (100 mM NaCl, 20 mM Tris-HCl, pH 8.0, 0.018% DDM, and 2 mM
+AMP) supplemented with 25 mM imidazole. The protein was eluted from
+the column using buffer B supplemented with 250 mM imidazole and was
+then concentrated to around 10 mg/mL before further purification by gel
+
+6 of 8 | PNAS
+https://doi.org/10.1073/pnas.2101632118
+
+filtration (Superdex-200) in buffer C (100 mM NaCl, 20 mM Tris-HCl,
+pH 8.0, 0.18% n-decyl-β-d-maltoside [DM; Anatrace], and 2 mM AMP).
+The peak fraction was collected and concentrated to ∼5 mg/mL for
+crystallization.
+Construction of can Deletion Mutant. The can deletion in the chromosome of
+E. coli was constructed. The upstream and downstream fragments of can
+operon were amplified and overlapped together by PCR, resulting in the
+replacement fragment Overlap-can. The sgRNA plasmid targeting gene can
+pCB003_N20_can was obtained from pCB003 by PCR. The plasmid pCB006
+was transformed into E. coli C43(DE3). Arabinose was added to the culture
+when preparing the E. coli/pCB006 competent cell for recombination. A total
+of 4 μL Overlap-can and 4 μL pCB003_N20_can were electroporated into the
+E. coli/pCB006 competent cells. Cells were recovered at 30 °C for 2 h and then
+spread onto LB agar plates containing kanamycin and spectinomycin and
+incubated at 30 °C for 24 h. The right colonies were confirmed by DNA sequencing. pCB003 was cured by adding IPTG, and pCB006 was cured by
+growing at 37 °C overnight.
+Growth Assay. C43(DE3) and C43(DE3)-Δcan strains were first grown on LB
+medium supplemented with 50 μg/mL kanamycin and 0.1 mM sodium azide at
+37 °C overnight. Seed cells were prepared in LB medium to OD600 of 0.1. A total
+of 1 mL seed cells was added to 20 mL LB medium containing 0.2 mM IPTG and
+50 μg/mL kanamycin. Growth was measured at different time slots. For dilution
+spotting assay, seed cells were diluted by 101-, 102-, 103-, 104-, and 105-fold,
+respectively. A total of 2 μL aliquot of each dilution was spotted onto the LB
+agar plate containing 0.2 mM IPTG and 50 μg/mL kanamycin. Plates were incubated at 37 °C overnight. All tests were repeated at least three times
+independently.
+
+Fang et al.
+Molecular mechanism underlying transport and allosteric inhibition of bicarbonate
+transporter SbtA
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Nanodisc Reconstitution. 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+(POPG; Avanti) was solubilized in chloroform, dried under argon gas to form
+a thin lipid film, and stored under vacuum overnight. The lipid film was
+hydrated and resuspended at a concentration of 10 mM in a buffer containing 20 mM Tris, pH 8.0, 100 mM NaCl, and 100 mM sodium cholate.
+SbtA–SbtB complex proteins, MSP2N2 membrane scaffold protein, and POPG
+were mixed at a molar ratio of 1:3:150 in a buffer containing 20 mM Tris, pH
+8.0, 100 mM NaCl, 15 mM sodium cholate, and 2 mM AMP and incubated at
+4 °C for 1 h. Extra DDM detergent was removed by incubation with 0.6 mg/mL
+Bio-Beads SM2 (Bio-Rad) at 4 °C overnight. Nanodisc-embedded SbtA–SbtB
+was purified using a Superdex 200 column in a buffer containing 20 mM Tris,
+pH 8.0, 100 mM NaCl, and 2 mM AMP.
+Cryo-EM Sample Preparation and Data Acquisition. To prepare samples for cryoEM analysis, 3 μL purified nanodisc-embedded SbtA–SbtB complex at a concentration of 1 mg/mL was applied to glow discharged carbon grids (Quantifoil
+Cu R1.2/1.3). Grids were blotted for 3 s and plunge-frozen in liquid ethane
+cooled by liquid nitrogen using a Vitrobot Mark IV (Thermo Fisher) at 8 °C and
+100% humidity. The prepared grids were transferred to a Titan Krios electron
+microscopy operating at 300 kV equipped with Gatan K3 detector and GIF
+Quantum energy filter. The movie stacks were recorded in the superresolution
+mode at nominal magnification of 81,000× with a calibrated pixel size of
+0.539 Å. The defocus range was from −1.8 to −1.5 μm. Each stack of 32 frames
+was exposed for 2.56 s with a total dose rate of ∼50 e−/Å2. AutoEMation was
+used for automated data collection (41). All 32 frames in each stack were
+aligned using MotionCor2 (42) and binned to a pixel size of 1.0773 Å. The
+defocus value of each image was determined by Gctf (43).
+
+The overall resolutions were estimated based on the gold-standard Fourier shell
+correlation = 0.143 criterion. The details related to data processing are summarized in SI Appendix, Fig. S2 and Table S1.
+Model Building and Structure Refinement. The atomic coordinate of SbtAB
+complex was generated by combining homology modeling and de novo
+model building. The initial structure model of SbtA was predicted by protein
+structure prediction server trRosetta (45), and the crystal structure of SbtB
+(17) (PDB code 5O3S) was used. The structure of SbtAB complex was docked
+into the density map and manually adjusted and rebuilt by COOT (46). The
+resulting model was refined by phenix.real_space_refine program in PHENIX
+(47) with secondary structure and geometry restraints. The structure was
+validated with MolProbity (48), and refinement statistics are shown in SI
+Appendix, Table S1. All structure figures were prepared in ChimeraX (49).
+Crystallization, Data Collection, and Determination of Structure. SbtA–SbtB
+complex was concentrated to 5 mg/mL and crystallized via vapor diffusion at
+20 °C in 96-well sitting-drop plates. The best crystals were grown in 0.05 M
+magnesium chloride, 0.1 M glycine pH 9.0, and 22% polyethylene glycol 400
+(the protein:reservoir volume in a ratio of 1:1) and were directly flash-frozen
+in liquid nitrogen for data collection. All data were collected at BL19U1
+beamline of the Shanghai Synchrotron Radiation Facility under 100 K liquid
+nitrogen stream (wavelength = 0.9798 Å) and processed using HKL-3000
+(50). The SbtA–SbtB complex crystallized in space group H32 with cell parameters a = 107.2 Å, b = 107.2 Å, and c = 352.2 Å.
+The complex structure was solved by molecular replacement with PHENIX,
+using the SbtABEM structure (PDB code 7EGK) as an initial model. The model
+was manually built in COOT, refined with PHENIX, and validated using
+MolProbity. A summary of data collection and refinement statistics is provided in SI Appendix, Table S2.
+Data Availability. The atomic coordinates of SbtABXtal have been deposited
+in PDB with accession code 7EGL. The cryo-EM map and atomic coordinates
+of SbtABEM have been deposited in the Electron Microscopy Data Bank
+(EMD-31135) and PDB (7EGK). All other study data are included in the article
+and/or SI Appendix.
+
+Data Processing. A total of 3,186,493 particles were automatically picked using
+RELION 3.0 (44) from 2,971 micrographs. After two rounds of two-dimensional
+classification, ∼20% of the selected particles were used to generate an initial
+model by RELION 3.0. With particles rescaled to 128 pixels, one good reference
+and three bad references were generated after three-dimensional (3D) classifications. The good class from the last four iterations yielded a dataset containing 268,921 particles, giving rise to reconstruction at 3.4 Å resolution with
+C3 symmetry applied. The dataset was then subjected to local search multireference 3D classification, and the multireference models were generated
+using the reconstruction low-pass filtered to 5 to 30 Å. Particles from good
+classes were merged and duplicated particles were removed, and another
+round of multireference classification using bin1 particles yielded a dataset
+containing 125,998 particles, resulting in reconstruction at 3.1 Å. The application of a solvent mask for further postprocessing improved resolution to 2.7 Å.
+
+ACKNOWLEDGMENTS. We thank the staff members at the cryo-EM centers of
+Westlake University and the National Facility for Protein Science in Shanghai
+Zhangjiang Lab for their technical assistance on cryo-EM data collection. We
+also thank the staff members at BL19U1 for their technical assistance in X-ray
+diffraction data collection and the core facility center of Institute of Plant
+Physiology and Ecology for the X-ray diffraction test. We also thank Dr. Jing
+Huang of Westlake University for molecular dynamic analysis. This work was
+supported by National Key R&D Program of China (Grants 2019YFA0904602
+and 2018YFA0900602), the National Natural Science Foundation of China
+(Grants 32025020 and 31861130356), the Chinese Academy of Sciences (Grant
+XDB27020103), the Shanghai Science and Technology Commission (Grant
+19XD1424500), and the Newton Advanced Fellowship of The Royal Society
+(Grant NAF/R1/180433). Research in Professor L.-N.L. lab was supported by Royal
+Society (URF\R\180030, RGF\EA\181061, RGF\EA\180233) and the UK Biotechnology and Biological Sciences Research Council Grant (BB/R003890/1).
+
+1. M. Giordano, J. Beardall, J. A. Raven, CO2 concentrating mechanisms in algae:
+Mechanisms, environmental modulation, and evolution. Annu. Rev. Plant Biol. 56,
+99–131 (2005).
+2. G. D. Price, M. R. Badger, F. J. Woodger, B. M. Long, Advances in understanding the
+cyanobacterial CO2-concentrating-mechanism (CCM): Functional components, Ci
+transporters, diversity, genetic regulation and prospects for engineering into plants.
+J. Exp. Bot. 59, 1441–1461 (2008).
+3. G. D. Price, Inorganic carbon transporters of the cyanobacterial CO2 concentrating
+mechanism. Photosynth. Res. 109, 47–57 (2011).
+4. M. Shibata et al., Genes essential to sodium-dependent bicarbonate transport in cyanobacteria: Function and phylogenetic analysis. J. Biol. Chem. 277, 18658–18664
+(2002).
+5. G. D. Price, F. J. Woodger, M. R. Badger, S. M. Howitt, L. Tucker, Identification of a
+SulP-type bicarbonate transporter in marine cyanobacteria. Proc. Natl. Acad. Sci.
+U.S.A. 101, 18228–18233 (2004).
+6. T. Omata et al., Identification of an ATP-binding cassette transporter involved in bicarbonate uptake in the cyanobacterium Synechococcus sp. strain PCC 7942. Proc.
+Natl. Acad. Sci. U.S.A. 96, 13571–13576 (1999).
+7. M. Shibata et al., Distinct constitutive and low-CO2-induced CO2 uptake systems in
+cyanobacteria: Genes involved and their phylogenetic relationship with homologous
+genes in other organisms. Proc. Natl. Acad. Sci. U.S.A. 98, 11789–11794 (2001).
+8. S. Maeda, M. R. Badger, G. D. Price, Novel gene products associated with NdhD3/D4containing NDH-1 complexes are involved in photosynthetic CO2 hydration in the
+cyanobacterium, Synechococcus sp. PCC7942. Mol. Microbiol. 43, 425–435 (2002).
+
+9. N. Mangan, M. Brenner, Systems analysis of the CO2 concentrating mechanism in
+cyanobacteria. eLife 3, e02043 (2014).
+10. S. P. Long, A. Marshall-Colon, X. G. Zhu, Meeting the global food demand of the
+future by engineering crop photosynthesis and yield potential. Cell 161, 56–66 (2015).
+11. S. Uehara, F. Adachi, Y. Ito-Inaba, T. Inaba, Specific and efficient targeting of cyanobacterial bicarbonate transporters to the inner envelope membrane of chloroplasts
+in Arabidopsis. Front. Plant Sci. 7, 16 (2016).
+12. B. D. Rae et al., Progress and challenges of engineering a biophysical CO2-concentrating mechanism into higher plants. J. Exp. Bot. 68, 3717–3737 (2017).
+13. Y. Fang et al., Engineering and modulating functional cyanobacterial CO2-fixing organelles. Front. Plant Sci. 9, 739 (2018).
+14. B. M. Long et al., Carboxysome encapsulation of the CO2-fixing enzyme Rubisco in
+tobacco chloroplasts. Nat. Commun. 9, 3570 (2018).
+15. H. L. Wang, B. L. Postier, R. L. Burnap, Alterations in global patterns of gene expression in Synechocystis sp. PCC 6803 in response to inorganic carbon limitation and
+the inactivation of ndhR, a LysR family regulator. J. Biol. Chem. 279, 5739–5751
+(2004).
+16. Y. L. Jiang et al., Coordinating carbon and nitrogen metabolic signaling through the
+cyanobacterial global repressor NdhR. Proc. Natl. Acad. Sci. U.S.A. 115, 403–408
+(2018).
+17. K. A. Selim, F. Haase, M. D. Hartmann, M. Hagemann, K. Forchhammer, PII-like signaling protein SbtB links cAMP sensing with cyanobacterial inorganic carbon response. Proc. Natl. Acad. Sci. U.S.A. 115, E4861–E4869 (2018).
+18. J. J. Pengelly et al., Transplastomic integration of a cyanobacterial bicarbonate
+transporter into tobacco chloroplasts. J. Exp. Bot. 65, 3071–3080 (2014).
+
+Fang et al.
+Molecular mechanism underlying transport and allosteric inhibition of bicarbonate
+transporter SbtA
+
+PNAS | 7 of 8
+https://doi.org/10.1073/pnas.2101632118
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+In Vitro Pull-Down Assays. To analyze the SbtA–SbtB complex formation with
+the addition of adenyl nucleotides, 2 mM ATP, 2 mM ADP, 2 mM AMP, or
+2 mM cAMP was added to the purification buffer. Wild-type SbtA–SbtB or
+mutations were coexpressed in E. coli C43(DE3). After cell disruption and
+centrifugation, the supernatants were loaded to Ni2+-NTA affinity resin. The
+nonspecific bound protein was washed off. Target protein was eluted from
+the resin and examined with sodium dodecyl sulfate polyAcrylamide gel
+electrophoresis and visualized with Coomassie Blue staining.
+
+35. C. Lee et al., A two-domain elevator mechanism for sodium/proton antiport. Nature
+501, 573–577 (2013).
+36. C. Lee et al., Crystal structure of the sodium-proton antiporter NhaA dimer and new
+mechanistic insights. J. Gen. Physiol. 144, 529–544 (2014).
+37. D. Wöhlert, W. Kühlbrandt, O. Yildiz, Structure and substrate ion binding in the sodium/proton antiporter PaNhaP. eLife 3, e03579 (2014).
+38. X. Zhou et al., Structural basis of the alternating-access mechanism in a bile acid
+transporter. Nature 505, 569–573 (2014).
+39. M. J. Conroy et al., The crystal structure of the Escherichia coli AmtB-GlnK complex
+reveals how GlnK regulates the ammonia channel. Proc. Natl. Acad. Sci. U.S.A. 104,
+1213–1218 (2007).
+40. J. H. Hennacy, M. C. Jonikas, Prospects for engineering biophysical CO2 concentrating
+mechanisms into land plants to enhance yields. Annu. Rev. Plant Biol. 71, 461–485
+(2020).
+41. J. Lei, J. Frank, Automated acquisition of cryo-electron micrographs for single particle
+reconstruction on an FEI Tecnai electron microscope. J. Struct. Biol. 150, 69–80 (2005).
+42. S. Q. Zheng et al., MotionCor2: Anisotropic correction of beam-induced motion for
+improved cryo-electron microscopy. Nat. Methods 14, 331–332 (2017).
+43. K. Zhang, Gctf: Real-time CTF determination and correction. J. Struct. Biol. 193, 1–12
+(2016).
+44. J. Zivanov et al., New tools for automated high-resolution cryo-EM structure determination in RELION-3. eLife 7, e42166 (2018).
+45. J. Yang et al., Improved protein structure prediction using predicted interresidue
+orientations. Proc. Natl. Acad. Sci. U.S.A. 117, 1496–1503 (2020).
+46. P. Emsley, K. Cowtan, Coot: Model-building tools for molecular graphics. Acta Crystallogr. D Biol. Crystallogr. 60, 2126–2132 (2004).
+47. P. V. Afonine et al., Real-space refinement in PHENIX for cryo-EM and crystallography.
+Acta Crystallogr. D Struct. Biol. 74, 531–544 (2018).
+48. I. W. Davis et al., MolProbity: All-atom contacts and structure validation for proteins
+and nucleic acids. Nucleic Acids Res. 35, W375–W383 (2007).
+49. E. F. Pettersen et al., UCSF ChimeraX: Structure visualization for researchers, educators, and developers. Protein Sci. 30, 70–82 (2021).
+50. W. Minor, M. Cymborowski, Z. Otwinowski, M. Chruszcz, HKL-3000: The integration
+of data reduction and structure solution–From diffraction images to an initial model
+in minutes. Acta Crystallogr. D Biol. Crystallogr. 62, 859–866 (2006).
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+19. C. C. Wang et al., Structural mechanism of the active bicarbonate transporter from
+cyanobacteria. Nat. Plants 5, 1184–1193 (2019).
+20. C. Poschenrieder et al., Transport and use of bicarbonate in plants: Current knowledge and challenges ahead. Int. J. Mol. Sci. 19, E1352 (2018).
+21. K. Forchhammer, K. A. Selim, Carbon/nitrogen homeostasis control in cyanobacteria.
+FEMS Microbiol. Rev. 44, 33–53 (2020).
+22. N. Sui, F. Huang, L. N. Liu, Photosynthesis in phytoplankton: Insights from the newly
+discovered biological inorganic carbon pumps. Mol. Plant 13, 949–951 (2020).
+23. C. Merlin, M. Masters, S. McAteer, A. Coulson, Why is carbonic anhydrase essential to
+Escherichia coli? J. Bacteriol. 185, 6415–6424 (2003).
+24. J. Du, B. Förster, L. Rourke, S. M. Howitt, G. D. Price, Characterisation of cyanobacterial bicarbonate transporters in E. coli shows that SbtA homologs are functional
+in this heterologous expression system. PLoS One 9, e115905 (2014).
+25. S. Khademi et al., Mechanism of ammonia transport by amt/MEP/Rh: Structure of
+AmtB at 1.35 A. Science 305, 1587–1594 (2004).
+26. L. Zheng, D. Kostrewa, S. Bernèche, F. K. Winkler, X. D. Li, The mechanism of ammonia
+transport based on the crystal structure of AmtB of Escherichia coli. Proc. Natl. Acad.
+Sci. U.S.A. 101, 17090–17095 (2004).
+27. N. Reyes, C. Ginter, O. Boudker, Transport mechanism of a bacterial homologue of
+glutamate transporters. Nature 462, 880–885 (2009).
+28. J. C. Canul-Tec et al., Structure and allosteric inhibition of excitatory amino acid
+transporter 1. Nature 544, 446–451 (2017).
+29. Y. Zhou et al., Cryo-EM structure of the human concentrative nucleoside transporter
+CNT3. PLoS Biol. 18, e3000790 (2020).
+30. G. D. Price, M. C. Shelden, S. M. Howitt, Membrane topology of the cyanobacterial
+bicarbonate transporter, SbtA, and identification of potential regulatory loops. Mol.
+Membr. Biol. 28, 265–275 (2011).
+31. R. Mancusso, G. G. Gregorio, Q. Liu, D. N. Wang, Structure and mechanism of a
+bacterial sodium-dependent dicarboxylate transporter. Nature 491, 622–626 (2012).
+32. J. A. Kaczmarski et al., Structural basis for the allosteric regulation of the SbtA bicarbonate transporter by the PII-like protein, SbtB, from Cyanobium sp. PCC7001.
+Biochemistry 58, 5030–5039 (2019).
+33. L. Holm, DALI and the persistence of protein shape. Protein Sci. 29, 128–140 (2020).
+34. N. J. Hu, S. Iwata, A. D. Cameron, D. Drew, Crystal structure of a bacterial homologue
+of the bile acid sodium symporter ASBT. Nature 478, 408–411 (2011).
+
+8 of 8 | PNAS
+https://doi.org/10.1073/pnas.2101632118
+
+Fang et al.
+Molecular mechanism underlying transport and allosteric inhibition of bicarbonate
+transporter SbtA
+
+

@@ -1,0 +1,709 @@
+Proc. Natl. Acad. Sci. USA
+Vol. 95, pp. 14045–14050, November 1998
+Biochemistry
+
+Structural basis for efficient phosphorylation of 3*-azidothymidine
+monophosphate by Escherichia coli thymidylate kinase
+ARNON L AVIE*, NILS OSTERMANN*†, RALF BRUNDIERS†‡, ROGER S. GOODY*, JOCHEN REINSTEIN*,
+MANFRED KONRAD‡, AND ILME SCHLICHTING*§
+*Department of Physical Biochemistry, Max Planck Institute for Molecular Physiology, Rheinlanddamm 201, 44139 Dortmund, Germany; and ‡Department of
+Molecular Genetics, Max Planck Institute for Biophysical Chemistry, 37018 Göttingen, Germany
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Edited by Perry A. Frey, University of Wisconsin, Madison, WI, and approved September 11, 1998 (received for review June 29, 1998)
+
+that efficiently phosphorylate the antiviral drugs acyclovir or
+ganciclovir but not AZT or AZT-MP (6, 7).
+Therefore, we set out to understand the structural basis for
+the slow activation of AZT-MP. The structures of the yeast
+TmpK (TmpKyeast) complexed with either the physiological
+substrate dTMP or the partially activated prodrug AZT-MP
+indicate that it is the interaction of the 39-deoxyribose substituent with a carboxylic acid side chain located in the P loop
+sequence that is responsible for the reduced rate with
+AZT-MP (8, 9). This interaction causes a P loop movement to
+accommodate the bulky and rigid azido group of AZT-MP.
+The residue after this carboxylic acid is Arg-15 and it was
+shown to play a catalytic role (10). Thus, we postulated that it
+is the resulting arginine displacement that is responsible for the
+reduced phosphorylation rate. Our interest in TmpK from
+Escherichia coli (TmpKcoli) arose when we realized that it lacks
+this catalytic arginine in the P loop (having a glycine instead)
+although the P loop carboxylic acid is retained, albeit as
+glutamic acid in contrast to the aspartic acid in the yeast
+enzyme. This led to the hypothesis that even if a similar P loop
+shift were to occur upon AZT-MP binding to TmpKcoli, it
+should not have such a drastic effect on catalysis (10). Kinetic
+measurements support our hypothesis, showing that the rate of
+AZT-MP phosphorylation at saturating substrate concentrations is reduced by only a factor of 2 in comparison to dTMP,
+whereas this factor is 200 for the TmpKyeast (10). The crystal
+structures of TmpKcoli complexed with P1-(59-adenosyl)-P5(59-thymidyl)pentaphosphate (TP5A) or P1-(59-adenosyl)-P5[59-(39-azido-39-deoxythymidine)] pentaphosphate (AZTP5A) reported herein provide a structural explanation for our
+kinetic observations and supply important insights as to how
+TmpKs achieve catalysis. In addition, this is a structure of what
+we term a type II TmpK, which differs from type I TmpKs (e.g.,
+yeast and human TmpKs) in their P loop and Lid sequences.
+
+ABSTRACT
+The crystal structures of Escherichia coli
+thymidylate kinase (TmpK) in complex with P1-(5*-adenosyl)P5-(5*-thymidyl)pentaphosphate and P1-(5*-adenosyl)P5-[5*(3*-azido-3*-deoxythymidine)] pentaphosphate have been
+solved to 2.0-Å and 2.2-Å resolution, respectively. The overall
+structure of the bacterial TmpK is very similar to that of yeast
+TmpK. In contrast to the human and yeast TmpKs, which
+phosphorylate 3*-azido-3*-deoxythymidine 5*-monophosphate
+(AZT-MP) at a 200-fold reduced turnover number (kcat) in
+comparison to the physiological substrate dTMP, reduction of
+kcat is only 2-fold for the bacterial enzyme. The different
+kinetic properties toward AZT-MP between the eukaryotic
+TmpKs and E. coli TmpK can be rationalized by the different
+ways in which these enzymes stabilize the presumed transition
+state and the different manner in which a carboxylic acid side
+chain in the P loop interacts with the deoxyribose of the
+monophosphate. Yeast TmpK interacts with the 3*-hydroxyl of
+dTMP through Asp-14 of the P loop in a bidentate manner:
+binding of AZT-MP results in a shift of the P loop to
+accommodate the larger substituent. In E. coli TmpK, the
+corresponding residue is Glu-12, and it interacts in a side-on
+fashion with the 3*-hydroxyl of dTMP. This different mode of
+interaction between the P loop carboxylic acid with the 3*
+substituent of the monophosphate deoxyribose allows the
+accommodation of an azido group in the case of the E. coli
+enzyme without significant P loop movement. In addition,
+although the yeast enzyme uses Arg-15 (a glycine in E. coli) to
+stabilize the transition state, E. coli seems to use Arg-153 from
+a region termed Lid instead. Thus, the binding of AZT-MP to
+the yeast TmpK results in the shift of a catalytic residue, which
+is not the case for the bacterial kinase.
+Phosphorylation of AZT-MP by thymidylate kinase (TmpK;
+EC 2.7.4.9, ATP:dTMP phosphotransferase) has been implicated as the rate-limiting step in the activation pathway of the
+anti-HIV prodrug 39-azido-39-deoxythymidine (AZT). AZT
+must be phosphorylated by cellular enzymes to azidothymidine
+triphosphate before it can exert its antiviral effect by inhibiting
+HIV reverse transcriptase and acting as a chain terminator of
+nascent DNA strands. The bottleneck of AZT activation lies
+in the second phosphorylation step, the step that adds a
+phosphate group to azidothymidine monophosphate (AZTMP) to yield azidothymidine diphosphate and is catalyzed by
+TmpK. Cells treated with AZT accumulate the toxic AZT-MP
+(1–3) in millimolar concentration (4, 5), and thus the active
+AZT triphosphorylated metabolite is at very low concentration. This situation is only slightly improved upon coinfection
+with herpes simplex virus I thymidine kinase-carrying vectors
+
+MATERIALS AND METHODS
+Synthesis and Kd Determination of TP5A and AZT-P5A.
+AZT-MP was synthesized by incubating AZT with two equivalents of phosphorus oxychloride under conditions of basic
+catalysis (2,6-dimethylpyridine). The bisubstrate inhibitors
+TP5A and AZT-P5A were prepared by condensation of adenosine tetraphosphate and dTMP or AZT-MP (activated by
+This paper was submitted directly (Track II) to the Proceedings office.
+Abbreviations: TP5A, P1-(59-adenosyl)-P5-(59-thymidyl)pentaphosphate; AZT-P5A, P1-(59-adenosyl)-P5-[59-(39-azido-39-deoxythymidine)]pentaphosphate; AZT, 39-azido-39-deoxythymidine; AZT-MP,
+AZT 59-monophosphate; TmpK, thymidylate kinase; GAP, GTPaseactivating protein.
+Data deposition: The atomic coordinates have been deposited in the
+Protein Data Bank, Biology Department, Brookhaven National Laboratory, Upton, NY 11973 (PDB ID codes 4TMK for TP5A1 and
+5TMP for AZTP5A).
+†N.O. and R.B. contributed equally to this work.
+§To whom reprint requests should be addressed. e-mail: ilme.
+schlichting@mpi-dortmund.mpg.de.
+
+The publication costs of this article were defrayed in part by page charge
+payment. This article must therefore be hereby marked ‘‘advertisement’’ in
+accordance with 18 U.S.C. §1734 solely to indicate this fact.
+© 1998 by The National Academy of Sciences 0027-8424y98y9514045-6$2.00y0
+PNAS is available online at www.pnas.org.
+
+14045
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+14046
+
+Biochemistry: Lavie et al.
+
+diphenyl phosphorochloridate) as described (11) for the synthesis of AP5A.
+The fluorescent TP5A analog TP5A-MANT [the fluorescent
+N-methylanthraniloyl (MANT) group is on the ribose of the
+adenosine moiety] was prepared as described (12) for the
+preparation of MANT-AP5A. Fluorescence measurements
+were performed with a SLM 8100 spectrofluorimeter as
+described (12) with an excitation wavelength of 360 nm and an
+emission wavelength of 440 nm. The experiments were carried
+out at 25°C in a buffer containing 100 mM TriszHCl (pH 7.5),
+5 mM MgCl2, 2 mM EDTA, and 100 mM KCl.
+Protein Preparation and Crystallographic Analysis. E. coli
+TmpK was cloned from genomic DNA into a pJC20 vector,
+expressed in E. coli BL21(DE3), and purified to homogeneity
+as described (10). Crystals of the complex of E. coli TmpK with
+either TP5A or AZT-P5A were grown by the vapor diffusion
+method using the hanging drop geometry. An enzyme solution
+(15 mgyml) was premixed with the nucleotide solution to
+contain (final concentrations) enzyme (12 mgyml) and 2 mM
+nucleotide. Typically, 4 ml of the enzymeynucleotide mixture
+was mixed with 2 ml of a solution containing 1.25 M ammonium
+phosphate (pH 8.0) and left to equilibrate at 20°C against a
+reservoir of 2.5 M ammonium phosphate. Crystals with typical
+dimensions of 500 3 400 3 100 mm grew after a few days in
+space group R32. Molecular replacement with the yeast TmpK
+model was not successful. For heavy-atom soaking trials, the
+crystals were transferred to a solution of 1.6 M sodiumy
+potassium tartrate and 100 mM TriszHCl (pH 8.0). This
+resulted in a doubling of the c axis cell length and in a dimer
+instead of a monomer in the asymmetric unit. Heavy-atom
+screening was done by soaking the crystals overnight in a
+tartrate solution containing 1 mM of the heavy atom being
+analyzed before mounting in quartz capillaries. X-ray data
+were collected at 4°C by using a Siemens Hi-Star area detector
+mounted on a Mac Science rotating anode generator operated
+at 45 kV and 100 mA. Data were processed with XDS (13) and
+merged with XSCALE. Only crystals soaked with ethylmercury
+phosphate were isomorphous with the native crystals, with two
+mercury atoms bound per monomer. Refinement of heavyatom positions with MLPHARE (14) followed by phase improvement through 2-fold noncrystallographic symmetry averaging,
+solvent flattening, and histogram matching with the program
+DM (15), resulted in an easily interpretable electron-density
+map. Model building was done with the program O (16). The
+TmpKyeast model was moved as a rigid body into the density,
+a procedure that required readjusting the relative positions of
+the secondary structural elements. Rigid-body refinement
+followed by simulated annealing and B group refinement to
+2.4-Å resolution with X-PLOR (17) resulted in a model with
+Rwork 5 24% and Rfree 5 29%. Further refinement including
+bulk solvent correction and individual B factor refinement was
+done with a data set collected at the Max-Planck beam line
+BW6 (DESY) of a frozen crystal with a monomer in the
+asymmetric unit. Crystals of TmpKcoli complexed with AZTP5A were grown under conditions similar to those used for
+TP5A. X-ray data were measured from a single crystal at 4°C
+by using a Siemens Hi-Star area detector, reduced with XDS
+and merged with XSCALE. The complex with AZT-P5A is
+isomorphous to that with TP5A, so the refinement was started
+with the E. coli TmpK–TP5A model. Refinement statistics are
+shown in Table 1.
+
+RESULTS AND DISCUSSION
+Overall Structure. The crystal structures of E. coli TmpK
+(213 amino acid residues) complexed with the bisubstrate
+inhibitors TP5A or AZT-P5A were solved at 2.0-Å and 2.2-Å
+resolution, respectively. In comparison to the previously determined yeast TmpK (29% amino acid identity), the bacterial
+enzyme has a similar ayb fold that consists of nine a-helices
+
+Proc. Natl. Acad. Sci. USA 95 (1998)
+that surround a five-stranded b-sheet core and is likewise a
+homodimer. Overlaying the yeast TmpK model with the E. coli
+TmpK model results in good overlap of the b-sheet core (rms
+deviation for five strands, 27 Ca atoms, 0.36 Å) but the
+surrounding helices have moved relative to each other (rms
+deviation for nine helices, 113 Ca atoms, 2.88 Å). This explains
+the failure of the molecular replacement attempt and the need
+for the de novo structure determination.
+NMP kinases and many other nucleotide binding proteins
+contain a sequence motif (GX4GKSyT), called the P loop,
+whose function is to bind nucleoside di- or triphosphates (18).
+NMP kinases bind an additional nucleotide substrate, a NMP,
+and catalyze the reversible phosphoryl transfer from the
+triphosphate [preferably ATP for TmpKs (19)] to the monophosphate (dTMP). In all previously determined NMP kinase
+structures, the monophosphate is bound in a deep cleft with
+the nucleobase surrounded by protein residues. The triphosphate is bound (mainly by the P loop) with its phosphates
+facing that of the monophosphate and is observed to interact
+with a region called Lid. The closure of the Lid region upon
+triphosphate binding acts in most NMP kinases to bring
+catalytic arginines to the reaction center. TmpKyeast was the
+first NMP kinase observed to deviate from this principle;
+although there is a Lid region near the triphosphate, it lacks
+positively charged catalytic residues. In contrast, TmpKcoli
+does possess positively charged residues in its Lid region that
+are observed to interact with ATP. On the basis of this
+difference between TmpKcoli and TmpKyeast, we have categorized TmpKs in to two types. Type I TmpKs (e.g., yeast and
+human) have a basic residue in their P loop sequence (in
+addition to the invariant lysine) that can interact with the
+g-phosphate of ATP and lack such residues in the Lid region.
+The situation is reversed for type II TmpKs (e.g., E. coli), which
+are thus more similar to other NMP kinases, such as adenylate
+kinase or uridylate kinase, that have a glycine in the P loop and
+basic residues in the Lid region that interact with ATP.
+A unique feature of TmpKs of both types is that a residue
+in the P loop (Asp-14 in TmpKyeast and Glu-12 in TmpKcoli)
+interacts with the nucleotide monophosphate via hydrogen
+bond(s) with the 39-hydroxyl of the deoxyribose. This interaction has far reaching implications for ribose modification.
+Nucleotide Binding. The bisubstrate inhibitors TP5A and
+AZT-P5A are bound tightly to the enzyme (Kd values of 20 nM
+and 34 nM, respectively) in accordance with their relatively low
+B factors. A distance map showing the interactions between
+TP5A and TmpKcoli is shown in Fig. 1a. The complex was
+crystallized at high phosphate concentration, which is not
+compatible with the presence of free magnesium. Attempts to
+soak in magnesium after crystal transfer to ammonium sulfate
+or potassium tartrate solutions resulted in the loss of highresolution diffraction.
+Many of the interactions between the nucleotide and
+TmpKcoli are similar to those in TmpKyeast. For dTMP binding,
+conserved interactions are the base-stacking interaction of the
+thymidine base with a phenylalanine (Phe-74), a H-bond
+between the O4 carbonyl and an arginine side chain (Arg-78),
+and the use of a tyrosine residue (Tyr-108) to discriminate
+against ribonucleotides. Although in the yeast enzyme the base
+makes further interactions with tightly bound water molecules,
+the E. coli enzyme uses the side chains of Thr-105 and Gln-109.
+The most striking difference is the interaction of the 39hydroxyl with the P loop carboxylic acid (Fig. 1b): this is a
+bidentate interaction in the yeast enzyme (Asp-14), but a
+side-on interaction in the E. coli enzyme (Glu-12). The adenine base and phosphate interactions are also very similar in
+the two TmpKs. The Lid region of TmpKcoli contains the highly
+basic amino acid sequence 148KRARAR153 but only Arg-153
+interacts with the phosphates. Arg-149 stacks against the
+adenine base and Arg-151 points toward the solvent.
+
+Biochemistry: Lavie et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Table 1.
+
+Proc. Natl. Acad. Sci. USA 95 (1998)
+
+14047
+
+Data collection, phasing, and refinement statistics
+
+Data collection statistics
+Temperature, K
+Resolution, Å
+Wavelength, Å
+Observed reflections, no.
+Unique reflections, no.
+Completeness, % (overallylast shell)
+R sym1, % (overallylast shell)
+Space group
+Unit cell, Å
+a, b
+c
+Moleculesyasymmetric unit, no.
+Phasing statistics
+Heavy atom sites, no.
+R iso2
+R Cullis3
+Phasing power4
+Mean figure of merit after MLPHARE
+Refinement statistics
+R cryst5, %
+R free6, %
+Resolution range, Å
+Reflections with F . 0 s (workingytest)
+No. proteinywaterynucleotide atoms
+rms deviations
+Bond lengths, Å
+Bond angles, degrees
+Dihedral angles, degrees
+Improper angles, degrees
+Average B, Å2
+Main chain
+Side chain
+Water molecules
+Nucleotides
+
+TP5A1
+
+TP5A2
+
+EMP
+
+AZT-P5A
+
+100
+2.0
+1.07
+117,407
+21,854
+95.5y95.9
+4.5y13.6
+R32
+
+277
+2.2
+1.54
+127,088
+36,046
+98.0y86.8
+7.4y39.3
+R32
+
+277
+2.8
+1.54
+89,490
+17,427
+96.9y84.4
+8.3y23.1
+R32
+
+277
+2.2
+1.54
+56,386
+15,949
+90.4y80.0
+6.5y24.8
+R32
+
+151.7
+74.5
+1
+
+151.4
+164.0
+2
+
+151.4
+163.9
+2
+
+152.1
+75.6
+1
+
+4
+0.16
+0.66
+1.6
+0.43
+20.4
+25.3
+19.4–2.0
+20,773y1,067
+1,6627y168y608
+
+20.9
+27.0
+15.0–2.2
+13,854y717
+1,6799y72y7210
+
+0.013
+1.620
+22.63
+1.159
+
+0.011
+1.487
+23.30
+1.535
+
+22.7
+25.3
+33.4
+21.2
+
+28.4
+31.5
+33.6
+30.1
+
+EMP, ethylmercury phosphate.
+Rsym 5 ¥ uIobs 2 ^I&uy¥ ^I&.
+2R
+iso 5 ¥ uFph 2 Fpuy¥ Fp, summed over all unique reflections.
+3R
+Cullis 5 ¥ iFph,obs 2 Fp,obsu 2 Fh,calcuy¥ uFph,obs 2 Fp,obsu.
+4 Phasing power 5 ¥ uF uy¥ iF
+h
+ph,obsu 2 uFph,calci.
+5R
+cryst 5 ¥uFobs 2 Fcalcuy¥ Fobs.
+6R
+free 5 R cryst, calculated for 5% randomly selected reflections not included in the refinement.
+7Number includes atoms due to double conformations in residues Arg-51 and Gln-180. Met-1 was not
+modeled, and Arg-2 and His-118 were modeled as alanine.
+8Number includes five atoms in alternate conformations.
+9Number includes atoms due to double conformations in residues Arg-33 and Phe-164. Met-1 was not
+modeled, and Arg-2 and Lys-182 were modeled as alanine.
+10Number includes 15 atoms in alternate conformations.
+1
+
+Unlike the TP5A–TmpKyeast complex (10), where the phosphates are observed in only one conformation, in the TP5A–
+TmpKcoli complex, the middle phosphate is observed in two
+conformations, and in the AZT–P5A-TmpKcoli complex, four
+phosphates were modeled with alternate conformations. The
+phenomenon of multiple conformations has also been observed in a complex of adenylate kinase and AP5A (20). This
+may be a consequence of the interaction of the phosphates with
+an arginine of the Lid region and a consequence of the absence
+of magnesium, which would stabilize one conformation but not
+the other.
+The comparison between the TmpKcoli complex with TP5A
+and that with AZT-P5A shows a nearly identical protein
+structure (rms deviation of 0.23 Å on 208 Ca atoms). However,
+three differences between the structures are significant. The
+first is a rotation of the deoxyribose moiety of thymidine and
+of three carboxylic acid side chains located in close proximity
+to the 39 position. The rotation of the whole deoxyribose as a
+rigid body around the C19 and C49 atoms can be attributed to
+
+the azido group that would otherwise be too close to the side
+chain of Glu-12 (Fig. 1d). Concomitantly, Glu-12 rotates in the
+opposite direction to make space for the azido group. In
+addition, the rigid body rotation of the deoxyribose forces
+Glu-160 to adjust its position. The side chains of Glu-12 and
+Asp-157 are only 2.6 Å apart in the TP5A complex structure
+(3.1 Å in the AZT-P5A complex), suggesting that the pKa of
+these acids is perturbed and that at least one of them is
+protonated at physiological pH. The second difference between the structures is the conformation of the phosphates of
+the bound TP5A and AZT-P5A, which could be attributed to
+the rigid-body rotation of the deoxyribose forced upon by the
+azido group. However, this did not change the positions of the
+nucleobases. The third important difference between the
+complexes is a slight change at the tip of the P loop, probably
+caused by the different phosphate conformations, as it is the
+P loop that interacts the most with the phosphates.
+Structural Explanation for Fast AZT-MP Phosphorylation.
+The crystal structure of TmpKyeast complexed with TP5A (10)
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+14048
+
+Biochemistry: Lavie et al.
+
+Proc. Natl. Acad. Sci. USA 95 (1998)
+
+FIG. 1. Interactions of the bisubstrate inhibitor with TmpK (a). Distance map of TP5A bound to TmpKcoli. P loop residues are marked with
+an asterisk. (b–d) Stereoviews. Overlay of the TmpKcoli–TP5A complex model (pink) with the TmpKyeast–TP5A model (green) (b and c) or the
+TmpKcoli–AZTP5A (blue) (d). (b) Interactions of the 39-hydroxyl of the thymidine deoxyribose. In TmpKyeast, a bidentate interaction between the
+P loop aspartic acid and the sugar hydroxyl is observed. The binding of AZT-MP causes the P loop to move, thus displacing the catalytic P
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Biochemistry: Lavie et al.
+suggests that the arginine situated in the P loop sequence is
+used to stabilize the transition state (in addition to other basic
+residues). The P loop of E. coli has a glycine at this position.
+Although the yeast enzyme has only one basic residue in the
+Lid region that does not interact with the phosphate groups,
+the bacterial enzyme has four basic residues in its Lid region
+(Fig. 2). Therefore, we postulated that an arginine from the E.
+coli Lid region fulfills a similar role to that of the arginine in
+the P loop of the yeast enzyme (10). The structural overlay of
+the yeast and E. coli TmpKs confirms our hypothesis. The tip
+of Arg-15 (yeast), which interacts with the middle phosphate
+of TP5A, is spatially very close to the tip of Arg-153 (E. coli),
+which also interacts with the middle phosphate (Fig. 1c).
+This observation may in part explain the kinetic differences
+observed between the two TmpKs (i.e., TmpKyeast and
+TmpKcoli) with respect to their AZT-MP phosphorylation
+rates. For TmpKyeast , the binding of AZT-MP induces some
+movement of the P loop via the interaction of the P loop
+aspartic acid with the 39-azido group. This movement of the P
+loop results in a reduced catalytic rate that can be attributed
+to at least three factors. The P loop has the function of binding
+the phosphoryl donor, in this case ATP, so any relative shift of
+the positions of the two substrates could decrease the catalytic
+rate. A further reason could be the movement of the P loop
+arginine, which presumably fulfills a catalytic role. Lastly, the
+shift of the aspartic acid (Asp-14 in yeast), an essential residue
+for catalysis (unpublished results), could also account for the
+reduced rate. It cannot be ruled out that it is a combination of
+the above three reasons that leads to the reduction of catalytic
+activity.
+In contrast, on comparing the complexes of TmpKcoli with
+TP5A and with AZT-P5A, no significant P loop movement is
+seen. The small adjustment that is required for fitting the
+bulkier azido group seems to be restricted to a slight rotation
+of the whole 39-azido-deoxyribose moiety and the side chain of
+the P loop glutamate. Because the interaction of the P-loop
+carboxylic acid with the 39 group is side-on, unlike the bidentate interaction seen in TmpKyeast, the side chain can adjust
+relatively easily to AZT-MP binding. In addition, because in
+TmpKcoli a presumed catalytic arginine originates from the Lid
+region, any P loop perturbation should not effect that residue.
+These are the structural reasons why the rate of AZT-MP
+phosphorylation is only 2-fold slower than that of dTMP.
+Role of Arginines in Phosphoryl Transfer Reactions. The
+use of arginines from the Lid region in TmpKcoli would be in
+analogy to other NMP kinases such as adenylate kinase (21) or
+uridylate kinase (22, 23) that use basic residues from the Lid
+region for transition state stabilization. TmpKyeast lacks such
+basic Lid residues and uses its P loop arginine instead. Thus,
+two types of TmpKs have evolved; type I, which stabilize the
+negative charge in the transition state by having the positively
+charged guanidinium group originating from the P loop (i.e.,
+yeast enzyme), and type II, where the guanidinium group
+originates from the Lid region (E. coli enzyme).
+A similar situation is encountered when comparing two
+types of GTPases, the heterotrimeric G proteins and GTPases
+belonging to the Ras superfamily. In the former, a catalytically
+essential arginine is present in the Ga subunits. These subunits
+are made up of two domains—one is the Ras-like GTP-binding
+domain and the other is an a-helical domain. An arginine
+residue positioned by the a-helical domain (residue 178 in Gia)
+
+Proc. Natl. Acad. Sci. USA 95 (1998)
+
+14049
+
+FIG. 2. Structure-based sequence alignment of the P loop and Lid
+regions. Lysine and arginine residues that make phosphate interactions
+are underlined doubly and those that make a stacking interaction with
+the adenine base are underlined singly. TmpKs are unique in having
+a carboxylic acid situated at the tip of the P loop (Glu-12 in TmpKcoli).
+In type I TmpKs (e.g., human and yeast), the following residue is an
+arginine that has been shown to be catalytically important for the yeast
+enzyme. Type II TmpKs (e.g., E. coli) lack this arginine, having instead
+a number of basic residues in their Lid region: for TmpKcoli, Arg-153
+presumably fulfills a catalytically role analogous to that of Arg-15 in
+yeast. Although the last Lid arginine in TmpKs (Arg-158 in TmpKcoli)
+aligns well with catalytic arginines from pig adenylate kinase (AKpig)
+and Dictyostelium uridylate kinase (UmpKdicty), it points away from
+the active site, thus having no obvious catalytic role. The eukaryotic
+TmpKs have no catalytic residues in the Lid region.
+
+is involved in stabilizing the transition state (24). Ras and
+Ras-like proteins do not have an equivalent arginine residue
+and are consequently much slower GTPases than the Ga
+subunit. However, such a residue can be supplied by GTPaseactivating proteins (GAPs), turning them into efficient GTPhydrolyzing enzymes. Comparing the structure of the Gia
+transition state analog complex (24) with those of similar
+complexes such as Ras–RasGAP (25) or Rho–RhoGAP (26)
+shows that the catalytic arginine, while fulfilling the role of
+stabilizing the transition state by interaction with the g-phosphate, approaches this phosphate from quite different directions. Thus, in GTPases and kinases, catalysis by arginine can
+occur as long as the interaction with the transferred phosphate
+group is possible, regardless of where the arginine is located in
+the secondary structure. We can now identify four different
+situations for catalytic arginines in phosphate-transferring
+enzymes; the arginine can be located in the P loop (TmpKyeast),
+in another region (Lid region of a single domain protein such
+as TmpKcoli and various other NMP kinases), in a different
+domain of a multidomain protein (heterotrimeric G proteins),
+or in another protein capable of interacting with the phosphate-transferring protein (Ras–RasGAP). Interestingly,
+there are differences in the details of the interactions, as can
+be seen best by comparing the transition-state analog complex
+structures of Gia (24), Ras–RasGAP (25), Rho–RhoGAP (26),
+and uridylate kinase (22). Arginine side chains, because they
+possess three basic nitrogens, can form the appropriate interaction from a variety of spatial situations.
+In NMP kinases there is an additional arginine located
+neither in the P loop nor the Lid region that appears to play
+an important role. This is residue 100 in TmpKcoli (94 in
+TmpKyeast), and it appears to be conserved in structural space
+in other members of the family (Fig. 1c). In all cases examined
+so far, this residue appears to concomitantly interact with both
+the g-phosphate of ATP and the phosphate of the nucleoside
+
+loop arginine. In contrast, in TmpKcoli, the interaction between Glu-12 and the 39-hydroxyl is side-on, and the bulkier azido group does not induce
+a significant movement of the P loop. (c) Similar phosphate–arginine interactions made in TmpKyeast by Arg-15 and in TmpKcoli by Arg-153.
+Displayed are the P loop and a part of the Lid region. The structures were overlaid according to the position of the bisubstrate inhibitor. (d) In
+the TmpKcoli–TP5A and the TmpKcoli–AZTP5A complex structures, the thymine base is at an identical position, but the deoxyribose moiety has
+undergone a rigid-body rotation caused by the azido group in the AZT-P5A complex. In addition, Glu-12 has rotated slightly to provide more room
+for the azido group. The rotation of the deoxyribose induces a similar rotation of the Glu-160 side chain. As Glu-12 makes close interactions with
+Asp-157, the latter carboxylic acid also rotates slightly. b–d were generated by using BOBSCRIPT (29, 30) and RASTER 3D (31).
+
+14050
+
+Biochemistry: Lavie et al.
+
+monophosphate (i.e., the transferred phosphate and the acceptor phosphate). The interactions are with different nitrogens of the arginine side chain, and the possible significance of
+this is that such a two pronged interaction could act like a vice
+or clamp, pulling the charged phosphate groups toward each
+other while partially neutralizing their repulsive negative
+charges. However, among the various NMP kinases, this type
+of interaction only seems to be crucial for TmpK because
+mutagenesis studies have indicated that this residue is not
+essential for adenylate kinase activity (27, 28). A possible
+explanation for this difference is that TmpKs uses three basic
+residues to interact with the transferred phosphoryl group,
+whereas adenylate kinase or uridylate kinase use five.
+Conclusion. We have shown herein that the capability of the
+E. coli P loop glutamic acid to accommodate AZT-MP without
+major structural changes in comparison to dTMP, the lack of
+a catalytic arginine in the P loop, and the presence of a
+presumably catalytic arginine in the Lid region are the structural reasons for the efficient phosphorylation of AZT-MP by
+TmpKcoli. The endeavor to use this newly acquired understanding for the purpose of modifying the human TmpK so that
+the AZT-MP phosphorylation rate is increased is presently
+underway.
+We thank Georg Holtermann and Sonja Hönig for skilled technical
+assistance and Gleb Bourenkov for help in data collection. A.L. was
+supported by the Peter and Traudl Engelhorn Stiftung (Germany).
+1.
+2.
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+3.
+4.
+5.
+6.
+7.
+
+Bridges, E. G., Faraj, A. & Sommadossi, J. P. (1993) Biochem.
+Pharmacol. 45, 1571–1576.
+Harrington, J. A., Reardon, J. E. & Spector, T. (1993) Antimicrob.
+Agents Chemother. 37, 918–920.
+Yan, J. P., Ilsley, D. D., Frohlick, C., Steet, R., Hall, E. T., Kuchta,
+R. D. & Melancon, P. (1995) J. Biol. Chem. 270, 22836–22841.
+Frick, L. W., Nelson, D. J., St. Clair, M. H., Furman, P. A. &
+Krenitsky, T. A. (1988) Biochem. Biophys. Res. Commun. 154,
+124–129.
+Fridland, A., Connelly, M. C. & Ashmun, R. (1990) Mol. Pharmacol. 37, 665–670.
+Elion, G. B., Furman, P. A., Fyfe, J. A., de Miranda, P.,
+Beauchamp, L. & Schaeffer, H. J. (1977) Proc. Natl. Acad. Sci.
+USA 74, 5716–5720.
+Guettari, N., Loubiere, L., Brisson, E. & Klatzmann, D. (1997)
+Virology 235, 398–405.
+
+Proc. Natl. Acad. Sci. USA 95 (1998)
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+
+Lavie, A., Vetter, I. R., Konrad, M., Goody, R. S., Reinstein, J.
+& Schlichting, I. (1997) Nat. Struct. Biol. 4, 601–604.
+Lavie, A., Schlichting, I., Vetter, I. R., Konrad, M., Reinstein, J.
+& Goody, R. S. (1997) Nat. Med. 3, 922–924.
+Lavie, A., Konrad, M., Brundiers, R., Goody, R. S., Schlichting,
+I. & Reinstein, J. (1998) Biochemistry 37, 3677–3686.
+Feldhaus, P., Fröhlich, T., Goody, R. S., Isakov, M. & Schirmer,
+R. H. (1975) Eur. J. Biochem. 57, 197–204.
+Reinstein, J., Vetter, I. R., Schlichting, I., Rösch, P., Wittinghofer, A. & Goody, R. S. (1990) Biochemistry 29, 7440–7450.
+Kabsch, W. (1993) J. Appl. Cryst. 24, 795–800.
+Otwinowski, Z. (1991) in Maximum Likelihood Refinement of
+Heavy Atom Parameters, eds. Wolf, W., Evans, P. R. & Leslie,
+A. G. W. (SERC Daresbury Laboratory, Warrington, U.K.).
+Cowtan, K. (1994) Joint CCP 4 and ESF-EACBM Newsletter on
+Protein Crystallography 31, 24–28.
+Jones, T. A., Zhou, J.-Y., Cowan, S. W. & Kjeldgaard, M. (1991)
+Acta. Cryst. A 47, 110–119.
+Brünger, A. T. (1993) X-PLOR, A System for X-Ray Crystallography and NMR (Yale Univ. Press, New Haven, CT).
+Saraste, M., Sibbald, P. R. & Wittinghofer, A. (1990) Trends
+Biochem. Sci. 15, 430–434.
+Jong, A. Y. & Campbell, J. L. (1984) J. Biol. Chem. 259,
+14394–14398.
+Müller, C. W. & Schulz, G. E. (1992) J. Mol. Biol. 224, 159–177.
+Berry, M. B., Meador, B., Bilderback, T., Liang, P., Glaser, M. &
+Phillips, G. N., Jr. (1994) Proteins 19, 183–198.
+Schlichting, I. & Reinstein, J. (1997) Biochemistry 36, 9290–9296.
+Scheffzek, K., Kliche, W., Wiesmüller, L. & Reinstein, J. (1996)
+Biochemistry 35, 9716–9727.
+Coleman, D. E., Berghuis, A. M., Lee, E., Linder, M. E., Gilman,
+A. G. & Sprang, S. R. (1994) Science 265, 1405–1412.
+Scheffzek, K., Ahmadian, M. R., Kabsch, W., Wiesmuller, L.,
+Lautwein, A., Schmitz, F. & Wittinghofer, A. (1997) Science 277,
+333–338.
+Rittinger, K., Walker, P. A., Eccleston, J. F., Smerdon, S. J. &
+Gamblin, S. J. (1997) Nature (London) 389, 758–762.
+Reinstein, J., Gilles, A. M., Rose, T., Wittinghofer, A., Saint
+Girons, I., Barzu, O., Surewicz, W. K. & Mantsch, H. H. (1989)
+J. Biol. Chem. 264, 8107–8112.
+Dahnke, T., Shi, Z., Yan, H., Jiang, R. T. & Tsai, M. D. (1992)
+Biochemistry 31, 6318–6328.
+Esnouf, R. (1997) J. Mol. Graphics 15, 133–138.
+Kraulis, P. J. (1991) J. Appl. Crystallogr. 24, 946–950.
+Merrit, E. A. & Murphy, M. E. P. (1994) Acta Crystallogr. D 50,
+869–873.
+
+

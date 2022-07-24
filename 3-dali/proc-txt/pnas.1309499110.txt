@@ -1,0 +1,914 @@
+PNAS PLUS
+
+MuB is an AAA+ ATPase that forms helical ﬁlaments
+to control target selection for DNA transposition
+Naoko Mizunoa,b, Marija Dramicaninc, Michiyo Mizuuchid, Julia Adamb, Yi Wangd,e, Yong-Woon Hand,f, Wei Yangd,
+Alasdair C. Stevena, Kiyoshi Mizuuchid,1, and Santiago Ramón-Maiquesc,d,1
+a
+Laboratory of Structural Biology, National Institute of Arthritis, Musculoskeletal, and Skin Diseases and dLaboratory of Molecular Biology, National Institute
+of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD 20892; bMax Planck Institute of Biochemistry, D-82152
+Martinsried, Germany; cStructural Bases of Genome Integrity Group, Structural Biology and Biocomputing Programme, Spanish National Cancer Research
+Centre (CNIO), 28029 Madrid, Spain; eDepartment of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030; and fInstitute for
+Integrated Cell-Material Science, Kyoto University, Kyoto 606-8501, Japan
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+MuB is an ATP-dependent nonspeciﬁc DNA-binding protein that
+regulates the activity of the MuA transposase and captures target
+DNA for transposition. Mechanistic understanding of MuB function
+has previously been hindered by MuB’s poor solubility. Here we
+combine bioinformatic, mutagenic, biochemical, and electron microscopic analyses to unmask the structure and function of MuB. We
+demonstrate that MuB is an ATPase associated with diverse cellular
+activities (AAA+ ATPase) and forms ATP-dependent ﬁlaments with
+or without DNA. We also identify critical residues for MuB’s ATPase,
+DNA binding, protein polymerization, and MuA interaction activities. Using single-particle electron microscopy, we show that MuB
+assembles into a helical ﬁlament, which binds the DNA in the axial
+channel. The helical parameters of the MuB ﬁlament do not match
+those of the coated DNA. Despite this protein–DNA symmetry mismatch, MuB does not deform the DNA duplex. These ﬁndings, together with the inﬂuence of MuB ﬁlament size on strand-transfer
+efﬁciency, lead to a model in which MuB-imposed symmetry transiently deforms the DNA at the boundary of the MuB ﬁlament and
+results in a bent DNA favored by MuA for transposition.
+Phage Mu
+
+| nucleoprotein ﬁlament
+
+D
+
+NA transposons are ubiquitous in the genomes of all forms
+of life and play important evolutionary roles in generating
+gene diversity and in shaping genomic landscapes (1). Although
+typically transposons exhibit no strong sequence selectivity for
+the target DNA site, certain transposons avoid self-destructive
+insertion (reviewed in ref. 2), a phenomenon called “target immunity” because the presence of a copy of the transposon renders nearby DNA sites “immune” to additional insertion by the
+same transposon (3–8). MuB plays critical roles in this selfimmunity in the bacteriophage Mu transposition process.
+Phage Mu is one of the most complex and efﬁcient transposable
+elements (reviewed in refs. 3 and 4). Two phage-coded proteins,
+MuA and MuB, are essential for efﬁcient Mu transposition. MuA
+is the transposase responsible for synapsing the two Mu end
+sequences and for all of the DNA cutting and joining steps in the
+initial stages of transposition. However, transposition is inefﬁcient
+in the absence of MuB, and the residual Mu insertion that takes
+place uses only DNA target sites near or within the transposing
+element, often leading to self-destruction (9–11). MuB is a small
+(35-kDa) ATP-dependent nonspeciﬁc DNA-binding protein with
+relatively low ATPase activity (10, 12, 13). Upon ATP binding,
+MuB polymerizes preferentially on DNA, but in the absence of
+DNA it still can form polymers of variable sizes (14, 15). When
+observed by total internal reﬂection ﬂuorescence microscopy,
+GFP-MuB-ATP binds along the DNA molecule forming many
+short separate segments of polymers, and, as more GFP-MuB is
+added, the protein-covered segments elongate to form an apparently continuous polymer that fully coats the DNA. Hydrolysis of
+ATP reverses this process, triggering disassembly of the MuB
+polymer (16–18).
+
+www.pnas.org/cgi/doi/10.1073/pnas.1309499110
+
+The MuB–DNA complex controls MuA activity at several steps,
+including stimulation of the strand-transfer reaction, which joins
+Mu DNA ends to the target DNA site (19, 20), leading to utilization
+of MuB-bound DNA as the preferred target for transposition (11).
+MuB-stimulated transposition displays target immunity, avoiding
+target sites near preexisting Mu-end sequences where MuA binds.
+This is because MuA stimulates the ATPase activity of MuB, and
+because this interaction takes place more frequently when the two
+proteins are bound on the same DNA molecule relatively close to
+each other, MuA triggers the dissociation of MuB from DNA sites
+near the Mu ends more efﬁciently than from those sites at a distance (21). Thus, by the time MuA assembles the active complex
+with synapsed Mu DNA ends ready to capture target DNA, MuB
+has been depleted from the vicinity of the active complex and
+accumulates on DNA sites away from the Mu-end sequence. This
+explains the strong preference of the transposing Mu to target
+DNA sites at substantial distances away (5–25 kb) from its original
+site (22).
+Beyond the mechanistic framework outlined above, study of
+MuB function has been hampered by the lack of structural information. The 312-amino-acid MuB polypeptide can be divided
+into two fragments by limited proteolysis (23). The N-terminal 25kDa fragment contains Walker A and Walker B motifs (24) and
+also a putative helix-turn-helix motif (12), but it lacks ATPase
+activity and is prone to aggregate. The C-terminal 10-kDa fragment consists of a four-helix bundle, whose structure was deSigniﬁcance
+DNA transposons move from one genomic location to another
+using a transposase. A regulatory protein might assist in target
+selection and avoiding self-destruction. MuB is the regulatory
+protein of Mu transposon. Here we report that MuB is an AAA+
+(ATPase associated with diverse cellular activities) ATPase and
+forms right-handed helical ﬁlaments around DNA. The helical
+parameters of MuB and DNA are mismatched and their interactions are nonuniform. We propose that enhanced ATP
+hydrolysis by MuB, induced by contacts with the MuAtransposon-end complex, leads to DNA deformation and
+bending at the MuB ﬁlament end, thus creating a favored
+target for transposition.
+Author contributions: N.M., W.Y., A.C.S., K.M., and S.R.-M. designed research; N.M., M.D.,
+M.M., J.A., Y.W., Y.-W.H., K.M., and S.R.-M. performed research; N.M., M.D., M.M., J.A.,
+Y.W., Y.-W.H., W.Y., A.C.S., K.M., and S.R.-M. analyzed data; and N.M., W.Y., A.C.S., K.M.,
+and S.R.-M. wrote the paper.
+The authors declare no conﬂict of interest.
+Data Deposition: The cryo-EM maps of the MuBwt DNA(−), MuBwt DNA(+) and MuB-ΔN
+DNA(+) ﬁlaments have been deposited in the Electron Microscopy Data Bank under the
+accession codes EMDB-2395, EMDB-2398, and EMDB-2400, respectively.
+1
+
+To whom correspondence may be addressed. E-mail: sramon@cnio.es or kiyoshimi@helix.
+nih.gov.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1309499110/-/DCSupplemental.
+
+PNAS | Published online June 17, 2013 | E2441–E2450
+
+BIOCHEMISTRY
+
+Contributed by Kiyoshi Mizuuchi, May 20, 2013 (sent for review March 29, 2013)
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+termined by NMR spectroscopy and reported to resemble the Nterminal domain of Escherichia coli replicative helicase DnaB (25)
+(Fig. S1). Beyond this, no sequence similarity between MuB and
+other proteins has been reported. Studies of mutant proteins have
+been limited mostly to those involving the Walker motifs (26).
+MuB’s tendency to aggregate in the presence of ATP hampered
+efforts at structural characterization. Without such information, it
+has not been clear how ATP controls MuB polymerization, what
+kind of polymer MuB forms, how MuB polymer interacts with
+DNA, or how MuA interacts with MuB polymer and triggers ATP
+hydrolysis and DNA dissociation.
+In this study we combine bioinformatic, mutagenic, biochemical, and electron microscopy (EM) techniques to characterize the
+structure of MuB and its role in DNA binding and transposition.
+First, we present evidence that MuB is a member of the AAA+
+(ATPases Associated with diverse cellular Activities) ATPase superfamily. A large number of these proteins have been studied
+structurally and functionally (27, 28). Guided by this ﬁnding, we
+identiﬁed the critical residues that control MuB ATPase, DNA
+substrate binding, and protein polymerization, yielding a clear picture of the communication between MuB and its interaction partners, MuA and DNA. Furthermore, we studied the structure of
+MuB polymers by cryo-EM and image reconstruction. We demonstrate that MuB-ATP forms a solenoid-like ﬁlament (150 Å in
+diameter with a pitch of 48 Å) and that DNA is bound in the axial
+channel. The helical parameters of the MuB ﬁlament (5.4 subunits
+and 48-Å per turn) do not match those of the B-form DNA (10 bp
+and 36 Å per turn). However, despite this mismatched symmetry
+between the protein and DNA, MuB does not signiﬁcantly distort
+the bound DNA duplex. Therefore, individual MuB subunits in the
+ﬁlament must interact with DNA nonuniformly.
+Results
+MuB Is Predicted to Be an AAA+ ATPase. We used the protein
+structure prediction servers PHYRE (29) and HHpred (30) to
+search for structural homologs of MuB. Notably, all of the proteins identiﬁed as having high similarity to MuB are members of
+the AAA+ ATPase superfamily. Despite the rather limited sequence identities (8–17%), all of the alignments predicted MuB
+residues 77–312 to have the same secondary and tertiary structures as the AAA+ proteins (Fig. 1A). Proteolytic cleavage was
+observed between I231 and N232 that separates the two putative
+domains of the AAA+ module in MuB (Fig. 1 A and B; Fig. S2A).
+To test the MuB functional organization, we engineered a construct consisting only of the putative AAA+ module (MuB-ΔN;
+residues 65–312) and another construct lacking the C-terminal
+domain (MuB-ΔC; residues 1–231). Whereas MuB-ΔC lacks any
+ATPase activity and has low expression and low solubility, MuB-ΔN
+is soluble and stable and exhibits the ATPase activity at 50% of fulllength MuB (kobs = 3.2 min−1) (Fig. 2A). It is known that ATP hydrolysis is inhibited by DNA and is signiﬁcantly stimulated by MuA
+in the presence of DNA (but not by a truncated form of MuA lacking
+the C-terminal 48 residues, MuAtrun) (10, 14). We observed that the
+activity of MuB-ΔN responds to the addition of MuA and DNA in
+a similar manner as wild-type MuB (MuBwt) (Fig. 2 A–C). Consistently, MuB-ΔN stimulated the intermolecular transposition reaction and discriminated against “immune” target DNA in a cell-free
+reaction system, similarly to MuBwt (Fig. 2D). We also produced
+two MuB constructs covering residues 1–63 or 1–72, and preliminary
+characterization indicated that this N-terminal appendage is a wellfolded helix-rich globular domain. These results conﬁrm that MuB
+consists of an AAA+ module preceded by an independently folded
+N-terminal domain, which can be removed without severely impeding ATP hydrolysis, MuA interaction, or DNA binding.
+Identiﬁcation of AAA+ Sensors, Arginine Finger, and DNA-Binding
+Loop. In addition to the Walker motifs, AAA+ ATPases possess
+
+characteristic residues involved in ATP binding or hydrolysis. In
+E2442 | www.pnas.org/cgi/doi/10.1073/pnas.1309499110
+
+MuB, the importance of the Walker A and Walker B motifs
+was demonstrated previously: mutations K106A (Walker A) and
+E174Q or D176H (Walker B) strongly diminished ATPase activity
+(26). Our similarity analysis predicts that MuB residues N202,
+R268, and R224 are the sensor I, sensor II, and the arginine ﬁnger
+(R ﬁnger), respectively (Fig. 1A). Mutations N202A and R224A
+decreased the ATPase activity ∼60-fold compared with MuBwt,
+whereas the activity of R268A was practically undetectable (Fig.
+2A). Two other arginines, R187 and R220, were predicted to be at
+the same protein interface as the R ﬁnger, and mutations of these
+residues to alanine reduced the ATPase rate by 20- and 12-fold,
+respectively. The signiﬁcance of these arginines is discussed below.
+To distinguish between defects in ATP hydrolysis versus ATP
+binding, we measured MuB–ATP/ADP complex formation by
+a spin-column method (31, 32) (Fig. 2C). MuBwt formed a very
+small amount of nucleotide-bound complex detectable by this
+method, indicating that ATP dissociation is fast or, more likely,
+that during the time needed to process the sample (∼1 min) ATP is
+hydrolyzed (ATPase turnover is t1/2 = 19 s) and ADP dissociates.
+Indeed, the nucleotide-bound fraction increased to ∼60% when
+DNA was added to the mixture, reﬂecting ATPase inhibition by
+DNA. Similarly, 20% of MuB-ΔN eluted from the column bound
+to the nucleotide, likely due to its reduced ATPase rate, and the
+nucleotide-bound fraction increased fourfold in the presence of
+DNA. We expected to detect more nucleotide-bound protein for
+mutants that bind, but could not hydrolyze ATP with this assay.
+This was the case for N202A and R187A. In contrast, the nucleotidebound fraction of R220A, R224A, and R268A was less than 5%,
+indicating impaired ATP binding. Interestingly, the addition of
+DNA increased ATP binding especially for mutants with weak
+ATP binding (Fig. 2C), suggesting cooperative stabilization of
+ATP and DNA binding, leading to MuB polymer formation (see
+below). Probably due to the improved binding of ATP, addition of
+DNA enhances the ATPase rates of R187A and R220A (Fig. 2A).
+A key element that is conserved in a large number of AAA+
+proteins is a loop (loop 1) that protrudes from helix α2 and is involved in substrate (protein or DNA) recognition (Fig. 1 A and B).
+In MuB, an eight-residue loop is predicted to protrude from the
+middle of helix α2. We made the triple mutation R150A/R151G/
+K152A and the double mutation R151A/K152A in this putative
+loop. These mutants have ATPase activities ∼1.5- and 2-fold higher
+than MuBwt, but importantly, the activity is unaffected by DNA
+(Fig. 2A). The ATPase activity does not respond signiﬁcantly to
+MuA either, indicating that MuB-DNA binding is required for
+the ATPase to be stimulated by MuA (Fig. 2B). We examined the
+contribution of each of the three residues to the higher activity
+and/or to the recognition of DNA. R150A, R151A, and K152A
+single mutants exhibited activities equal, 1.7-, and 2-fold higher than
+MuBwt, respectively, but, unlike the multiple mutants, the activity
+was inhibited by the addition of DNA, and K152A was stimulated
+by MuA (Fig. 2 A and B). These results indicate that both R151 and
+K152 are involved in the interaction with DNA. Consistent with
+the above, the triple mutant failed to stimulate strand-transfer reaction, whereas the K152A mutant did not stimulate strand transfer
+and discriminate against immune target (Fig. S2B).
+Visualization of ATP-Induced MuB Filaments by EM. Many AAA+
+proteins oligomerize into ring-like or helical assemblies with a
+central pore that binds the substrate (27) (Fig. 1B). Because MuB
+aggregates in the presence of ATP, we examined these aggregates
+by EM. Negatively stained specimens containing MuB in the
+presence of ATP revealed that MuB had polymerized into ﬁlaments (Fig. 3A). Polymerization was fast, with ﬁlaments readily
+visible on grids prepared only a few seconds after mixing MuB and
+ATP. The ﬁlaments had a uniform width of ∼150 Å and varied in
+length, typically between 200 and 600 Å, and they exhibited a stainpenetrable axial lumen. Ring-shaped particles with a diameter of
+Mizuno et al.
+
+PNAS PLUS
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 1. MuB is an AAA+ ATPase. (A) MuB is predicted to have two different segments: (i) an N-terminal appendage (in magenta) and (ii) an AAA+ module
+composed of a central α/β-domain (in cyan and red) and a C-terminal helical bundle (in orange). The AAA+ module of MuB is aligned with the AAA+ modules
+of NtrC1 ([Protein Data Bank (PDB) 1NY5], PsPF [PDB 2BJV], ZraR [PDB 1OJL], RFC [PDB 1SXJ], and DnaA [PDB 3R8F]). Predicted MuB secondary structural
+elements match those observed in the structures of the aligned proteins. Conserved α-helixes (cylinders) and β-strands (arrows) are represented above the
+sequences. AAA+ elements are shown with a yellow background. Residues in gray were not observed in the crystal structures. Underscored MuB residues were
+mutated in this study. (B) Representation of the AAA+ fold exempliﬁed by the heptameric ring and subunit structure of NtrC1 bound to ADP (PDB 1NY6). The
+detailed view of the active site shows the ADP interacting with characteristic AAA+ elements. For illustrative purposes, the ATP γ-phosphate, the Mg2+ ion,
+and the R ﬁnger are represented as semitransparent in a simulated position.
+
+150 Å and a hollow center were also seen, which we think represent
+axial views of short ﬁlaments.
+Filament formation was not detected without ATP nor with
+ADP. However, similar ﬁlaments were observed in the presence of
+ATPγS, conﬁrming that ATP binding but not hydrolysis is needed for MuB to polymerize (14). Consistently, the mutant N202A,
+which can bind but not hydrolyze ATP, forms ﬁlaments like those of
+MuBwt (Fig. S3). On the other hand, with the ATP bindingdefective mutants (R268A, R220A, and R224A), polymerization
+Mizuno et al.
+
+was strongly impaired, and we observed only the ring-shaped particles. One exception was mutant R187A, which despite its capacity
+to bind ATP did not form regular ﬁlaments, suggesting that R187
+may contribute to stabilizing the MuB polymerization interface.
+MuB-ΔC did not form ﬁlaments under any conditions tested. In
+contrast, MuB-ΔN formed ﬁlaments upon ATP addition in a similar manner to MuBwt (Fig. S3), thus proving that the N-terminal
+appendage is dispensable for this function and that an intact AAA+
+module is necessary and sufﬁcient for polymerization.
+PNAS | Published online June 17, 2013 | E2443
+
+The N-terminal appendage seems dispensable for DNA interaction because Mu-ΔN polymerizes on DNA as MuBwt does
+(Fig. S3A). On the other hand, mutants with impaired ATP
+binding (R220A, R224A, and R268A) are also able to polymerize
+on DNA (Fig. S3B), indicating that DNA acts as a scaffold that
+facilitates ATP binding and protein polymerization. We also observed that the ﬁlaments made by the active site mutants responded to MuA stimulation, although the ATPase activity remained
+low (Fig. 2B, Inset).
+In agreement with the lack of effect by DNA on the ATPase
+activities of the loop 1 triple and double mutant, the length of the
+ﬁlaments formed by these proteins did not change upon addition
+of DNA, indicating that they do not bind DNA (Fig. 3E and Fig.
+S3B). In contrast, the loop 1 single mutants did assemble into
+longer ﬁlaments on DNA (Fig. S3B).
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+MuB Filaments Are Right-Handed Solenoids with a 48-Å Pitch. Next,
+MuB-ATP ﬁlaments were vitriﬁed and imaged by cryo-EM (Fig.
+4). Power spectra of relatively straight ﬁlament segments showed
+a strong layer line, indicative of helical symmetry, at an axial
+spacing of (48 Å)−1 (Fig. S4A). Based on the off-meridional
+positions of these reﬂections, the layer line was calculated to
+correspond to a single-start helix; i.e., the ﬁlament is a solenoid.
+The handedness of the ﬁlaments was determined using unidirectionally metal-shadowed specimens (Fig. S4B). Filament segments that were optimally oriented relative to the shadowing
+direction consistently exhibited sets of right-handed striations. This
+observation was conﬁrmed by the presence of a clear one-sided
+layer line at (48 Å)−1 in averaged power spectra from these images
+(Fig. S4B, Inset).
+
+Fig. 2. Site-directed mutagenesis and activity assays conﬁrm the MuB AAA+
+elements. (A) ATPase activity of MuBwt and mutant forms in the presence
+and absence of DNA. (B) Effect of MuA and DNA on ATPase activity. (C)
+Nucleotide-binding assay by centrifugal gel ﬁltration. (D) Strand-transfer
+stimulation activity of MuBwt and MuB-ΔN. Strand-transfer products (STP)
+made in reactions that contained both immune (I) and nonimmune (NI)
+targets and either ATP or ATPγS were examined. Presence of both STP-I and
+STP-NI in the reaction with ATP, as in reactions in the presence of ATPγS,
+indicates strand-transfer stimulation without discrimination against immune
+target. Presence of STP-NI but no (or much less) STP-I in the reaction with
+ATP indicates strand-transfer stimulation with discrimination against immune
+target. Also see SI Materials and Methods for additional mutants tested.
+
+DNA Stimulates MuB Filament Assembly. ATP-induced MuB ﬁlaments are longer in the presence of DNA than without DNA
+[hereafter named DNA(+) and DNA(−) ﬁlaments] (Fig. 3). The
+median length of the DNA(+) ﬁlaments matched the length of
+the B-form DNA molecules (Fig. 3D). Immediately after mixing
+DNA and MuB in the presence of ATP, short tracts of MuB
+ﬁlament could be seen distributed at irregular intervals along the
+DNA molecules (Fig. 3B, Inset), indicating that assembly had
+initiated at multiple sites. Later in the reaction, fully coated molecules were observed but interrupted with discontinuities, suggesting that the various segments of the MuB ﬁlament had met but
+not annealed (Fig. 3C). The ﬁlament morphology, other than the
+length, did not change when DNA was included, suggesting that
+DNA is inside the ﬁlament. In the course of trials, we also found
+that, by increasing the salt concentration from 0.15 to 0.3 M,
+MuB-ATP polymerization became DNA-dependent; only long
+DNA-bound ﬁlaments were observed (Fig. 3C). This allowed us
+to speciﬁcally prepare DNA(+) MuB ﬁlaments.
+E2444 | www.pnas.org/cgi/doi/10.1073/pnas.1309499110
+
+Classiﬁcation and 3D Reconstruction of MuB Filaments. The images
+of vitriﬁed MuB ﬁlaments were dissected into short segments and
+subjected to reference-free classiﬁcation, followed by averaging
+of the classes thus identiﬁed (Fig. 4 and Fig. S5). Comparison
+between class averages of DNA(+) and DNA(−) ﬁlaments did not
+show clear additional density for the DNA. As discussed below,
+this is most likely because the DNA density is blurred out upon
+averaging.
+Three-dimensional reconstructions were carried out using the
+iterative helical real space reconstruction (IHRSR) method (33)
+(Fig. S5). The reconstructed model shows a solenoid with an axial
+channel 35–40 Å across; however, discrete subunits were not
+clearly deﬁned along the solenoid. To reﬁne the analysis, we calculated many reconstructions from subsets of data deemed by the
+classiﬁcation procedure to be relatively homogeneous (Materials
+and Methods). These reconstructions all had similar helical symmetries (a 66.2°–67.0° twist and a 8.9- to 9.2-Å rise per asymmetric
+unit), with ∼5.4 subunits per turn. Some of these reconstructions
+showed repeating units well (Fig. 5) and were investigated further
+(see below).
+DNA(+) ﬁlaments were reconstructed in a similar way. Once
+again, a global reconstruction yielded poorly deﬁned subunits
+but classiﬁcation identiﬁed consistent subsets of data whose
+reconstruction revealed discrete subunits. The reconstruction
+with the most sharply deﬁned features showed a small density,
+protruding into the axial channel (Figs. 5 and 6). This may correspond to a DNA-interacting motif of MuB.
+In an effort to localize the N domain, we recorded images of
+MuB-ΔN ﬁlaments for comparison with ﬁlaments of MuBwt
+(Fig. 4B and SI Materials and Methods). The reconstructed model
+of the MuB-ΔN DNA(+) ﬁlaments was similar to that of MuBwt.
+We did not detect discrete density that could be assigned to the
+N domain. The DNA(−) ﬁlaments were shorter, and we were
+unable to perform informative reconstructions of them. The results
+indicate that the N domain is ﬂexibly attached to the AAA+
+module. A similar situation has been described for the AAA+
+protein unfoldase, ClpA (34, 35).
+Mizuno et al.
+
+PNAS PLUS
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 3. MuB ﬁlaments viewed by negative-staining EM. (A) Electron micrograph of negatively stained MuB-ATP ﬁlaments. Ring-shaped particles, representing axial views of very short ﬁlaments, are encircled. (B) MuB ﬁlaments assembled in presence DNA. (Inset) DNA molecules partially covered by MuB
+ﬁlaments. (C) MuB DNA(+) ﬁlaments prepared in 300 mM KCl to prevent off-DNA assembly. Arrowheads indicate the discontinuities along the ﬁlament. (D)
+Length of DNA(−) (gray; in 150 mM KCl) and DNA(+) ﬁlaments (black; in 300 mM KCl). The distribution of the ﬁlament lengths agrees with the expected sizes
+of the DNA fragments: 0.34 kb (∼1,200 Å), 1.5 kb (∼5,100 Å), 1.7 kb (∼5,800 Å), and 1.8 kb (∼6,100 Å). (E) The ﬁlaments of the MuB R150A/R151G/K152A
+mutant have the same length when adding DNA, indicating that loop 1 is key for DNA recognition. (Scale bars, 500 Å.)
+
+The three reconstructions all have resolutions of about 18 Å
+(Fig. S5C) to which they are limited apparently by disorder. They
+differ primarily in the near-axial region (Fig. 5). MuBwt DNA(−)
+has a prominent axial density that we suggest is contributed by N
+domains detached from the wall, at least in this subset of ﬁlament segments. This axial density is missing in the other two
+reconstructions, but on them the density lining the inner surface of the axial channel extends further inward. We suggest
+that this additional density represents the DNA, although the
+density is diluted by the randomized averaging process. The N
+domain might be partly contributing to this density, or it could
+be displaced from an axial location by the DNA to disordered
+positions outside.
+Molecular Docking of an AAA+ Module. The foregoing account
+assigns the structural units resolved along the strand of the solenoid, mostly if not completely, to the AAA+ module of MuB. We
+therefore attempted to ﬁt the crystal structure of the AAA+
+module of NtrC1 into this density. The numerous crystal structures of different AAA+ modules are sufﬁciently conserved to
+suggest that this surrogate should be adequate for docking at the
+present resolution. We performed a rigid-body ﬁtting to helical
+units from the reconstructions. The AAA+ module was found to
+ﬁt quite well into the cryo-EM density (Fig. 6). This modeling
+experiment implies that the quasi-globular unit of density repeated along the strand consists of the α/β-domain of one subunit
+and the C-terminal domain of the adjacent subunit. One of the
+Mizuno et al.
+
+reconstructions of MuBwt with DNA nicely accommodates the
+density of loop 1 facing the axial channel.
+Mutations in the Linker Abolish MuA Stimulation. The proteolytic Cterminal fragment of MuB was previously proposed to bind DNA
+nonspeciﬁcally and to interact with MuA through a patch of three
+lysines, K233, K235, and K236 (25, 36). We recognized the Cterminal fragment as an integral part of the AAA+ module, which
+is connected to the α/β-domain by a linker that harbors the three
+lysines. Because the C-terminal domain and the linker invariably
+locate at the periphery of the AAA+ assemblies, and in the MuB
+ﬁlament reconstructions they do not face the internal ﬁlament
+channel where DNA binds, we reexamined the role of these lysines
+in DNA recognition. The MuB K233A/K235A/K236A mutant can
+polymerize on the DNA and its ATPase activity is inhibited by
+the addition of DNA (Fig. 2A and Fig. S3B). Therefore, we concluded that these lysines are not involved in DNA recognition.
+Interestingly, other AAA+ members (e.g., NtrC1) also present
+a linker with positively charged residues that undergoes conformational changes associated with the ATPase cycle (37). Thus, an
+attractive possibility is that the ATPase cycle could be controlled
+by conformational changes at this linker region. The fact that the
+triple linker mutant, like the loop 1 mutants, enhances ATPase
+activity supports this notion (Fig. 2A). Because the ATPase activity
+of the K233A/K235A/K236A mutant and the DNA-bound ﬁlaments do not respond to MuA and fail to stimulate strand-transfer
+PNAS | Published online June 17, 2013 | E2445
+
+Fig. 4. Cryo-EM images of unstained MuB ﬁlaments. (A) Images of vitriﬁed
+MuBwt DNA(−) and DNA(+) ﬁlaments and representative class averages
+obtained from reference-free classiﬁcation of the DNA(+) ﬁlament particles.
+(B) Images of vitriﬁed MuB-ΔN ﬁlaments and representative class averages
+of the DNA(+) ﬁlament particles.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+reaction (Fig. 2B and Fig. S2B), these lysine residues most likely
+interact with MuA to trigger ATP hydrolysis.
+
+the increase of MuB concentration in agreement with the necessity
+of MuB oligomerization for DNA binding (Fig. S7A). At moderately higher MuB concentrations, the reaction efﬁciency increased roughly linearly with MuB concentration, producing one
+transposition product per ∼50–100 MuB monomers. The higher
+the density of MuB on DNA, the more efﬁciently the MuB-bound
+DNA fragment was used as a target. However, when DNA was
+completely saturated by bound MuB, it suddenly became a poor
+strand-transfer target, and only 20% of the DNA was used for
+transposition (Fig. S7B). The inhibition of transposition by saturating MuB concentration was more severe when ATP was
+substituted by ATPγS (Fig. S7C). Thus, a rather large MuB ﬁlament on the DNA, perhaps involving several turns or larger, is
+needed to promote each strand-transfer event, but DNA inside the
+MuB ﬁlament cannot be used as a target, and the actual target site
+would have to be on the outside of the ﬁlament. Thus, either naked
+DNA adjacent to a MuB ﬁlament must be available or the MuAMu DNA end complex must generate a MuB-free zone by activating the MuB ATPase activity.
+Discussion
+Architecture and Domain Functions of the MuB AAA+ ATPase. The
+
+AAA+ superfamily is characterized by a two-domain ATPase
+module that typically oligomerizes into ring-like or helical assemblies. Additional regulatory domains may be added at the N terminus (as in MuB) or at another site. The identiﬁcation of the AAA+
+module of MuB (amino acids 70–312), based on sequence align-
+
+MuB Filament Does Not Alter DNA Structure or Topology. The fact
+that the length of the MuB-DNA ﬁlaments matches the length of
+DNA fragments in the absence of protein (Fig. 3D; also see ref. 17)
+indicates that MuB binding does not signiﬁcantly alter the DNA
+length. Next we tested whether the linking number of relaxed
+circular DNA changes when bound by MuB. Nicked circular
+pBR322 DNA was converted to a closed circular form in the
+presence of different concentrations of MuB and ATP, deproteinized, and analyzed by agarose gel electrophoresis in the presence
+of chloroquine to examine the topoisomer distribution (Fig. S6A).
+The topoisomer distribution broadened in the presence of higher
+concentrations of MuB, suggesting increased torsional ﬂexibility
+within the MuB ﬁlament. This is unlikely to be caused by increased
+bending ﬂexibility, considering that the MuB-coated ﬁlament
+appeared stiffer than naked DNA by EM. The center of topoisomer distribution shifted toward reduced linking numbers as
+more MuB was added to the DNA solution. Combined with the
+information from the binding titration experiments (see below),
+we estimate that DNA within MuB-bound ﬁlament is only ∼1.2%
+under-wound compared with the relaxed B-form DNA. Therefore,
+the DNA conformation within the MuB ﬁlament appears to be
+close to the B-form structure.
+To measure the MuB saturation density on DNA in solution,
+we titrated MuB onto ﬂuorescence-labeled DNA and monitored
+the extent of MuB-DNA association by ﬂuorescence quenching.
+Based on the titration curve obtained, we estimated that, at the
+saturation point, each MuB subunit covers ∼2.75 bp of the DNA
+(see details in Fig. S6B). This stoichiometry corresponds to 9.3 Å
+per MuB monomer, which agrees well with the axial rise per
+MuB monomer in the EM image reconstruction.
+Patch Size of MuB-DNA Filament Needed for Transposition Stimulation.
+
+The typical size of individual MuB-coated segments along DNA
+depends on the protein and DNA concentrations and their stoichiometry. To assess the size of the MuB/DNA ﬁlament needed to
+activate the strand-transfer step of transposition, we asked how the
+MuB concentration or stoichiometry with DNA affects the efﬁciency of transposition. At MuB concentrations below 10 nM, the
+target DNA strand-transfer efﬁciency was sigmoidal in response to
+E2446 | www.pnas.org/cgi/doi/10.1073/pnas.1309499110
+
+Fig. 5. Three-dimensional reconstructions of MuB ﬁlaments. (A) Perpendicular views of 3D reconstructions of MuBwt DNA(−) (pink), MuBwt DNA(+)
+(green), and MuB-ΔN DNA(+) (blue) ﬁlaments. The white contour depicts
+100% of mass from the calculated molecular weight of the corresponding
+proteins, whereas the solid-colored densities show the mass calculated from
+MuB-ΔN. (B) Contoured density from one turn of the ﬁlament (∼48 Å)
+projected along the ﬁlamentous axis. (C) Gray scale representation of B.
+
+Mizuno et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 6. Molecular docking of an atomic model to MuB envelopes. (A and B)
+Perpendicular views of the rigid-body ﬁtting of the NtrC1 AAA+ module into
+the ﬁlament envelops of MuB ﬁlaments. (C) Detail of the ﬁtting. The densities protruding toward the axial channel could correspond to the DNA
+binding loop 1.
+
+ment and mutagenesis, led to identiﬁcation of many functionally
+important residues. Helical ﬁlaments assembled from MuB-ATP,
+visualized by EM, further support the assignment of MuB as an
+AAA+ family member. Previously, the division of MuB into two
+fragments by limited proteolysis led to difﬁculties in assigning
+functions to the respective fragments. We demonstrated that the
+N-terminal ∼70 amino acids of MuB constitute an independently
+folded appendage, loosely attached to the AAA+ ATPase core.
+This appendage appears to play a relatively minor role in the
+known biochemical activities of MuB. Further study will be
+needed to clarify its function.
+The 3D structure of the C-terminal domain, which was obtained
+by denaturation and refolding and determined by NMR under
+high-salt conditions, clearly differs from the conserved fold of the
+AAA+ C-terminal domain (reviewed in ref. 38) (Fig. S1). Thus,
+the C-terminal domain of MuB might fold in a different conﬁguration when isolated on its own, compared with its structure
+within the context of the intact protein.
+Identiﬁcation of Residues Critical for MuB Filament Formation. We
+have identiﬁed characteristic AAA+ functional elements on MuB:
+sensor I, sensor II, and R ﬁnger. Mutation of these residues
+strongly affects ATP binding/hydrolysis. Sensor I is typically involved in the coordination of the Mg2+ and the attacking water.
+We assigned N202 to be the sensor I of MuB. As predicted, the
+Mizuno et al.
+
+Residues Critical for DNA Binding. Identiﬁcation of the DNA-binding
+
+motif in MuB was guided by sequence alignment with the enhancerbinding proteins NtrC1, PsPF, and ZraR. These proteins have
+a conserved sequence in loop 1 that is important for interaction
+with the σ-subunit of RNA polymerase (39). When assembled into
+rings, loop 1 of each protomer points to the central pore where
+the σ-subunit binds. Similarly, we hypothesized that the sequence
+140
+PRRKGP154, at the predicted loop 1 in MuB, could face the
+inner channel and interact with DNA. Results obtained with the
+double and triple loop 1 mutants support this idea because their
+ATPase activity is not inhibited by the addition of DNA and the
+ﬁlaments fail to assemble on the DNA. Synergistic effects of two
+mutations, R151A and K152A, are needed to eliminate DNA
+recognition because point mutations do not abolish DNA binding.
+Interestingly, mutations in loop 1 increase the ATPase approximately twofold. It is known that the addition of DNA lowers
+the apparent Kd for ATP and slows down ATP hydrolysis. This
+implies that loop 1 DNA binding allosterically controls the
+PNAS | Published online June 17, 2013 | E2447
+
+PNAS PLUS
+BIOCHEMISTRY
+
+mutation N202A strongly impairs ATP hydrolysis, seemingly
+without affecting ATP binding or ﬁlament formation.
+Sensor II is typically an arginine whose side chain extends from
+the C-terminal domain toward the β- and γ-phosphates of ATP,
+contributing to ATP binding and hydrolysis. We propose that
+R268 is the sensor II of MuB. When mutated to alanine, ATP
+binding is impaired and so is the ATPase activity, and no ﬁlament
+formation takes place. The fact that this mutation has the lowest
+ATPase activity of all of the mutants studied here is intriguing
+because mutating sensor II in other AAA+ proteins causes only
+a modest decrease in ATPase activity or has no effect on oligomerization (reviewed in ref. 28). This suggests that the C-terminal
+domain of MuB might be ﬂexible and that R268 plays a key role
+in coupling the ATP binding to locking the C-terminal domain in a
+conformation that favors protein–protein interactions and ﬁlament
+assembly.
+The R ﬁnger projects from a conserved position on helix α4 and
+interacts with the γ-phosphate of the ATP bound to the neighboring subunit. Thus, ATP glues adjacent subunits together, favoring and, in some cases, as in MuB, triggering polymerization.
+In most AAA+ proteins, mutation of the R ﬁnger typically impairs ATP hydrolysis and can affect oligomerization. We propose
+that R224 plays the role of R ﬁnger in MuB, and, indeed, the
+mutation R224A severely impairs ATP binding and ﬁlament
+formation. However, AAA+ members typically have other arginine residues located on the same surface as the R ﬁnger that also
+point toward the active site in the neighboring subunit. We mutated two additional arginines in MuB, which were predicted to be
+on the same protein surface as the R ﬁnger. R220 occupies an
+equivalent position to an extra arginine in helix α4 of DnaA that
+projects parallel to the R ﬁnger and forms a salt bridge with sensor
+I in the adjacent subunit. The mutation R220A in MuB impairs
+ATP binding and ﬁlament formation. On the other hand, R187
+aligns with an arginine that in RFC directly interacts with the
+γ-phosphate of ATP. In agreement with this, MuB R187A can
+bind but not hydrolyze ATP. The R187A mutant is also compromised in ﬁlament formation, which in this case cannot be
+assigned to a defect in nucleotide binding. Thus, we propose that an
+electrostatic interaction between R187 and the ATP γ-phosphate
+may contribute to stabilizing this protein interface. Oligomerization of other AAA+ members has been shown to be sensitive to
+salt concentration, indicating the importance of electrostatic interactions. Likewise, MuB ﬁlament formation is salt concentrationsensitive. We propose that these three arginines cooperate in
+stabilizing the polymerization interface in the presence of ATP.
+Single-mutant proteins, although compromised, can still form
+ﬁlaments on DNA, which can interact with MuA and activate the
+target DNA for strand transfer in the presence of ATPγS, albeit
+very weakly (Fig. S2B).
+
+ATPase active site for tighter ATP binding and slower hydrolysis.
+The structures of NtrC1, PsPF, and ZraR free or bound to
+different nucleotides have revealed a nucleotide-dependent
+movement of loop 1 that might control the interaction with the
+σ-subunit (37). A similar mechanism in MuB would explain why
+mutations in loop 1 could uncouple DNA recognition and the
+ATPase cycle, allowing faster hydrolysis. Stabilization of the ATPbound state with hydrolysis inhibition by DNA binding would
+place the DNA-bound MuB ATPase under stringent control of
+MuA, which would trigger ATP hydrolysis by contacting the MuBDNA ﬁlament from the outside. This also suggests that ATP
+hydrolysis would return the loop 1 conﬁguration to a low DNAafﬁnity state and, combined with weakened contacts between
+monomers due to the loss of the ATP γ-phosphate, could contribute
+to rapid disassembly of the MuB ﬁlament upon MuA interaction.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Symmetry Mismatch in the MuB Nucleoprotein Filament. MuB coats
+the DNA without signiﬁcantly altering its B-form structure. Thus,
+
+the helical parameters of the MuB ﬁlament do not match those of
+the DNA within the ﬁlament (Fig. 7A and Fig. S4C). This symmetry mismatch is a feature that, to our knowledge, has not been
+previously observed in other nucleoprotein ﬁlaments. Commonly,
+protein ﬁlaments that contain DNA either adopt a helical symmetry close to that of the standard B-form DNA or impose their
+symmetry on the DNA, inducing deformations. Well-known examples are the RecA family of ATPases, which assemble into
+helical ﬁlaments on DNA and catalyze homologous DNA pairing
+and strand exchange. Each monomer binds three nucleotides while
+extending and untwisting the DNA between the triplets, causing
+an overall stretching of the DNA molecule (40). Another example
+is the bacterial DnaA protein, an AAA+ member that assembles
+into right-handed helices and induces the deformation of DNA
+in a way similar to the RecA mechanism (41). However, not all
+nucleoprotein ﬁlaments induce DNA deformation. RFC is a complex of ﬁve different AAA+ subunits that forms right-handed spirals with roughly the same pitch as B-form DNA, without causing
+
+Fig. 7. Model for MuB targeting DNA for transposition. (A) The helical parameters of the MuB ﬁlament (represented as beads on a string) do not match
+those of B-form DNA. This results in a nucleoprotein complex with a symmetry mismatch (B). Matching symmetry between MuB and DNA would require the
+DNA to be under-wound and extended, which may occur at the boundary of the MuB ﬁlament with the help of MuA and possibly ATP hydrolysis. Deformed
+and bent DNA is a preferred target for transposition catalyzed by MuA. (C) A summary of interplay among MuA, MuB, and DNA during transposition. Upon
+ATP binding, MuB forms helical ﬁlaments on DNA. MuA bound to Mu DNA ends stimulates ATP hydrolysis by MuB and MuB dissociation from DNA, which
+generates MuB-free DNA regions. Reciprocally, MuB stimulates MuA to pair and nick Mu DNA ends at the junction with the ﬂanking sequences. MuA and
+MuB together may induce the matching symmetry between MuB and DNA at the boundary of a MuB ﬁlament and thus DNA distortion, which leads to the
+target DNA capture and Mu transposition.
+
+E2448 | www.pnas.org/cgi/doi/10.1073/pnas.1309499110
+
+Mizuno et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Materials and Methods
+Proteins. MuB was expressed with N-terminal His-tag cleavable either by
+thrombin or PreScission protease, and produced essentially as described (18,
+26) with two additional steps as detailed in SI Materials and Methods. MuA
+and MuAtrun (residues 1–615) were prepared as previously described (47).
+Site-Directed Mutagenesis. Mutagenesis was carried out using the QuikChange protocol (Stratagene) by using a pair of mutagenic oligonucleotides
+
+Mizuno et al.
+
+PNAS PLUS
+
+and ﬂanking primers, as listed in Table S1, and the ampliﬁed fragment with
+the coding sequence for the mutant protein was inserted into a pOPIN-B
+vector with In-Fusion. The expression and puriﬁcation of the mutants was
+performed as for MuBwt.
+ATPase Activity Assays. ATPase assays were carried out as described (18).
+Reactions contained 1.7 μM MuB (or higher concentrations for the mutants),
+25 mM Tris·HCl (pH 8), 0.15 M NaCl, 10 mM MgCl2, 20% (vol/vol) glycerol, 1
+mM DTT, 0.1 mg/mL BSA, and 1 mM [α-32P]ATP (4 mCi/μmol). At different
+time points, 10 μL aliquots were combined with 1.1 μL of 0.5 M EDTA to stop
+the reaction. Reaction products were separated on polyethyleneimine
+TLC plates in 0.75 M KH2PO4 and quantiﬁed using a phosphoimager (Typhoon Trio–GE Healthcare) and ImageQuant software (GE Healthcare).
+Data were analyzed with Prism 4.0. The inhibitory effect of DNA on the
+ATPase activity was assayed by adding 1.7 μM of a 36-mer doublestranded DNA. The effects of MuA and MuAtrun on the ATPase activity
+were measured at ﬁnal protein concentrations of 0.45 μM MuB and 6 μM
+MuA in the presence of 10 μg/mL pMK589 DNA, which carries a pair of Mu
+end sequences in wrong orientation (15), and with reaction buffer containing an additional 42 mM KCl.
+Nucleotide-Binding Assay. Centrifugal gel ﬁltration (spin-column) assay was
+carried out essentially as described (31, 32). Fifty-microliter samples of 30 μM
+MuB in 20 mM Tris·HCl (pH 8), 0.3 M NaCl, 10% (vol/vol) glycerol, and 5 mM
+MgCl2 were incubated with 1 mM [α-32P]ATP for 0.5 min, applied to tuberculin syringes ﬁlled with 1-mL SephadexG-50 (ﬁne) equilibrated in the same
+buffer, and immediately centrifuged. The unbound nucleotide was retained
+on the column, and the protein-bound nucleotide in the efﬂuent was
+quantiﬁed using a scintillation counter. Protein recovery in the column
+efﬂuent was measured by the Bradford method (48). The same DNA used in
+ATPase activity assays was included at a ﬁnal concentration of 5 μM to test
+the effect on nucleotide binding.
+Strand-Transfer Immunity Assay. Mu strand-transfer reaction was carried out
+in two steps. The mini-Mu DNA-MuA complex was assembled in a 25-μL
+reaction containing 20 μg/mL mini-Mu plasmid DNA (pMK586), 110 nM HU,
+and 200 nM MuA in 25 mM Hepes (pH 7.6), 1 mM DTT, 100 μg/mL of BSA,
+15% (vol/vol) glycerol, 10 mM MgCl2, and 160 mM NaCl at 30 °C for 10 min.
+The target DNA-MuB complex was assembled in a 12.5-μL reaction containing 30 μg/mL ϕX-RF DNA (nonimmune target), 20 μg/mL pMK589 (immune
+target containing both Mu end sequences in wrong relative orientation),
+500 nM MuA, 500 nM MuB, and 1 mM ATP or ATPγS in the same buffer as
+above at 30 °C for 30 min. 5-μL of the donor complex and 5-μL of the target
+complex were combined and incubated for another 20 min. The reaction was
+stopped by the addition of 20 μg/mL of Proteinase K and incubation at 50 °C
+for 30 min. The reaction products were analyzed with 0.8% high gelling
+temperature (HGT) agarose gel electrophoresis.
+EM Data Acquisition and Image Processing. For EM specimen preparation, MuB
+was diluted to 0.07 mg/mL (2 μM) in 30 mM Tris·HCl (pH 8.0), 0.15 M KCl,
+5 mM MgCl2, and 1 mM DTT and incubated with 1 mM ATP or ATPγS. After
+an incubation time between several seconds to 5 min, samples were applied
+to EM grids. To assemble MuB ﬁlaments on DNA, we used a pGEX-6p plasmid with a 1.58-kb fragment inserted between the BamHI and XhoI sites and
+digested with BamHI, XhoI, AlwNI, and EcoRV (New England Biolabs) to
+generate four linear DNA fragments of ∼0.3, 1.5, 1.7, and 1.8 kb. Alternatively, gel-puriﬁed PCR product of ∼1 kb was used. To selectively obtain MuB
+ﬁlaments on the DNA, the salt concentration in the buffer was increased to
+0.3 M. For negative staining, 5 μL of the sample was applied to a glow-discharged carbon-coated copper grid, washed with ﬁve drops of dionized
+water, and stained with two drops of 1% uranyl acetate. The grids were
+viewed at room temperature with a FEI CM120 electron microscope equipped with a LaB6 ﬁlament and operated at 120 kV. For cryo-EM experiments,
+5-μL droplets were applied to Quantifoil holey carbon grids (EMS). A Vitroboot cryo-station (FEI) was used to vitrify the specimen. Imaging was performed with a CM200-FEG electron microscope (FEI) operating at 120 kV.
+Micrographs were recorded on a 2k × 2k CCD camera (Gatan) with a defocus
+range of 1.5–3 μm at a nominal magniﬁcation of 38,000, corresponding to
+2.8 Å per pixel.
+Image analysis was carried out using SPIDER (49), EMAN (50), XMIPP (51,
+52), and Bsoft (53). The contrast transfer function was corrected by phaseﬂipping. Filament images were segmented with a box size of 120/80 pixels
+and 90% overlap of adjacent segments. Totals of 9,717 and 8,342 boxes
+were selected for MuB in the absence and presence of DNA, respectively,
+corresponding to ∼36,000 and ∼31,000 asymmetric particles.
+
+PNAS | Published online June 17, 2013 | E2449
+
+BIOCHEMISTRY
+
+apparent deformations (42). An interesting example is ParA2, a
+bacterial protein involved in plasmid segregation, which forms
+left-handed helical ﬁlaments on DNA without signiﬁcantly changing the B-form DNA helicity (43). Unlike RFC, ParA2 ﬁlaments
+do not match the DNA helical parameters, but the arrangement of
+the helix is dictated by the repetitive interaction of the protein every
+8 bp in the DNA, resulting in two different but complementary
+helices (notably, members of ParA family have been shown to bind
+DNA distributively as small oligomers, such as MuB, rather than as
+long ﬁlaments when the stoichiometry is low) (44).
+The MuB-DNA symmetry mismatch means that the protein–
+DNA contacts vary from point to point along the ﬁlament (Fig.
+7B). This lack of regularity in MuB-DNA interactions might be
+a contributing factor for the relatively weak cooperativity in MuB
+polymerization along DNA, resulting in many short segments of
+MuB-coated patches at subsaturating MuB concentrations. Weak
+binding cooperativity would be advantageous so that MuB can be
+efﬁciently redistributed by MuA-coupled ATP hydrolysis for
+transposition immunity.
+Another possible consequence of this irregular association with
+DNA is that not all MuB subunits have loop 1 in the same conformation, and thus the ATPase rate might vary among them. One
+might ask if the stimulation of MuB ATPase by MuA could be
+transmitted to the DNA-binding loop, changing its conformation
+and inducing local changes of the DNA structure. In fact, the most
+efﬁcient stimulation of MuB ATPase requires a tetramer of MuA
+molecules bound to the Mu DNA ends, which suggests that multiple nearby MuB monomers might be activated simultaneously.
+Could this impose local symmetry matching and DNA deformation, which in turn might help utilization of this DNA segment
+as the strand-transfer substrate for MuA (Fig. 7B)? Although MuA
+lacks sequence speciﬁcity, it is known to display a great preference
+for insertion in mismatch sites on the DNA (45). There is no
+physiological reason for such preference other than that the mismatch DNA would readily assume a deformed DNA structure,
+which is favored for the strand-transfer reaction. Indeed, the target DNA segment is severely bent within the structure of the Mu
+strand-transfer complex (46). Because MuB forms a tightly packed
+outer shell, the DNA inside the ﬁlament would be inaccessible for
+MuA strand transfer. Indeed, MuB-saturated DNA is a poor target for Mu transposition. Thus, probably, the DNA selected for
+Mu insertion is not encased within the ﬁlament, but it is at the MuB
+ﬁlament boundaries. Then, the hypothetical DNA deformation
+discussed above perhaps takes place when MuB disassembly is
+triggered by the MuA–Mu end complex, ready for strand transfer
+(Fig. 7C).
+Short helical MuB ﬁlaments might be too unstable on DNA
+and need a minimum of several helical turns to avoid premature
+dissociation for productive interaction with the MuA-Mu end
+complex for strand-transfer activation. Perhaps there is an optimal polymer size distribution for function; the MuB architecture described here is well tuned toward this and also to respond
+efﬁciently to its interaction with MuA at different stages of the
+transposition reaction.
+What we found in this study has a broader implication for the
+understanding of the intricate control that AAA+ ATPases
+could impose in complex reaction systems through their structural components that couple multiple binding partner interactions to the ATPase activity.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+For helical parameter determination, the initial helical symmetry was
+estimated using Fourier transform of MuB ﬁlament images. Brieﬂy, a basic
+layer line (48 Å)−1 located at n = 1 (basic helix) and then the secondary layer
+lines at (83 Å)−1 were determined to obtain the helical lattice. This layer line
+was not always ﬁxed at one position, indicative of ﬁlament ﬂexibility. IHRSR
+(33) combined with SPIDER was used for helical symmetrization. The helical
+parameters were veriﬁed by matching the power spectrum of the reprojections
+of the reconstructions and the averaged power spectrum from raw images.
+Reference-free classiﬁcation, using K-means clustering and principal component analysis, and averaging were performed using EMAN and SPIDER.
+Individual populations that belong to each class were grouped, and 3D
+reconstructions for each group were calculated using IHRSR. Reconstructions
+showing helices with well-deﬁned subunits were further grouped by clus-
+
+tering them according to similar helical parameters, and reconstructions were
+performed for these classes.
+
+1. Shapiro JA (2010) Mobile DNA and evolution in the 21st century. Mob DNA 1(1):4–18.
+2. Craig NL (1997) Target site selection in transposition. Annu Rev Biochem 66:437–474.
+3. Mizuuchi K (1992) Transpositional recombination: Mechanistic insights from studies
+of mu and other elements. Annu Rev Biochem 61:1011–1051.
+4. Chaconas G, Harshey RM (2002) Mobile DNA II, eds Craig NL, Craigie R, Gellert M,
+Lambowitz A (ASM Press, Washington, DC), pp 384–402.
+5. Robinson MK, Bennett PM, Richmond MH (1977) Inhibition of TnA translocation by
+TnA. J Bacteriol 129(1):407–414.
+6. Lee CH, Bhagwat A, Heffron F (1983) Identiﬁcation of a transposon Tn3 sequence
+required for transposition immunity. Proc Natl Acad Sci USA 80(22):6765–6769.
+7. Hauer B, Shapiro JA (1984) Control of Tn7 transposition. Mol Gen Genet 194(1–2):
+149–158.
+8. Goto N, et al. (1987) Identiﬁcation of the DNA sequence required for transposition
+immunity of the gamma delta sequence. J Bacteriol 169(9):4388–4390.
+9. Craigie R, Arndt-Jovin DJ, Mizuuchi K (1985) A deﬁned system for the DNA strandtransfer reaction at the initiation of bacteriophage Mu transposition: Protein and
+DNA substrate requirements. Proc Natl Acad Sci USA 82(22):7570–7574.
+10. Maxwell A, Craigie R, Mizuuchi K (1987) B protein of bacteriophage mu is an ATPase
+that preferentially stimulates intermolecular DNA strand transfer. Proc Natl Acad Sci
+USA 84(3):699–703.
+11. Adzuma K, Mizuuchi K (1988) Target immunity of Mu transposition reﬂects
+a differential distribution of Mu B protein. Cell 53(2):257–266.
+12. Miller JL, et al. (1984) The nucleotide sequence of the B gene of bacteriophage Mu.
+Nucleic Acids Res 12(22):8627–8638.
+13. Chaconas G, Gloor G, Miller JL (1985) Ampliﬁcation and puriﬁcation of the
+bacteriophage Mu encoded B transposition protein. J Biol Chem 260(5):2662–2669.
+14. Adzuma K, Mizuuchi K (1991) Steady-state kinetic analysis of ATP hydrolysis by the B
+protein of bacteriophage mu. Involvement of protein oligomerization in the ATPase
+cycle. J Biol Chem 266(10):6159–6167.
+15. Greene EC, Mizuuchi K (2002) Dynamics of a protein polymer: The assembly and
+disassembly pathways of the MuB transposition target complex. EMBO J 21(6):
+1477–1486.
+16. Greene EC, Mizuuchi K (2004) Visualizing the assembly and disassembly mechanisms
+of the MuB transposition targeting complex. J Biol Chem 279(16):16736–16743.
+17. Greene EC, Mizuuchi K (2002) Direct observation of single MuB polymers: Evidence
+for a DNA-dependent conformational change for generating an active target
+complex. Mol Cell 9(5):1079–1089.
+18. Greene EC, Mizuuchi K (2002) Target immunity during Mu DNA transposition.
+Transpososome assembly and DNA looping enhance MuA-mediated disassembly of
+the MuB target complex. Mol Cell 10(6):1367–1378.
+19. Baker TA, Mizuuchi M, Mizuuchi K (1991) MuB protein allosterically activates strand
+transfer by the transposase of phage Mu. Cell 65(6):1003–1013.
+20. Surette MG, Harkness T, Chaconas G (1991) Stimulation of the Mu A protein-mediated
+strand cleavage reaction by the Mu B protein, and the requirement of DNA nicking
+for stable type 1 transpososome formation. In vitro transposition characteristics of
+mini-Mu plasmids carrying terminal base pair mutations. J Biol Chem 266(5):
+3118–3124.
+21. Han YW, Mizuuchi K (2010) Phage Mu transposition immunity: Protein pattern
+formation along DNA by a diffusion-ratchet mechanism. Mol Cell 39(1):48–58.
+22. Manna D, Higgins NP (1999) Phage Mu transposition immunity reﬂects supercoil
+domain structure of the chromosome. Mol Microbiol 32(3):595–606.
+23. Teplow DB, Nakayama C, Leung PC, Harshey RM (1988) Structure-function relationships in the transposition protein B of bacteriophage Mu. J Biol Chem 263(22):
+10851–10857.
+24. Walker JE, Saraste M, Runswick MJ, Gay NJ (1982) Distantly related sequences in the
+alpha- and beta-subunits of ATP synthase, myosin, kinases and other ATP-requiring
+enzymes and a common nucleotide binding fold. EMBO J 1(8):945–951.
+25. Hung LH, Chaconas G, Shaw GS (2000) The solution structure of the C-terminal
+domain of the Mu B transposition protein. EMBO J 19(21):5625–5634.
+26. Yamauchi M, Baker TA (1998) An ATP-ADP switch in MuB controls progression of the
+Mu transposition pathway. EMBO J 17(18):5509–5518.
+
+27. Erzberger JP, Berger JM (2006) Evolutionary relationships and structural mechanisms
+of AAA+ proteins. Annu Rev Biophys Biomol Struct 35:93–114.
+28. Wendler P, Ciniawsky S, Kock M, Kube S (2012) Structure and function of the AAA+
+nucleotide binding pocket. Biochim Biophys Acta 1823(1):2–14.
+29. Kelley LA, Sternberg MJE (2009) Protein structure prediction on the Web: A case study
+using the Phyre server. Nat Protoc 4(3):363–371.
+30. Söding J, Biegert A, Lupas AN (2005) The HHpred interactive server for protein
+homology detection and structure prediction. Nucleic Acids Res 33(Web Server issue):
+W244–W248.
+31. Penefsky HS (1977) Reversible binding of Pi by beef heart mitochondrial adenosine
+triphosphatase. J Biol Chem 252(9):2891–2899.
+32. Ramón-Maiques S, Britton HG, Rubio V (2002) Molecular physiology of phosphoryl
+group transfer from carbamoyl phosphate by a hyperthermophilic enzyme at low
+temperature. Biochemistry 41(12):3916–3924.
+33. Egelman EH (2007) The iterative helical real space reconstruction method:
+Surmounting the problems posed by real polymers. J Struct Biol 157(1):83–94.
+34. Ishikawa T, Maurizi MR, Steven AC (2004) The N-terminal substrate-binding domain
+of ClpA unfoldase is highly mobile and extends axially from the distal surface of
+ClpAP protease. J Struct Biol 146(1–2):180–188.
+35. Effantin G, Ishikawa T, De Donatis GM, Maurizi MR, Steven AC (2010) Local and global
+mobility in the ClpA AAA+ chaperone detected by cryo-electron microscopy:
+Functional connotations. Structure 18(5):553–562.
+36. Coros CJ, Sekino Y, Baker TA, Chaconas G (2003) Effect of mutations in the C-terminal
+domain of Mu B on DNA binding and interactions with Mu A transposase. J Biol Chem
+278(33):31210–31217.
+37. Rappas M, Schumacher J, Niwa H, Buck M, Zhang X (2006) Structural basis of the
+nucleotide driven conformational changes in the AAA+ domain of transcription
+activator PspF. J Mol Biol 357(2):481–492.
+38. Ammelburg M, Frickey T, Lupas AN (2006) Classiﬁcation of AAA+ proteins. J Struct
+Biol 156(1):2–11.
+39. Rappas M, et al. (2005) Structural insights into the activity of enhancer-binding
+proteins. Science 307(5717):1972–1975.
+40. Chen Z, Yang H, Pavletich NP (2008) Mechanism of homologous recombination from
+the RecA-ssDNA/dsDNA structures. Nature 453(7194):489–494.
+41. Duderstadt KE, Chuang K, Berger JM (2011) DNA stretching by bacterial initiators
+promotes replication origin opening. Nature 478(7368):209–213.
+42. Bowman GD, O’Donnell M, Kuriyan J (2004) Structural analysis of a eukaryotic sliding
+DNA clamp-clamp loader complex. Nature 429(6993):724–730.
+43. Hui MP, et al. (2010) ParA2, a Vibrio cholerae chromosome partitioning protein, forms
+left-handed helical ﬁlaments on DNA. Proc Natl Acad Sci USA 107(10):4590–4595.
+44. Vecchiarelli AG, et al. (2010) ATP control of dynamic P1 ParA-DNA interactions: A key
+role for the nucleoid in plasmid partition. Mol Microbiol 78(1):78–91.
+45. Yanagihara K, Mizuuchi K (2002) Mismatch-targeted transposition of Mu: A new
+strategy to map genetic polymorphism. Proc Natl Acad Sci USA 99(17):11317–11321.
+46. Montaño SP, Pigli YZ, Rice PA (2012) The μ transpososome structure sheds light on
+DDE recombinase evolution. Nature 491(7424):413–417.
+47. Baker TA, Mizuuchi M, Savilahti H, Mizuuchi K (1993) Division of labor among
+monomers within the Mu transposase tetramer. Cell 74(4):723–733.
+48. Bradford MM (1976) A rapid and sensitive method for the quantitation of microgram
+quantities of protein utilizing the principle of protein-dye binding. Anal Biochem
+72:248–254.
+49. Shaikh TR, et al. (2008) SPIDER image processing for single-particle reconstruction of
+biological macromolecules from electron micrographs. Nat Protoc 3(12):1941–1974.
+50. Ludtke SJ, Baldwin PR, Chiu W (1999) EMAN: Semiautomated software for highresolution single-particle reconstructions. J Struct Biol 128(1):82–97.
+51. Sorzano CO, et al. (2004) XMIPP: A new generation of an open-source image
+processing package for electron microscopy. J Struct Biol 148(2):194–204.
+52. Scheres SH, Núñez-Ramírez R, Sorzano CO, Carazo JM, Marabini R (2008) Image
+processing for electron microscopy single-particle analysis using XMIPP. Nat Protoc
+3(6):977–990.
+53. Heymann JB, Belnap DM (2007) Bsoft: Image processing and molecular modeling for
+electron microscopy. J Struct Biol 157(1):3–18.
+
+E2450 | www.pnas.org/cgi/doi/10.1073/pnas.1309499110
+
+ACKNOWLEDGMENTS. We thank Dr. P. A. Rice for the preliminary sequencebased structural similarity search, which alerted us that MuB belongs to the
+AAA+ ATPase family; and Dr. U. Baxa for help with the handedness determination. This work was supported by the intramural research programs of
+the National Institute of Diabetes and Digestive and Kidney Diseases and
+the National Institute of Arthritis, Musculoskeletal and Skin Diseases of the
+National Institutes of Health; the Spanish Ministry of Science and Innovation
+(BFU2010-16812); and Graduiertenkolleg (GRK) 1721 of the Deutsche Forschungsgemeinschaft. M.D. was a recipient of a predoctoral fellowship
+from the “La Caixa” Foundation. S.R.-M. is a Researcher of the Ramón y
+Cajal Program of the Spanish Ministry of Economy and Competitiveness.
+
+Mizuno et al.
+
+

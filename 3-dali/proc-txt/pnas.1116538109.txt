@@ -1,0 +1,1444 @@
+PNAS PLUS
+
+Dual functions of the Hsm3 protein in chaperoning and
+scaffolding regulatory particle subunits during the
+proteasome assembly
+Marie-Bénédicte Barraulta, Nicolas Richetb,c, Chloe Godarda, Brice Murcianob,c, Benoît Le Talleca,1, Erwann Rousseaua,
+Pierre Legrandd, Jean-Baptiste Charbonnierb,c, Marie-Hélène Le Dub,c, Raphaël Guéroisb,c, Françoise Ochsenbeinb,c,2,
+and Anne Peyrochea,2
+a
+
+Commissariat à l’Energie Atomique (CEA), Institut de Biologie et Technologies de Saclay (iBiTEC-S), Service de Biologie Intégrative et Génétique Moléculaire,
+Laboratoire du Métabolisme des Acides Nucléiques et Réponses aux Génotoxiques, F-91191 Gif-sur-Yvette, France; bCommissariat à l’Energie Atomique (CEA),
+Institut de Biologie et Technologies de Saclay (iBiTEC-S), Service de Bioénergétique, Biologie Structurale et Mécanismes (SB2SM), Laboratoire de Biologie
+Structurale et Radiobiologie, F-91191 Gif-sur-Yvette, France; cCentre National de la Recherche Scientiﬁque (CNRS), Université Paris Sud, Commissariat à
+l’Energie Atomique Unité Mixte de Recherche UMR 8221 F-91191 Gif-sur-Yvette, France; and dSynchrotron SOLEIL, F-91190 Gif-sur-Yvette, France
+
+The 26S proteasome, a molecular machine responsible for regulated protein degradation, consists of a proteolytic core particle
+(20S CP) associated with 19S regulatory particles (19S RPs)
+subdivided into base and lid subcomplexes. The assembly of 19S
+RP base subcomplex is mediated by multiple dedicated chaperones. Among these, Hsm3 is important for normal growth and
+directly targets the carboxyl-terminal (C-terminal) domain of Rpt1
+of the Rpt1–Rpt2–Rpn1 assembly intermediate. Here, we report
+crystal structures of the yeast Hsm3 chaperone free and bound
+to the C-terminal domain of Rpt1. Unexpectedly, the structure of
+the complex suggests that within the Hsm3–Rpt1–Rpt2 module,
+Hsm3 also contacts Rpt2. We show that in both yeast and mammals, Hsm3 actually directly binds the AAA domain of Rpt2. The
+Hsm3 C-terminal region involved in this interaction is required in
+vivo for base assembly, although it is dispensable for binding Rpt1.
+Although Rpt1 and Rpt2 exhibit weak afﬁnity for each other,
+Hsm3 unexpectedly acts as an essential matchmaker for the
+Rpt1-Rpt2-Rpn1 assembly by bridging both Rpt1 and Rpt2. In
+addition, we provide structural and biochemical evidence on
+how Hsm3/S5b may regulate the 19S RP association to the 20S
+CP proteasome. Our data point out the diverse functions of
+assembly chaperones.
+AAA ATPase
+
+| Arm/HEAT repeats | two-hybrid assay | native gel
+
+T
+
+he ubiquitin-proteasome system is a major proteolytic system
+in the cytosol and nucleus of all eukaryotic cells that regulates
+various essential cellular processes by degrading proteins, which,
+in most cases, are conjugated to ubiquitin (1–3). The 26S proteasome, the most downstream element of this pathway, is responsible for protein degradation. It comprises the catalytic core
+particle (20S CP) capped by one or two regulatory particles (19S
+RPs or PA700 in mammals), forming RP1CP and RP2CP complexes, respectively (4). The 20S CP encloses the protease active
+sites (5), whereas the 19S RP functions in substrate recognition,
+deubiquitination, unfolding, and translocation into the 20S CP
+and provides the ATP and ubiquitin dependence on the 20S CP
+(reviewed in 2).
+The 19S RP can be subdivided into two subcomplexes, namely,
+the base and the lid. The subunit architecture of the 19S RP has
+been further improved very recently (6, 7). The base contains six
+homologous ATPase subunits of the AAA family (referred to as
+Rpt1–6 in yeast) plus non-ATPase subunits: Rpn1, Rpn2, and
+Rpn13 (reviewed in 8). By analogy to proteasome-activating
+ATPase complexes in prokaryotes and archaeas, the 19S RP
+ATPases are presumed to assemble into a six-membered ring
+that directly abuts the 20S CP (reviewed in 8, 9). The Rpt1-Rpt5Rpt4-Rpt3-Rpt6-Rpt2 arrangement within the ring, ﬁrst proposed based on phylogenetic hypotheses (10), was recently experimentally conﬁrmed (11). Rpt subunits consist of a coiled coil
+www.pnas.org/cgi/doi/10.1073/pnas.1116538109
+
+(CC) segment and an OB-fold domain, followed by an AAA
+ATPase domain (12, 13). The AAA ATPase domain comprises
+the C domain, which is a four-helix bundle. Protruding from the
+C domain is a ﬂexible segment known as the carboxyl-terminal
+tail. The tails participate in 19S RP assembly in yeast and the 19S
+RP-20S CP interaction, and some tails also participate in opening of the 20S CP channel (14–17).
+Assembly of machineries as complex as the 26S proteasome is
+a highly orchestrated multistep event ensuring precise subunit arrangement between paralogous subunits. Both speciﬁc intrinsic 20S
+CP subunits and proteasome-dedicated chaperones assist 20S CP
+assembling steps (reviewed in 8, 18). More recently, four distinct
+dedicated chaperones (Hsm3/S5b, Nas2/p27, Nas6/p28 gankyrin,
+and Rpn14/PAAF1) involved in the assembly of the base of the 19S
+RP have been identiﬁed in both yeast (19–22) and mammals (19,
+23). There are no obvious sequence similarities among the 19S RP
+chaperones. Remarkably, these four factors were each shown to
+bind the C domain of a speciﬁc Rpt subunit directly: Hsm3/S5b
+binds Rpt1, Nas2/p27 binds Rpt5, Nas6/p28 gankyrin binds Rpt3,
+and Rpn14/PAAF1 binds Rpt6. They participate in different assembly intermediates [Hsm3/S5b–Rpt1–Rpt2–Rpn1 (also referred
+as the Hsm3 module), Nas2/p27–Rpt5–Rpt4, Nas6/p28–Rpt3, and
+Rpn14/PAAF1–Rpt6 precursor]. Hence, every chaperone functions in distinct steps of base assembly, possibly associated with
+different assembly pathways (reviewed in 24). Nearly all proteasomal 19S RP base subunits are essential for viability in yeast. In
+contrast, each of the four base chaperones is dispensable in normal
+conditions. However, among the single mutants, the absence of the
+Hsm3 chaperone leads to the most severe growth phenotype and
+displays signiﬁcant assembly defects (19, 20). Hsm3 displays other
+speciﬁc features because it is the only chaperone that is part of
+a precursor complex containing two ATPase subunits (Rpt1 and
+Rpt2) plus a non-ATPase subunit (Rpn1).
+The chaperones have been suggested to solubilize ATPase
+subunits, provide stability, bring subassemblies together, or tem-
+
+Author contributions: R.G., F.O., and A.P. designed research; M.-B.B., N.R., C.G., B.M., B.L.T.,
+E.R., F.O., and A.P. performed research; M.-B.B., B.L.T., P.L., J.-B.C., M.-H.L.D., R.G., F.O., and
+A.P. analyzed data; and R.G., F.O., and A.P. wrote the paper.
+The authors declare no conﬂict of interest.
+This article is a PNAS Direct Submission.
+Data deposition: The atomic coordinates and structure factors have been deposited in the
+Protein Data Bank, www.pdb.org [PDB ID codes 4A3T (free Hsm3) and 4A3V (Rpt1-C
+bound Hsm3)].
+1
+
+Present address: Institut Curie, Centre National de la Recherche Scientiﬁque, Unité Mixte
+de Recherche 3244, Université Pierre et Marie Curie, F-75248 Paris Cedex 05, France.
+
+2
+
+To whom correspondence may be addressed. E-mail: francoise.ochsenbein@cea.fr or
+anne.peyroche@cea.fr.
+
+See Author Summary on page 6368 (volume 109, number 17).
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1116538109/-/DCSupplemental.
+
+PNAS | Published online March 29, 2012 | E1001–E1010
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Edited by Wolfgang Baumeister, Max Planck Institute of Chemistry, Martinsried, Germany, and approved March 1, 2012 (received for review October 7, 2011)
+
+porally sequence the assembly process by restricting the accessibility of the Rpt C-termini to the 20S CP. To date, no 19S RP
+chaperone has been found to bind two Rpt proteins; therefore,
+they have not been considered to perform a scaffolding function
+in assembly. Answering how these different chaperones assist in
+assembly at the molecular level requires further data about their
+structures and their interactions within the assembly precursors
+of the 19S RP base.
+Here, we gain further insights into the molecular mechanism
+of the association between Hsm3 and Rpt1 by solving the crystal
+structure of Hsm3 and the Hsm3–C-terminal domain of Rpt1
+(Rpt1–Cter) complex. Extended to the Hsm3–Rpt1–Rpt2–Rpn1
+precursor complex (also referred as the Hsm3 module), our
+analysis reveals a tight network of direct interactions between
+different regions of the subunits. Although the central part of
+Hsm3 binds the Cter domain of Rpt1, the C-terminal part of
+Hsm3 fully dispensable for Rpt1 binding, is required to interact
+with the AAA domain of Rpt2. Despite the drastic sequence
+divergence between both Hsm3 and its human ortholog [less
+than 10% sequence identity (19)], S5b is also shown to contact
+the human Rpt2 subunit directly. Moreover, we show that the Cterminal part of Hsm3 is required for normal growth and is essential to the formation of the Hsm3–Rpt1–Rpt2–Rpn1 precursor. Hence, Rpt1 binding is necessary but, unexpectedly, not
+sufﬁcient for Hsm3 assembling function. We propose that
+through its elongated structure, Hsm3 wears two hats, chaperoning the Rpt1 subunit to ensure folding and solubility and
+acting as a major scaffold for the anchoring of Rpt1 to the Rpn1–
+Rpt2 module.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Results
+Overall Structure of Hsm3. We solved the crystal structure of the
+recombinant yeast Hsm3 at a resolution of 2.1 Å using singlewavelength anomalous dispersion (SAD) phasing (Fig. 1 and
+Table S1). Eleven Arm/HEAT repeats, each composed of three
+well-deﬁned helices (labeled αA, αA′, and αB) or two regular
+antiparallel helices (labeled αA and αB), respectively, can be
+clearly identiﬁed and are labeled R1–R11 (Fig. 1A and Fig. S1).
+As expected, Arm/HEAT repeats extend over the whole sequence of Hsm3, except for 6 and 15 disordered residues absent
+from the electron density map at the N terminus and C terminus,
+
+A
+
+R5
+
+R6
+
+R8
+
+R3
+
+R9
+
+R2
+R1
+
+90°
+
+B
+
+R7
+
+R4
+
+R10
+Nter
+
+Cter
+
+R11
+
+90°
+
+conservation
+
+Fig. 1. Hsm3 structure is a curve-shaped croissant composed of 11 Arm/
+HEAT repeats. (A) Cartoon representation of the crystal structure of Hsm3 in
+two orthogonal views. The ribbon is colored with a rainbow gradient from
+blue to red from the N terminus to the C terminus, respectively. Each Arm/
+HEAT repeat is labeled from R1 (repeat 1) to R11 (repeat 11). (B) Surface
+representation of the model colored with respect to the conservation grade
+of the sequences calculated with the Rate4Site algorithm (53). The Rate4Site
+evolutionary rates were binned into 10 intervals and were assigned a color
+ranging from white (most variable) to red (most conserved), with intermediate shades of yellow and orange. The structure is presented in two
+orthogonal views as in A.
+
+E1002 | www.pnas.org/cgi/doi/10.1073/pnas.1116538109
+
+respectively. The overall shape of Hsm3 is a curve-shaped
+“croissant” with the dimensions 80 Å × 60 Å × 50 Å. The conservation of Hsm3 mapped at the surface of the X-ray structure
+(Fig. 1B) was derived from a multiple sequence alignment
+gathering all orthologs retrieved in eukaryotes and optimized
+with respect to the 3D structure (Fig. S1). The convex face of the
+croissant is poorly conserved. In contrast, a cluster of conserved
+residues lies at the center of the concave face of the molecule
+(Fig. 1B). This patch only covers part of the repeat R5, R6, and
+R7 helices. Its center is made of exposed hydrophobic side chains
+surrounded by a rim of charged residues. A second conserved
+region can also be pinpointed at the surface of the C-terminal
+repeats of Hsm3 (see below).
+Structure of Hsm3 in Complex with the Cter Domain of Rpt1 ATPase.
+
+We previously showed that Hsm3 speciﬁcally interacts with Rpt1
+and, more precisely, with the last 90 C-terminal residues of the
+ATPase subunit (19). The puriﬁed complex of the yeast Hsm3
+protein (residues 1–480) and of the Cter domain of yeast Rpt1
+ATPase (hereafter, Rpt1-C; residues 378–467) was ﬁrst obtained
+using a coexpression method (19) but failed to produce any
+crystal. Both partners were then produced as a unique fusion
+protein. A 17-residue linker containing a PreScission (GE
+Healthcare) protease recognition sequence was introduced between Hsm3 and Rpt1-C. The puriﬁed Hsm3–Rpt1-C fusion was
+cleaved by the PreScission protease just before crystallization
+trials. The Hsm3–Rpt1-C complex crystallized in space group
+P6522 with two complex molecules in the asymmetrical unit that
+diffracted up to a resolution of 3.8 Å. The structure was solved by
+the molecular replacement method (Fig. 2A and Table S1) and
+allowed unambiguous building of the four helices of the Rpt1-C
+α-helical bundle (labeled α1–α4) (Fig. S2A). In the binding interface, the quality of the maps was sufﬁcient to adjust the orientation of a number of side chains conﬁdently, as illustrated by
+the omit map of the sole α2 helix of Rpt1 (Fig. S2B). Three
+helices of Rpt1-C (α1, α2, and α4) are involved in binding the
+concave face of Hsm3 covering the central conserved patch of
+the chaperone (Fig. 2A). The interaction buries a surface of
+∼2,000 Å2 within the standard range of protein-protein interaction surfaces (25).
+The structure of Rpt1-C within the complex is overall very
+similar to that of other known structures of AAA ATPases, such
+as Rpt3-C (yeast or human), archaea PAN, and Ftsh (rmsd of
+1.37, 0.99, and 1.05 Å, respectively) (Fig. S2C). The major signiﬁcant deviation lies within the α1–α2 loop probably stabilized
+by an intramolecular salt bridge between Arg403 and Glu440 in
+Rpt1-C (Fig. S2C). Interestingly, residue Arg403 in Rpt1 contacts Asp230, a strictly invariant position of Hsm3 (see below;
+Fig. 2B and Fig. S2B).
+The binding interface is composed of a hydrophobic core
+surrounded by polar and charged interactions. The central hydrophobic interaction mainly involves a patch of three residues
+in Rpt1-C, Leu406, and Leu410 (helix α2) and in Leu444 (helix
+α4) contacting ﬁve residues of Hsm3: Val194 (helix α5B), Ile231,
+Leu232, Ile235 (helix α6B), and Phe283 (helix α7B) (Fig. 2B). The
+hydrophobic core is surrounded by networks of charged and
+polar interactions, including three salt bridges between Rpt1-C
+and Hsm3, namely, Arg403-Asp230, Glu405-Arg195, and
+Arg409-Glu157 (Fig. 2B and Fig. S2B).
+In summary, Hsm3 binds Rpt1-C through its central conserved
+concave surface. The interface between the two proteins is
+composed of a hydrophobic core surrounded by a rim of speciﬁc
+charged and polar interactions.
+To model the likely arrangement of the Rpt1 module encompassing both the catalytic and Cter domains further, we took advantage of the structural similarity between Rpt1-C and other AAA
+ATPases that were solved with both the AAA catalytic and Cter
+domains (i.e., PAN, Ftsh). A simple superimposition of the Cter
+domains showed that the AAA catalytic domain can accommodate
+in the Hsm3 croissant clamp without any major steric clash (Fig.
+2C). Therefore, the model of the Hsm3-Rpt1 catalytic domain
+Barrault et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+C
+
+D
+
+is compatible with that observed for the isolated Cter domain,
+suggesting that both proteins can bind to each other without undergoing major structural rearrangements.
+Effects of Hsm3 and Rpt1 Mutations on Complex Formation. To
+corroborate the structural data and further identify binding hot
+spots at the interface, truncations and mutations of the Hsm3–
+Rpt1-C complex were designed and assessed with a two-hybrid
+assay (see below) and in Escherichia coli lysates (Fig. S3). The
+crystal structure of the Hsm3–Rpt1-C complex indicated that the
+central part of Hsm3 was mainly involved in the molecular interaction with Rpt1-C. Consistently, Hsm3 lacking the ﬁrst 115
+amino acids (corresponding to repeats R1–R3; Fig. 1 and Fig.
+S1) or the last 104 residues (corresponding to repeats R10–R11;
+Fig. 1 and Fig. S1) maintained the interaction with both Rpt1-C
+and full-length Rpt1 in the two-hybrid system (Fig. 3A). The
+extreme C-terminal tail of Rpt1 was absent from the crystal
+structure density, suggesting that, contrary to the Nas2-Rpt5
+interaction (26), the C-terminal tail of Rpt1 is not required for
+interacting with Hsm3. We conﬁrmed this result using the twohybrid system (Fig. S3A) and in E. coli lysates (Fig. S3B) using
+a truncated Rpt1-C domain lacking the last 14 residues.
+We next mutated residues located at the central hydrophobic
+core of the interface between Hsm3 and Rpt1-C (Fig. 2B).
+Mutant Leu232Arg in Hsm3 severely compromised the Hsm3–
+Rpt1-C interaction, and the double mutation Leu232Arg
+Ile235Arg disrupted the interaction in the two-hybrid assay (Fig.
+S4A). Similarly, several hydrophobic positions at the center of
+the Rpt1-C domain interface were mutated, namely, Leu406,
+Leu410, and Leu444. The impact of the different mutations
+Barrault et al.
+
+Fig. 2. Cter domain of Rpt1 binds to the center of the
+concave face of Hsm3. (A) Cartoon representation of the
+crystal structure of Hsm3 (in orange) bound to the Cter
+domain of yeast Rpt1, Rpt1-C (in green), with the four
+helices of Rpt1-C labeled (α1–α4). (B) Close-up view of residues involved in the speciﬁc recognition of Rpt1-C (in
+green) by Hsm3 (in orange) and corresponding to the
+boxed region in A. Hydrophobic residues in close contact
+are represented as spheres, whereas polar and charged
+residues are shown as sticks. Polar contacts are shown with
+magenta dashed lines. Helices of Hsm3 and Rpt1 involved
+in the binding interface are indicated in the ﬁgure. The
+side chains of residues in contact (<5 Å) are shown and
+labeled outside the box. Mutated residues are highlighted
+with the following code. Residues for which interaction is
+severely or moderately affected on mutation as reported
+by the two-hybrid assay are boxed by a continuous or
+dashed line, respectively (Fig. 3). Residues mutated without perturbing the interaction are underlined. Asterisks
+highlight two residues, D230 in Hsm3 and R403 in Rpt1, for
+which a charge compensatory effect was detected on
+charge reversal mutations (Fig. 3C). (C) Cartoon representation with solid cylinder helices and transparent representation of the surface of Hsm3 (orange) bound to the
+complete ATPase domain of Rpt1 (green). The ATPase
+domain is divided into two subdomains: the Nter domain
+shown in light green labeled Rpt1AAA and the Cter domain shown in darker green labeled Rpt1-C. The position
+of the Rpt1AAA domain has been modeled as described in
+Materials and Methods. The position of the Rpt1-C domain
+was observed in the crystal structure of the Hsm3–Rpt1-C
+complex. (D) Model of Hsm3 in complex with the ATPase
+domains of Rpt1 and Rpt2. Hsm3 is represented with an
+orange surface. Hsm3 C-terminal residues deleted in
+Hsm3ΔC (labeled Hsm3Cter) are shown in light orange
+(main text and Figs. 3A and 6). The Rpt1 ATPase domain is
+depicted as in C. The position of Rpt2 (in blue) has been
+modeled as described in Materials and Methods. In A–D,
+the orientation of Hsm3 is identical to that presented in
+Fig. 1 (Upper), and an additional view after 90° of rotation
+is added in D.
+
+assessed using the two-hybrid assay (Fig. S4B) is summarized in
+Fig. 3B. Western blot analyses assessed that none of the mutations in Hsm3 and Rpt1-C proteins affected their integrity or
+expression level (Fig. S4 D and E). The severe loss of interaction
+on mutation of the hydrophobic residues buried in the core of
+the binding interface shows their key contribution to the stabilization of the Hsm3–Rpt1 complex.
+Next, we analyzed the relative importance of the charged environment at the rim of the interface (Fig. 2B). We designed
+several mutants of charged residues in the Rpt1-C domain at the
+rim of the Hsm3–Rpt1-C complex interface, namely, Arg403Ala,
+Arg403Glu, Glu405Ala, Glu405Arg, Arg409Ala, Arg409Glu,
+and Glu440Arg, plus Glu399Arg as a negative control (Fig. 3B
+and Fig. S4C). Mutations of Arg403 and Arg409 severely impaired the interaction (Fig. 3B and Fig. S4C). Interestingly, the
+charge reversal of Asp230Arg in Hsm3 could partially compensate for the defect induced in the Rpt1-C Arg403Glu mutant
+(Fig. 3C, last column). This compensatory double mutant
+strongly suggests that the salt bridge between Asp230 of Hsm3
+and Arg403 of Rpt1 observed in the crystal structure contributes
+to the stabilization of the Hsm3–Rpt1 complex.
+The contacts we have identiﬁed between Hsm3 and Rpt1 are
+likely to be of biological signiﬁcance because the inability of
+Rpt1 mutants to promote Hsm3 binding in the two- hybrid assay
+correlates with a loss of function in vivo (see Fig. 7A).
+In summary, mutation analyses highlighted the central hydrophobic patch as a major contributor to the Hsm3–Rpt1-C
+interaction, whereas mutations within the charged and polar
+interaction networks at the rim of the interface affected the interaction less drastically.
+PNAS | Published online March 29, 2012 | E1003
+
+PNAS PLUS
+
+B
+
+BIOCHEMISTRY
+
+A
+
+Fig. 3. Hsm3-Rpt1–speciﬁc binding involves a hydrophobic patch
+surrounded by polar interactions.
+(A) Various constructs of Hsm3
+[full-length (FL), Hsm3 truncated
+for the ﬁrst 115 residues (ΔN), or
+Hsm3 truncated for the last 104
+residues (ΔC)] in fusion with the
+Gal4-DNA binding domain or the
+corresponding pGBT9 empty vector (−) were introduced into cells
+with full-length Rpt1 (Rpt1FL), the
+last 90 residues of Rpt1 (Rpt1-C) in
+fusion with Gal4-AD, or the corresponding pACT2 empty vector (−).
+Serial dilutions of diploids were
+tested for growth onto control
+plates [synthetic dextrose (SD)]
+and for transcriptional activation
+of the HIS3 reporter gene onto
+plates containing 3AT. (B) Cartoon
+representation of Rpt1-C indicating some of the potential
+interacting residues shown as
+sticks. Residues tested by mutagenesis are indicated. The coloring
+code is as follows: the interaction
+with Hsm3 is abolished in mutants
+corresponding to red residues,
+whereas the binding is efﬁcient
+for mutants corresponding to
+black residues. The asterisk indicates different results depending on the nature of the substitution. (Right) Table recapitulates the mutations tested. The
+signs “+++,” “++,” and “−” correspond to very strong, strong, and
+weak interaction with Hsm3 in the
+two-hybrid assay, respectively. (C) Three different versions of full-length Hsm3 (WT, D230A, or D230R) fused to Gal4-AD in the pACT2 vector were introduced in Y190.
+The transformants were mated with Y187 strain containing Gal4-DNA binding domain–Rpt1-C (WT or R403E). The growth of diploid cells was tested in the presence
+of 3AT to evaluate the HIS3 reporter activation.
+
+A
+
+C
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+B
+
+The crystal structure of the base assembly chaperone gankyrin/
+Nas6 in complex with Rpt3-C shows that the binding interface is
+mostly polar and charged (27, 28). It is also wider and engages
+a larger surface on Rpt3, extending to the complete α1–α2 loop
+and the α3–α4 loops, together with almost all repeats of the
+chaperone. In contrast, in the Hsm3–Rpt1 complex, only the
+central region of the chaperone is sufﬁcient for Rpt1-C binding
+(Fig. 2A), leaving a large part of the chaperone surface accessible
+to the solvent or to the association with other partners as
+shown below.
+Hsm3 Binds to the Non-ATPase Rpn1 Subunit. In vivo, Hsm3 is part
+of a complex containing Rpn1, Rpt2, and Rpt1, referred to as the
+Hsm3 module. We tested for a direct interaction between the
+non-ATPase subunit Rpn1 and the Hsm3 chaperone. In a twohybrid assay, we could detect a weak but reproducible interaction
+between Rpn1 and Hsm3 in both GAL4 activating domain
+(AD)-DNA binding domain orientations (Fig. 4A). Because the
+two protein partners are soluble when expressed in E. coli, we
+examined their direct interaction. Rpn1 was speciﬁcally bound to
+the glutathione resin when GST-Hsm3 was present (Fig. 4B,
+compare lane 5 and lane 4). When present, full-length Rpt1 did
+not preclude the interaction between Hsm3 and Rpn1 (Fig. 4B,
+lane 6), consistent with a direct simultaneous binding of Hsm3 to
+both 19S RP subunits. In conclusion, a direct interaction between Hsm3 and Rpn1 likely occurs, further entangling the
+network of interaction building the module.
+E1004 | www.pnas.org/cgi/doi/10.1073/pnas.1116538109
+
+Rpn1 Binds to the N-Terminal Domain of Rpt2. Human or Schizosaccharomyces pombe Rpn1 was previously reported to bind
+Rpt2 (29, 30). Using full-length Rpt2 as bait, we isolated Rpn1 as
+prey in a genomic-scale, two-hybrid screen (Fig. 5A). Like Rpt1,
+Rpt2 protein bacterially expressed alone is almost completely
+insoluble in our assay. In contrast, coexpression with Rpn1 or
+colysis with E. coli expressing Rpn1 resulted in a signiﬁcant increase in the levels of soluble Rpt2, indicating that the complex
+formation with Rpn1 promotes Rpt2 solubility (Fig. 5B, Left).
+Moreover, immobilization of His6-Rpn1 on Ni++ resin resulted
+in efﬁcient binding of Rpt2, showing that when coexpressed or
+solubilized by the presence of Rpn1, Rpt2 directly interacts with
+Rpn1 (Fig. 5B, Right). Based on recent crystallographic structural data of PAN ATPase architecture (12, 13), we delimited
+ﬁve major domains in Rpt2, namely, the N-terminal (Nter) domain, CC domain, OB-fold (OB) domain, AAA ATPase (AAA)
+domain, and Cter domain (Fig. 5C). We tested for the ability of
+each domain to promote the interaction with Rpn1 in the twohybrid system. We established that the NH2-terminal 165 residues of Rpt2 (comprising the Nter, CC, and OB domains) is
+sufﬁcient for Rpn1 binding (Fig. 5 A and C). Importantly, the
+Nter domain of Rpt2 seems to be required for the Rpn1-Rpt2
+interaction, because Rpt2ΔNter is deﬁcient for interaction with
+Rpn1 (Fig. 5 A and C) but still competent for the interaction with
+Rpt6, its neighboring subunit within the ATPase ring (Fig. 5C),
+showing that the Rpt2ΔNter construct is functional. In conclusion, we show that Rpt2 is engaged in a tight network involving
+its Nter domain to bind Rpn1.
+Barrault et al.
+
+A
+
+B
+
+within the Hsm3 module. Using full-length Rpt2 as bait in genome-wide, two-hybrid screening, we identiﬁed a fragment of
+Hsm3 lacking the ﬁrst 150 residues as prey. We next conﬁrmed
+
+Fig. 5. Rpn1 binds the Nter domain of Rpt2,
+C 1 C2 2 3
+Rpt2
+whereas Hsm3 binds the Rpt2AAA domain. (A) Full1
+2
+3
+- FL AAA FL Nter
+length Rpt2 (FL), Rpt2 truncated for the last 270
+Rpt2 Rpt2
++ + + Rpn1
+Rpn1 Rpn1/Rpt2
+residues (ΔAAA), or Rpt2 truncated for the ﬁrst 50
++
++ + Rpt2
+kDa
+residues (ΔNter) was fused to the Gal4-DNA binding
+Rpn1
+74
+domain in pASΔ vector. Rpn1 was fused to Gal4-AD
+SD
+in pACT2 vector. Diploids containing various comRpt2
+45
+binations of both plasmids were plated onto seSoluble extracts
+lective plates in the presence of 3AT to monitor the
+transcriptional activation of HIS3 gene reporter.
+pASΔ empty vector (−) was used as a control. SD,
+3AT
+synthetic dextrose. (B) Interaction of recombinant
+10mM
+Rpn1 and Rpt2. (Left) Soluble extracts of E. coli
+expressing Rpt2 individually (lane 1), expressing
+Rpt2
+Rpt2 individually and mixed with extracts expressx Rpn1
+ing His6-Rpn1 just before cell lysis (lane 2), or
+Ni++ purification
+coexpressing Rpt2 with His6-Rpn1 using the
+pRSFDuet vector (lane 3) were prepared. The solubility of Rpt2 was monitored by Western blotting
+using anti-Rpt2 antibodies. Stars indicate nonrelevant cross-reacting proteins. (Right) Soluble extracts from E. coli cells (corresponding to lanes 1, 2,
+and 3 as described above) were loaded onto Ni++NTA agarose. As controls, soluble extracts from
+cells expressing no recombinant protein (C1) or expressing His6-Rpn1 only (C2) were added. After
+washing, bound proteins were eluted by adding
+imidazole to a ﬁnal concentration of 250 mM.
+Recombinant His6-Rpn1 and Rpt2 were detected by
+Western blotting using anti-His or anti-Rpt2 antibodies, respectively. The dashed line indicates degradation products of recombinant His6-Rpn1. The
+vector
+Hsm
+sm
+m3
+Hsm3
+vector
+vect
+ecttor
+S5b
+star indicates nonrelevant cross-reacting proteins.
+(C) Schematic cartoon of the different structural
+- domains of Rpt2. Various constructs of the Rpt2
+subunit, depicted as dark lines, were fused to a bait
+plasmid and tested as described in A for interaction
+SD
+SD
+with Hsm3, Rpn1, Rpt6, and Rpt1 fused to a prey
+plasmid. The signs “+,” “+/−,” and “−“” correspond
+to speciﬁcally signiﬁcant, weak, and null growth in
+the presence of 3AT, respectively. (D) Yeast cells
+3AT
+3AT
+containing pACT2-Hsm3 (Hsm3) or the correspond6mM
+6mM
+ing empty vector (vector) and pGBT9-Rpt1, pASΔRpt2, or corresponding empty vectors (−) were
+spotted onto control plates [synthetic dextrose (SD)]
+and onto plates containing 3AT to monitor activation of HIS reporter. (E) As in D, except that the bait corresponds to S5b fused to Gal4-AD and we added
+human Rpt2 as prey (hRpt2). yRpt1 and yRpt2 correspond to yeast Rpt1 and yeast Rpt2 fused to the Gal4-DNA binding domain as described in D.
+
+A
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+that Rpt2 interacts with Hsm3 in both combinations of GAL4
+binding domain-AD fusions (Fig. 5D). It is unlikely that Rpt1
+mediates this interaction because it did not bind to Rpt2 in our
+two-hybrid assay (Fig. 5C). The absence of any signiﬁcant interaction between both Rpt1 and Rpt2 subunits, also noticed in
+
+B
+
+1
+
+C
+
+D
+
+E
+
+PNAS | Published online March 29, 2012 | E1005
+
+BIOCHEMISTRY
+
+C-Terminal Part of Hsm3 Binds the AAA Domain of Rpt2 but Is
+Dispensable for Rpt1 Binding. We next unraveled another link
+
+Barrault et al.
+
+PNAS PLUS
+
+1
+2
+3
+4
+5
+6
+Fig. 4. Hsm3 directly binds Rpn1. (A)
+Hsm3 was fused to the Gal4-DNA
+Rpt1
+binding domain (Gal4-DBD), and Rpn1
+was fused to the Gal4-AD. Empty
+Hsm3
+Gal4-AD
+Gal4-DBD
+vectors (−) (pGBT9 and pACT2, reRpn1 Hsm3
+Rpn1
+kDa
+spectively) were used as negative
+115
+controls. Serial dilutions of diploids
+Rpn1
+containing the various combinations
+Rpt1-MBP
+80
+of Gal4 fusions were plated in the
+GST- Hsm3
+presence of various concentrations of
+64
+3AT as indicated to evaluate tranGST
+scriptional activation of the HIS3. SD,
+synthetic dextrose. (B) Individually
+GSH elution
+expressed (lanes 1, 2, and 5) or coexpressed (lanes 3 and 6) of recombinant His-GST-Hsm3 (GST-Hsm3) or Rpt1[377–467]-maltose binding protein (Rpt1-MBP) proteins were produced in E. coli cells. Soluble
+extracts were loaded onto glutathione agarose. Soluble extracts of E. coli cells expressing Rpn1 (lanes 4, 5, and 6) or not (lanes 1, 2, and 3) were then added. After
+washing, bound proteins were eluted by adding glutathione disulﬁde (GSH) and analyzed by Coomassie staining. Extracts from E. coli-containing corresponding
+empty vectors were used as controls.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+another two-hybrid screen (31), is all the more surprising because they are located in neighboring positions in the ATPase
+ring. We next determined if the a priori direct Hsm3-Rpt2 interaction was evolutionary conserved. For this purpose, we used
+S5b, the human remote homolog of Hsm3, as bait in our twohybrid assay. We observed that S5b was able to bind full-length
+human Rpt2 but not yeast Rpt2 (Fig. 5E).
+To ﬁgure out the possible arrangement of Hsm3 with its different partners, we elaborated a structural model based on the
+high-resolution structure of the AAA ATPase homohexamer of
+a bacterial protease Ftsh (Fig. 2D, Fig. S5A, and Table S2). On
+the basis of this model, we anticipated that the C-terminal part of
+Hsm3 could be involved in the binding of the AAA domain of
+Rpt2. Dissection of the Rpt2–Hsm3 interacting domains was
+thus experimentally tackled following the strategy described
+above for the Rpt2–Rpn1 pair (Fig. 5C). Combining N-terminal
+and C-terminal deletions, we established that only the AAA
+domain of Rpt2, but not the Nter, CC, or OB domain, is necessary for Hsm3 binding. This is consistent with what was proposed for the human proteins using a less direct approach based
+on chimeric ATPase subunits (30). Unlike Rpt1-C, the Cter
+domain of Rpt2 is neither sufﬁcient nor necessary to promote the
+interaction with Hsm3 (Fig. 5C). Hence, Hsm3 interacts with
+both Rpt subunits but in a different way.
+Having uncovered a previously undescribed direct partner for
+Hsm3, we tested for the requirement of different parts of Hsm3
+for Rpt2 binding. Although deletion of the ﬁrst N-terminal 115
+residues of Hsm3 has no effect on Rpt2 binding, deletion of the
+last 104 residues of the chaperone severely impairs the interaction with Rpt2 in the two-hybrid system (Fig. 6A). In contrast, Rpt1 could still interact with either the N- or C-terminally
+truncated Hsm3 in this assay (Fig. 3A). The C-terminal truncated
+form of Hsm3 (hereafter, Hsm3ΔC) binds both Rpt1 (Fig. 6B,
+lanes 3 and 5) and Rpn1 (Fig. 6B, lanes 6 and 7) in vitro as efﬁciently as full-length Hsm3. Hence, in agreement with our 3D
+model (Fig. 2D), the C-terminal part of Hsm3 is fully dispensable
+for Rpt1 binding but is speciﬁcally required for Rpt2 binding.
+C-Terminal Part of Hsm3 Is Required in Vivo for Base Assembly. The
+ﬁrst identiﬁed physical partner of Hsm3 was the ATPase subunit Rpt1 (19). Here, we show that Hsm3 also binds the base
+subunit Rpt2 (Fig. 5 C and D). Moreover, we identiﬁed a Cterminal truncated version of Hsm3, which does not bind Rpt2
+but still maintains its interaction with Rpt1 both in vitro and in
+a two-hybrid assay (Figs. 3A and 6 A and B). Hence, we have
+isolated a separation-of-function Hsm3 mutant, which seems to
+be an appropriate tool to investigate the in vivo functional
+importance of Rpt2 binding by Hsm3. For this purpose, we
+introduced the mutation at the HSM3 locus in various strains
+and examined the behavior of this mutant. Deletion of HSM3
+moderately affects growth at 30 °C but severely impairs growth
+at 37 °C (19) (Fig. 6C). We observed a signiﬁcant growth defect
+at 37 °C for the hsm3ΔC mutant (Fig. 6C). RPN4 encodes
+a transcriptional regulator of proteasome genes, (32) and
+HSM3 deletion caused synthetic lethality with a deletion of
+RPN4 (19). The hsm3ΔC rpn4Δ double mutants can germinate,
+but the corresponding spores were smaller than the parental
+simple mutants (Fig. 6D). Moreover, the double-mutant strain
+showed a severe growth defect at 34 °C (Fig. 6E). These
+observations indicate a role for the Hsm3 Cter domain in
+proteasome functions.
+We next examined the consequences of deleting the Hsm3
+Cter domain on the proteasome assembly complexes in cell
+extracts. We ﬁrst analyzed the composition of Hsm3-containing
+complexes in the WT and in hsm3ΔC backgrounds. For this
+purpose, we added a Myc-epitope tag to full-length Hsm3 and to
+Hsm3ΔC in the chromosomal context. Both proteins were expressed and detected at comparable levels by Western blot
+analysis at 30 °C and 37 °C (Fig. 6F). Hsm3 Myc-tagged protein
+was then immunoprecipitated, and we examined the base subunits that were coimmunoprecipitated. As previously reported,
+E1006 | www.pnas.org/cgi/doi/10.1073/pnas.1116538109
+
+A
+
+B
+
+x Rpt2
+Hsm3 - FL
+
+C
+
+SD
+
+- FL
+
+C WT
+
+FL
+
+E Hsm3
+
+WT
+
+C
+
+Rpn4
+
+WT
+
+WT
+
+FL
+
+C
+
++
+
+1
+
+3AT6mM
+
+Hsm3
+
+C
+
+Hsm3
+Rpt1FL
+Rpn1
+
+C
+
+2
+
+C WT
+
+3
+
+C
++
+
+4
+
+5
+
+FL
+
+C
+
++
+
++
+
++
+
++
+
+6
+
+7
+
+F
+
+Hsm3-myc
+
+FL
+
+C
+
+FL
+
+C
+
+Input Myc
+
+30°C
+
+30°C
+
+Myc
+
+IP Rpn1
+Myc
+
+37°C
+
+34°C
+
+Rpt1
+Rpt2
+
+D
+30°C
+
+G
+Hsm3
+
+Anti Hsm3
+
+Anti Rpt2
+
+Anti Rpt1
+
+Anti Rpn1
+
+Fig. 6. Cter domain of Hsm3 is speciﬁcally required for interacting with Rpt2
+and is essential in vivo to assemble the Rpn1–Rpt2–Rpt1–Hsm3 complex. (A) Fulllength Hsm3 (FL) or Hsm3 truncated for the last 104 residues (ΔC) in fusion with
+the Gal4-DNA binding domain or the corresponding pGBT9 empty vector (−)
+was combined with full-length Rpt2 in fusion with Gal4-AD. Resulting diploids
+were tested for growth onto control plates [synthetic dextrose (SD)] and for
+transcriptional activation of the HIS3 reporter gene onto plates containing 3AT.
+(B) Recombinant full-length His-GST-Hsm3 (FL) or truncated His-GST-Hsm3ΔC
+(ΔC) proteins individually expressed (lanes 2 and 4) or coexpressed with Rpt1maltose binding protein (Rpt1FL; lanes 3, 5, 6, and 7) were produced in E. coli
+cells. E. coli cells expressing Rpn1 (lanes 6 and 7) or not (lanes 1, 2, 3, 4, and 5)
+were added before lysis. Resulting soluble extracts were loaded onto glutathione agarose. After washing, bound proteins were eluted by adding glutathione
+disulﬁde and analyzed by Simply Safe blue staining. Extracts from E. coli containing corresponding empty vectors were used as controls. (C) Tenfold serial
+dilutions of WT, hsm3Δ (Δ), or hsm3ΔC (ΔC) strains were spotted onto YPD plates
+and incubated at the indicated temperatures for 2 d. (D) Tetrads resulting from
+the sporulation of heterozygous double mutants (RPN4/rpn4Δ HSM3/hsm3ΔC)
+were incubated at 30 °C onto YPD plates. The relevant genotype of each strain is
+indicated. (E) Different strains modiﬁed in RPN4 locus and/or HSM3 locus, as
+indicated, were tested for growth. Fivefold serial dilutions were spotted onto
+YPD plates and incubated at the indicated temperatures for 2 d. (F) Protein
+extracts from yeast strains grown at 30 °C or 37 °C and expressing full-length
+Hsm3-Myc (FL) or the C-terminal truncated version of Hsm3-Myc (ΔC) were
+immunoprecipitated with anti-Myc antibodies. Total extracts (Input) and
+immunoprecipitated proteins (IP Myc) were analyzed by Western blotting using
+the antibodies indicated on the left. (G) Cells expressing WT full-length Hsm3
+(WT), Hsm3ΔC (ΔC), full-length Myc-tagged Hsm3 (Myc), or C-terminal truncated
+Myc-tagged Hsm3 (ΔC Myc) were grown in minimal medium at 37 °C. Protein
+extracts were resolved by native PAGE. Hsm3-, Rpt1-, Rpt2-, and Rpn1-containing species were detected by Western blot analyses using the indicated antibodies. Black arrowheads indicate Rpn1–Rpt2–Rpt1–Hsm3 complex, and white
+arrowheads indicate Rpn1–Rpt2–Rpt1–Hsm3Myc complex that migrates differently because of the presence of the 13-Myc tag. The asterisk indicates a nonspeciﬁc, cross-reacting band.
+
+Myc-tagged, full-length Hsm3 efﬁciently coimmunoprecipitates
+Rpt1, Rpt2, and Rpn1. In contrast, we observed a drastic decrease of coimmunoprecipitation of Rpt2 and Rpn1 when
+Barrault et al.
+
+B
+Rpt1 :
+Hsm3 :
+
+WT
+C
+
+E399R R403E R409E L406E L410R WT
+
+WT WT
+
+C
+
+C WT
+
+C WT
+
+C WT WT
+
+C
+
+Nter
+
+6
+
+7
+
+8
+
+9 10 11 12 13
+
+Rpt1
+
+A
+
+Cter
+
+2 Hybrid
+In vitro interaction
+CC
+
+C
+Wild -type
+
+Hsm3 C
+
+Rpt1
+Rpt2
+
+Cte
+r
+
+Hsm3
+
+Barrault et al.
+
+Rpt1
+
+Nter
+
+Rpt2
+
+Hsm3 C
+
+Fig. 7. Hsm3 is a matchmaker for Rpt1–Rpt2–Rpn1 assembly
+module. (A) Mutations in Rpt1 abrogating Hsm3 binding
+combined with a noncompetent form of Hsm3 for Rpt2
+binding phenocopy loss of Hsm3 function. Fivefold serial
+dilutions of WT, hsm3Δ (Δ), or hsm3ΔC (ΔC) strains containing
+WT Rpt1 (WT) or a mutant version of Rpt1 (E339R, R403E,
+R409E, L406E, and L410R) were spotted onto YPD plates and
+incubated at the indicated temperatures for 2 d. (B) Summary
+of the interactions within the Hsm3 base assembly module
+detected in this study and by Le Tallec et al. (19). The different
+domains of Rpt1 and Rpt2 are represented in accordance with
+what is described in Fig. 5C. Arrows correspond to interactions
+detected in the two-hybrid system, and dotted lines are used
+to direct interactions between recombinant proteins. The
+thickness represents the relative strength of interactions. (C)
+Unique functions of Hsm3 in Hsm3 module assembly. The
+Rpn1–Rpt2 module preexists and is supported by the binding
+of Rpn1 to the CC domain of Rpt2. (Left) Hsm3–Rpt1 module
+associates with Rpn1-Rpt2 notably, thanks to the Hsm3-Rpt2
+interaction involving the Cter domain of Hsm3 and the AAA
+domain of Rpt2. (Right) Impairing this interaction precludes
+the formation of the entire module.
+
+PNAS | Published online March 29, 2012 | E1007
+
+PNAS PLUS
+BIOCHEMISTRY
+
+Discussion
+Among known base chaperones, Hsm3 is unique because it binds
+no less than three proteasome subunits, two Rpt and one Rpn
+subunits, and its deletion leads to signiﬁcant growth defects (19,
+20). Here, we report Rpn1 and Rpt2 as two direct binding
+partners for Hsm3 (Fig. 7B) and provide structural and functional insights into Hsm3–Rpt1 and Hsm3–Rpt2 complexes. Our
+study revealed that within the Rpt1–Rpt2–Rpn1 complex, Hsm3
+displays direct interactions with every partner of this module.
+These results prompted us to extend the role of Hsm3 in proteasome assembly, which, unexpectedly, directly facilitates assembly of neighboring ATPases (Fig. 7C).
+Our study does not exclude the possibility that other proteins
+may participate in Hsm3 assembly modules. For instance, it has
+been reported that Ubp6 could be associated with a fraction of the
+Rpn1–Rpt2 module (20, 33), probably via its interaction with
+Rpn1 (34).
+
+Cter
+
+A
+
+5
+
+Cter
+
+OB
+
+30°C
+4
+
+Rpn1, and Rpt2. However, native PAGE, followed by Western
+blot analysis, showed that Hsm3 is also part of at least two other
+distinct higher molecular-weight complexes, which correspond to
+base-like and 19S RP-like complexes (Fig. 8A). Hence, a fraction
+of Hsm3 could be associated with whole RP. Consistently, Hsm3
+can be immunoprecipitated using a lid subunit as bait (Fig. S7).
+According to the structural model of the Hsm3–Rpt1–Rpt2
+complex, the whole hexamer can be accommodated without any
+major clash (Fig. 8C). In contrast, Hsm3 was never found associated with a larger 19S RP-20S CP (19). On overexpression of
+Hsm3, the association of Hsm3 with base and 19S RP subcomplexes was reinforced (Fig. 8 A and B and Fig. S7). This was
+accompanied by a signiﬁcant decrease in the association of the
+base and lid with 20S CP (Fig. 8B and Fig. S7). Interestingly, the
+structural model of Hsm3 bound to the hexamer of Rpts reveals
+that the competition is likely direct, because the position of
+Hsm3 would induce massive steric hindrance with 20S CP
+(Fig. 8C).
+
+Rpt2
+
+AA
+
+Hsm3
+
+3
+
+Hsm3 Binding to the ATPase Ring Precludes Docking to the 20S CP
+Particle. Hsm3 is mainly part of a complex containing Rpt1,
+
+OB
+
+36°C
+
+1 2
+
+7A, lane 4), which did not perturb the binding of Rpt1 to Hsm3
+in our two-hybrid assay (Fig. 3B).
+
+Rpn1
+CC
+
+A
+
+AA
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Hsm3 was truncated at the carboxyl terminus (Fig. 6F). The
+decrease was also observed, but far more modestly, for Rpt1
+(Fig. 6F), most probably reﬂecting the intrinsic ability of
+Hsm3ΔC Myc to still interact with Rpt1. To examine the precise
+step of base assembly that is impaired in vivo in an hsm3ΔC
+context, cell extracts were fractionated by native PAGE, followed by Western blotting with antibodies raised against Rpt1,
+Rpt2, Rpn1, and Hsm3 (Fig. 6G). The experimental conditions
+used allowed us to identify several light complexes containing
+Hsm3 in the WT strain. The use of both untagged and Myctagged versions of Hsm3 led to an unambiguous identiﬁcation of
+a complex containing Hsm3, Rpn1, Rpt1, and Rpt2, because the
+presence of the 13-Myc epitope in Hsm3 modiﬁed the migration
+of every member of the complex (Fig. 6G). Remarkably, in the
+absence of the Cter domain of Hsm3, the pattern of Rpn1-,
+Rpt1-, and Rpt2-containing species is altered and reminiscent of
+what is observed in the absence of Hsm3 (Fig. S6). In particular,
+a complex comigrating with Hsm3, Rpn1, Rpt1, and Rpt2 is
+nearly absent (Fig. 6G and Fig. S6), showing that Rpt1 binding
+by Hsm3 is not sufﬁcient for promoting the formation of the
+Rpt1–Rpt2–Rpn1–Hsm3 assembly intermediate. Because we
+have clearly established that Hsm3ΔC retained the capacity to
+bind Rpt1 but lost its capacity to bind Rpt2, these observations
+strongly suggest that Rpt2 binding to Hsm3 is required for formation of the assembly of the Rpn1–Rpt2–Rpt1–Hsm3 complex
+in vivo. Thus, we displayed a previously undescribed function for
+Hsm3, which, through Rpt2 binding, acts as a matchmaker between Rpt1 and the Rpn1–Rpt2 complex during proteasome
+assembly (Fig. 7).
+In such a scenario, recapitulating the loss of Hsm3 requires the
+impairment of both Hsm3-Rpt1 and Hsm3-Rpt2 interactions. As
+shown in Fig. 6, deletion of the C-terminal part of Hsm3 precludes Rpt2 binding. Mutations in Rpt1 that impair Hsm3
+binding in the hsm3ΔC context should thus phenocopy the deletion of Hsm3. We introduced Rpt1 E399R, R403E, R409E,
+L406E, or L410R into an hsm3ΔC strain and compared the
+growth of the corresponding strains with the growth of the
+hsm3Δ strain at 36 °C. Remarkably, mutations R403E, R409E,
+L406E, and L410R in Rpt1, which were shown to impair the
+interaction with Hsm3 in our two-hybrid assay (Fig. 3 and Fig.
+S4), led to no growth at 36 °C (Fig. 7A, lanes 5, 7, 9, and 12), thus
+mimicking the deletion of HSM3 (Fig. 7A, lane 13). We did not
+observe such defects when introducing the E399R mutation (Fig.
+
+A
+
+B
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+C
+
+Fig. 8. Hsm3 is part of base-like and 19S RP-like complexes but precludes
+binding to 20S CP. (A) Protein extracts from WT cells or cells overexpressing
+WT full-length Hsm3 (2μ HSM3+) or not (2μ HSM3−) were resolved by native
+PAGE. Hsm3-containing species were detected by Western blot analyses
+using speciﬁc antibodies. At least three distinct Hsm3-containing complexes
+are detected: Rpn1–Rpt2–Rpt1–Hsm3 complex (I), a base-like complex (II),
+and a 19S RP-like complex (III). When overexpressed, Hsm3 also accumulates
+in its free form as indicated. (B) Overexpression of Hsm3 impairs the association between 20S CP and 19S RP. Rpn1-TAP or Rpn9-TAP strain was
+transformed with a plasmid overexpressing HSM3 (2μ HSM3+) or with the
+empty vector (2μ HSM3−). IgG immunoprecipitations were then performed.
+Coimmunoprecipitated proteins were evaluated by Western blotting with
+appropriate antibodies, as indicated on the right. (C) Model of the AAA
+ATPase Rpt ring from the EM structure of the yeast 26S proteasome in
+complex with Hsm3 obtained as described in SI Materials and Methods.
+Proteins are shown as cartoons with solid cylinder helices. Rpt1 helices are
+shown in green, Rpt2 is shown in blue, and Hsm3 is shown in orange. The
+other AAA ATPase domains are shown in cyan. The surface of the AAA
+ATPase ring and that of the 20S CP are shown with 50% transparency.
+(Right) Position of the 20S CP is shown in gray.
+
+Hsm3 Plays a Dual Role in Proteasome Assembly. Previous studies
+suggested that Hsm3, initially in charge of free Rpt1, would then
+deliver Rpt1 to the Rpn1–Rpt2 complex to release a tight Rpn1–
+Rpt1–Rpt2 module resembling that found in the entire 19S RP.
+Surprisingly, Rpt1-Rpt2 interaction was not strong enough to be
+detected in the systems we used, even if they are located in neighboring positions within the ATPase ring (11). Others also failed
+to detect it (31); in contrast to what is observed for Rpt3-Rpt6 or
+Rpt4-Rpt5, Rpt1 and Rpt2 do not seem to form an extended CC
+in the EM images (7). In contrast, we observed a strong interaction between Rpt2 and Rpt6 involving the OB domain of
+Rpt2, showing that we were able to detect interactions with the
+other Rpt2 neighboring subunit. We also showed that the N-terminal part of Rpt2 is bound to Rpn1. We detected a very weak
+interaction between Rpn1 and Rpt1 by the two-hybrid assay, but
+Rpn1 was not able to solubilize Rpt1 in vitro. Therefore, neither
+interaction between Rpt1 and Rpt2 nor between Rpt1 and Rpn1
+might be strong enough to engage Rpt1 in the [Rpn1–Rpt2]
+module stably in an early assembly intermediate.
+To date, none of the 19S RP chaperones has been shown to
+bind two Rpt proteins; therefore, it was considered unlikely that
+the chaperones perform a scaffolding function in assembly. In
+contrast to current presumption in the ﬁeld, our results indicate
+that Hsm3 plays a major role not only for supporting Rpt1 but
+for maintaining the fragile Rpt1–[Rpt2–Rpn1] connection. The
+carboxyl-terminal part of Hsm3 is absolutely required for its interaction with Rpt2 but is fully dispensable for the interaction
+E1008 | www.pnas.org/cgi/doi/10.1073/pnas.1116538109
+
+with Rpt1. We showed that the Hsm3 Cter domain supports an
+efﬁcient base assembly in vivo, and thus normal cell growth. In
+summary, our results show that Hsm3 binding to Rpt1, although
+required, is not sufﬁcient to fulﬁll the incorporation of Rpt1 into
+the Rpn1–Rpt2 complex. This observation underlines the importance of Rpt2 binding by Hsm3 to assist base assembly.
+Consistently abrogating both Hsm3-Rpt1 and Hsm3-Rpt2 binding phenocopies the absence of Hsm3. The clipping role of Hsm3
+in the Rpt1–[Rpt2–Rpn1] early assembly intermediate is likely to
+be important at least until the Rpt1–Rpt2 association is stabilized
+later in assembly process by joining other modules containing
+Rpt5 and/or Rpt6.
+In contrast to what was observed for the interaction between
+Hsm3 and Rpt1, the Rpt2-C is not sufﬁcient to bind Hsm3. Indeed, Hsm3 binding to Rpt2 involves the AAA domain of the
+Rpt subunit even if the Rpt2-C could contribute to the stabilization of the complex. Thus, the Hsm3 interaction with Rpt2
+represents the unique interaction of a base chaperone with an
+Rpt subunit that does not target the Rpt-C. To date, as for Rpt2C, no speciﬁc chaperone targeting the Rpt4-C was identiﬁed.
+Interestingly, Nas2 chaperone targets the Rpt5-C but is part of
+the Rpt4–Rpt5 complex. An attractive hypothesis is that Nas2
+binds Rpt4 as Hsm3 binds Rpt2. However, in contrast to Nas6,
+Rpn14, or Hsm3, Nas2 binding to Rpt5 requires the last three
+amino acids of the Rpt tail (26). Hence, the 19S RP chaperones
+are not only different in sequence and structure but could support different functions in the assembly process.
+Binding to Hsm3 Constrains the Mobility Between Rpt1 and Rpt2.
+
+Different parts of the proteasome assembly puzzle could be
+further unraveled through the structural analysis of the Hsm3–
+Rpt1-C complex. First, we focused on the Rpt1–Rpt2 couple and
+probe how Hsm3 could be accommodated with respect to the
+known arrangement of neighboring subunits in AAA+ ATPase
+hexamers. Drastic orientation differences between two neighboring AAA+ subunits were revealed in the structures of hexameric AAA+ ATPases, such as FtsH (35, 36). Among all the
+structures of hexameric AAA+ ATPase solved to date, the
+structure of Rpt1-C best matches that of the C-terminal end of
+FtsH (rmsd = 1.0 Å, 35% identity), for which no less than ﬁve
+different orientations among neighboring subunits could be observed (Fig. S5B and Table S2). Interestingly, only one of the ﬁve
+orientations observed in FtsH is compatible with the orientation
+imposed by the Hsm3–Rpt1-C binding mode, with the others
+leading to signiﬁcant clashes (Fig. S5B and Table S2). The
+resulting model for the Hsm3–Rpt1–Rpt2 complex highlights the
+importance of the Hsm3 C-terminal repeats for the interaction
+with the AAA+ domain of Rpt2 (Fig. 2D and Fig. S5A), in full
+agreement with our functional data obtained with the Hsm3ΔC.
+Large intersubunit motions possibly coupled to intrasubunit
+conformational changes were proposed to act as major driving
+forces in the ATP-fueled translocation of polypeptides (35, 37),
+with an asymmetry for ATP/ADP binding of Rpt pairs (38).
+Therefore, the association of the Rpt1–Rpt2 pair with the Hsm3
+chaperone could restrict the mobility of the Rpt1–Rpt2 pair in
+the preassembly complexes, and could thus freeze activation
+processes requiring conformational changes.
+Hsm3 Could Cap the ATPase Ring Until Docking to the 20S CP. In vivo,
+Hsm3 appears to be a hub of the elementary building block
+gathering Rpt1, Rpn1, and Rpt2; it was also shown to persist in
+larger assemblies after the ATPase six-membered ring is formed
+but is excluded from 20S CP-associated complexes. In addition,
+overexpression of Hsm3 precluded the association of 19S RP
+with 20S CP, supporting the view that both systems compete for
+binding the 19S RP. The structural model of Hsm3 bound to the
+hexamer of Rpts suggests that the competition is direct (Fig. 8C).
+Hsm3 might thus contribute to inhibit the premature assembly of
+the base with the 20S CP. It has been shown that ATP is required
+for the proper association between the 19S RP and 20S CP.
+Incidentally, ATP hydrolysis is associated with the molecular
+Barrault et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Materials and Methods
+Protein Expression and Puriﬁcation for Crystallization Experiments. The ﬁrst
+steps for the production and puriﬁcation of recombinant proteins for
+structural studies was the same for Hsm3 free and bound to the Rpt1 Cter
+domain. Production of Hsm3 labeled with selenomethionine was performed
+using the same protocol, except that the cellular culture was performed in
+minimal medium supplemented with selenomethionine. Recombinant soluble (His)6-tagged GST fusion proteins were immobilized on glutathione
+disulﬁde (GSH) agarose (Sigma) and then eluted with an excess of glutathione (Sigma). They were cleaved using a (His)6-tagged TEV protease (1%
+wt/wt of protease/fusion protein). A nickel-nitrilotriacetic acid (Ni-NTA)
+agarose column (Qiagen) or a Histrap (GE Healthcare) was used to trap the
+(His)6-tagged TEV protease and the (His)6-tagged GST, as described by
+Mousson et al. (41).
+Crystallization and Data Collection. For Hsm3 alone, puriﬁed protein was
+concentrated to 7 mg/mL with a 10-kDa cutoff concentrator (Millipore) and
+buffer-exchanged to 50 mM Tris (pH 7.4). Crystals of Hsm3 were grown by
+sitting drop vapor diffusion at 20 °C against a reservoir solution containing
+20% (wt/vol) PEG 4000, 0.2 M malate imidazole (pH 5.5). Plate-shaped
+crystals were grown for a few days and reached a size of 240 × 240 × 20 μm3.
+Crystals were ﬂash-frozen in liquid nitrogen after cryoprotection with glycerol-supplemented reservoir solution.
+For the Hsm3–Rpt1-C complex, puriﬁed Hsm3–Rpt1-C fusion protein
+(details on construction are provided in SI Materials and Methods) was
+concentrated up to 10 mg/mL with a 10-kDa cutoff concentrator and exchanged into the buffer [50 mM Tris (pH 7.4), NaCl 150 mM]. PreScission
+protease (2,000 U/mL; GE Healthcare) was added (1 μL for 200 μg of protein)
+and incubated at 4 °C overnight. Complete digestion was checked by SDS/
+PAGE. Crystals of the complex were grown by sitting drop vapor diffusion at
+20 °C against reservoir solution containing 5 M sodium formate, 0.1 M Hepes
+(pH 7.5). Crystals were ﬂash-frozen in liquid nitrogen directly from their
+sitting drop.
+Diffraction data were collected on the Proxima1 beamline at the Synchrotron SOLEIL at the following wave lengths: 0.992 Å for HSM3 and 0.980 Å
+for the Hsm3–Rpt1-C complex at 77 °K. Hsm3 crystals belong to space group
+P212121 and diffracted up to a resolution of 2.1 Å (Table S1). Hsm3-SeMet
+crystals belong to the space group C2221 and diffracted up to a resolution of
+2.3 Å. Using selenomethionine-incorporated crystal, we collected a SAD
+dataset at a wavelength of 0.979 Å, corresponding to the peak of the selenium K absorption edge. The corresponding anomalous signal of this
+dataset was 1.251, and the ﬁgure of merit after SAD phasing was 0.485.
+Crystals of the Hsm3–Rpt1-C complex belong to the space group P6522 and
+diffracted up to 3.8 Å. All data were processed and integrated using XDS
+(42) (Table S1).
+Structure Determination and Reﬁnement. Structure resolution of Hsm3 was
+carried out using the SAD dataset. Selenium atoms were located using
+SHELXC/D programs, and the phases were reﬁned with the Phaser program
+
+Barrault et al.
+
+PNAS PLUS
+
+and improved by density modiﬁcation using the Dm program (http://www.
+ccp4.ac.uk/). The ﬁrst steps of the Hsm3 model building were performed
+automatically using Buccaneer (43) and completed manually with Coot
+(44), using the iterative ARP/wARP approach (45). The structure was reﬁned using Refmac5 (46). The ﬁnal steps of reﬁnement were done with
+BUSTER software (47) (Table S1). Ramachandran statistics obtained are as
+follows: 97.97% of Ψ-Φ angles were found in the postfavored regions,
+1.92% were found in additional allowed regions, and 0.11% were found in
+disallowed regions.
+The structure of the Hsm3–Rpt1–Cter complex was solved by molecular
+replacement with MOLREP (48) using our coordinates of free Hsm3 as the
+search model and a model of the structure of Rpt1 Cter available in the
+ModBase database (49) obtained by homology with the AAA ATPase Ftsh
+(PDB ID code 2CE7). Two complexes per asymmetrical unit were found with
+a contrast of 2.25 and 1.94, respectively, for the ﬁrst and second molecules
+(Table S1). The structure was reﬁned with Buster software with noncrystallographic symmetry constraints for the two complexes. Translation
+libration screw-motion (TLS) parameters, introduced using ﬁve groups in the
+Hsm3 molecule, improved the electron density for the building of an additional fragment in both proteins. An additional density corresponding to the
+linker was observed and could be modeled by a polyalanine, but the resolution was not high enough to assign side chains. This additional linker is
+dispensable for the formation of the complex. Because of the moderate
+resolution of the data, manual modiﬁcations were limited to the strict
+minimum to prevent any model bias. The ﬁnal model and phases qualities
+were checked calculating two omit maps for Rpt1, which validated the position and interface Rpt1-C (Fig. S2). Structure representations presented in
+Figs. 1, 2, 3, and 8 and Figs. S2 and S5 were drawn with pymol (Schrodinger).
+Coordinates are available in the Protein Data Bank (PDB ID codes 4A3T and
+4A3V for free and Rpt1-C bound Hsm3, respectively).
+Modeling of the Rpt1–Rpt2–Hsm3 Complex. Details are provided in SI Materials
+and Methods.
+Yeast Techniques. Standard yeast genetic techniques and media were used
+(50). Yeast strains used in this study are listed in Table S3. To determine
+growth in various conditions, yeast strains were grown to OD600 = 0.1–0.5
+before being plated at 10-fold serial dilutions on YPD medium with or
+without drugs. 3-Aminotriazol (3AT) was purchased from Sigma.
+DNA Manipulation. The methods for DNA engineering were essentially those
+described by Sambrook et al. (51). Plasmids used in this study are listed in
+Table S4. Sequences and details of constructions are available on request.
+Two-Hybrid Experiments. The bait was cloned into pGBT9 or pGBKT7 vector
+and introduced into the Y187 strain. The prey was cloned in pACT2 vector.
+Mating was performed as described by Fromont-Racine et al. (52). Because we
+used the Y190 strain, which has a leaky HIS3 reporter gene, the growth of
+diploids was examined in the presence of 3AT at various concentrations (1.5–
+25 mM ﬁnal). Diploids were grown on nonselective liquid medium, the OD at
+600 nm was adjusted to 0.1, and serial dilutions were spotted onto selective
+plates with or without 3AT and then incubated for 1 or 2 d at 30 °C.
+Puriﬁcation of Recombinant Proteins for in Vitro Binding Assays. His-Rpn1,
+Rpn1, Rpt2, His-GST-Hsm3, His-GST-Hsm3ΔC, and/or Rpt1[377–467]-maltose
+binding protein was (co)expressed in E. coli using a derivative of pRSF–Duet1 vector (Novagen). Sequences and details on constructions are available on
+demand. Whole-cell extracts from transformed BL21 (DE3) cells were prepared as previously described (19, 53). Ni-NTA magnetic agarose beads
+(Qiagen) were added to protein extracts in buffer C [50 mM Tris (pH 7.5), 300
+mM NaCl, 0.05% Tween-20] in the presence of 10 mM imidazole. Beads were
+washed with buffer C plus 20 mM imidazole. Bound proteins were eluted in
+the same buffer adjusted to 250 mM imidazole.
+For GST fusion protein puriﬁcation, 50 μL of glutathione agarose (G4510;
+Sigma) was added to soluble extracts prepared in 50 mM Tris·HCl (pH 8),
+200 mM NaCl, and 0.05% Tween-20. After incubation overnight at 4 °C on
+agitation, the resin was washed four times and bound proteins were eluted
+by adding 80 μL of 50 mM Tris·HCl (pH 9) and 10 mM L-glutathione reduced
+(G4251; Sigma) for 30 min at 30 °C. Relevant fractions were analyzed by SDS/
+PAGE, and proteins were stained using Simply Blue Safe Stain (Invitrogen)
+according to the manufacturer’s instructions.
+Immunoprecipitation Experiments. Cleared extracts were prepared from
+Myc-tagged or TAP-tagged strains grown at the indicated temperatures,
+
+PNAS | Published online March 29, 2012 | E1009
+
+BIOCHEMISTRY
+
+motions of the Rpt ATPases inside the hexameric ring. From
+these observations, it appears that several mechanisms might
+account for the association and release of Hsm3, as well as for its
+possible role in controlling key proteasome assembly steps.
+Hsm3 dissociation might result either from ATP binding and
+hydrolysis favoring a conformation of the Rpt1–Rpt2 complex
+incompatible with Hsm3 binding or from a direct competition
+with the 20S CP during base anchoring. The very last residues of
+the Rpt ATPase subunits form what is called the C-tail. The Ctails of Rpt subunits have been shown to bind 20S CP by
+inserting themselves into intersubunit pockets formed by the
+α-subunits of the 20S CP and to promote 20S CP gating or 26S
+proteasome assembly (14, 15, 39, 40). The C-tail is dispensable
+for both Hsm3–Rpt1 and Hsm3–Rpt2 interactions (see above);
+however, accessibility of these tails within the assembly complexes is an open question and could be modulated on ATP
+hydrolysis and/or association of the base with the lid. Further
+investigation will help to answer these key issues for proteasome
+biogenesis.
+In summary, Hsm3 acts as a scaffolding protein, which could
+explain its key role in proteasome assembly, underscoring the
+complexity and ﬁne-tuning of the highly orchestrated base
+assembly pathways.
+
+and immunoprecipitation experiments were performed as previously described (19, 53).
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Antibodies and Immunoblotting. Western blot analysis was performed as
+previously described (53). The primary antibodies used were the following:
+9E10 anti-Myc (Santa Cruz), anti-α6 subunit MCP20 (Biomol), anti-Cim5/Rpt1
+(kind gift from Carl Mann, Commissariat à l’Energie Atomique, Saclay, France),
+anti-yRpt2 (PW 8160; Biomol), anti-Rpn1 (kind gift from Michael Glickman,
+Technion Institute of Technology, Haifa, Israel), and anti-Hsm3 (19).
+HRP-conjugated anti-rabbit or anti-mouse antibodies (Promega) were
+used as secondary antibodies. Detection was performed with ECL chemiluminescent reagents (Amersham Pharmacia).
+
+6.0% gradient polyacrylamide gels, and samples were run overnight at 45
+mA at 4 °C as described by Lehmann et al. (54). Blotting was performed in
+the presence of 0.1% SDS as described above.
+Note Added in Proof. At the proof stage of this publication, the structure
+analysis of the Hsm3 alone and Hsm3 in complex with the Rpt1 Cter domain
+appeared online (55).
+
+Native PAGE. Fifty micrograms to 150 μg of proteins equivalent to total
+lysates [prepared as for gel ﬁltration analyses described by Le Tallec et al.
+(53)] were loaded. Lysates were subjected to electrophoresis onto native 3.5–
+
+ACKNOWLEDGMENTS. We thank Michael Glickman for providing Rpn1
+plasmids and antibodies and Imagif for the crystallization platform and the
+synchrotrons SOLEIL and European Synchrotron Radiation Facility (ESRF)
+(beamlines ID29 and ID23) for beam time for recording diffraction data. This
+work was supported by the Commissariat à l’Energie Atomique, Association
+pour la Recherche sur le Cancer, Ligue Contre le Cancer Ile de France
+(8FI10326LIKI), and Agence Nationale de la Recherche (Grant Plastizome
+Jeunes Chercheuses Jeunes Chercheurs 2010).
+
+1. Voges D, Zwickl P, Baumeister W (1999) The 26S proteasome: A molecular machine
+designed for controlled proteolysis. Annu Rev Biochem 68:1015–1068.
+2. Goldberg AL (2007) Functions of the proteasome: From protein degradation and
+immune surveillance to cancer therapy. Biochem Soc Trans 35(Pt 1):12–17.
+3. Wolf DH, Hilt W (2004) The proteasome: A proteolytic nanomachine of cell regulation
+and waste disposal. Biochim Biophys Acta 1695(1–3):19–31.
+4. Glickman MH, Rubin DM, Fried VA, Finley D (1998) The regulatory particle of the
+Saccharomyces cerevisiae proteasome. Mol Cell Biol 18:3149–3162.
+5. Groll M, et al. (1997) Structure of 20S proteasome from yeast at 2.4 A resolution.
+Nature 386:463–471.
+6. Lasker K, et al. (2012) Molecular architecture of the 26S proteasome holocomplex
+determined by an integrative approach. Proc Natl Acad Sci USA 109:1380–1387.
+7. Lander GC, et al. (2012) Complete subunit architecture of the proteasome regulatory
+particle. Nature 482:186–191.
+8. Marques AJ, Palanimurugan R, Matias AC, Ramos PC, Dohmen RJ (2009) Catalytic
+mechanism and assembly of the proteasome. Chem Rev 109:1509–1536.
+9. Smith DM, Benaroudj N, Goldberg A (2006) Proteasomes and their associated
+ATPases: A destructive combination. J Struct Biol 156(1):72–83.
+10. Wollenberg K, Swafﬁeld JC (2001) Evolution of proteasomal ATPases. Mol Biol Evol
+18:962–974.
+11. Tomko RJ, Jr., Funakoshi M, Schneider K, Wang J, Hochstrasser M (2010)
+Heterohexameric ring arrangement of the eukaryotic proteasomal ATPases:
+Implications for proteasome structure and assembly. Mol Cell 38:393–403.
+12. Zhang F, et al. (2009) Structural insights into the regulatory particle of the
+proteasome from Methanocaldococcus jannaschii. Mol Cell 34:473–484.
+13. Djuranovic S, et al. (2009) Structure and activity of the N-terminal substrate
+recognition domains in proteasomal ATPases. Mol Cell 34:580–590.
+14. Park S, et al. (2009) Hexameric assembly of the proteasomal ATPases is templated
+through their C termini. Nature 459:866–870.
+15. Smith DM, et al. (2007) Docking of the proteasomal ATPases’ carboxyl termini in the
+20S proteasome’s alpha ring opens the gate for substrate entry. Mol Cell 27:731–744.
+16. Kim YC, DeMartino GN (2011) C termini of proteasomal ATPases play nonequivalent
+roles in cellular assembly of mammalian 26 S proteasome. J Biol Chem 286:
+26652–26666.
+17. Park S, Tian G, Roelofs J, Finley D (2010) Assembly manual for the proteasome
+regulatory particle: The ﬁrst draft. Biochem Soc Trans 38(Pt 1):6–13.
+18. Murata S, Yashiroda H, Tanaka K (2009) Molecular mechanisms of proteasome
+assembly. Nat Rev Mol Cell Biol 10(2):104–115.
+19. Le Tallec B, Barrault MB, Guérois R, Carré T, Peyroche A (2009) Hsm3/S5b participates
+in the assembly pathway of the 19S regulatory particle of the proteasome. Mol Cell
+33:389–399.
+20. Saeki Y, Toh-E A, Kudo T, Kawamura H, Tanaka K (2009) Multiple proteasomeinteracting proteins assist the assembly of the yeast 19S regulatory particle. Cell 137:
+900–913.
+21. Funakoshi M, Tomko RJ, Jr., Kobayashi H, Hochstrasser M (2009) Multiple assembly
+chaperones govern biogenesis of the proteasome regulatory particle base. Cell 137:
+887–899.
+22. Roelofs J, et al. (2009) Chaperone-mediated pathway of proteasome regulatory
+particle assembly. Nature 459:861–865.
+23. Kaneko T, et al. (2009) Assembly pathway of the Mammalian proteasome base
+subcomplex is mediated by multiple speciﬁc chaperones. Cell 137:914–925.
+24. Besche HC, Peth A, Goldberg AL (2009) Getting to ﬁrst base in proteasome assembly.
+Cell 138:25–28.
+25. Jones S, Thornton JM (1996) Principles of protein-protein interactions. Proc Natl Acad
+Sci USA 93:13–20.
+26. Lee SY, De La Mota-Peynado A, Roelofs J (2011) Loss of Rpt5 interactions with the
+core particle and Nas2 causes the formation of faulty proteasomes that are inhibited
+by Ecm29 protein. J Biol Chem 286:36641–36651.
+27. Nakamura Y, et al. (2007) Structure of the oncoprotein gankyrin in complex with S6
+ATPase of the 26S proteasome. Structure 15(2):179–189.
+28. Nakamura Y, et al. (2007) Structural basis for the recognition between the regulatory
+particles Nas6 and Rpt3 of the yeast 26S proteasome. Biochem Biophys Res Commun
+359:503–509.
+
+29. Wilkinson CR, Wallace M, Seeger M, Dubiel W, Gordon C (1997) Mts4, a non-ATPase
+subunit of the 26 S protease in ﬁssion yeast is essential for mitosis and interacts
+directly with the ATPase subunit Mts2. J Biol Chem 272:25768–25777.
+30. Gorbea C, Taillandier D, Rechsteiner M (2000) Mapping subunit contacts in the
+regulatory complex of the 26 S proteasome. S2 and S5b form a tetramer with ATPase
+subunits S4 and S7. J Biol Chem 275:875–882.
+31. Fu H, Reis N, Lee Y, Glickman MH, Vierstra RD (2001) Subunit interaction maps for the
+regulatory particle of the 26S proteasome and the COP9 signalosome. EMBO J 20:
+7096–7107.
+32. Xie Y, Varshavsky A (2001) RPN4 is a ligand, substrate, and transcriptional regulator of
+the 26S proteasome: A negative feedback circuit. Proc Natl Acad Sci USA 98:3056–3061.
+33. Sakata E, et al. (2011) The catalytic activity of Ubp6 enhances maturation of the
+proteasomal regulatory particle. Mol Cell 42:637–649.
+34. Leggett DS, et al. (2002) Multiple associated proteins regulate proteasome structure
+and function. Mol Cell 10:495–507.
+35. Bieniossek C, et al. (2006) The molecular architecture of the metalloprotease FtsH.
+Proc Natl Acad Sci USA 103:3066–3071.
+36. Suno R, et al. (2006) Structure of the whole cytosolic region of ATP-dependent
+protease FtsH. Mol Cell 22:575–585.
+37. Bieniossek C, Niederhauser B, Baumann UM (2009) The crystal structure of apo-FtsH
+reveals domain movements necessary for substrate unfolding and translocation. Proc
+Natl Acad Sci USA 106:21579–21584.
+38. Smith DM, Fraga H, Reis C, Kafri G, Goldberg AL (2011) ATP binds to proteasomal
+ATPases in pairs with distinct functional effects, implying an ordered reaction cycle.
+Cell 144:526–538.
+39. Rabl J, et al. (2008) Mechanism of gate opening in the 20S proteasome by the
+proteasomal ATPases. Mol Cell 30:360–368.
+40. Kumar B, Kim YC, DeMartino GN (2010) The C terminus of Rpt3, an ATPase subunit of
+PA700 (19 S) regulatory complex, is essential for 26 S proteasome assembly but not for
+activation. J Biol Chem 285:39523–39535.
+41. Mousson F, et al. (2004) 1H, 13C and 15N resonance assignments of the conserved
+core of hAsf1 A. J Biomol NMR 29:413–414.
+42. Kabsch WJ (1993) Automatic processing of rotation diffraction data from crystals of
+initially unknown symmetry and cell constants. J Appl Cryst 26:795–800.
+43. Cowtan K (2006) The Buccaneer software for automated model building. 1. Tracing
+protein chains. Acta Crystallogr D Biol Crystallogr 62:1002–1011.
+44. Emsley P, Cowtan K (2004) Coot: Model-building tools for molecular graphics. Acta
+Crystallogr D Biol Crystallogr 60(Pt 12 Pt 1):2126–2132.
+45. Langer G, Cohen SX, Lamzin VS, Perrakis A (2008) Automated macromolecular model
+building for X-ray crystallography using ARP/wARP version 7. Nat Protoc 3:1171–1179.
+46. Murshudov GN, Vagin AA, Dodson EJ (1997) Reﬁnement of macromolecular structures
+by the maximum-likelihood method. Acta Crystallogr D Biol Crystallogr 53:240–255.
+47. Bricogne G, et al. (2010) BUSTER Version 2.9 (Global Phasing Ltd, Cambridge, UK).
+48. Vagin A, Teplvakov J (1997) MOLREP: An automated program for molecular
+replacement. J Appl Crystallog 30:1022–1025.
+49. Pieper U, et al. (2009) MODBASE, a database of annotated comparative protein
+structure models and associated resources. Nucleic Acids Res 37(Database issue):
+D347–D354.
+50. Sherman F (1991) Getting started with yeast. Methods Enzymol 194:3–21.
+51. Sambrook J, Fritsch E, Maniatis T (1989) Molecular Cloning: A Laboratory Manual
+(Cold Spring Harbor Laboratory Press, Plainview, NY), 2nd Ed.
+52. Fromont-Racine M, Rain JC, Legrain P (1997) Toward a functional analysis of the
+yeast genome through exhaustive two-hybrid screens. Nat Genet 16:277–282.
+53. Le Tallec B, et al. (2007) 20S proteasome assembly is orchestrated by two distinct pairs
+of chaperones in yeast and in mammals. Mol Cell 27:660–674.
+54. Lehmann A, Jechow K, Enenkel C (2008) Blm10 binds to pre-activated proteasome
+core particles with open gate conformation. EMBO Rep 9:1237–1243.
+55. Takagi K, et al. (2012) Structural basis for speciﬁc recognition of Rpt1, an ATPase
+subunit of the 26S proteasome, by a proteasome-dedicated chaperone Hsm3. J Biol
+Chem, 10.1074/jbc.M112.345876.
+
+E1010 | www.pnas.org/cgi/doi/10.1073/pnas.1116538109
+
+Barrault et al.
+
+

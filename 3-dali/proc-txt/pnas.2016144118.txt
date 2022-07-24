@@ -1,0 +1,900 @@
+Cryo-EM structure of the full-length WzmWzt ABC
+transporter required for lipid-linked O
+antigen transport
+Christopher A. Caffalettea and Jochen Zimmera,1
+a
+
+Molecular Physiology and Biological Physics, University of Virginia School of Medicine, Charlottesville, VA 22908
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+O antigens are important cell surface polysaccharides in gramnegative bacteria where they extend core lipopolysaccharides in
+the extracellular leaflet of the outer membrane. O antigen structures are serotype specific and form extended cell surface barriers
+endowing many pathogens with survival benefits. In the ABC
+transporter-dependent biosynthesis pathway, O antigens are assembled on the cytosolic side of the inner membrane on a lipid
+anchor and reoriented to the periplasmic leaflet by the channelforming WzmWzt ABC transporter for ligation to the core lipopolysaccharides. In many cases, this process depends on the chemical modification of the O antigen’s nonreducing terminus, sensed
+by WzmWzt via a carbohydrate-binding domain (CBD) that extends its nucleotide-binding domain (NBD). Here, we provide the
+cryo-electron microscopy structure of the full-length WzmWzt
+transporter from Aquifex aeolicus bound to adenosine triphosphate (ATP) and in a lipid environment, revealing a highly asymmetric transporter organization. The CBDs dimerize and associate
+with only one NBD. Conserved loops at the CBD dimer interface
+straddle a conserved peripheral NBD helix. The CBD dimer is oriented perpendicularly to the NBDs and its putative ligand-binding
+sites face the transporter to likely modulate ATPase activity upon
+O antigen binding. Further, our structure reveals a closed WzmWzt
+conformation in which an aromatic belt near the periplasmic channel exit seals the transporter in a resting, ATP-bound state. The
+sealed transmembrane channel is asymmetric, with one open and
+one closed cytosolic and periplasmic portal. The structure provides
+important insights into O antigen recruitment to and translocation
+by WzmWzt and related ABC transporters.
+
+|
+
+ABC transporter lipopolysaccharide
+gram-negative bacteria
+
+WzmWzt (16–18). In this pathway, the O antigen is first synthesized
+in its entirety at the cytosolic leaflet of the inner membrane, anchored to an undecaprenyl-phosphate (Und-P) lipid. Following
+completion of biosynthesis, WzmWzt reorients the polymer to the
+periplasmic side of the inner membrane where it is transferred en
+bloc to the lipid A-core oligosaccharide by the ligase WaaL. The
+mature LPS molecule is then integrated into the outer leaflet of the
+outer membrane via the Lpt pathway (19).
+ABC transporter-dependent O antigen biosynthesis is similar
+to wall teichoic acid (WTA) production in gram-positives where
+the Tar/gGH ABC transporter secretes WTA across the cell
+membrane (20). Further, an analogous process was proposed for
+mycobacterial species where the Rv3781-Rv3783 ABC transporter ortholog is predicted to translocate an isoprenyl-linked
+galactan (21, 22).
+WzmWzt is a tetrameric exporter that has been crystallized in
+nucleotide-free (apo) and adenosine triphosphate (ATP)-bound
+states (23, 24). In both conformations, the transporter forms a
+continuous transmembrane (TM) channel sufficiently wide to
+accommodate a polysaccharide chain. Inside the channel, the
+polymer is likely coordinated by aromatic and hydrophilic residues, as also observed for other polysaccharide-interacting proteins (25, 26). Strikingly, in the ATP-bound conformation, the
+periplasmic channel exit forms profound lateral gates toward the
+periplasmic membrane leaflet, proposed to be important for
+releasing the lipid-linked O antigen into the lipid bilayer. It has
+been suggested that WzmWzt uses a processive step-by-step
+
+| endotoxin | O antigen |
+
+Significance
+Gram-negative bacteria employ cell surface polysaccharides to
+evade host immune responses, enhance survival in extreme
+environments, and protect themselves against antimicrobial
+agents. The outer membrane of gram-negatives is rich in lipopolysaccharide (LPS), comprising the endotoxin lipid A, a short
+oligosaccharide, and a long terminal polysaccharide known as
+the O antigen. O antigens extend the cellular envelope creating
+a barrier that obscures the cell membrane to protect it from
+complement component deposition and insertion, thereby
+evading the innate immune response of the host. Understanding O antigen biosynthesis and how the specialized ABC
+transporter WzmWzt translocates the O antigen for assembly
+of mature LPS provides a molecular basis for manipulating this
+fundamental process in gram-negative pathogens.
+
+C
+
+ell surface polysaccharides are ubiquitous features of microbial pathogens that enable them to evade innate immune
+responses, resist desiccation, adhere to surfaces, and deter antibiotics (1–3). A vast array of surface-anchored and secreted
+polysaccharides have evolved to extend the cell envelope surrounding and protecting the plasma membrane (4). To achieve this
+defense, gram-negative bacteria employ capsular and lipopolysaccharides (LPSs), as well as colanic acid; gram-positives utilize walland lipoteichoic acids; and the mycobacterial outer membrane is
+fortified by numerous capsular polysaccharides (2, 3, 5–7).
+LPS is a glycolipid comprising lipid A, core oligosaccharides,
+and a terminal polysaccharide known as the O antigen (8). The
+O antigen extends the cell envelope and has been shown to
+confer resistance to complement-mediated lysis (9–14). Its defensive properties are enhanced by its hypervariability among
+gram-negative species, forming the basis for serotyping bacterial
+strains based on the O antigen repeat unit structure (15). Additionally, the length of the O antigen chain can vary from only a
+single repeat unit 3 to 4 sugars long to ∼100 sugar units, thereby
+creating an efficient extracellular barrier (16).
+The Escherichia coli O9a serotype exemplifies the O antigen
+biosynthesis pathway that utilizes an ABC transporter, known as
+PNAS 2021 Vol. 118 No. 1 e2016144118
+
+Author contributions: J.Z. and C.A.C. designed research; C.A.C. performed research; C.A.C.
+and J.Z. analyzed data; and C.A.C. wrote the paper.
+The authors declare no competing interest.
+This article is a PNAS Direct Submission.
+Published under the PNAS license.
+1
+
+To whom correspondence may be addressed. Email: jochen_zimmer@virginia.edu.
+
+This article contains supporting information online at https://www.pnas.org/lookup/suppl/
+doi:10.1073/pnas.2016144118/-/DCSupplemental.
+Published December 28, 2020.
+
+https://doi.org/10.1073/pnas.2016144118 | 1 of 10
+
+MICROBIOLOGY
+
+Edited by Yifan Cheng, University of California, San Francisco, CA, and approved November 18, 2020 (received for review July 31, 2020)
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+translocation mechanism in which a cytosolic loop (LG-loop)
+near the channel entrance interacts with and moves the polymer
+toward the channel upon ATP binding (23, 24).
+Some bacteria signal completion of O antigen biosynthesis by
+chemically modifying the nonreducing end of the growing polysaccharide with, for example, methyl-, phosphomethyl-, or
+β-linked 3-deoxy-D-manno-oct-2-ulosonic acid (Kdo) groups
+(27). This capping reaction terminates polymer elongation, and
+thus controls O antigen chain length, and primes it for translocation by WzmWzt (28).
+A hallmark of ABC transporters secreting capped O antigens
+is a carbohydrate-binding domain (CBD) extending the C terminus of the Wzt nucleotide-binding domain (NBD). The CBD
+recognizes the terminal cap in the context of the O antigen repeat unit it is attached to (18). This interaction is necessary for
+efficient transport of the lipid-linked O antigen across the inner
+membrane in vivo. Structural analyses of CBDs from E. coli,
+Raoultella terrigena, and Aquifex aeolicus revealed that the CBD
+adopts a jelly-roll conformation and dimerizes by exchanging the
+C-terminal β-strand between protomers (29–31). Mutagenesis
+and in vitro binding studies with the E. coli O9a and R. terrigena
+CBDs suggest that a concave jelly-roll surface forms the binding
+site for the O antigen cap (18, 29).
+We currently have separately determined structures of the
+CBD-truncated A. aeolicus (Aa) WzmWzt in apo and ATPbound states, as well as the structure of its isolated Wzt CBD
+dimer. Separately, however, these structures do not inform on
+whether O antigen cap binding influences catalytic activity and
+thus transport, which are important mechanistic questions. Here,
+we present the cryo-electron microscopy (cryo-EM) structure of
+the full-length AaWzmWzt transporter in an ATP-bound state in
+a lipid nanodisc. The structure reveals an unexpected position of
+the CBD dimer and, more broadly, provides insights into how
+biopolymer-translocating ABC transporters gate their central
+channel and couple processive transport to ATP hydrolysis.
+Results
+To gain insights into how WzmWzt recognizes and transports the
+O antigen, we determined the cryo-EM structure of the fulllength, catalytically inactive AaWzmWzt transporter reconstituted into palmitoyl-oleoyl-phosphatidylglycerol (POPG) lipid
+nanodiscs in a Mg2+/ATP-bound state (SI Appendix, Figs. S1A
+and S2). ATP hydrolytic activity of the wild-type (WT) transporter after reconstitution into nanodiscs was demonstrated for
+both E. coli total lipid extract and POPG nanodiscs prior to
+structure determination (SI Appendix, Fig. S1B). The resultant
+cryo-EM map has an overall estimated resolution of 3.6 Å and is
+of excellent quality showing density for the vast majority of side
+chains in the Wzm TM and Wzt NBD regions (SI Appendix, Fig.
+S2 and Table S1). The initial map showed poor density in some
+regions of the Wzt CBD due to flexibility. However, signal subtraction and local three-dimensional (3D) classification generated a second map of the Wzt dimer with an overall estimated
+resolution of 3.6 Å, showing improved density for the Wzt CBD
+subdomain (SI Appendix, Fig. S1 C–E). This map was used to
+generate a separate model of the Wzt dimer.
+Fitting the CBD of this separate Wzt model into the initial
+full-length map allowed building an entire WzmWzt model. This
+model includes residues 2 to 256 of each Wzm, excluding residues 48 to 54 of one Wzm protomer due to poor density of the
+TM1–TM2 loop, and residues 1 to 395 of each Wzt, excluding
+residues 242 to 252 and 241 to 253 of the Wzt protomers, respectively, due to disordered linker regions with missing densities
+in the cryo-EM map.
+Overall Structure of the Full-Length WzmWzt Transporter. Similar to
+the eukaryotic ABC exporters ABCA1, ABCG2, and ABCG5/8,
+WzmWzt is a prokaryotic example of the type-5 ABC exporter
+2 of 10 | PNAS
+https://doi.org/10.1073/pnas.2016144118
+
+topology comprising two Wzm protomers, each containing six
+TM helices, that are coupled to the cytosolic ATP-binding Wzt
+dimer (32). In addition to six proper TM helices, two reentrant
+helices, PG1 and PG2, connect TM helices 5 and 6 and an amphipathic N-terminal interface helix (IF) lies perpendicular to
+the TM helices at the Wzm–Wzt interface (Fig. 1). Further, an
+extended loop between TM helices 2 and 3 inserts into the NBD
+forming a coupling helix loop (CHL) in a similar fashion to other
+ABC transporters (33). Wzt adopts a classical NBD fold featuring an additional gate helix (GH) extension that packs against
+the interface of the Wzm protomers (Fig. 1A) (32).
+As also observed for some E. coli and Klebsiella pneumoniae
+serotypes, AaWzt contains a C-terminal CBD. Published structures of E. coli, R. terrigena, and most recently Aa CBDs show
+that the isolated CBD itself dimerizes via β-strand exchange,
+which is preserved in the full-length WzmWzt structure (29–31).
+Our cryo-EM structure reveals the position of the CBD dimer
+relative to the known core WzmWzt structure (Fig. 1A). Strikingly, the dimeric CBD interacts with only one NBD. Conserved
+loops from each CBD protomer at the dimer interface straddle
+the C-terminal helix of only one NBD (hereafter referred to as
+“hinge helix”). This arrangement centers the CBD dimer under
+one NBD at an ∼15° angle relative to the plane of the inner
+membrane. In this position, the putative O antigen cap-binding
+sites of both CBDs face the NBD dimer and lie within the same
+vertical plane as the cytosolic channel entrances (24). However,
+due to the special location and tilting of the CBD dimer relative
+to the NBDs, the distances between the proposed cap-binding
+sites on the CBDs and the GHs near the WzmWzt cytosolic
+channel entrances are significantly different (discussed below,
+Fig. 1). The overall structure of the CBD dimer is consistent with
+its crystal structure in isolation, yet subtle conformational
+changes near the ligand-binding sites could have functional implications, as discussed in detail below.
+Although the structures of the TM and NBD regions are
+consistent with our previously determined ATP-bound WzmWzt
+crystal structure (Protein Data Bank [PDB] 6M96), we note
+several functionally important differences. First, while the crystallized transporter contained only ATP and water molecules at
+the active sites, the cryo-EM map indicates the presence of a
+Mg2+/ATP complex for each NBD, allowing these to be built
+into the final model (Fig. 1B). Accordingly, the side chain density
+of the conserved Ser61 points toward the magnesium density to
+coordinate the ion, while it points away from it in the crystal
+structure (SI Appendix, Fig. S3). Placement of three water molecules into the final, refined model supports octahedral magnesium coordination (SI Appendix, Fig. S3 and Table S2).
+Second, the short Wzm loops connecting TM1 to TM2 at the
+periplasmic side of the transporter adopt different conformations in the crystal and cryo-EM structures. These loops point
+away from the transporter in the crystal structure, due to crystal
+contacts, and pack against the surface formed by the remaining
+TM3–TM6 helices in our cryo-EM map (Fig. 1A). Third, the
+continuously open TM channel described in the crystal structure
+is narrowed and closed in the new structure (Figs. 1C and 2A).
+Thus, the full-length WzmWzt cryo-EM structure is representative of an ATP-bound state in the absence of the O antigen
+substrate, i.e., a resting state.
+An Asymmetric Closed TM Channel. Previous WzmWzt crystal
+structures in apo and ATP-bound states revealed transporter
+conformations with continuous TM channels. These channelforming conformations are expected to occur during polymer
+translocation (23, 24). In a nanodisc-reconstituted and ATPbound state, however, Wzm protomers are arranged closer together toward the channel axis, allowing contacts between the
+previously identified aromatic belt residues (Tyr39, Phe180, and
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+B
+
+MICROBIOLOGY
+
+A
+
+C
+
+Fig. 1. Overall architecture of full-length WzmWzt. (A) Atomic model of ATP-bound full-length AaWzmWzt. Wzm protomers are shown in green and wheat,
+Wzt protomers are colored in yellow and purple, respectively. Wzt contains a NBD and a CBD. ATP is shown as sticks and magnesium is shown as a green
+sphere. The cytosolic channel entrance is indicated with a black asterisk. The putative O antigen terminal cap-binding sites at the CBD dimer are indicated as
+red ellipses. IF, interface helix; PG, periplasmic gate helix; CHL, coupling helix loop; GH, gate helix. (B) ATP density at the NBD. ATP is shown in sticks and the
+cryo-EM map as a teal mesh (contoured at 8σ). (C) Periplasmic view of WzmWzt with the atomic model of the Wzm dimer shown as cylinders and semitransparent surfaces. One O antigen terminal cap-binding site of the CBD dimer (red ellipse) sits below the cytosolic channel entrance (black asterisk).
+
+Trp181) near the periplasmic channel exit (24), which close the
+channel (Fig. 2 A and B).
+The side chains of Tyr39, Phe180, and Trp181 from each Wzm
+protomer are well resolved in the EM density map and establish
+that these residues are indeed in close proximity, the narrowest
+point being a 3.4-Å distance between the Trp181 side chains of
+each Wzm protomer (Fig. 2A). A similar distance between
+phenylalanine residues was observed in the human ABC transporter ABCG2 serving as an intracellular gate that seals the
+outward open conformation (34). Further, the recent structure
+of the WTA TarGH ABC transporter, homologous to WzmWzt,
+also shows a closed state in which Tyr and Leu residues form a
+similar, aromatic belt-like seal (SI Appendix, Fig. S4) (35).
+A water accessibility analysis of the WzmWzt channel using
+the software HOLLOW (36) with a 1.4-Å radius probe further
+underscores the closed channel conformation (Fig. 2 C and D).
+Past the aromatic belt, the channel is sealed by a hydrophobic
+water-excluding region, indicating that our new structure is indeed a closed resting state of the transporter in the absence of an
+O antigen (Fig. 2E).
+
+Emphasized by the channel shape, the cryo-EM structure
+represents an asymmetric closed transporter conformation with
+only one open lateral exit (Fig. 2C). Superimposing the WzmWzt
+transporter halves on their NBDs highlights the different conformations of the Wzm subunits in each half transporter. One
+Wzm protomer is rotated as a rigid body around TM helix 3
+relative to the other subunit by ∼9°, thereby breaking symmetry
+in the Wzm dimer (Fig. 2B). This asymmetry results in closure of
+one of the periplasmic lateral channel exits previously observed
+between TM1, TM5, and PG1 in the symmetric ATP-bound
+crystal structure (24) (Fig. 2 C and D).
+In addition to asymmetry at the periplasmic lateral exits, we
+also observe asymmetry at the cytosolic channel entrances adjacent to each GH, a proposed substrate entry site (24). Within
+one Wzm–Wzm dimer interface, the open periplasmic lateral
+exit coincides with a closed cytosolic entry site, and the opposite
+configuration (closed lateral gate, open cytosolic entry site) is
+observed at the other Wzm dimer interface (discussed below, SI
+Appendix, Fig. S5).
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+PNAS | 3 of 10
+https://doi.org/10.1073/pnas.2016144118
+
+A
+
+B
+
+D
+
+C
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+E
+
+F
+
+Fig. 2. The closed conformation of the WzmWzt transmembrane channel. (A) View of WzmWzt from the periplasm. (Inset) Residues of the Wzm aromatic
+belt are shown as sticks with cryo-EM map density contoured at 8σ shown as a blue mesh. (B) WzmWzt viewed from periplasm as in A, showing Wzm dimer
+asymmetry. One half transporter (containing Wzm in wheat) is superimposed on the other half transporter (containing Wzm in green) by aligning their Wzt
+NBDs and is displayed in gray. The lateral exit is formed by TM helix 1 and PG1 from different protomers. (C) Surface representation of the WzmWzt channel
+displayed as an orange surface. (D) Surface representation of the WzmWzt channel calculated for the ATP-bound crystal structure (PDB 6M96) displayed in
+red. Aromatic residues forming the hydrophobic belt are shown as sticks. (E) Zoomed-in view of the aromatic belt for the cryo-EM WzmWzt structure.
+Residues directly implicated in channel closure are shown in green and wheat as ball and sticks. Additional hydrophobic residues in the periplasmic exit of the
+channel are shown as sticks. The protein backbone is shown as gray ribbon in C–E. (F) Electrostatic surface potential of WzmWzt prepared in PyMOL using the
+APBS plugin (scale −5.0 [red] to +5.0 [blue] kT/e). Nonprotein cryo-EM map density within the lateral exit contoured at 6σ is shown as a green mesh.
+
+Of note, the asymmetric location of the CBD dimer does not
+bias the conformation of the Wzm dimer. Our initial 3D particle
+classification identified a subset in which the openings at the
+cytosolic and periplasmic sites are reversed, relative to the location of the CBD dimer (SI Appendix, Fig. S5).
+Within the open lateral exit, we observe nonprotein density,
+perhaps a partially ordered lipid molecule, between TM1 and
+PG1 in the cryo-EM map, suggesting that the lateral exit can
+accommodate lipid acyl chains (Fig. 2F). The bound molecule
+appears to stabilize the open lateral exit. Other, lower-resolution
+maps obtained during data processing lacking the compound
+showed different lateral exit conformations with either wide
+(open), intermediate, or narrow (closed) distances between TM1
+and PG1. This demonstrates that the Wzm dimer samples different conformations in a resting, polymer-free state.
+While the thereby-generated asymmetry of the Wzm protomers is
+remarkably subtle, other examples of ATP-uncoupled conformational
+4 of 10 | PNAS
+https://doi.org/10.1073/pnas.2016144118
+
+changes of ABC transporters within their TM segments have been
+correlated with large structural transitions (37).
+WzmWzt Modulates TM Channel Width through Rigid Body
+Movements. Despite the overall conformational differences ob-
+
+served across all three available WzmWzt structures (apo, ATPbound open, ATP-bound closed), the Wzm protomers behave as
+rigid bodies. With the exception of TM1, aligning the Wzm
+protomers from all three structures shows that they are essentially identical for TM2–TM6 and the IF helix (Fig. 3A).
+Aligning WzmWzt half transporters based on their Wzt NBDs
+shows that while Wzm adopts a range of angles relative to the
+channel axis, the CHL is found in a common position across all
+structures, suggesting a path to couple ATP hydrolysis with Wzm
+rigid body movement (Fig. 3B). Indeed, transitioning from a closed
+to an open TM channel in the ATP-bound state (representing
+resting and O antigen inserted states, respectively), involves the
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+B
+
+C
+
+D
+
+Fig. 3. WzmWzt modulates channel width by coupling NBD and TM conformational changes. (A) Wzm alignment (based on TM2 to TM6) and superposition
+of Wzm protomers from the apo-state crystal structure (blue, PDB 6OIH), ATP-bound crystal structure (orange, PDB 6M96), and cryo-EM structure (protomer 1
+green, protomer 2 wheat). (B) Superposition of all AaWzmWzt half-transporter structures based on Wzt NBD. Only the Wzm protomers are displayed as
+cylindrical cartoons and colored as in A. (Right Insets) Two views of the aligned half transporters with Wzm protomers in color and Wzt NBD protomers in
+gray. This alignment includes the second half transporter of the apo state (PDB 6OIH) excluded in A and shown in purple. (C, Left) View from the periplasm of
+the ATP-bound crystal structure (orange, PDB 6M96) and cryo-EM structure (gray) both shown as cylindrical helices and semitransparent surfaces. Arrows
+indicate rigid body movements. (Right) ATP-bound crystal structure (orange) and cryo-EM structure (gray) aligned on the Wzt NBD in the background. The
+orange conformation results from a tilt about the red dot along the axis shown as a dotted line. (D, Left Top) View from the periplasm of the apo-state crystal
+structure (PDB 6OIH) shown as cylindrical helices and semitransparent surface. Arrows depict Wzm rotations from the apo to ATP-bound state depicted on the
+right. (Left Bottom) View parallel to the plane of the membrane showing the Wzm–Wzt interface at the CHL. Arrows depict Wzm separation when transitioning from ATP-bound to the apo state of the NBDs. (Right) Comparison of the ATP-bound (orange) and apo (blue) crystal structures aligned on the CHL.
+
+rotation of a WzmWzt half transporter around an axis running
+along TM3 and through the CHL, a central fulcrum (Fig. 3C).
+Extending this analysis to the transition from ATP-bound to
+nucleotide-free states with an open TM channel, as required during
+O antigen transport, reveals a similar coupling effect. Here, transitioning from ATP-bound to the apo state results in further opening
+of the channel and requires an opposing rotation of the Wzt NBD
+and Wzm around the CHL axis (Fig. 3D and SI Appendix, Fig. S6).
+Further, the increased diameter of the TM channel in the
+nucleotide-free state, compared to the open channel in the ATP-
+
+bound conformation, results from the increased distance between the NBDs, which moves the pivot points located at the
+CHLs farther apart (Fig. 3D).
+Asymmetry of the Full-Length WzmWzt ABC Transporter. The interaction of the Wzt CBD dimer with the hinge helix of only one
+NBD generates profound asymmetry of WzmWzt. The interactions of the pseudo twofold symmetric central CBD-dimer loops
+with the hinge helix are made possible by various hydrophilic and
+hydrophobic interactions (Fig. 4). Specifically, Phe305 of one
+
+Fig. 4. The Wzt CBD dimer interacts with one Wzt NBD. View of WzmWzt from within the cytosol down the barrel of the NBD hinge helix. (Top Right Inset)
+Interaction of hinge helix Y232 with ATP via the H-loop H199. ATP and side chains are shown as sticks and magnesium is shown as a green sphere. (Bottom
+Left and Right Insets) Interactions of the CBD central loops with the hinge helix. Side chains are shown as sticks and glycines are shown as spheres for the Cα
+position. Wzt protomers are colored purple and yellow, respectively.
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+PNAS | 5 of 10
+https://doi.org/10.1073/pnas.2016144118
+
+MICROBIOLOGY
+
+A
+
+CBD loop faces Ala231 in the hinge helix, and the backbone carbonyl of the loop Gly306 hydrogen bonds with Ser238 of the hinge
+helix. This knob-in-hole type interaction is further stabilized by a salt
+bridge between Asp303 (loop) and Lys234 (hinge helix) (Fig. 4).
+On the opposing side of the hinge helix, similar interactions
+occur with the other CBD loop. Two knob-in-hole interactions
+are observed, one formed by Phe305 (loop) and Ala237 (hinge
+helix) and a second formed by Gly306 (loop) and Tyr233 (hinge
+helix). Further, the side chain of Gln230 (hinge helix) is in
+hydrogen-bonding distance to the backbone amide of loop residue
+Asp308. The CBD loops are stabilized in an upright position by an
+intermolecular glutamine bridge between Gln307 residues of each
+CBD (Fig. 4). This intricate network of interactions explains how
+the isolated CBD dimer supplied in trans can complement a CBDtruncated WzmWzt transporter by stimulating ATPase or translocation activity in vitro and in vivo, respectively (23, 29).
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Wzt Exposes the CBD O Antigen-Binding Site to the NBD and TM
+Domains. In the full-length WzmWzt structure, the putative
+
+CBD O antigen-binding surfaces are oriented toward the NBDs,
+rather than toward the cytosol (Figs. 1, 4, and 5). This transporterfacing orientation creates a direct interface with the NBD and
+provides a means for coupling O antigen cap binding at the CBD to
+effects at other transporter domains implicated in ATP hydrolysis
+or O antigen channel insertion. Indeed, the NBD hinge helix,
+serving as the attachment point for the CBD, contains the invariant
+Tyr232. In both the ATP-bound cryo-EM and crystal structures, its
+side chain points directly at H-loop His199, which is critical for
+ATP hydrolysis (38, 39). Accordingly, O antigen binding to the
+CBD could affect ATP hydrolysis (Fig. 4 and SI Appendix, Fig. S7).
+Mapping important E. coli O9a CBD residues implicated in O
+antigen cap binding (Trp286, Asn348, Arg402, Tyr404, Asp405,
+Gly333, and Gly387) to the corresponding residues of the Aa
+CBD (Trp362, Asn313, Asp364, Asn365, Gly298, and Ala348)
+suggests functional similarities (Fig. 5A). Of these residues,
+Trp362 is particularly important as its position is dramatically
+different in the isolated CBD crystal (PDB code 6O14) and fulllength WzmWzt structures (Fig. 5B).
+In all currently available isolated CBD crystal structures, residues Cys359-Ile363 begin the final, NBD-proximal β-strand of
+the putative O antigen-binding site. However, in the full-length
+transporter, Trp362 at the center of this β-strand is shifted toward the ligand-binding pocket and inserts into a cavity formed
+by the conserved residues Gly298, Leu300, and Ala348. Further,
+the β-strand immediately upstream of Trp362 is disordered and not
+resolved in our cryo-EM map, suggesting that the entire Gly352 to
+His361 region is dynamic in full-length WzmWzt (Fig. 5B).
+The linkers connecting the NBDs and CBDs are also disordered in the cryo-EM map and were not modeled. At low
+thresholds, however, weakly defined density extending from the
+CBDs indicates the locations of the linker regions in multiple
+conformations (SI Appendix, Fig. S8A). For the CBD closest to
+the membrane, a 25-Å distance between the NBD and CBD
+termini accommodates 11 residues, whereas for the other CBD
+protomer, the 22-Å NBD–CBD termini distance would be bridged
+by 13 residues (due to the different number of unmodeled residues).
+Robetta structure predictions (40, 41) suggest that the linker lengths
+suffice to span these distances in ATP-bound and nucleotide-free
+states (Fig. 5C and SI Appendix, Fig. S8).
+The 15° angle of the CBD relative to the plane of the inner
+membrane places the two CBD ligand-binding sites at ∼54-Å
+(membrane proximal) and ∼67-Å (membrane distal) from their
+corresponding channel entry sites. Additionally, the interaction
+of the CBD dimer with only one NBD offsets the CBD dimer by
+∼21-Å from the central axis of the transporter, such that one
+CBD sits directly underneath the center of the transporter and
+the other is outside its projected footprint (Fig. 5C and SI Appendix, Fig. S8).
+6 of 10 | PNAS
+https://doi.org/10.1073/pnas.2016144118
+
+Discussion
+The proposed model of WzmWzt-dependent transport of the
+Und-PP-linked O antigen starts with an initial tethering event, in
+which the O antigen cap binds to the Wzt CBD, thereby increasing
+its local concentration near the transporter. Reorienting the lipid
+anchor then loads the O antigen polysaccharide into the central
+channel, beginning ATP-driven processive transport (23, 24).
+Spanning the distances from the cap-binding CBD surfaces to
+the proposed channel entrances would require a polymer at least
+10 to 15 sugar units long (assuming a length of 5-Å per sugar
+unit). However, owing to the profound conformational flexibility
+of polysaccharides, even significantly larger polymers could interact with the CBD and channel entrance simultaneously, in
+accordance with estimated O antigen chain lengths (16).
+Using the conserved Tyr232 within the hinge helix as a marker
+for sequence alignments, modeling of the NBD/CBD interactions in the E. coli O9a and R. terrigena WzmWzt transporters
+suggests a similar mode of interactions (SI Appendix, Fig. S9). In
+R. terrigena, one knob-in-hole interaction could involve hinge
+helix residues Ala244, Ala248, and Gly252 accommodating
+Gln355 and a second could include hinge helix residue Leu255
+“knob” fitting into a “hole” formed by Gly356 and Gly357 of one
+CBD loop. Within the opposing CBD loop, this same double Gly
+motif is well suited to accommodate Leu247 and Glu250 from the
+hinge helix (SI Appendix, Fig. S9 C and E). Similarly, in E. coli O9a,
+one side of the hinge helix likely has a knob-in-hole interaction with
+Leu236 positioned adjacent to Gly341 of the CBD loop and, on its
+other side, hinge helix Gly241 would face Gly341 of the opposing
+CBD protomer (SI Appendix, Fig. S9 D and F). Thus, the off-center
+position of the CBD dimer relative to the NBDs is likely a conserved feature of O antigen ABC transporters.
+The CBDs are connected with the NBDs via disordered
+linkers 11 and 13 residues long for the CBD closest to and farthest away from the membrane, respectively. An additional residue was modeled at the C terminus of the hinge helix (Asn241)
+and the N terminus of the membrane proximal CBD (Gly253),
+resulting in the shorter 11-residue linker. Due to the tilt and offcenter position of the CBD dimer and supported by weak map
+density, the linker leading into the membrane proximal CBD
+appears to sit right above the CBD ligand binding site, thereby
+potentially occluding it (Fig. 5C and SI Appendix, Fig. S8 A and
+B). Cap binding to this CBD would require significant conformational changes of the linker region and/or the CBD dimer tilt.
+On the opposite side, however, a combination of weak map
+density and Robetta models suggest that the linker connecting
+with the membrane distal CBD is in a stretched conformation
+extending away from the CBD ligand-binding site. Here, cap
+binding is probably minimally affected by the linker, raising the
+possibility that only this CBD interacts with the O antigen cap
+(Fig. 5C). Further studies with the native, capped O antigen are
+necessary to determine its precise interactions with the CBD and
+assess binding site preferences, if any.
+O antigen binding to the CBD has the potential to modulate
+the hydrolytic activity of the NBDs. One such coupling mechanism may exist through disorder-to-order transitions of one
+β-strand of the CBD. While residues 359 to 363 adopt a β-strand
+conformation in the isolated CBD crystal structures, the region
+from Gly352 to His361 is disordered in the context of the fulllength transporter, so that Trp362 can occupy the CBD’s putative cap-binding pocket on its concave jelly-roll surface (Fig. 5A).
+Displacement of Trp362 (or similar aromatic residues in the
+E. coli and R. terrigena CBDs) by the O antigen cap could then
+induce conformational changes within the Gly352-His361 region
+as well as the NBD/CBD linker that are propagated to the NBD
+via the hinge helix to affect transporter function.
+One candidate residue for modulating ATP hydrolysis is the
+highly conserved Tyr232 located at the center of the hinge helix
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+A
+
+C
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+MICROBIOLOGY
+
+B
+
+Fig. 5. Wzt CBD presents the O antigen cap-binding site to the transporter. (A) Views of the Wzt dimer showing the alignment of the Wzt CBD with the
+cytosolic channel entrance. The disordered NBD/CBD linker regions are depicted as dashed lines. (Inset Left) Zoomed-in view of the cryo-EM Wzt CBD concave
+jelly-roll surface highlighted in the dashed-line box. (Inset Right) Corresponding surface in the E. coli O9a Wzt CBD crystal structure (salmon, PDB 2R5O).
+Residues lining the putative O antigen cap-binding pocket are shown as sticks or spheres for Cα positions. (B, Upper) Wzt CBD cryo-EM map density (teal mesh)
+shown at a map threshold of 10.25σ and superimposed with the AaWzt CBD dimer cryo-EM structure (light blue). (Lower) Alignment and superposition of Wzt
+CBDs from the cryo-EM full-length WzmWzt structure (light blue) and the isolated crystal structures of Aa (royal blue), R. terrigena (pale cyan, PDB 5HNO),
+and E. coli (salmon, PDB 2R5O). (C) An ensemble of 15 Robetta structure predictions of Wzt (gray ribbon) aligned with the cryo-EM WzmWzt structure
+(colored as in Fig. 1). The hinge helices are highlighted in dark yellow and dark purple. Residue W362 is shown as red spheres.
+
+(SI Appendix, Fig. S9A) (23). This residue points its hydroxyl
+group at the H-loop histidine His199, a crucial motif in the hydrolysis of ATP (Fig. 4 and SI Appendix, Fig. S7A) (38, 39). Thus,
+structural rearrangements of the CBD and linker region upon
+cap binding could exert a direct effect on ATP hydrolysis by
+manipulating the interaction of Tyr232 with His199. This is
+supported by the observation that in the 2.05-Å ATP-bound
+crystal structure of CBD-truncated WzmWzt, these residues
+are within hydrogen-bonding distance, whereas they are more
+separated in our cryo-EM structure (SI Appendix, Fig. S7B).
+Subtle coordination differences of the H-loop and coupled networks could have profound effects on transporter function.
+Further, Tyr232 also forms a knob-in-hole-type interaction
+with the highly conserved Gly54 of the Walker A motif (SI Appendix, Fig. S7A). In the case of the LPS ABC transporter
+LptB2FGC, replacing Tyr234 (equivalent to Wzt Tyr232) with
+alanine (LptB Y234A) abolished LPS transport, underscoring its
+
+importance for function. Notably, substituting LptB Tyr234 with
+phenylalanine (LptB Y234F) had only a minimal effect on LPS
+transport (42). Thus, the C-terminal helix of the NBD with its
+conserved aromatic residue may function as a general modulator
+of ATPase activity responding to different stimuli, such as O
+antigen binding to WzmWzt.
+Accordingly, we previously observed the in trans interaction
+between the CBD-truncated WzmWzt transporter and the isolated CBD dimer with a corresponding increase in ATPase activity (23). This interaction, in the absence of the NBD/CBD
+linkers, may stimulate ATP hydrolysis by stabilizing the hinge
+helix and thus the conserved Tyr232.
+Following O antigen tethering at the CBD, its lipid anchor
+must interact with the cytosolic substrate entry site located at the
+intersection of the Wzt GH and the Wzm protomers to initiate
+transport. In a processive transport model, the pyrophosphateGlcNAc headgroup of the lipid-linked O antigen substrate would
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+PNAS | 7 of 10
+https://doi.org/10.1073/pnas.2016144118
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+then reorient through the TM1–TM5 interprotomer seam to the
+periplasmic lateral gate, thereby loading the O antigen polysaccharide into the Wzm channel (Fig. 6) (23, 24).
+Interestingly, our asymmetric cryo-EM structure shows only
+one of the two cytoplasmic and periplasmic channel portals in
+open conformations. These states likely reflect pre- and postreorientation conformations in which a wider cytosolic entry site
+enables loading of the substrate’s headgroup into the channel.
+The open periplasmic lateral gate is necessary for releasing the
+headgroup toward the periplasmic bilayer leaflet while also
+minimizing the physical translocation distance.
+While previous apo and ATP-bound crystal structures suggested that WzmWzt exists in symmetrical conformations, O
+antigen translocation likely requires an asymmetric function of
+the ABC transporter. This is because the translocating polymer
+would only interact with one CBD and enter and exit the TM
+channel through only one cytosolic and one periplasmic portal,
+respectively. The CBD O antigen cap-binding sites, as well as the
+cytoplasmic channel entrances, are in direct proximity to the
+active sites of the NBDs. Therefore, polymer-induced asynchronous ATP hydrolysis by the NBDs seems plausible, perhaps
+resulting in staggered power strokes enabling processive translocation. However, elucidating these processes requires structural insights into a stalled O antigen translocation intermediate.
+During processive polymer translocation, ATP binding, hydrolysis, and adenosine diphosphate (ADP)/inorganic phosphate
+(Pi) release must occur while maintaining a continuous TM
+channel that accommodates the polysaccharide. Our previous
+apo and ATP-bound crystal structures each contain such a
+channel sufficiently wide to fit an O antigen chain, representing
+two conformations within the polymer transport cycle (23, 24).
+In a polymer-free state, however, the transporter could undergo the same conformational transitions with a lipid molecule
+sealing the channel, as previously suggested (24). Alternatively,
+WzmWzt could undergo ATP hydrolysis cycles with a closed
+aromatic belt, as observed in cryo-EM structures of WzmWzt
+(ATP bound) and TarGH (apo) (35). These scenarios are not
+mutually exclusive. For example, transitioning from the aromatic
+belt-sealed to the lipid-plugged state would only require a small
+Wzm rotation around the CHL axis described above and the
+diffusion of a lipid molecule into the channel proper. Similar
+transitions are conceivable when moving from a channel-forming
+nucleotide-free state to either of the sealed ATP-bound states.
+We thus propose a revised model of O antigen translocation
+by WzmWzt establishing two paths for the transporter, depending
+upon the occupancy of its channel (Fig. 6). In the absence of O
+antigen (for example after releasing it on the periplasmic side), a
+phospholipid can diffuse into the Wzm channel through the periplasmic lateral exit (lipid occupied) enabling basal ATP hydrolysis
+while maintaining the permeability barrier of the inner membrane.
+Following O antigen tethering at the CBD, reorienting the lipidlinked O antigen displaces the lipid plug and loads the polysaccharide into the channel (O antigen occupied). Repeated rounds of
+ATP hydrolysis while maintaining the channel conformation drives
+processive translocation until transport is completed. The transporter then returns to a lipid- or aromatic belt-sealed resting state.
+The commonalities between WzmWzt and other ABC transporters implicated in lipid-linked polysaccharide translocation in
+gram-positive and mycobacteria suggest that our findings portray
+a generalized mechanism for how this unique class of ABC
+transporters moves high molecular weight polymers across biological membranes (20–22, 35).
+
+MSP1E3D1 Expression and Purification. Expression and purification of the
+MSP1E3D1 membrane scaffold protein was adapted from a previously
+published protocol (43). E. coli BL21(DE3) were transformed with
+pMSP1E3D1 (Addgene plasmid #20066) in lysogeny broth (LB) supplemented
+with 50 mg/L kanamycin and grown overnight at 37 °C. Overnight cultures
+were diluted 1:100 into LB containing 50 mg/L kanamycin and grown at
+37 °C until an OD600 of 0.60. Protein expression was induced by supplementation with 1 mM isopropyl-β-D-thiogalactoside (IPTG) followed by incubation at 37 °C with agitation for 3 h. Cells were harvested by
+centrifugation, resuspended in lysis buffer (40 mM Tris pH 8.0, 0.5 M NaCl,
+10 mM imidazole pH 7.5) and lysed in a microfluidizer. Insoluble material
+was pelleted by ultracentrifugation at 200,000 × g for 30 min in a Beckman
+Coulter Type 45 Ti rotor, and the supernatant was incubated at 4 °C with
+nickel-nitrilotriacetic acid (Ni-NTA) agarose resin (Thermo Fisher Scientific).
+After draining the supernatant, the Ni-NTA resin was washed with four
+buffers: WB1 (lysis buffer with 1% Triton X-100), WB2 (lysis buffer with
+50 mM sodium cholate), lysis buffer, and WB4 (lysis buffer with 50 mM imidazole pH 7.5). MSP1E3D1 was eluted with EB (40 mM Tris pH 8.0, 0.5 M
+NaCl, 0.5 M imidazole pH 7.5) and dialyzed overnight against DB1 (40 mM
+Tris·HCl pH 8.0, 100 mM NaCl, 10 mM imidazole pH 7.5 and 0.5 mM ethylenediaminetetraacetic acid [EDTA] pH 8.0). The MSP1E3D1 His-tag was
+cleaved by incubation overnight at 4 °C with tobacco etch virus (TEV) protease in the presence of 1 mM dithiothreitol (DTT) and removed by reverse
+immobilized metal affinity chromatography (IMAC) Ni-NTA purification. The
+MSP1E3D1-containing fraction was dialyzed overnight against DB3 (20 mM
+Tris pH 7.5, 100 mM NaCl, 0.5 mM EDTA pH 8.0) for storage at −80 °C.
+Nanodisc Reconstitution. Chloroform-solubilized E. coli total lipid extract or
+POPG (Avanti Polar Lipids) was dried to a lipid film using an argon stream
+and maintained under vacuum for 24 h. Lipids were then resuspended in lipid
+resuspension buffer (LRB) comprising 20 mM Tris pH 7.5, 100 mM NaCl, and
+100 mM sodium cholate. Final lipid concentrations of E. coli total lipid extract and
+POPG after resuspension in LRB were 25 mM and 10 mM, respectively. The
+nanodisc reconstitution mixture was prepared according to a 1:4:160 molar ratio
+of WzmWzt, MSP1E3D1 membrane scaffold protein and lipid, respectively. Gel
+filtration buffer (20 mM Tris pH 7.5, 100 mM NaCl, 5 mM lauryldimethylamineN-oxide [LDAO], 0.5 mM tris(2-carboxyethyl)phosphine [TCEP]), lipid, sodium
+cholate (15 mM final concentration), and LDAO-solubilized WzmWzt were
+combined and incubated for 1 h on ice to form mixed micelles. MSP1E3D1 was
+added and incubated up to 30 min on ice. Removal of detergents was initiated
+by the addition 0.2 mg/mL Bio-Beads SM2 (Bio-Rad) followed by incubation at
+4 °C for 1 h. The same mass of Bio-Beads SM2 was added a second time and the
+mixture was incubated at 4 °C overnight. The next day, the same mass of BioBeads SM2 was added followed by incubation at 4 °C for 1 h. After removal of
+Bio-Beads SM2, the nanodisc-reconstituted WzmWzt was purified on a Superdex 200 column equilibrated in nanodisc gel filtration buffer (20 mM Tris pH
+7.5, 100 mM NaCl, 0.5 mM TCEP). Fractions of interest were concentrated with
+a 100-kDa molecular weight cutoff filter for use in ATPase assays (WT
+AaWzmWzt) or for grid preparation (AaWzmWzt E167Q).
+ATPase Activity Measurements. WzmWzt ATPase activity was measured using
+a nicotinamide adenine dinucleotide (NADH)-coupled, ATP-regenerating
+assay as previously described (23, 44) with the following modifications.
+Nanodisc-reconstituted WzmWzt was combined with a buffer containing
+50 mM Hepes pH 7.5, 4 mM phosphoenolpyruvate, 6 units lactate dehydrogenase, 6 units pyruvate kinase, 1 mM MgCl2, and 0.3 mM NADH. The
+ATPase reaction was initiated by the addition of 1 mM ATP/Mg2+ and NADH
+oxidation was monitored as a decrease in absorbance at 340 nm in a SpectraMax M5e plate reader (Molecular Devices). NADH oxidation rates for
+WzmWzt-containing reactions were corrected for baseline NADH oxidation
+in the absence of transporter before conversion to the ATPase rate. All
+measurements were performed at 27 °C over a period of 60 min and repeated to generate averages of three independent experiments.
+
+Materials and Methods
+
+Electron Microscopy Sample Preparation. To prepare the cryo-EM sample,
+nanodisc-reconstituted AaWzmWzt E167Q was concentrated to 1.1 mg mL−1
+and incubated with 2.5 mM ATP and 2.5 mM MgCl2 on ice for 1 h. A 2.5-μL
+sample was applied to Quantifoil Holey carbon grids (R1.2/1.3, 300 mesh,
+copper) that were glow discharged in the presence of amylamine. Grids
+were blotted for 7 s at 4 °C, 100% humidity prior to being plunge frozen in
+liquid ethane cooled by liquid nitrogen using a Vitrobot Mark IV (FEI).
+
+Cloning, Expression, and Purification. Cloning, expression, and purification of
+the full-length AaWzmWzt transporter were performed as previously described, including cloning of the Walker B mutant (E167Q) by the Quikchange method (24).
+
+Electron Microscopy Data Acquisition and Image Processing. Cryo-EM data
+were collected at the Cryo-EM Facility of the University of Massachusetts
+Medical School on a Titan Krios (FEI) 300-kV electron microscope equipped
+
+8 of 10 | PNAS
+https://doi.org/10.1073/pnas.2016144118
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+MICROBIOLOGY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 6. Revised dual-path model of O antigen translocation by WzmWzt. At least two possible paths are available for WzmWzt starting in a closed channel
+conformation, depending on channel occupancy: O antigen-occupied (active transport, Upper) or lipid-occupied (resting state, Lower). (Upper) O antigen
+recruitment, channel insertion, and translocation. Lipid diffusion after O antigen release may seal the channel-forming transporter. Magenta cartoon
+tryptophans indicate aromatic belt residues. The O antigen cap and terminal sugar(s) are shown as a red star and black hexagon, respectively. (Lower) ATP
+hydrolysis in a lipid-occupied state. Reorienting a new Und-PP-linked O antigen substrate displaces the lipid molecule, transitioning the transporter to the
+active transport path (Upper). The transporter may also undergo ATP hydrolysis cycles with an aromatic belt-sealed transmembrane channel.
+
+with a Gatan imaging filter (GIF) and K3 direct detection camera (Gatan).
+SerialEM software was used to collect 31-frame movies in superresolution
+counting mode at 81,000× nominal magnification, corresponding to a calibrated pixel size of 0.53 Å/pixel.
+A total of 5,938 movies were collected with defocus range of −1.2 to −2.2
+μm and an estimated dose rate of 1.45 e−/Å2/frame. All movies were imported into Relion 3.0.8 (45, 46) for motion correction, dose weighting, and
+twofold Fourier cropping to a pixel size of 1.06 Å/pixel using MotionCor2.
+The dose-weighted summed images excluding the initial frame were used
+for all image processing except for contrast transfer function (CTF) parameter estimation where nondose-weighted summed images (excluding initial
+frame) were processed using CTFFind4 (47). Particles were autopicked using
+the Laplacian-of-Gaussian-based method from a subset of 4,935 micrographs
+and down-sampled to a pixel size of 4.24 Å/pixel for initial processing. Following several rounds of two-dimensional (2D) classification, a particle set of
+804,216 particles was imported into cryoSPARC (48) to generate an ab initio
+
+initial model. This initial model was imported into Relion to guide 3D
+classification and refinement.
+An iterative process of 3D classification and 2D classification followed by 3D
+classification yielded a single class suitable for refinement. Reextraction to 1.49 Å/pixel
+followed by refinement, postprocessing, Bayesian polishing, and CTF refinement,
+yielded a final map with 3.6-Å overall resolution based on 48,174 particles (MAP1).
+In order to improve the density of the Wzt CBD, a particle pool of 178,053
+reextracted particles (1.49 Å/pixel) was subjected to signal subtraction to
+remove the Wzm TM and nanodisc region from particle images. These
+signal-subtracted particles were 3D classified using a mask over the CBD
+dimer region only to yield a single class with improved CBD density consisting of 51,828 particles. Refinement of this particle set yielded a Wzt dimer map with an overall resolution of 3.6 Å (MAP2).
+Model Building and Refinement. The crystal structure of the ATP-bound
+WzmWztN (PDB code 6M96) transporter was fit into the postprocessed
+version of MAP1 in Chimera (49) and manually real-space refined in Coot
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked O
+antigen transport
+
+PNAS | 9 of 10
+https://doi.org/10.1073/pnas.2016144118
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+(50) followed by real-space refinement in Phenix (51) in an iterative manner
+to yield a final model of WzmWzt that excluded the Wzt CBD dimer. Separately, an initial model of a full Wzt dimer was prepared fitting the cryo-EM
+Wzt NBD dimer and the AaWzt CBD dimer crystal structure (PDB code 6O14)
+into MAP2 in Chimera. The full Wzt dimer model was then iteratively manually
+refined in Coot followed by real-space refinement in Phenix against a postprocessed version of MAP2. The final Wzt model that was refined against
+MAP2 was then fit into the postprocessed MAP1 in Chimera. The MAP2-based
+Wzt CBD dimer model was then used to complement the MAP1-based model
+of CBD-truncated WzmWzt to generate the final full-length WzmWzt model.
+This model was refined in Phenix against postprocessed MAP1.
+
+analyzed using the CheckMyMetal Metal Binding Site Validation Server
+(https://csgid.org/metal_sites) (52, 53).
+Data Availability. Cryo-EM data from this study have been deposited in the
+Electron Microscopy Data Bank (EMDB) with the entry ID EMD-22644. Coordinates for the atomic model have been deposited in the Protein Data
+Bank (PDB) with the entry ID 7K2T.
+
+Figure Preparation. All figures were prepared in the PyMOL Molecular
+Graphics System (Schrödinger, LLC https://pymol.org) and the University of
+California San Francisco Chimera package. Magnesium coordination was
+
+ACKNOWLEDGMENTS. We thank Ruoya Ho for help with cryo-EM grid
+preparation and discussions and Kangkang Song and Chen Xu at the
+University of Massachusetts Medical School Cryo-EM Facility for data collection on the Titan Krios microscope. C.A.C. was supported by the Cell and
+Molecular Biology NIH training grant NIH-5T32GM008136 and the University of Virginia Robert Wagner Fellowship. J.Z. is supported by NIH grant
+5R01GM129666.
+
+1. I. S. Roberts, The biochemistry and genetics of capsular polysaccharide production in
+bacteria. Annu. Rev. Microbiol. 50, 285–315 (1996).
+2. C. Whitfield, Biosynthesis and assembly of capsular polysaccharides in Escherichia coli.
+Annu. Rev. Biochem. 75, 39–68 (2006).
+3. C. Whitfield, M. S. Trent, Biosynthesis and export of bacterial lipopolysaccharides.
+Annu. Rev. Biochem. 83, 99–128 (2014).
+4. C. A. Caffalette, J. Kuklewicz, N. Spellmon, J. Zimmer, Biosynthesis and export of
+bacterial glycolipids. Annu. Rev. Biochem. 89, 741–768 (2020).
+5. S. Brown, J. P. Santa Maria, Jr, S. Walker, Wall teichoic acids of gram-positive bacteria.
+Annu. Rev. Microbiol. 67, 313–336 (2013).
+6. O. Schneewind, D. Missiakas, Lipoteichoic acids, phosphate-containing polymers in
+the envelope of gram-positive bacteria. J. Bacteriol. 196, 1133–1142 (2014).
+7. M. Jankute, J. A. Cox, J. Harrison, G. S. Besra, Assembly of the Mycobacterial Cell Wall,
+Assembly of the mycobacterial cell wall. Annu. Rev. Microbiol. 69, 405–423 (2015).
+8. C. R. Raetz, C. Whitfield, Lipopolysaccharide endotoxins. Annu. Rev. Biochem. 71,
+635–700 (2002).
+9. S. Shankar-Sinha et al., The Klebsiella pneumoniae O antigen contributes to bacteremia and lethality during murine pneumonia. Infect. Immun. 72, 1423–1430 (2004).
+10. G. L. Murray, S. R. Attridge, R. Morona, Altering the length of the lipopolysaccharide
+O antigen has an impact on the interaction of Salmonella enterica serovar Typhimurium with macrophages and complement. J. Bacteriol. 188, 2735–2739 (2006).
+11. C. D. Clay, S. Soni, J. S. Gunn, L. S. Schlesinger, Evasion of complement-mediated lysis
+and complement C3 deposition are regulated by Francisella tularensis lipopolysaccharide O antigen. J. Immunol. 181, 5568–5578 (2008).
+12. E. M. Goebel, D. N. Wolfe, K. Elder, S. Stibitz, E. T. Harvill, O antigen protects Bordetella parapertussis from complement. Infect. Immun. 76, 1774–1780 (2008).
+13. N. Ho, A. N. Kondakova, Y. A. Knirel, C. Creuzenet, The biosynthesis and biological
+role of 6-deoxyheptose in the lipopolysaccharide O-antigen of Yersinia pseudotuberculosis. Mol. Microbiol. 68, 424–447 (2008).
+14. M. Caboni et al., An O antigen capsule modulates bacterial pathogenesis in Shigella
+sonnei. PLoS Pathog. 11, e1004749 (2015).
+15. I. Orskov, F. Orskov, B. Jann, K. Jann, Serology, chemistry, and genetics of O and K
+antigens of Escherichia coli. Bacteriol. Rev. 41, 667–710 (1977).
+16. J. D. King, S. Berry, B. R. Clarke, R. J. Morris, C. Whitfield, Lipopolysaccharide O antigen size distribution is determined by a chain extension complex of variable stoichiometry in Escherichia coli O9a. Proc. Natl. Acad. Sci. U.S.A. 111, 6407–6412 (2014).
+17. L. Cuthbertson, J. Powers, C. Whitfield, The C-terminal domain of the nucleotidebinding domain protein Wzt determines substrate specificity in the ATP-binding
+cassette transporter for the lipopolysaccharide O-antigens in Escherichia coli serotypes O8 and O9a. J. Biol. Chem. 280, 30310–30319 (2005).
+18. E. Mann et al., Substrate recognition by a carbohydrate-binding module in the prototypical ABC transporter for lipopolysaccharide O-antigen from Escherichia coli O9a.
+J. Biol. Chem. 294, 14978–14990 (2019).
+19. S. Okuda, E. Freinkman, D. Kahne, Cytoplasmic ATP hydrolysis powers transport of
+lipopolysaccharide across the periplasm in E. coli. Science 338, 1214–1217 (2012).
+20. K. Schirner, L. K. Stone, S. Walker, ABC transporters required for export of wall teichoic acids do not discriminate between different main chain polymers. ACS Chem.
+Biol. 6, 407–412 (2011).
+21. M. Braibant, P. Gilot, J. Content, The ATP binding cassette (ABC) transport systems of
+Mycobacterium tuberculosis. FEMS Microbiol. Rev. 24, 449–467 (2000).
+22. P. Dianišková et al., Investigation of ABC transporter from mycobacterial arabinogalactan biosynthetic cluster. Gen. Physiol. Biophys. 30, 239–250 (2011).
+23. Y. Bi, E. Mann, C. Whitfield, J. Zimmer, Architecture of a channel-forming O-antigen
+polysaccharide ABC transporter. Nature 553, 361–365 (2018).
+24. C. A. Caffalette, R. A. Corey, M. S. P. Sansom, P. J. Stansfeld, J. Zimmer, A lipid gating
+mechanism for the channel-forming O antigen ABC transporter. Nat. Commun. 10,
+824 (2019).
+25. J. L. Morgan, J. Strumillo, J. Zimmer, Crystallographic snapshot of cellulose synthesis
+and membrane translocation. Nature 493, 181–186 (2013).
+26. J. L. Morgan et al., Observing cellulose biosynthesis and membrane translocation in
+crystallo. Nature 531, 329–334 (2016).
+
+27. B. R. Clarke, L. Cuthbertson, C. Whitfield, Nonreducing terminal modifications determine the chain length of polymannose O antigens of Escherichia coli and couple
+chain termination to polymer export via an ATP-binding cassette transporter. J. Biol.
+Chem. 279, 35709–35718 (2004).
+28. G. Hagelueken et al., A coiled-coil domain acts as a molecular ruler to regulate
+O-antigen chain length in lipopolysaccharide. Nat. Struct. Mol. Biol. 22, 50–56 (2015).
+29. L. Cuthbertson, M. S. Kimber, C. Whitfield, Substrate binding by a bacterial ABC
+transporter involved in polysaccharide export. Proc. Natl. Acad. Sci. U.S.A. 104,
+19529–19534 (2007).
+30. E. Mann, E. Mallette, B. R. Clarke, M. S. Kimber, C. Whitfield, The Klebsiella pneumoniae O12 ATP-binding cassette (ABC) transporter recognizes the terminal residue
+of its O-antigen polysaccharide substrate. J. Biol. Chem. 291, 9748–9761 (2016).
+31. Y. Bi, J. Zimmer, Structure and ligand-binding properties of the O antigen ABC
+transporter carbohydrate-binding domain. Structure 28, 252–258.e252 (2020).
+32. C. Thomas, R. Tampé, Structural and mechanistic principles of ABC transporters.
+Annu. Rev. Biochem. 89, 605–636 (2020).
+33. N. M. I. Taylor et al., Structure of the human multidrug transporter ABCG2. Nature
+546, 504–509 (2017).
+34. I. Manolaridis et al., Cryo-EM structures of a human ABCG2 mutant trapped in ATPbound and substrate-bound states. Nature 563, 426–430 (2018).
+35. L. Chen et al., Cryo-electron microscopy structure and transport mechanism of a wall
+teichoic acid ABC transporter. MBio 11, e02749–e02719 (2020).
+36. B. K. Ho, F. Gruswitz, HOLLOW: Generating accurate representations of channel and
+interior surfaces in molecular structures. BMC Struct. Biol. 8, 49 (2008).
+37. S. Hofmann et al., Conformation space of a heterodimeric ABC exporter under
+turnover conditions. Nature 571, 580–583 (2019).
+38. J. Zaitseva, S. Jenewein, T. Jumpertz, I. B. Holland, L. Schmitt, H662 is the linchpin of
+ATP hydrolysis in the nucleotide-binding domain of the ABC transporter HlyB. EMBO
+J. 24, 1901–1910 (2005).
+39. M. L. Oldham, J. Chen, Snapshots of the maltose transporter during ATP hydrolysis.
+Proc. Natl. Acad. Sci. U.S.A. 108, 15152–15156 (2011).
+40. D. E. Kim, D. Chivian, D. Baker, Protein structure prediction and analysis using the
+Robetta server. Nucleic Acids Res. 32, W526–W531 (2004).
+41. S. Ovchinnikov et al., Improved de novo structure prediction in CASP11 by incorporating coevolution information into Rosetta. Proteins 84 (suppl. 1), 67–75 (2016).
+42. B. W. Simpson et al., Combining mutations that inhibit two distinct steps of the ATP
+hydrolysis cycle restores wild-type function in the lipopolysaccharide transporter and
+shows that ATP binding triggers transport. MBio 10, e01931-19 (2019).
+43. F. Hagn, M. L. Nasr, G. Wagner, Assembly of phospholipid nanodiscs of controlled size
+for structural studies of membrane proteins by NMR. Nat. Protoc. 13, 79–98 (2018).
+44. K. Kiianitsa, J. A. Solinger, W. D. Heyer, NADH-coupled microplate photometric assay
+for kinetic studies of ATP-hydrolyzing enzymes with low and high specific activities.
+Anal. Biochem. 321, 266–271 (2003).
+45. S. H. Scheres, Processing of structurally heterogeneous cryo-EM data in RELION.
+Methods Enzymol. 579, 125–157 (2016).
+46. J. Zivanov et al., New tools for automated high-resolution cryo-EM structure determination in RELION-3. eLife 7, e42166 (2018).
+47. A. Rohou, N. Grigorieff, CTFFIND4: Fast and accurate defocus estimation from electron micrographs. J. Struct. Biol. 192, 216–221 (2015).
+48. A. Punjani, J. L. Rubinstein, D. J. Fleet, M. A. Brubaker, cryoSPARC: algorithms for rapid
+unsupervised cryo-EM structure determination. Nat. Methods 14, 290–296 (2017).
+49. E. F. Pettersen et al., UCSF Chimera–a visualization system for exploratory research
+and analysis. J. Comput. Chem. 25, 1605–1612 (2004).
+50. P. Emsley, B. Lohkamp, W. G. Scott, K. Cowtan, Features and development of Coot.
+Acta Crystallogr. D Biol. Crystallogr. 66, 486–501 (2010).
+51. D. Liebschner et al., Macromolecular structure determination using X-rays, neutrons
+and electrons: Recent developments in Phenix. Acta Crystallogr. D Struct. Biol. 75,
+861–877 (2019).
+52. H. Zheng et al., Validation of metal-binding sites in macromolecular structures with
+the CheckMyMetal web server. Nat. Protoc. 9, 156–170 (2014).
+53. H. Zheng et al., CheckMyMetal: A macromolecular metal-binding validation tool. Acta
+Crystallogr. D Struct. Biol. 73, 223–233 (2017).
+
+10 of 10 | PNAS
+https://doi.org/10.1073/pnas.2016144118
+
+Caffalette and Zimmer
+Cryo-EM structure of the full-length WzmWzt ABC transporter required for lipid-linked
+O antigen transport
+
+

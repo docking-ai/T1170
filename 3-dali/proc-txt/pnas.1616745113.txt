@@ -1,0 +1,1558 @@
+PNAS PLUS
+
+Molecular mechanisms of substrate-controlled ring
+dynamics and substepping in a nucleic acid-dependent
+hexameric motor
+Nathan D. Thomsena,b,1, Michael R. Lawsona,b, Lea B. Witkowskya,b, Song Qua,b,2, and James M. Bergera,b,3
+a
+
+Department of Molecular and Cell Biology, University of California, Berkeley, CA 94720; and bQB3 Institute, University of California, Berkeley, CA 94720
+
+Contributed by James M. Berger, October 17, 2016 (sent for review August 15, 2016; reviewed by Walter J. Chazin and Marcelo Nollmann)
+
+ATPase
+
+| helicase | motor protein | transcription | translocase
+
+H
+
+exameric helicases and translocases are motor proteins that
+play a central role in cellular transactions ranging from
+replication and repair to transcriptional regulation, chromosome
+packaging, and proteolytic homeostasis (1–4). Used to drive the
+processive and, at times, highly rapid movement of extended
+nucleic acid or protein chains through a central pore, ring-shaped
+motors face several challenges to their operation. One is that certain enzymes must transition through controlled ring opening
+and/or subunit assembly events to allow long, polymeric substrates
+that lack freely accessible ends to access interior motor elements (5–
+7). Another is that, once loaded, the molecular plasticity inherent to
+these assemblies must be harnessed to precisely coordinate ATP
+binding and hydrolysis between multiple subunits with the powering of substrate translocation, while at the same time alternating between tight and loose grips on the substrate to allow for
+processive movement. The substrate-dependent molecular rearrangements that underpin ring dynamics during these events remain poorly understood, not only for hexameric helicases and
+translocases, but for related ring-shaped switches as well.
+The Escherichia coli Rho transcription termination factor is
+a well-established model system for understanding hexameric
+translocase and helicase function (8, 9). During termination,
+Rho uses a cytosine-specific RNA-binding domain appended to
+the N terminus of a RecA-type ATPase fold (10, 11) to bind
+nascent RNA transcripts at cytosine-rich sequences [known as
+Rho utilization (rut) sites] (12, 13). Once loaded, Rho consumes
+ATP to translocate 5′→3′ toward a paused RNA polymerase,
+eventually promoting transcription bubble collapse and RNA
+release (14–19).
+Structural studies have provided insights into the mechanics of
+RNA loading by Rho, imaging the helicase in both closed-circular and notched/lockwasher-shaped states (20–24). These
+findings have suggested that Rho monomers assemble into a
+www.pnas.org/cgi/doi/10.1073/pnas.1616745113
+
+pliant hexamer that can spontaneously open to allow nucleic acid
+entry into the translocation pore (22, 24, 25), a property that has
+been observed in other hexameric helicases such as the eukaryotic MCM2-7 complex (26–28). By comparison, the structure of
+a closed-ring Rho complex bound to single-stranded RNA and
+the ATP-mimetic ADP·BeF3 has provided a picture of a prospective translocation intermediate of the motor (29). This work,
+combined with that of a prior landmark model for the human
+papillomavirus E1 helicase bound to single-stranded DNA
+and ADP (30) [as well as more recent work on the replicative
+helicase, DnaB (31)] has led to two general principles for understanding hexameric helicase function. One is that, as proposed first for the T7 gp4 protein (32), most hexameric helicases
+likely use a sequential, rotary ATPase mechanism similar to that
+used by the F1 ATPase to power translocation (33). Another is
+that both the relative order of hydrolysis between subunits and/or
+differences in subunit orientation within a motor can determine
+the polarity of nucleic acid translocation (29, 30, 34, 35).
+Despite present-day insights, there remain many unanswered
+questions regarding the loading and translocation mechanism of
+Rho. For example, there has been no systematic assessment of
+the extent to which the various crystallographic states observed
+thus far correlate with the predominant structures adopted by
+Significance
+Hexameric, ring-shaped translocases are molecular motors that
+convert the chemical energy of ATP hydrolysis into the physical
+movement of protein and nucleic acid substrates. Structural
+studies of several distinct hexameric translocases have provided insights into how substrates are loaded and translocated;
+however, the range of structural changes required for coupling
+ATP turnover to a full cycle of substrate loading and translocation has not been visualized for any one system. Here, we
+combine low- and high-resolution structural studies of the Rho
+transcription termination factor, defining a set of conformational transitions that accompany substrate binding and
+translocations by a processive hexameric helicase.
+Author contributions: N.D.T. and J.M.B. designed research; N.D.T., L.B.W., and S.Q. performed research; N.D.T., M.R.L., and J.M.B. analyzed data; and N.D.T., M.R.L., and J.M.B.
+wrote the paper.
+Reviewers: W.J.C., Vanderbilt University; and M.N., Centre Nationale de la Recherche
+Scientifique.
+The authors declare no conflict of interest.
+Data deposition: The crystallographic data and structural models have been deposited in
+the Protein Data Bank, www.pdb.org [PDB ID codes 5JJI (RhoPolyU-P21), 5JJK (RhoPolyA),
+and 5JJL (RhoEmpty)].
+1
+
+Present address: Gilead Sciences Inc., Foster City, CA 94404.
+
+2
+
+Present address: Department of Molecular & Experimental Medicine, Scripps Research
+Institute, La Jolla, CA 92037.
+
+3
+
+To whom correspondence should be addressed at the present address: Department of
+Biophysics and Biophysical Chemistry, Johns Hopkins School of Medicine, Baltimore, MD
+21205. Email: jmberger@jhmi.edu.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1616745113/-/DCSupplemental.
+
+PNAS | Published online November 16, 2016 | E7691–E7700
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Ring-shaped hexameric helicases and translocases support essential
+DNA-, RNA-, and protein-dependent transactions in all cells and
+many viruses. How such systems coordinate ATPase activity between
+multiple subunits to power conformational changes that drive the
+engagement and movement of client substrates is a fundamental
+question. Using the Escherichia coli Rho transcription termination
+factor as a model system, we have used solution and crystallographic
+structural methods to delineate the range of conformational changes
+that accompany distinct substrate and nucleotide cofactor binding
+events. Small-angle X-ray scattering data show that Rho preferentially adopts an open-ring state in solution and that RNA and ATP
+are both required to cooperatively promote ring closure. Multiple
+closed-ring structures with different RNA substrates and nucleotide
+occupancies capture distinct catalytic intermediates accessed during
+translocation. Our data reveal how RNA-induced ring closure templates a sequential ATP-hydrolysis mechanism, provide a molecular
+rationale for how the Rho ATPase domains distinguishes between
+distinct RNA sequences, and establish structural snapshots of substepping events in a hexameric helicase/translocase.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 1. SAXS analysis of apo and substrate-bound Rho complexes. (A) Scattering curve for apo Rho in solution (blue) closely matches the theoretical curve
+(red) calculated from a model based on the open-ring structure [PDB ID code 1PVO; Inset (22)], but not the theoretical curve (black) calculated from a closedring Rho model bound to RNA and ADP·BeF3. (B) Scattering curve for Rho in the presence of RNA (1:1 RNA:hexamer) and 2 mM ADP·BeF3 (pink) closely
+matches the theoretical curve (black) calculated from the closed-ring Rho structure bound to RNA and ADP·BeF3 determined here, but not the theoretical
+curve (red) calculated from an open-ring Rho model (PDB ID code 1PVO). (C) Plot of the percent-closed value obtained with FOXS vs. ADP·BeF3 concentration
+shows that both RNA and ATP are required for Rho ring closure.
+
+Rho in solution. The relative roles that ATP and RNA play in
+promoting ring opening vs. ring closing are similarly unresolved.
+At the same time, the range and types of movements that accompany ATP turnover events to support RNA translocation
+have yet to be fully defined. Likewise, it is unclear how the
+physical nature of the nucleic acid substrate itself—its chemical
+identity and base composition—feeds back to ATPase centers to
+influence motor activity. Answers to these questions are needed
+to understand fundamental aspects of hexameric helicase loading and translocation, not just by Rho, but by hexameric motor
+proteins in general.
+To better define the physical basis by which substrate-coupled
+conformational changes underpin hexameric motor mechanism,
+we conducted both solution and crystallographic structural
+studies of E. coli Rho with the goal of characterizing novel
+conformational intermediates in conjunction with different RNA
+sequences and nucleotide-binding modes. Small-angle X-ray
+scattering (SAXS) confirmed that the current open- and closedring models imaged crystallographically correspond to dominant
+states adopted in solution in the absence and presence of substrates, respectively, and further establish that Rho ring closure
+occurs only when both RNA and ATP are present. Three crystal
+structures of Rho (including an experimentally phased structure
+at higher resolution than that determined previously) reveal ring
+rearrangements accompanying ATP cycling, which, together with
+comparisons to other oligomeric RecA-family motors, uncover a
+common allosteric linkage that physically connects nucleic-acid
+binding with ATPase activation in members of this widespread
+motor family. Together, our data highlight unexpected substeps
+in the Rho loading/translocation cycle and help explain previous
+research implicating RNA sequence as a regulator of Rho
+function in transcription termination (36–39).
+Results
+Both RNA and ATP Are Required to Drive Rho Ring Closure. To probe
+
+how Rho physically and differentially responds to the binding of
+substrates such as nucleotide and RNA, we first used SAXS to
+verify whether available crystal structures of the helicase correspond to major or minor population states in solution (Fig. 1 A
+and B and SI Appendix, Fig. S1 A and B) (40). SAXS is an ideal
+technique for analyzing the ensemble of states accessed in solution by macromolecular assemblies with conformational or
+configurational flexibility (41). SAXS data were initially collected on Rho in the absence of ligand and on Rho mixed with
+one molar equivalent per hexamer of a poly-pyrimidine RNA
+(rU12) and 2 mM ADP·BeF3, a nonhydrolyzable ATP analog.
+E7692 | www.pnas.org/cgi/doi/10.1073/pnas.1616745113
+
+Consistent with size-exclusion chromatography (SI Appendix,
+Fig. S1 C and D), SAXS curves for Rho exhibited no sign of
+aggregation under any of the conditions tested, and distance
+distribution (P(r)) profiles, Guinier analysis, and Kratky plots also
+were consistent with a well-behaved, hexameric particle (SI Appendix, Fig. S2 and Table S1). Notably, data collected in the
+absence and presence of both RNA and ADP·BeF3 proved to be
+extremely close matches to the theoretical curves calculated from
+crystal structures of models of open- and closed-ring states of
+Rho, respectively (Fig. 1 A and B). Although our theoretical
+models do not fully account for interdomain and intersubunit
+flexibility [which would require polymer physics-based modeling
+of all flexible connections (42)], our data indicate that the openand closed-ring crystal structures seen previously for Rho are
+consistent with the conformations of native particles observed
+in solution.
+To assess the individual contributions of RNA and nucleotide
+to ring closure, we next conducted SAXS experiments in either
+the presence or absence of RNA and over several ADP·BeF3
+concentrations. Data collected in the absence of RNA, but with
+0, 0.5, 1, or 2 mM ADP·BeF3, induced only modest changes in
+the scattering profile (SI Appendix, Fig. S1A). By contrast, scattering data collected in the presence of RNA exhibited distinct
+changes as ADP·BeF3 concentrations were increased (SI Appendix, Fig. S1B). Data collected at intermediate concentrations
+of nucleotide could not be properly modeled by individual
+Rho crystal structures, so we used the programs FOXS and
+OLIGOMER to fit a two-component model consisting of both
+the open- and closed-ring Rho structures (SI Appendix, Tables S2
+and S3) (43–45). The two-component analysis produced greatly
+improved fits for the intermediate states, indicating that, in the
+absence of RNA and nucleotide, the vast majority of Rho hexamers are open in solution and remain so even at high (2 mM)
+ADP·BeF3 concentrations (Fig. 1C). By contrast, with the addition of RNA, nucleotide titration leads to ring closing in Rho,
+such that by 2 mM ADP·BeF3, the hexamer population is
+dominated by the closed-ring state. Together, these data confirm
+that Rho forms an open lock-washer in solution and further
+demonstrate that both RNA and nucleotide are required to
+promote ring closure (5). This RNA- and ATP-dependent conformational change in Rho may correspond to the rate-limiting
+step previously observed in stopped-flow kinetics measurements of ATP hydrolysis (46), a concept supported by the
+marked acceleration of both ATPase and ring closure rates in
+response to primary site occupancy (38, 47).
+Thomsen et al.
+
+* T*
+
+E
+
+C
+
+B
+
+T*
+
+C
+
+B
+
+D
+
+D
+
+* D
+
+T
+
+A
+
+A
+
+D
+
+E
+
+E
+
+rel
+ati
+ve
+to
+
+E
+
+F
+
+peel open
+5’
+
+B
+A
+B
+C
+exchangeable
+active site 3’
+
+C
+
+“transition”
+subunit
+
+F
+
+D
+
+E
+
+A
+
+relative to
+
+to
+tive
+rela
+
+F
+
+90°
+F
+
+relative to
+
+E
+
+C
+
+D
+
+E
+
+A
+
+chain f hidden
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Resolve - 1σ
+
+Resolve - 1σ
+
+0 Cα Distance (Å) Between Structures >1.5
+
+Fig. 2. Overall structure and ligand binding in a new Rho translocation intermediate. (A) Superposition of a new Rho·RNA·ADP·BeF3 structure (RhoPolyU-P21,
+colored and labeled by subunit), with the previously determined Rho·RNA·ADP·BeF3 structure (RhoPolyU-P1, white). Presumptive ATP hydrolysis states (T,
+ATP bound; T*, ATP hydrolysis; D, product; E, exchange) are labeled in color
+(RhoPolyU-P21) or white (RhoPolyU-P1). (B) Schematic of closed-ring Rho hexamer
+(flattened on page) bound to RNA (one complete turn) highlighting the righthanded helical rise of the A/B/C/D/E interfaces that are bound to RNA, and the
+position of subunit F in transition between the top and bottom steps of the
+RNA-binding staircase. Subunit C is shown twice to connect the two sides.
+(C) Experimental (density modified, SAD phased, RhoPolyU-P21) electron density
+around one of the bound nucleotides (ADP, magenta; BeF3, black; Mg2+, yellowgreen). (D) Experimental (density modified, SAD phased, RhoPolyU-P21) electron
+density around the bound RNA (orange). (E) Intersubunit distance vectors calculated independently for each intersubunit interface between the RhoPolyU-P1
+and RhoPolyU-P21 structures. Vectors were calculated relative to either the clockwise-adjacent subunit (Upper) or to the counterclockwise-adjacent subunit
+(Lower) revealing that the new RhoPolyU-P21 structures differ from the original
+RhoPolyU-P1 model primarily in the position of subunit F and in the Q and R loops
+of subunits A and E.
+
+A Closed-Ring Rho State Manifests a Sequential Shift in ATPase
+Status. Having established that existing crystallographic struc-
+
+tures are suitable models for the open and closed Rho states in
+solution, we next set out to determine whether different substratebound, closed-ring forms of Rho might exist. We postulated that
+different RNA sequences or nucleotide-binding conditions might
+influence the formation of such intermediates. Because our initial
+closed-ring Rho crystals were difficult to work with (hereafter
+referred to as RhoPolyU-P1, in reference to the RNA sequence and
+space group in which the protein crystallized) (48), we set out to
+find a new crystal packing arrangement that could be obtained in
+the presence of different RNA and nucleotide conditions, but that
+still possessed at least one complete Rho hexamer per asymmetric
+unit (so as to image the particle in the absence of crystal symmetry
+influences). We therefore conducted a new, broader set of screens
+with purified Rho in the presence of RNA and nucleotide, discovering a crystal form belonging to the space group P21 that
+satisfied these criteria (Methods).
+Thomsen et al.
+
+PNAS | Published online November 16, 2016 | E7693
+
+PNAS PLUS
+
+From the new Rho form, we were able to experimentally
+phase and refine a higher-resolution (2.6 Å) structure of an
+intact hexamer bound to seven nucleotides of a centrally associated poly-U RNA, and that displayed electron density for
+ADP·BeF3·Mg2+ bound to all six ATP-binding sites (hereafter
+referred to as RhoPolyU-P21) (Fig. 2 A–D and Table 1). The experimental phases and higher resolution allowed us to correct
+two small building errors in previous Rho structures (SI Appendix,
+Fig. S3). A global alignment of the new RhoPolyU-P21 model with
+the original Rho PolyU-P1 state revealed that the two hexamers are highly similar structurally (Fig. 2A), with a root mean
+squared deviation (rmsd) for all shared backbone Cα atoms of
+1.55 Å. As seen previously, five subunits of the RhoPolyU-P21 state
+form a smoothly ascending spiral staircase that wraps around a
+single-stranded RNA helix; the sixth (subunit F) occupies a
+“transit” position midway between the uppermost (A) and bottommost (E) protomers to close the ring (Fig. 2B). In addition,
+four classes of nucleotide-binding sites were again evident at the
+six intersubunit interfaces. Using criteria such as nucleotide B
+factors [a measure of positional accuracy, or “orderedness” (49)]
+and coordination geometry, these sites have been classified as
+corresponding to either “exchange” (E), “ATP-bound” (T),
+“hydrolysis” (T*), or product (D) states along the ATPase cycle
+(Fig. 2A) (29).
+Globally, the conformations of the ATPase sites and the sequential order of ATPase states in the new RhoPolyU-P21 Rho model
+initially appeared similar to those seen in the original RhoPolyU-P1
+structure, with the modeled nucleotides refining to a relative Bfactor distribution consistent with the formation of three tight and
+three weak ATP-binding environments as observed biochemically
+(50–55) (SI Appendix, Fig. S4). However, inspection of the distance
+vectors calculated between Cα atoms for the RhoPolyU-P1 and
+RhoPolyU-P21 models revealed that subunit F, as well as the RNAbinding R loops of subunits E and A, have moved with respect to
+one other around a vector approximately parallel to the ring axis
+(Fig. 2E).
+Because the A, F, and E subunits are thought to represent the
+likely sites for the release of nucleotide hydrolysis products and the
+binding of fresh ATP within the hexamer (29), we elected to
+compare the nucleotide-binding regions of the two Rho models in
+more detail. This analysis uncovered pronounced changes in some
+of the nucleotide-binding sites, which, in turn, revealed a shift in the
+pattern of functional states between the RhoPolyU-P1 and RhoPolyU-P21
+forms of Rho (Figs. 2A and 3). The most striking change was that the
+presumptive catalytic water molecules seen in subunit A and B active
+sites of the initial closed-ring structure now appear in the catalytic
+centers of subunits B and C in the new structure (Figs. 2A and 3 A–C
+and SI Appendix, Fig. S5 A–C). Moreover, each of these waters
+also has shifted its local position from a nonideal location in the
+RhoPolyU-P1 model to take up a direct, in-line attack configuration with the BeF3 group of the bound nucleotide in the
+RhoPolyU-P21 structure (Fig. 3B). Repositioning of the waters is
+mediated at both interfaces by a conserved arginine [the “arginineswitch” (RS), R269], the catalytic glutamate (CE) residue (E211)
+that polarizes the water to assist hydrolysis, and a backbone carbonyl
+(G337) of the adjacent protomer. The glycine-mediated contact was not
+observed in the prior RhoPolyU-P1 structure. Consistent with biochemical
+studies implicating their importance to overall Rho function
+(10, 56–60), a conserved network of ion pairs at the B/C and
+C/D interfaces—which runs from the RNA-binding pore to the
+ATPase center—appears to help orient amino acids responsible
+for in-line placement of the attacking water (SI Appendix, Fig.
+S6). Overall, the new placement for the catalytic waters in
+RhoPolyU-P21, together with other changes in the relative orientations of catalytically important amino acids (Fig. 3 and SI Appendix,
+SI Discussion), supports the proposed existence of hydrolysis-competent active sites in the closed-ring Rho states (29). This shift also
+advances the relative position of the two T* states by one subunit
+
+BIOCHEMISTRY
+
+A
+
+Table 1. Data collection, phasing and refinement
+Parameter
+Data collection
+Space group
+Cell dimensions
+a, b, c, Å
+α, β, γ, °
+Wavelength
+Resolution, Å
+Rsym or Rmerge
+I/σI
+Completeness, %
+Redundancy
+Refinement
+Resolution, Å
+No. of reflections
+Rwork/Rfree
+No. of atoms
+Protein
+Ligand/ion
+Water
+B factors
+Protein
+Ligand/ion
+Water
+rmsds
+Bond lengths, Å
+Bond angles, °
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+†
+
+RhoPolyU-P21
+
+RhoPolyU-P21
+
+RhoPolyA
+
+RhoEmpty
+
+P21
+
+P21
+
+P21
+
+P21
+
+68.72, 198.8, 111.8
+90.0, 104.8, 90.0
+Peak
+0.9796
+50–2.95 (3.06–2.95)
+9.1 (46)
+10.8 (2.4)
+98.2 (97.1)
+5.6 (5.2)
+
+69.00, 198.6, 111.4
+90.0, 104.4, 90.0
+Remote
+1.116
+50–2.60 (2.69–2.60)
+8.1 (63)
+14 (1.8)
+99.7 (99.1)
+3.1 (3.1)
+
+68.76, 199.2, 112.2
+90.0, 104.8, 90.0
+remote
+1.116
+50–3.15 (3.26–3.15)
+12.1 (60)
+9.4 (2.0)
+99.0 (99.5)
+2.9 (2.9)
+
+69.09, 199.1, 111.7
+90.0, 105.0, 90.0
+remote
+1.116
+50–3.2 (3.31–3.20)
+12.8 (58)
+8.1 (1.8)
+96.2 (96.4)
+2.8 (2.8)
+
+47.4–2.6
+88,380
+21.8/24.6
+
+49.8–3.15
+49,848
+23.3/26.5
+
+49.5–3.2
+46,060
+23.2/26.6
+
+19,164
+341
+271
+
+18,696
+347
+19
+
+18,888
+325
+15†
+
+67.9
+53.6
+45.2
+
+80.7
+69.9
+64.5
+
+73.7
+66.6
+46.6
+
+0.006
+0.575
+
+0.006
+0.560
+
+0.006
+0.691
+
+Values in parenthesis correspond to the highest resolution bin.
+Only waters involved in octahedral coordination of the active site Mg2+ ions were modeled.
+
+toward the lone E state and adds a second D state compared with the
+RhoPolyU-P1 structure determined previously (Fig. 2A).
+Intersubunit Relationships in the Nucleotide-Exchange Region Mirror
+Those of an Open-Ring State. A key supposition of the rotary cycling
+
+model based on the original RhoPolyU-P1 crystal form has been that
+the E/F interface, which is relatively open and solvent exposed,
+corresponds to a nucleotide-exchangeable (E) site where substrate
+can bind to or product can dissociate from the hexamer, respectively (29). To test this idea, we back-soaked nucleotide out of
+the new RhoPolyU-P21 crystal form and determined the structure of
+the helicase by X-ray crystallography. Inspection of all active sites
+in the model revealed very weak and discontinuous electron
+density for the nucleotide-binding site of subunit E, indicating a
+very low occupancy for ADP·BeF3 that precluded modeling of
+nucleotide into the site (nucleotide density in the other active sites
+was unchanged) (Fig. 4 A and B). Intersubunit distance vectors
+calculated between the back-soaked structure (referred to hereafter as RhoEmpty) and the fully occupied RhoPolyU-P21 structure
+show that the relative positions of subunits E and F shift by ∼1.7 Å
+with respect to one another, but that the rest of the subunits in the
+hexamer undergo only minor positional changes (Fig. 4C). A
+comparison of the E/F interface in the presence and absence of
+ADP·BeF3 reveals an increased separation of the two subunits
+that moves the Arg finger out of the active site and that buries
+∼120 Å2 less total surface area at the interface (Fig. 4D). Together, these observations further confirm the proposition that the
+E/F active site corresponds to a nucleotide-exchange point, and
+show that product release coincides with an increased opening
+of the subunit interface at this catalytic center. Interestingly,
+upon the disappearance of nucleotide from the E state, the
+relative B factors for the nucleotide in the active site of subunit
+F also increase relative to other Rho structures (SI Appendix,
+E7694 | www.pnas.org/cgi/doi/10.1073/pnas.1616745113
+
+Fig. S4), suggesting that product release may cooperatively
+weaken the association of nucleotide in the immediately adjacent D state.
+Inspection of the E/F active site shows that the E state is
+unique within the closed-ring Rho hexamer in adopting a relative
+intersubunit orientation markedly different from that of the
+other protomers. This altered configuration arises due to a
+transition of subunit F (which is flanked by subunits A and E,
+respectively) from the top step of the helical RNA staircase to
+the bottom (Fig. 2B). Subunit F is also the only protomer that
+does not contact RNA in any closed-ring structure determined
+so far, and its interface with subunit E in the RhoEmpty structure
+represents a completely substrate-free component of the catalytic
+cycle. Given these considerations, we compared the intersubunit
+positions of the E/F protomer conformation of the back-soaked
+model with those of a completely RNA-free, open-ring Rho
+structure of Rho determined previously. Interestingly, the intersubunit orientation of motor domains in the open-ring structure
+[Protein Data Bank (PDB) ID code 1PVO], which all assemble with
+a left-handed helical pitch, proved to be a very close match to the
+orientation of the E/F protomer pair in both the RhoEmpty and
+RhoPolyU-P21 structures, but distinct from other subunit dimers in the
+RNA-bound models (which adopt a right-handed pitch) (Fig. 4E).
+This congruency indicates that, upon ATPase product and RNA
+release, a single interface in the Rho hexamer relaxes to an energetically favorable conformation present in the open-ring Rho
+structure. Therefore, the nucleotide-dependent structural transition,
+which promotes ring opening and closing during RNA loading, also
+plays a direct role in catalytic cycling.
+Sequence and ATPase State-Specific Differences in RNA Binding by
+Rho. The ATPase activity of E. coli Rho has been well-established
+
+to depend not just on RNA binding (61), but also on RNA sequence,
+Thomsen et al.
+
+B
+CE
+(211)
+
+RV
+(212)
+
+D
+
+C
+CE
+
+4
+
+RV
+
+WB (265)
+
+2
+
+4
+
+1
+
+2
+
+RF
+
+RV
+
+WB
+
+3
+
+RV
+
+2
+
+1
+
+WA
+
+3
+
+WA
+
+RF
+
+* T*
+
+E
+
+F
+Key:
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+90°
+CE
+CE
+WB
+
+2
+
+4
+
+RV
+
+G337
+
+RV
+
+1
+3
+
+G337
+
+WA
+
+WB
+
+RS
+
+WA
+
+90°
+
+RF
+
+RF
+RF
+
+D
+
+o
+P-lo
+
+Steric
+Clash
+p
+
+cat. water
+position
+
+P-lo
+
+op
+
+Fig. 3. Changes in ADP·BeF3 coordination as revealed by superpositions between six RhoPolyU-P1 (white) and RhoPolyU-P21 (colored) ATPase centers. In all subunits,
+changes are consistent with a partial shift in catalytic status of the six active sites around the ring. RF, arginine finger; RS, arginine switch; RV, arginine valve; WA,
+Walker A; WB, Walker B. (A) Subunit A/B interface. While a water molecule is observed to associate with the catalytic glutamate (CE) at this site in RhoPolyU-P1 (water
+4), it is not observed in the new RhoPolyU-P21 structure. (B) Subunit B/C interface. Both catalytic centers show bonding interactions (dashed lines) characteristic of the T
+and T* states. B, Inset shows a zoomed-in view of the catalytic center with the RV removed (for clarity); whereas the prospective attacking water molecule in
+RhoPolyU-P1 was not ideally positioned for in-line chemistry with the γ-phosphate moiety (mimicked by the BeF3 – white), the CE-associated water molecules seen in
+the T* states of the new RhoPolyU-P21 are positioned for ideal in-line attack (red arrow). (C) Subunit C/D interface. Concomitant with the disappearance of the catalytic
+water molecule in the A/B subunit interface of the RhoPolyU-P21 structure, a catalytic water molecule appears in the C/D subunit interface compared with the RhoPolyU-P1
+structure. (D) Subunit D/E interface. This site retains contacts characteristic of the T state in both structures. The CE in RhoPolyU-P21 has broken its atypical contact with
+the Mg2+ ion observed in RhoPolyU-P1, suggesting that it is transitioning to a slightly more active arrangement. (E) Subunit E/F interface. The arginine finger in the
+RhoPolyU-P1 E state appears to be pointing out of the active site, whereas the arginine finger in RhoPolyU-P21 clearly points into the active site and coordinates the bound
+BeF3. However, the arginine valve in the RhoPolyU-P21 structure is pulled slightly out of the active site, resulting in the same number of contacts between the arginine
+groups and the BeF3 molecule. The catalytic glutamate in this active site is in an atypical conformation in both structures, interacting with the Mg2+ ion directly
+(RhoPolyU-P1) or indirectly via coordinated waters (RhoPolyU-P21). In the 90° rotated view, the catalytic glutamate and arginine switch in RhoPolyU-P21 are moved out of the
+catalytic site in the E state compared with the RhoPolyU-P1 structure. (F) Subunit F/A interface. The arginine valve in the RhoPolyU-P1 D state points out of the active site,
+whereas the arginine valve in the RhoPolyU-P21 structure points into the active site and coordinates the bound BeF3. In the 90° rotated view, the arginine valve now
+points into the active site due to an opening of the intersubunit interface in RhoPolyU-P21 relative to RhoPolyU-P1 that relieves a steric clash between the guanidinium
+group of the arginine and G337 of the adjacent subunit.
+
+with pyrimidine-rich RNAs providing a greater increase in ATP
+turnover compared with purine-rich substrates (37, 38). To better understand this dependency, we crystallized and determined
+the structure of Rho in complex with a poly-purine RNA (rA12)
+and ADP·BeF3 (hereafter referred to as RhoPolyA) and compared it to the other Rho structures determined thus far (Fig. 5).
+Notably, the Rho·poly-A complex cocrystallized in the same P21
+space group and unit cell as the new closed-ring Rho model
+bound to poly-U. The poly-A substrate similarly forms an overwound, single-stranded RNA helix in the Rho pore that is highly
+similar to that formed by poly-U (Fig. 5 and SI Appendix, Fig.
+S7), despite the extra bulk afforded by the additional fivemember ring on the purine bases. This finding indicates that the
+tight coiling of RNA seen in the original Rho model is not an
+effect of RNA sequence or crystal packing, but likely reflects the
+standard manner by which the helicase encircles substrate
+during translocation.
+Close inspection of the poly-A Rho model with its poly-U
+counterparts reveals notable differences in the specifics of RNA
+binding (Fig. 5 and SI Appendix, SI Discussion). Interestingly,
+these differences are evident not just between purine- and pyrimidine-bound Rho hexamers, but also between the different
+poly-U models imaged thus far (Fig. 5 A–C). In particular, the
+RhoPolyU-P21 and RhoPolyA structures lack electron density for the
+5′-most base present in the original RhoPolyU-P1 structure, and
+instead manifest new density for two additional bases at the 3′ end
+of the RNA (Fig. 5 and SI Appendix, Fig. S7 B–G). However, the
+Thomsen et al.
+
+bound RNAs also show conformational differences between these
+three structures, with the additional 3′ nucleotides visible in the
+poly-A–bound Rho model extending in a straight line from the
+helicase pore, but in the new poly-U structures folding back into a
+tight kink that deviates from the interior RNA spiral configuration
+but maintains base-stacking interactions (Fig. 5 and SI Appendix,
+Fig. S7). The U-U kink seen in the poly-U models allows for a
+network of contacts to be formed between the ribose 2′-OH and
+the uracil O2 atom of the penultimate nucleotide, a newly evident
+water molecule, and Lys-326 of both subunits B and C (the latter
+of which alters a contact that had been seen previously between
+this invariant amino acid and the backbone phosphate of RNA in
+the original RhoPolyU-P1 hexamer) (Fig. 5 A–C and SI Appendix,
+Fig. S8). Interestingly, in analyzing the RhoEmpty structure, we
+observed electron density for the additional, kinked 3′ bases of
+RNA similar to that present in RhoPolyU-P21; however, this
+model also exhibited density for the 5′-most base seen in
+RhoPolyU-P1 (Fig. 5B and SI Appendix, Fig. S7 B–D). Thus, upon
+loss of nucleotide and opening of the E-state active site, the polyU RNA bound to RhoEmpty appears to adopt a hybrid conformation between the original RhoPolyU-P1 crystal form and the
+new RhoPolyU-P21 crystal form.
+A Conserved Allosteric Helix Coordinates Cross-Talk Between
+Subunits and Their Catalytic Centers. In considering how changes
+
+in the ATPase centers of our closed-ring Rho models might be
+coupled to RNA binding, we used the higher-resolution structures
+PNAS | Published online November 16, 2016 | E7695
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+WA
+
+T
+
+T*
+
+CE
+
+RS
+(269)
+
+WB
+
+1
+
+3
+
+RF
+
+RF
+
+RF
+(366)
+
+* D
+
+WB
+
+2
+
+1
+
+WA
+
+3
+
+CE
+
+CE
+
+4
+
+RV
+
+WB
+1
+
+WA (185)
+
+3
+
+E
+
+CE
+2
+
+PNAS PLUS
+
+A
+
+A
+
+B
+
+F
+
+E
+
+RhoPolyU-P21
+
+RhoEmpty
+
+C
+
+E
+
+E
+
+F
+
+0
+
+o
+et
+tiv
+a
+l
+re
+
+F
+
+Cα Distance (Å) Between Structures
+
+to
+ive
+t
+a
+rel
+
+>1.5
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+D
+
+RF
+
+BeF3 Mg2+
+
+determined here to look more closely at the linkages that mediate intersubunit contacts between the nucleic acid and nucleotide binding sites. By coaligning all six pairwise interfaces of the
+RhoPolyU-P21 model, using the ATP-binding P-loop as an reference point, we found that a single α-helix (Rα1), which contains
+residues responsible for forming the salt-bridge network linking
+the RNA binding pore to the ATPase center, undergoes a large
+range of previously unnoticed hinge movements (Fig. 6A and
+SI Appendix, Fig. S6). The N terminus of this helix (which corresponds to the “R-loop” of Rho and the “L2”-loop of RecA
+helicases such as DnaB and T7 gp4) binds RNA via K326 (Fig.
+5), whereas the C terminus of this helix contains backbone carbonyls that interact directly with the catalytic water molecule and
+the arginine-based γ-phosphate sensors in the two T* states
+(Figs. 3B and 6B). This movement appears to be caused by an
+intersubunit levering motion of ∼10 Å at the helix’s N terminus,
+which alters the interactions in an ordered manner that correlates with the ATPase state of each subunit (Fig. 6B and Movie
+S1). This observation suggests that R-loop–mediated RNA
+binding, aided by interactions within an intersubunit allosteric
+network, not only positions the catalytic glutamate via the arginine switch residue as described (29), but also directly controls
+the position of the arginine finger, arginine valve, and catalytic
+water by coupled movements with the associated Rα1 helix.
+In conducting this analysis, we note that the α-helix corresponding to Rα1 is a conserved feature of the RecA fold and is
+present not only in Rho’s closest homolog [the F1-ATPase (62)],
+but also in more distantly related RecA-family hexameric helicases and translocases. In all cases, the C-terminal carbonyls of
+the helix equivalent to Rα1 contact amino acids that interact with
+the γ-phosphate moiety (and catalytic waters when present) and
+that appear poised to help control the active-site organization of
+their respective hexameric motors through a similar mechanism
+(Fig. 6 C–E) (31, 62, 63). These comparisons indicate that this
+helix, which lies downstream of the R/L2 loop region, is likely
+involved in allosterically coupling substrate movements to
+ATPase status in RecA-like motors in general.
+Discussion
+Possible Role for Ring Distortion and Strain in the Mechanism of Rho
+and Other Hexameric Motors. In the present study, we have used
+
+ADP
+RhoEmpty
+
+RhoPolyU-P21
+
+E
+
+RhoEmpty E/F (E)
+Open Ring (C/D)
+
+RhoPolyU-P21 B/C (T*)
+Open Ring (C/D)
+
+Fig. 4. Opening of the active site in the exchange (E) state (subunit E) accompanies nucleotide release. (A) Simulated annealing omit map of the
+E-state in RhoPolyU-P21 reveals strong density for the bound nucleotide.
+(B) Simulated annealing omit map of the E state in the RhoEmpty structure
+reveals poor density, suggesting low nucleotide occupancy and/or order.
+(C) Intersubunit distance vectors calculated independently for each intersubunit interface and comparing RhoEmpty and RhoPolyU-P21 structures. The
+vectors reveal that the only significant intersubunit changes between these
+
+E7696 | www.pnas.org/cgi/doi/10.1073/pnas.1616745113
+
+solution-based structural methods and X-ray crystallography to
+better understand how a RecA-family hexameric motor protein,
+Rho, couples changes in nucleotide status to conformational
+transitions that underpin ring loading and translocation events.
+Our SAXS data confirm that distinct open- and closed-ring
+structures are accessed before and after RNA engagement, respectively (Fig. 1 A–C), suggesting that the transition between
+these two states likely occurs as a relatively simple rigid body
+rotation of subunits with respect to each other (Movie S2).
+Notably, our studies indicate that at nucleotide concentrations
+approaching those in the cell [values between 2 and 10 mM ATP
+have been measured for E. coli (64–66]], Rho spontaneously and
+preferentially occupies an open-ring state, a form that is well suited
+for engaging nascent RNA transcripts. A need for contacts engendered by both substrate nucleic acid and ATP binding to cooperatively induce ring closure is consistent with the idea that
+formation of a translocation-competent state may capture and
+
+structures are at the E/F interface. (D) Superposition of chain E from the
+RhoPolyU-P21 and RhoEmpty structures reveals that nucleotide release induces a
+rigid body shift in chain F (arrows) that causes the active site to open. The
+arginine finger (RF), which also changes position, is labeled. (E) Structural
+alignments showing that the E/F subunit (E state) interface of RhoEmpty aligns
+almost perfectly with an open-ring intersubunit interface (Left), as opposed
+to the B/C subunit (T* state) subunit interface of RhoPolyU-P21, which has
+adopted a right-handed orientation (Right; black arrows).
+
+Thomsen et al.
+
+Q-loop
+
+RhoPolyU-P1
+
+B
+
+RhoEmpty
+
+5’
+
+K326
+
+3’
+
+R-loop
+
+“kink”
+
+90°
+
+90°
+V284
+
+V284
+
+G287
+
+K326
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+K326
+
+K326
+
+K326
+
+C
+
+T286
+
+G287
+T286
+
+RhoPolyU-P21
+
+D
+
+“kink”
+
+90°
+V284
+
+V284
+
+G287
+
+T286
+
+G287
+
+T286
+
+K326
+K326
+
+K326
+
+K326
+
+Fig. 5. Comparison of RNA binding among closed-ring Rho structures. The
+five core RNA bases visible in all structures are colored white, and additional 5′ and 3′ bases are colored orange. Arrows at the 5′ and 3′ end of
+the bound RNA indicate the direction of RNA translocation relative to the
+protein. Protein subunits are colored as in Fig. 2A. Insets reveal protein–
+RNA hydrogen-bonding details (dashed lines) at the B/C subunit interface.
+(A) RhoPolyU-P1 contains six bases of RNA (orange/white) bound by the Rho
+Q and R loops in a spiral staircase conformation. (B) The RhoEmpty structure
+
+Thomsen et al.
+
+PNAS PLUS
+
+RNA Sequence Dependencies of the Rho Functional Cycle. In addition
+to the insights afforded into ring dynamics and the establishment of
+a sequential ATPase order, the structures presented here help to
+explain some of the known effects that RNA sequence has on Rho’s
+ATPase activity. In general, the molecular basis for substrate-specific sequence dependencies in hexameric helicases and translocases
+has remained relatively ill-defined. Some ring-shaped helicases,
+such as T7 gp4, decelerate when confronted with GC-rich duplexes
+(69), indicating that motor function can be impacted by substrate
+stability. For Rho, transcription termination activity is stimulated by
+cytosine-rich sequences (13), due in part to the recognition requirements of its primary RNA (rut)-binding sites (10, 38) and also
+to the ability of primary site occupancy to promote Rho ring closure
+as demonstrated in the accompanying study (47). However, Rho’s
+RNA-stimulated ATPase and translocation activities also appear to
+be directly affected by pyrimidine-specific sequence preferences
+independent of primary site interactions (36–38).
+The differences in secondary-site RNA binding seen here between
+poly-U and poly-A bound forms of Rho (along with the preferential
+ring closure capability of poly-U over poly-A described in the accompanying study (47) indicate that sequence discrimination in the
+helicase may in part arise from interrogation of RNA sequence at
+the point where the nucleic acid threads into the ring. In particular,
+the 3′ kink seen in the new RhoPolyU-P21 structure allows a ribose 2′OH and two pyrimidine bases to interact with an invariant lysine,
+
+RhoPolyA
+
+90°
+
+harness strain as a motive force to help promote nucleotide cycling.
+Consistent with this model, the formation of a relaxed, left-handed
+intersubunit orientation characteristic of the open-ring structure is
+seen only in the product release state, which also releases its grip
+on RNA to reset the RNA binding cycle (Fig. 4E).
+Strain imparted by substrate-induced conformational changes may
+underlie ATP cycling in other, more distantly related hexameric helicases. For example, recent structures of DnaB-family helicases have
+shown that the ATPase domains of these hexameric motors adopt an
+uncoupled, planar conformation in the absence of nucleic acid substrate (67), but form a steep, right-handed helical conformation with a
+single open interface when DNA and GDP·AlF4 are present (31, 67).
+Electron microscopy data on the eukaryotic minichromosome maintenance proteins (MCMs) have revealed that a left-handed open-ring
+conformation is the default state of metazoan MCM hexamers (27),
+and that the Cdc45·GINS complex, along with ATP and DNA, are
+needed to drive the formation of a stable closed ring with an internal,
+right-handed pitch (26, 34). Together, these studies support the idea
+that nucleic acids cooperatively activate ATP hydrolysis in many ringshaped RNA and DNA translocases by serving as a template for the
+asymmetric assembly of ATPase subunits. This asymmetry, in turn,
+promotes the formation of a defined sequence and order of active-site
+states (29, 30), which allows the energetics of cooperative substrate
+binding in one subunit to be allosterically coupled to cooperative
+product release in another. One exception to this trend may be the
+papilloma virus E1 helicase, in which five of its six subunits have been
+seen to adopt a right-handed spiral as part of closed-ring hexamer in
+the absence of ATP and DNA (68).
+
+allows for the modeling of eight bases of RNA (orange/white). Compared
+with the RhoPolyU-P1 structure, there is additional density for two 3′ bases in a
+kinked conformation. (C) The RhoPolyU-P21 structure allows for modeling of
+seven bases of RNA (orange/white). Compared with the RhoEmpty structure,
+density is lacking for the 5′ base. This structure reveals a hydrogen-bonding
+network stabilizing interactions between R-loop residue K326 of subunits B
+and C, a water molecule, and the 2′-OH and uracil base of the bound RNA
+kink. (D) The structure of RhoPolyA solved under similar conditions to
+RhoPolyU-P21 also reveals two additional 3′ bases, but in a pseudo A-form
+helical arrangement, rather than the kinked conformation. In contrast to the
+H-bonding network observed with the kinked PolyU substrate, no additional
+protein–RNA contacts are formed.
+
+PNAS | Published online November 16, 2016 | E7697
+
+BIOCHEMISTRY
+
+A
+
+Fig. 6. A conserved allosteric helix couples pore
+loop movement and ATPase status in RecA-like
+hexameric motors. (A) An α-helix (Rα1; cartoon) in
+G337
+each subunit of the Rho hexameric motor domain
+(transparent surface) directly connects the RNARV
+90º (212)
+and ATP-binding sites. RNA, orange; nucleotide,
+magenta; catalytic water molecules, red spheres
+K336
+(subunits B and C only). Lys-326 (colored sticks) diE333
+rectly connects the allosteric helix to bound RNA.
+(B) Alignment of all active sites in RhoPolyU-P21 reveals
+R loop
+R347
+the consequences of intersubunit conformational
+transitions in the allosteric helix. The helix itself diC/D
+E/F
+B/C
+D/E
+F/A
+A/B
+rectly links the RNA-binding R loops in the center of
+the ring to the position of the γ-phosphate–sensing
+RS
+CE
+residues in the ATP-binding sites at the periphery of
+CE
+CE
+the ring, as well as to the catalytic water in the T*
+active sites. Dashed lines (colored by interface) show
+bonding interactions present in the B/C, C/D, and D/E
+subunit interfaces. (C) Alignment of the catalytic site
+RV
+in the C/D subunit interface of RhoPolyU-P21 (white)
+with the catalytic site in the structure of the F1–
+RF
+RF
+“KF”
+ATPase bound to ADP·BeF3 (colored; PDB ID code
+1W0J) reveals nearly identical alignments of the
+catalytic residues and the backbone carbonyl groups
+of the allosteric helix (62). (C, Lower) Position of the
+F1 allosteric helix with respect to the rotating γ-subPolyU-P21
+Rho
+(C/D)
+F1-ATPase
+DnaB+DNA+ADP•AlF4
+RecA+DNA+ADP•AlF4
+unit shaft. (D) The structure of DnaB bound to
+nucleic acid and GDP·AlF4 reveals interactions between its analog of helix Rα1 and γ-phosphate–sensing residues (31). (E) The structure of RecA bound to
+double-stranded DNA and ADP·AlF4 reveals a similar helix configuration as in B–D (63). KF, lysine finger; RF, arginine finger; RV, arginine valve.
+p
+
+P-loo
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Lys-326, on two different R loops. These contacts are absent in
+the 3′ RNA region when Rho is bound to poly-A and in the original
+RhoPolyU-P1 model (where the 3′ nucleotides are unstructured;
+Fig. 5). Intriguingly, the lysines involved in binding the U-U kink in
+RhoPolyU-P21 project from subunits B and C, which also manifest the
+two T* states observed in the hexamer (Fig. 2A). These interactions
+suggest that Lys-326, in addition to its role neutralizing the backbone charge of RNA bound in Rho’s translocation pore (29), may
+also serve as a sensor for RNA sequence to help properly organize
+the B- and C-subunit active sites (Fig. 3A). Such a function would
+explain why pyrimidine-rich rut sites are particularly well-suited as
+secondary site ligands to promote nucleotide hydrolysis by Rho, in
+that they stabilize an RNA structural motif that reciprocally helps
+set up an idealized ATPase configuration.
+The differences in the 3′ RNA structure seen here for the
+purine and pyrimidine substrates likewise have implications for
+understanding how RNA sequence is coupled to stepping efficiency. For instance, by using nucleotide analog interference
+mapping (NAIM) to insert dNTPs into RNA, Rho has been
+found to be inhibited by the presence of deoxyribose at intervals
+of every seven nucleotides, with the level of inhibition dependent
+on the local sequence environment (36). Our structures reveal
+that pyrimidine, but not purine substrates, can specifically interact with Lys-236 of Rho by forming a specific kink that involves the 2′-OH and pyrimidine base of the incoming 3′-RNA
+end (Fig. 5). Given that movements of the R-loop are directly
+coupled to changes in the allosteric network that couples
+ATPase status with RNA binding (Fig. 6 and SI Appendix, Fig.
+S6) (29), the ability to adopt a kink by pyrimidines may help
+underpin the positional and sequence dependency of the 2′-OH
+activation step seen to occur approximately every seven steps by
+NAIM (36, 70).
+Structural Snapshots Reveal Translocation Substeps in a Hexameric
+Motor Protein. The present study provides the most comprehen-
+
+sive structural analysis to date for a hexameric helicase bound to
+different nucleic acid substrates and nucleotide intermediates. In
+comparing the original RhoPolyU-P1 and the new RhoPolyU-P21 models
+of Rho, both hexamers can be seen to possess a single E-state
+active site (subunit E) that sits adjacent to a T (ATP-bound)
+E7698 | www.pnas.org/cgi/doi/10.1073/pnas.1616745113
+
+DNA channel
+
+E
+
+DNA channel
+
+D
+
+γ-subunit
+
+C
+
+RNA Translocation Channel
+
+B
+
+~10Å
+
+A
+
+state ATPase center (subunit D). The two structures diverge,
+however, in that the RhoPolyU-P1 form contains a second T-state
+active site (subunit C) followed by two hydrolysis-like T* states
+(subunits B and A), whereas the RhoPolyU-P21 model is shifted,
+possessing a lone T-state followed immediately by two T* catalytic centers (Fig. 2). As a consequence, the RhoPolyU-P1 structure
+contains only a single product (D) state (subunit F), whereas the
+corresponding Rho PolyU-P2 1 structure contains two (subunits F
+and A). This observation is consistent with prior studies showing
+that there exists a 2- to 4-subunit delay in ATP hydrolysis and
+product release in Rho and related RecA-family hexameric helicases such as T7 gp4 (ref. 71 and SI Appendix, SI Discussion).
+Although the E-state active site (subunit E) remains the most
+solvent-accessible ATPase center in both crystal forms of Rho,
+changes in the relative disposition of key functional amino acids
+are nonetheless evident for this region between the RhoPolyU-P1
+and RhoPolyU-P21 structures. In particular, the subunit E active
+site of the new RhoPolyU-P21 model exhibits a displaced and offline catalytic glutamate, but forms a new contact between the
+arginine finger and the BeF3 moiety; by contrast, in the original
+RhoPolyU-P1 structure, the correct positioning of the catalytic
+glutamate is maintained but the arginine-finger/nucleotide contact is broken (Fig. 3 D and E). Concomitant with these changes,
+two bases at the 3′ end of the bound RNA become ordered
+and coordinated in the RhoPolyU-P21 structure, whereas in the
+RhoPolyU-P1 model, only a single extra base is apparent at the 5′
+RNA end (Fig. 5). Interestingly, back-soaking of the new poly-U
+Rho crystal form, which results in nucleotide dissociation from
+the E-subunit interface, produces a hybrid state in which RNA
+density is evident at both the 5′ and 3′ ends.
+Together, the suite of Rho structures not only recapitulates
+the movements expected for 5′→3′ translocation along RNA, but
+also highlights the existence of substeps within the context of a
+sequential ATPase mechanism (Fig. 7 and Movie S3). In this
+scheme, formation of an empty ATPase center would promote
+downstream (3′) contacts between Rho and its substrate, while
+maintaining 5′ interactions leftover from the prior round of hydrolysis. ATP binding would next disrupt the 5′ RNA contact,
+initiating a new translocation cycle to pull the 3′ end of the
+Thomsen et al.
+
+PNAS PLUS
+
+mediated contacts between RNA and ATP play in controlling
+these transitions.
+
+Fig. 7. Substepping in a hexameric helicase. (Upper, red dashed box) Diagram of RNA bases and catalytic states in the RhoPolyU-P1, RhoPolyU-P21, and
+RhoEmpty structures. Protein subunits are shown as large spheres colored by
+chain as in Fig. 2A. Arrows indicate the sequence of proposed substeps in
+which an incoming 3′ RNA base is bound and a 5′ RNA base is released,
+concomitant with the release of nucleotide and a shift in position of the T*
+catalytic states. Yellow stars designate the sites of the nucleophilic water
+observed in the various Rho structures; only in the RhoPolyU-P21 structure does
+this water adopt an in-line attack position. (Lower) Relationship of the
+substeps to a complete series of six sequential hydrolysis and translocation
+steps by Rho.
+
+bound RNA into the motor pore. Finally, product formation
+would complete the translocation step, helping to shepherd the
+5′ RNA end out of the helicase, after which ADP release would
+reset the system by forming new contacts to the incoming 3′ base.
+Although conformational substeps have been observed structurally for superfamily 1 and 2 helicases and for motors such as
+the F1 ATPase, myosin, and kinesin (72–75), similar insights
+have not been forthcoming for hexameric helicase/translocase
+systems. Functional substeps (as well as macrosteps) are frequently observed in single-molecule studies of motor proteins
+(76, 77), but the architectural underpinnings of these events often remained unresolved. The present work demonstrates the
+existence of distinct physical substates in a RecA-family hexameric helicase and, moreover, implicates both RNA binding
+and different stages of the ATPase cycle in the formation and
+dissolution of these states. Future efforts involving high-resolution
+single-molecule studies and structure-guided mutagenesis are
+needed to establish the timing by which different states interconvert with each other and the role that specific, protein1. Delagoutte E, von Hippel PH (2003) Helicase mechanisms and the coupling of helicases within macromolecular machines. Part II: Integration of helicases into cellular
+processes. Q Rev Biophys 36(1):1–69.
+2. Patel SS, Picha KM (2000) Structure and function of hexameric helicases. Annu Rev
+Biochem 69:651–697.
+3. Singleton MR, Dillingham MS, Wigley DB (2007) Structure and mechanism of helicases
+and nucleic acid translocases. Annu Rev Biochem 76:23–50.
+4. Sauer RT, Baker TA (2011) AAA+ proteases: ATP-fueled machines of protein destruction. Annu Rev Biochem 80:587–612.
+5. Ahnert P, Picha KM, Patel SS (2000) A ring-opening mechanism for DNA binding
+in the central channel of the T7 helicase-primase protein. EMBO J 19(13):
+3418–3427.
+6. O’Shea VL, Berger JM (2014) Loading strategies of ring-shaped nucleic acid translocases and helicases. Curr Opin Struct Biol 25:16–24.
+
+Thomsen et al.
+
+Protein Crystallization and Data Collection. Selenomethionine-labeled E. coli
+Rho protein was prepared, and the RNA–ADP·BeF3 complexes were formed
+as described (22, 29), except that Rho was dialyzed into a buffer containing
+10 mM Tris (pH 7.5), 100 mM NaCl, and 0.5 mM TCEP before complex formation. RNA (rU12 and rA12 polymers) was purchased from IDT. See SI
+Appendix, SI Methods for a detailed description of crystallization, harvesting, and data collection.
+Structure Solution and Refinement. A detailed description of data processing,
+phase determination, and model refinement used to solve RhoPolyU-P21,
+RhoEmpty, and RhoPolyA structures can be found in SI Appendix, SI Methods.
+Structural Analysis. All figures were prepared by using PyMOL (Schrödinger).
+Structural superpositions were conducted with the CEALIGN PyMOL plugin (81).
+Energy-minimized linear interpolations were computed by using a CNS script
+written by the Yale Morph Server (82). To place atomic B factors from different
+structures on the same relative scale (SI Appendix, Fig. S4), atomic B factors for
+each structure were divided by the average B factor for that structure and then
+multiplied by the average B factor for all structures. Distance vectors between
+various Rho structures were calculated as described (83). Vector length corresponds to distances between Cα atoms among different structures multiplied by
+a scale factor of three to assist visualization, and vector color corresponds to
+relative distance (dark blue, 0 Å; red, 1.5 Å or greater).
+ACKNOWLEDGMENTS. We thank members of the J.M.B. laboratory for
+helpful discussions; Greg Hura and Dina Schneidman-Duhovny for guidance
+on SAXS data processing; Jamie Cate for assistance with distance vector
+calculations; and Jane Tanamachi, George Meigs, and James Holton at ALS
+Beamline 8.3.1 and Michal Hammel at ALS Beamline 12.3.1 for assistance
+with SAXS data collection. This research was supported by the G. Harold and
+Leila Y. Mathers Foundation and NIH Grant GM071747 (to J.M.B.).
+
+7. Davey MJ, Jeruzalmi D, Kuriyan J, O’Donnell M (2002) Motors and switches: AAA+
+machines within the replisome. Nat Rev Mol Cell Biol 3(11):826–835.
+8. Richardson JP (2002) Rho-dependent termination and ATPases in transcript termination. Biochim Biophys Acta 1577(2):251–260.
+9. Boudvillain M, Nollmann M, Margeat E (2010) Keeping up to speed with the transcription termination factor Rho motor. Transcription 1(2):70–75.
+10. Dombroski AJ, Platt T (1988) Structure of rho factor: An RNA-binding domain and a
+separate region with strong similarity to proven ATP-binding domains. Proc Natl Acad
+Sci USA 85(8):2538–2542.
+11. Bear DG, et al. (1985) Escherichia coli transcription termination factor rho has a
+two-domain structure in its activated form. Proc Natl Acad Sci USA 82(7):
+1911–1915.
+12. Chen CY, Richardson JP (1987) Sequence elements essential for rho-dependent
+transcription termination at lambda tR1. J Biol Chem 262(23):11292–11299.
+
+PNAS | Published online November 16, 2016 | E7699
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Methods
+SAXS Data Collection and Analysis. Native Rho protein was prepared in a
+similar manner to selenomethionine-labeled protein as described (22). Rho
+protein (40 mg/mL) in size-exclusion buffer [50 mM Tris pH 7.5, 500 mM KCl,
+10% (vol/vol) glycerol, and 1 mM Tris(2-carboxyethyl)phosphine (TCEP)) was
+dialyzed overnight into SAXS buffer (150 mM KCl, 50 mM Hepes pH 7.5, 5 mM
+MgCl2, and 5% (vol/vol) glycerol). Dialyzed protein was then further diluted to a
+concentration of 5 mg/mL in SAXS buffer containing various concentrations of
+RNA (rU12) or ADP·BeF3, aliquoted into a 96-well plate, and used for data
+collection at room temperature using an automated system at Advanced Light
+Source Beamline 12.3.1. Raw SAXS data were integrated, scaled, and buffersubtracted with the program OGRE (Greg Hura, Lawrence Berkeley National
+Laboratory, Berkeley, CA). PRIMUS was used to merge data from a 1- and 10-s
+exposure and to manually remove outliers near the beam stop to obtain highquality scattering curves with very little noise (43). Guinier analysis was performed by using AUTORG (78). Distance distribution functions [P(r)], maximum
+diameters (Dmax), and real- and reciprocal-space radius of gyration (Rg) values
+were calculated with GNOM (79). Structural models were generated by using an
+open-ring Rho model [PDB ID code 1PVO (22)] and the closed-ring crystal
+structure determined here (RhoPolyU-P21). Missing loops or domains were added
+to the structural models by superposition with other structures or subunits
+containing the missing residues. OLIGOMER and FOXS were used to compare
+theoretical scattering curves to the data and compute the relative contributions
+of multicomponent datasets (44, 45, 80). Background subtraction as implemented in FOXS or OLIGOMER was used to account for errors in buffer composition and improve the fit of the high-resolution data.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+13. Peters JM, et al. (2012) Rho and NusG suppress pervasive antisense transcription in
+Escherichia coli. Genes Dev 26(23):2621–2633.
+14. Epshtein V, Dutta D, Wade J, Nudler E (2010) An allosteric mechanism of Rho-dependent transcription termination. Nature 463(7278):245–249.
+15. Brennan CA, Dombroski AJ, Platt T (1987) Transcription termination factor rho is an
+RNA-DNA helicase. Cell 48(6):945–952.
+16. Park JS, Roberts JW (2006) Role of DNA bubble rewinding in enzymatic transcription
+termination. Proc Natl Acad Sci USA 103(13):4870–4875.
+17. Lau LF, Roberts JW, Wu R (1983) RNA polymerase pausing and transcript release at
+the lambda tR1 terminator in vitro. J Biol Chem 258(15):9391–9397.
+18. Morgan WD, Bear DG, von Hippel PH (1983) Rho-dependent termination of transcription. II. Kinetics of mRNA elongation during transcription from the bacteriophage lambda PR promoter. J Biol Chem 258(15):9565–9574.
+19. Koslover DJ, Fazal FM, Mooney RA, Landick R, Block SM (2012) Binding and translocation
+of termination factor rho studied at the single-molecule level. J Mol Biol 423(5):664–676.
+20. Gogol EP, Seifried SE, von Hippel PH (1991) Structure and assembly of the Escherichia
+coli transcription termination factor rho and its interaction with RNA. I. Cryoelectron
+microscopic studies. J Mol Biol 221(4):1127–1138.
+21. Bear DG, et al. (1988) Interactions of Escherichia coli transcription termination factor
+rho with RNA. II. Electron microscopy and nuclease protection experiments. J Mol Biol
+199(4):623–635.
+22. Skordalakes E, Berger JM (2003) Structure of the Rho transcription terminator:
+Mechanism of mRNA recognition and helicase loading. Cell 114(1):135–146.
+23. Skordalakes E, Berger JM (2006) Structural insights into RNA-dependent ring closure
+and ATPase activation by the Rho termination factor. Cell 127(3):553–564.
+24. Yu X, Horiguchi T, Shigesada K, Egelman EH (2000) Three-dimensional reconstruction
+of transcription termination factor rho: Orientation of the N-terminal domain and
+visualization of an RNA-binding site. J Mol Biol 299(5):1279–1287.
+25. Richardson JP (2003) Loading Rho to terminate transcription. Cell 114(2):157–159.
+26. Costa A, et al. (2011) The structural basis for MCM2-7 helicase activation by GINS and
+Cdc45. Nat Struct Mol Biol 18(4):471–477.
+27. Lyubimov AY, Costa A, Bleichert F, Botchan MR, Berger JM (2012) ATP-dependent
+conformational dynamics underlie the functional asymmetry of the replicative helicase from a minimalist eukaryote. Proc Natl Acad Sci USA 109(30):11999–12004.
+28. Bochman ML, Schwacha A (2010) The Saccharomyces cerevisiae Mcm6/2 and Mcm5/3
+ATPase active sites contribute to the function of the putative Mcm2-7 ‘gate’. Nucleic
+Acids Res 38(18):6078–6088.
+29. Thomsen ND, Berger JM (2009) Running in reverse: The structural basis for translocation polarity in hexameric helicases. Cell 139(3):523–534.
+30. Enemark EJ, Joshua-Tor L (2006) Mechanism of DNA translocation in a replicative
+hexameric helicase. Nature 442(7100):270–275.
+31. Itsathitphaisarn O, Wing RA, Eliason WK, Wang J, Steitz TA (2012) The hexameric helicase
+DnaB adopts a nonplanar conformation during translocation. Cell 151(2):267–277.
+32. Singleton MR, Sawaya MR, Ellenberger T, Wigley DB (2000) Crystal structure of T7
+gene 4 ring helicase indicates a mechanism for sequential hydrolysis of nucleotides.
+Cell 101(6):589–600.
+33. Abrahams JP, Leslie AG, Lutter R, Walker JE (1994) Structure at 2.8 A resolution of F1ATPase from bovine heart mitochondria. Nature 370(6491):621–628.
+34. Costa A, et al. (2014) DNA binding polarity, dimerization, and ATPase ring remodeling
+in the CMG helicase of the eukaryotic replisome. eLife 3:e03273.
+35. Rothenberg E, Trakselis MA, Bell SD, Ha T (2007) MCM forked substrate specificity
+involves dynamic interaction with the 5′-tail. J Biol Chem 282(47):34229–34234.
+36. Schwartz A, et al. (2009) A stepwise 2′-hydroxyl activation mechanism for the bacterial
+transcription termination factor Rho helicase. Nat Struct Mol Biol 16(12):1309–1316.
+37. Wang Y, von Hippel PH (1993) Escherichia coli transcription termination factor rho. I.
+ATPase activation by oligonucleotide cofactors. J Biol Chem 268(19):13940–13946.
+38. Richardson JP (1982) Activation of rho protein ATPase requires simultaneous interaction at two kinds of nucleic acid-binding sites. J Biol Chem 257(10):5760–5766.
+39. Soares E, Schwartz A, Nollmann M, Margeat E, Boudvillain M (2014) The RNA-mediated, asymmetric ring regulatory mechanism of the transcription termination Rho
+helicase decrypted by time-resolved nucleotide analog interference probing (trNAIP).
+Nucleic Acids Res 42(14):9270–9284.
+40. Putnam CD, Hammel M, Hura GL, Tainer JA (2007) X-ray solution scattering (SAXS)
+combined with crystallography and computation: Defining accurate macromolecular
+structures, conformations and assemblies in solution. Q Rev Biophys 40(3):191–285.
+41. Rambo RP, Tainer JA (2013) Accurate assessment of mass, models and resolution by
+small-angle scattering. Nature 496(7446):477–481.
+42. Capp JA, Hagarman A, Richardson DC, Oas TG (2014) The statistical conformation of a
+highly flexible protein: Small-angle x-ray scattering of S. aureus protein A. Structure
+22(8):1184–1195.
+43. Konarev PV, Volkov VV, Sokolova AV, Koch MHJ, Svergun DI (2003) PRIMUS: A Windows
+PC-based system for small-angle scattering data analysis. J Appl Cryst 36:1277–1282.
+44. Schneidman-Duhovny D, Hammel M, Tainer JA, Sali A (2013) Accurate SAXS profile computation and its assessment by contrast variation experiments. Biophys J 105(4):962–974.
+45. Schneidman-Duhovny D, Hammel M, Sali A (2010) FoXS: A web server for rapid computation and fitting of SAXS profiles. Nucleic Acids Res 38(Web Server issue):W540–544.
+46. Jeong YJ, Kim DE, Patel SS (2004) Nucleotide binding induces conformational
+changes in Escherichia coli transcription termination factor Rho. J Biol Chem 279(18):
+18370–18376.
+47. Lawson MR, Dyer K, Berger JM (2016) Ligand-induced and small molecule control of substrate loading in a hexameric helicase. Proc Natl Acad Sci USA 113:13715–13720.
+48. Thomsen ND, Berger JM (2012) Crystallization and x-ray structure determination of an
+RNA-dependent hexameric helicase. Methods Enzymol 511:171–190.
+
+E7700 | www.pnas.org/cgi/doi/10.1073/pnas.1616745113
+
+49. Frauenfelder H, Petsko GA, Tsernoglou D (1979) Temperature-dependent x-ray diffraction as a probe of protein structural dynamics. Nature 280(5723):558–563.
+50. Geiselmann J, von Hippel PH (1992) Functional interactions of ligand cofactors with
+Escherichia coli transcription termination factor rho. I. Binding of ATP. Protein Sci 1(7):
+850–860.
+51. Kim DE, Patel SS (1999) The mechanism of ATP hydrolysis at the noncatalytic sites of
+the transcription termination factor Rho. J Biol Chem 274(46):32667–32671.
+52. Kim DE, Shigesada K, Patel SS (1999) Transcription termination factor Rho contains
+three noncatalytic nucleotide binding sites. J Biol Chem 274(17):11623–11628.
+53. Seifried SE, Easton JB, von Hippel PH (1992) ATPase activity of transcriptiontermination factor rho: Functional dimer model. Proc Natl Acad Sci USA 89(21):
+10454–10458.
+54. Stitt BL (1988) Escherichia coli transcription termination protein rho has three hydrolytic sites for ATP. J Biol Chem 263(23):11130–11137.
+55. Xu Y, Johnson J, Kohn H, Widger WR (2003) ATP binding to Rho transcription termination factor. Mutant F355W ATP-induced fluorescence quenching reveals dynamic ATP binding. J Biol Chem 278(16):13719–13727.
+56. Rabhi M, et al. (2011) Mutagenesis-based evidence for an asymmetric configuration
+of the ring-shaped transcription termination factor Rho. J Mol Biol 405(2):497–518.
+57. Miwa Y, Horiguchi T, Shigesada K (1995) Structural and functional dissections of
+transcription termination factor rho by random mutagenesis. J Mol Biol 254(5):
+815–837.
+58. Wei RR, Richardson JP (2001) Identification of an RNA-binding site in the ATP binding
+domain of Escherichia coli Rho by H2O2/Fe-EDTA cleavage protection studies. J Biol
+Chem 276(30):28380–28387.
+59. Xu Y, Kohn H, Widger WR (2002) Mutations in the rho transcription termination
+factor that affect RNA tracking. J Biol Chem 277(33):30023–30030.
+60. Balasubramanian K, Stitt BL (2010) Evidence for amino acid roles in the chemistry of
+ATP hydrolysis in Escherichia coli Rho. J Mol Biol 404(4):587–599.
+61. Lowery-Goldhammer C, Richardson JP (1974) An RNA-dependent nucleoside triphosphate phosphohydrolase (ATPase) associated with rho termination factor. Proc
+Natl Acad Sci USA 71(5):2003–2007.
+62. Kagawa R, Montgomery MG, Braig K, Leslie AG, Walker JE (2004) The structure of
+bovine F1-ATPase inhibited by ADP and beryllium fluoride. EMBO J 23(14):2734–2744.
+63. Chen Z, Yang H, Pavletich NP (2008) Mechanism of homologous recombination from
+the RecA-ssDNA/dsDNA structures. Nature 453(7194):489–494.
+64. Lowry OH, Carter J, Ward JB, Glaser L (1971) The effect of carbon and nitrogen
+sources on the level of metabolic intermediates in Escherichia coli. J Biol Chem
+246(21):6511–6521.
+65. Bennett BD, et al. (2009) Absolute metabolite concentrations and implied enzyme
+active site occupancy in Escherichia coli. Nat Chem Biol 5(8):593–599.
+66. Albe KR, Butler MH, Wright BE (1990) Cellular concentrations of enzymes and their
+substrates. J Theor Biol 143(2):163–195.
+67. Bailey S, Eliason WK, Steitz TA (2007) Structure of hexameric DnaB helicase and its
+complex with a domain of DnaG primase. Science 318(5849):459–463.
+68. Sanders CM, et al. (2007) Papillomavirus E1 helicase assembly maintains an asymmetric state in the absence of DNA and nucleotide cofactors. Nucleic Acids Res 35(19):
+6451–6457.
+69. Johnson DS, Bai L, Smith BY, Patel SS, Wang MD (2007) Single-molecule studies reveal
+dynamics of DNA unwinding by the ring-shaped T7 helicase. Cell 129(7):1299–1309.
+70. Patel SS (2009) Structural biology: Steps in the right direction. Nature 462(7273):
+581–583.
+71. Liao J-C, Jeong Y-J, Kim D-E, Patel SS, Oster G (2005) Mechanochemistry of t7 DNA
+helicase. J Mol Biol 350(3):452–475.
+72. Kull FJ, Sablin EP, Lau R, Fletterick RJ, Vale RD (1996) Crystal structure of the kinesin
+motor domain reveals a structural similarity to myosin. Nature 380(6574):550–555.
+73. Sablin EP, et al. (1998) Direction determination in the minus-end-directed kinesin
+motor ncd. Nature 395(6704):813–816.
+74. Schmidt H, Zalyte R, Urnavicius L, Carter AP (2015) Structure of human cytoplasmic
+dynein-2 primed for its power stroke. Nature 518(7539):435–438.
+75. Rees DM, Montgomery MG, Leslie AG, Walker JE (2012) Structural evidence of a new
+catalytic intermediate in the pathway of ATP hydrolysis by F1-ATPase from bovine
+heart mitochondria. Proc Natl Acad Sci USA 109(28):11139–11143.
+76. Chistol G, et al. (2012) High degree of coordination and division of labor among
+subunits in a homomeric ring ATPase. Cell 151(5):1017–1028.
+77. Yasuda R, Noji H, Yoshida M, Kinosita K, Jr, Itoh H (2001) Resolution of distinct rotational substeps by submillisecond kinetic analysis of F1-ATPase. Nature 410(6831):
+898–904.
+78. Petoukhov MV, Konarev PV, Kikhney AG, Svergun DI (2007) ATSAS 2.1—towards
+automated and web-supported small-angle scattering data analysis. J Appl Cryst 40:
+s223–s228.
+79. Svergun DI (1992) Determination of the regularization parameter in indirect-transform methods using perceptual criteria. J Appl Cryst 25:495–503.
+80. Svergun D, Barberato C, Koch MHJ (1995) CRYSOL—a program to evaluate x-ray solution scattering of biological macromolecules from atomic coordinates. J Appl Cryst
+28(6):768–773.
+81. Shindyalov IN, Bourne PE (1998) Protein structure alignment by incremental combinatorial extension (CE) of the optimal path. Protein Eng 11(9):739–747.
+82. Flores S, et al. (2006) The Database of Macromolecular Motions: New features added
+at the decade mark. Nucleic Acids Res 34(Database issue):D296–D301.
+83. Zhang W, Dunkle JA, Cate JH (2009) Structures of the ribosome in intermediate states
+of ratcheting. Science 325(5943):1014–1017.
+
+Thomsen et al.
+
+

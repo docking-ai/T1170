@@ -1,0 +1,626 @@
+Structural insights into the functional cycle of the
+ATPase module of the 26S proteasome
+Marc Wehmera,1, Till Rudackb,1, Florian Becka,1, Antje Aufderheidea, Günter Pfeifera, Jürgen M. Plitzkoa,
+Friedrich Förstera,c, Klaus Schultenb,2, Wolfgang Baumeistera,3, and Eri Sakataa,3
+a
+Department of Molecular Structural Biology, Max Planck Institute of Biochemistry, 82152 Martinsried, Germany; bBeckman Institute, Center for the Physics
+of Living Cells, University of Illinois, Urbana–Champaign, Urbana, IL 61801; and cBijvoet Center for Biomolecular Research, Utrecht University, 3584 CH
+Utrecht, The Netherlands
+
+Contributed by Wolfgang Baumeister, December 22, 2016 (sent for review December 19, 2016; reviewed by Robert M. Glaeser and Alexander Varshavsky)
+
+|
+
+|
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+26S proteasome cryo-electron microscopy AAA+ ATPase
+integrative modeling single-particle analysis
+
+|
+
+I
+
+|
+
+n eukaryotic cells, the ubiquitin–proteasome system (UPS)
+degrades proteins that are misfolded, damaged, or no longer
+needed (1). The 26S proteasome is a 2.5-MDa multisubunit
+complex comprising the barrel-shaped 20S core particle (CP),
+where degradation takes place, and one or two 19S regulatory
+particles (RPs), which bind to the ends of the CP (2–4). The CP
+is built of four coaxially stacked heteroheptameric rings of α- and
+β-subunits in the order of αββα (5). Three of the seven β-subunits
+are catalytically active; substrates are sequestered from the cellular environment in a chamber formed by the two β-rings (6, 7).
+This self-compartmentalization is a hallmark of many intracellular proteases (8). Substrate access to the proteolytic chamber is
+controlled by the α-subunit N-terminal extensions, forming a
+gate (3). Most of proteasome activators, including the RP, contain C-terminal hydrophobic-tyrosine-X (HbYX) motifs, which
+have been reported to insert into α-ring pockets, triggering gate
+opening (9–11).
+The RP is composed of at least 19 canonical subunits and
+interacts substoichiometrically with an array of proteasomeinteracting proteins that modulate RP function (3). The RP is
+divided into the “base” and the “lid” subcomplexes. The core of
+the base is formed by a heterohexameric ATPase associated with
+various cellular activities (AAA+ ATPase), which is the driver of
+large-scale conformational dynamics of the RP. The AAA+
+ATPase prepares substrates for degradation in coordination with
+at least three ubiquitin receptors [26S proteasome non-ATPase
+regulatory subunit 1 (Rpn1), Rpn10, and Rpn13] (12–14) and a
+deubiquitylating subunit (Rpn11) (15, 16). Other subunits have
+structural roles, such as holding the CP and RP together, or in
+coordinating the movements needed to position the substrates
+above the pore of the AAA+ ATPase for unfolding and translocation (17, 18). The AAA+ ATPase is lined by aromatic-hydrophobic loops (pore-1 loops), which grab and pull polypeptides.
+Driven by ATP binding and hydrolysis, the pore-1 loops undergo
+conformational changes threading the polypeptide through the central channel, similar to the mechanism postulated for the bacterial
+www.pnas.org/cgi/doi/10.1073/pnas.1621129114
+
+ATP-dependent caseinolytic protease X (ClpX) (19, 20). Our
+previous study revealed the existence of three distinct conformational states (21). According to their putative functions, these
+states were referred to as a substrate-accepting state (s1), a
+commitment state (s2), and a substrate-processing state (s3). The
+major structural differences between these states are the coaxial
+alignment of the AAA+ ATPase with the CP and a rotary movement
+of the deubiquitylating module into a position enabling deubiquitylation. Recently, several single-particle cryo-electron microscopy
+(cryo-EM) studies have described the architecture of the yeast and
+human proteasome (22–25). In the presence of ATP, the majority
+of the proteasomes are in an s1 or s1-like state. More states are
+likely to exist, but they were not sufficiently populated to yield
+high-resolution structures, and therefore precluded a detailed
+understanding of the relationship between the nucleotide-bound
+states and the observed conformational changes.
+Here, we report cryo-EM structures of the yeast 26S proteasome in the presence of different nucleotides and nucleotide
+analogs, revealing the existence of four distinct conformational
+states. These structures elucidate the conformational changes
+underlying substrate translocation and their coupling with gate
+opening.
+Significance
+The 26S proteasome is a large multisubunit complex that executes the degradation of intracellular proteins marked for destruction by ubiquitylation. To understand the mechanistic
+details of the functional cycle of the 26S proteasome, it is
+necessary to elucidate the structural features of its “engine,”
+the AAA+ ATPase module, which unfolds and translocates
+substrates into the 20S core particle, where proteolysis takes
+place. Here, we report cryo-electron microscopy reconstructions of the yeast 26S proteasome in the presence of different
+nucleotides and nucleotide analogs. Our results provide structural insights into the mechanism of substrate unfolding and
+translocation by the 26S proteasome.
+Author contributions: M.W., F.F., K.S., W.B., and E.S. designed research; M.W., T.R., F.B.,
+A.A., G.P., and J.M.P. performed research; M.W., T.R., F.B., A.A., and E.S. analyzed data;
+and M.W., F.F., W.B., and E.S. wrote the paper.
+Reviewers: R.M.G., Lawrence Berkeley National Laboratory; and A.V., California Institute
+of Technology.
+The authors declare no conflict of interest.
+Freely available online through the PNAS open access option.
+Data deposition: The single-particle reconstructions and the atomic coordinates have
+been deposited in the Electron Microscopy Data Bank, www.ebi.ac.uk/pdbe/emdb/ [accession nos. EMD-3534 (s1), EMD-3535 (s2), EMD-3536 (s3) and EMD-3537 (s4)], and the Protein Data Bank, www.rcsb.org [PDB ID codes 5mp9 and 5mpd (s1), 5mpa and 5mpe (s2),
+5mpb (s3), and 5mpc (s4)], respectively.
+1
+
+M.W., T.R., and F.B. contributed equally to this work.
+
+2
+
+Deceased October 31, 2016.
+
+3
+
+To whom correspondence may be addressed. Email: baumeist@biochem.mpg.de or
+sakata@biochem.mpg.de.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1621129114/-/DCSupplemental.
+
+PNAS | February 7, 2017 | vol. 114 | no. 6 | 1305–1310
+
+BIOCHEMISTRY
+
+In eukaryotic cells, the ubiquitin–proteasome system (UPS) is
+responsible for the regulated degradation of intracellular proteins.
+The 26S holocomplex comprises the core particle (CP), where proteolysis takes place, and one or two regulatory particles (RPs). The
+base of the RP is formed by a heterohexameric AAA+ ATPase module, which unfolds and translocates substrates into the CP. Applying
+single-particle cryo-electron microscopy (cryo-EM) and image classification to samples in the presence of different nucleotides and nucleotide analogs, we were able to observe four distinct conformational
+states (s1 to s4). The resolution of the four conformers allowed for
+the construction of atomic models of the AAA+ ATPase module as it
+progresses through the functional cycle. In a hitherto unobserved
+state (s4), the gate controlling access to the CP is open. The structures
+described in this study allow us to put forward a model for the 26S
+functional cycle driven by ATP hydrolysis.
+
+Results
+High-Resolution Structures of Yeast 26S Proteasome in the Presence
+of ATP. To obtain a high-resolution 3D map, images of vitrified
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+yeast 26S proteasomes in the presence of 4 mM ATP were
+recorded (Fig. S1A and Table S1). After elimination of low-quality
+particles (Fig. S1 B and C), the proteasome particles were classified according to the RP states (22, 26). Ultimately, we obtained
+maps of the s1 and s2 states to global resolutions of 4.1 Å and 4.5 Å,
+respectively (Fig. 1 A and B and Fig. S1F). Similar to the human
+26S proteasome (22), the CP exhibited local resolution values
+beyond 1/4 Å−1, whereas the RP, especially the peripheral regions,
+was resolved at lower than 1/8 Å−1 (Fig. S1 G and H).
+We first built the model of the s1 state from a comparative
+model based on the human 26S proteasome structure (22). The s2
+model was obtained by molecular dynamics flexible fitting (MDFF)
+(27) of the s1 model into the s2 map. The s1 and s2 structures are
+overall similar to the previous models based on low-resolution
+densities (21), but they exhibit subtle structural differences, such as
+the register shifts as described by Schweitzer et al. (22). These
+differences include a kink in the 26S proteasome ATPase regulatory subunit 1/2 (Rpt1/2) N-terminal coiled coil (Rpt1 Gly68 to
+Pro78, Rpt2 Ile81 to Pro84), which was not found in the other two
+coiled coils (Rpt3/6 and Rpt4/5).
+Despite the overall lower resolution, Rpn13 is better resolved
+in the s2 state than in the s1 state. The structure and motion of
+this subunit were analyzed further by focused classification. An
+exhaustive 6D correlation search in the best-resolved class (Fig.
+S2A) resulted in an unambiguous positioning of Rpn13. Crosslinking mass spectrometry (MS) data validated this positioning
+(Table S2). In comparison to the previous model (21), Rpn13 is
+rotated by ∼105°, so that the Rpn2-binding region of Rpn13
+points toward Rpn2 (28) and fulfills the cross-linking restraints.
+Structures of 26S in the Presence of Different Nucleotide Analogs. To
+detect additional conformations of the RP, we analyzed structures
+of the 26S proteasome in the presence of different nucleotides
+and nucleotide analogs [adenylyl-imidodiphosphate (AMP-PNP),
+ATP/ADP + beryllium fluoride (BeFx), and ADP] (Table S1).
+
+Fig. 1. Cryo-EM reconstructions of the yeast 26S proteasome in the s1 (A) and
+s2 (B) states at resolutions of 4.1 Å and 4.5 Å, respectively. The 26S proteasome is
+colored according to the subunits: CP (red); Rpt1, Rpt6, and Rpt4 (blue); Rpt2,
+Rpt3, and Rpt5 (cyan); Rpn1 (brown); Rpn2 (yellow); Rpn3, Rpn5, Rpn6, Rpn7,
+Rpn9, and Rpn12 (shades of green); and Rpn8, Rpn10, Rpn11, Rpn13, and Sem1
+(shades of purple). (Insets) Selected magnified features of the s1 reconstruction:
+the coiled coil of Rpt3/6, α-helix of the CP, and helical bundle of the lid.
+
+1306 | www.pnas.org/cgi/doi/10.1073/pnas.1621129114
+
+Fig. 2. Cryo-EM reconstructions of the yeast 26S proteasome in the s3 (A)
+and s4 (B) states at resolutions of 7.8 Å and 7.7 Å, respectively. The proteasome
+is colored according to the color code in Fig. 1. (B, Insets) Box outlined with a
+solid line shows the Ubp6 density low-pass-filtered to 10 Å (orange), and the
+box outlined with a dotted line shows a segmented density of the CP α-rings.
+(C) Comparison of selected subunits in the s3 and s4 states. The proteasome
+density of the s3 state is displayed in gray, and the s3 and s4 models of the
+subunits are colored in red and yellow, respectively.
+
+AMP-PNP and ADP-BeFx are known as “nonhydrolyzable” nucleotide analogs that mimic an ATP ground state with tetrahedral
+geometry similar to the geometry of the “slowly hydrolyzable”
+nucleotide analog adenosine 5′-[γ-thio]triphosphate (ATP-γ-S)
+(29). Upon 3D classification, each dataset showed different abundances of the conformational states (Fig. S3B). Although the
+inhibition of the ATPase activity by AMP-PNP was weaker than
+for other analogs (Fig. S3A), the class averages of the AMP-PNP
+dataset showed exclusively the s3 conformation. In contrast, the
+presence of ADP alone led to highly heterogeneous conformations, which could not be classified into distinct states (Table S1).
+In the BeFx dataset, particles were distributed into four different
+classes (Fig. S3B). One of these classes showed a previously unobserved conformation of the 26S proteasome (Fig. 2B and Fig. S4),
+which we termed the s4 state. In the ADP-BeFx and ATP/BeFx
+samples, the occupancy of the s4 class was, respectively, 2% and
+9%. After angular refinement, the s3 and s4 maps yielded resolutions of 7.8 Å and 7.7 Å, respectively (Fig. 2 A and B and
+Fig. S1F).
+We modeled the s3 structure using MDFF to fit the s2 model
+into the s3 density, and the s4 structure based on the resulting s3
+model (Fig. S3C). Secondary structure elements like α-helices
+were detected and positioned for all subunits. However, the lowresolution EM densities of the s3 and s4 states did not allow for
+the unambiguous identification of side chains.
+Wehmer et al.
+
+HbYX Motifs and the Gate of the CP in the Four Different States. The
+diameter of the CP gate varies in the four observed conformations (Fig. S5). Consistent with previous studies (17, 26), the EM
+map of the CP in the s1 state shows high densities corresponding
+to the N termini of the α-subunits at the CP gate (Fig. S5 A and
+B). Interestingly, we observed no clear density within the central
+pore in the EM map of the s4 state (Fig. 2B, Inset, and Fig. S5 A
+and C), suggesting the opening of the CP gate. To quantify gate
+opening, we calculated the radial average of the EM density
+perpendicular to the CP axis (Fig. S5D). The normalized intensity of the s1 state is similar to the normalized intensity of the
+crystal structure of the CP with a closed gate [Protein Data Bank
+(PDB) ID code 5cz4 (31)] (Fig. S5 E and G). The s4 state shows
+the lowest normalized intensity at the center (Fig. S5K), in good
+agreement with the open-gate CP crystal structure [PDB ID code
+1z7q (32)] (Fig. S5M). In the s4 model, several residues corresponding to the EM densities of the N-terminal extension are
+extended toward the RP (Fig. S5C), similar to the conformation
+observed in the CP–PA26 complex (32). The normalized intensities of s2 and s3 lie in between those extrema, indicating a
+partially closed gate (Fig. S5 H–J and M).
+Next, we analyzed the density at the interface between the CP and
+RP. In contrast to the human 26S structures (22), all three HbYX
+motifs (Rpt2, Rpt3, and Rpt5) show clear densities inside the
+α-pockets in the four yeast conformational states (Fig. S6A). In the
+s1 structure, the conformation of the Rpt2 HbYX motif is similar to
+that of the HbYX motif of the proteasome-activating nucleotidase
+PAN in complex with the CP (11). The conserved tyrosine in the
+Rpt2 HbYX motif is in proximity to the arginine residue of the α4
+subunit (Fig. S6B). In addition to the association of the HbYX
+motifs, in the s2 state, the Rpt1 C-terminal α-helix extends toward
+the C terminus of the α6 subunit (Fig. S6C). In the s4 state, in addition to the three HbYX motifs, the C-terminal tail of Rpt6 was
+detected at the interface between the α3 and α4 subunits (Fig. S6A).
+Conformational Change of the AAA+ ATPase and the Pore Loops. In
+the s1 AAA+ ATPase, the OB and AAA+ rings are stacked on top
+of each other, but only the AAA+ ring forms a “lockwasher” conformation, in which the helical-shaped ring is split at the interface
+between Rpt6 and Rpt3 (17, 29). The large domains of the Rpt
+subunits are positioned at different heights. Rpt2 positions at the
+bottom and Rpt3 at the top (Fig. S7). The AAA+ ring is further
+right-handed twisted, arranging the α8 helices, which are C-terminal
+of the pore-1 loop in different orientations: Rpt2 and Rpt6 tilt
+inward up to 48°, and Rpt3 is almost planar with respect to the
+CP plane (Fig. 3). In this arrangement, the Rpt2 pore-1 loop is
+located closest to the CP and the Rpt3 pore-1 loop is proximal to
+the OB ring (Fig. 3 and Fig. S7).
+Compared with the s1, in the s2 state the AAA+ ATPase shifts
+toward higher coaxial alignment with the CP, without significant
+Wehmer et al.
+
+local conformational changes (Fig. 3 and Figs. S4 and S7–S9), indicating that the coaxial alignment is not an ATP-driven conformational change. The AAA+ ring is rotated by ∼8° and moved by
+∼17 Å for further coaxial alignment in the s3 state (Fig. S4). The
+large movement of the Rpt subunits relocates the opening of the
+lockwasher conformation to a site opposite of Rpt3/6, the interface
+of Rpt5/1. In this conformation, the α8 helices of Rpt1 and Rpt2
+are tilted outward and Rpt4 and Rpt5 inward, resulting in a
+rearrangement of the pore-1 loop with Rpt5 at the bottom and
+Rpt1, Rpt2, and Rpt6 at the top (Fig. 3). Finally, the s4 AAA+
+ring shows only a slight shift from the s3 conformation (Fig. S4).
+However, the lockwasher conformation, which splits at the interfaces between Rpt3/4 and Rpt4/5, is still preserved. In this conformation, the N termini of the α8 helices locate such that Rpt5 is
+at the top position and Rpt3 is at the bottom position. In all four
+conformational states, the AAA+ ATPase adopts different lockwasher conformations, which change the height of each pore-1
+loop by switching the opening of the AAA+ ring.
+Nucleotide-Binding Pocket and Nucleotide Binding. Like other
+AAA+ ATPase family members, the nucleotide-binding pocket is
+formed by five conserved motifs: Walker A, Walker B, sensor I,
+sensor II, and Arg-finger. The nucleotide is located at the “interface module,” defined by a small domain of one Rpt subunit
+and the large domain of its clockwise adjacent Rpt subunit (20,
+33). In the s1 state, the interface module units are closely connected to each other, except at the split site between Rpt6 and
+Rpt3 (Fig. 4D). Similar to previous studies (22, 24, 25), the s1
+map shows density for nucleotides in all six nucleotide-binding
+pockets (Fig. 4 A, F, and G). However, only five of the six Argfingers are engaged in nucleotide binding (“engaged pocket”), in
+which the phosphates (Pi) of the nucleotide interact with the side
+chains of the two Arg residues of the Arg-finger (Fig. 4A). In the
+engaged pockets, the distance between the N-terminal tip of
+the α6 helix at the Walker A motif and the center of α10 helix
+located after the walker B motif (“pocket distance”) is ∼4–5 Å,
+showing tight ATP binding (Fig. 4 C and D). In contrast, the
+pocket distance of the interface module Rpt6/3 is ∼30 Å (Fig.
+4D). Interestingly, the Rpt3 Arg-fingers are projected away from
+the nucleotide-binding pocket and form hydrogen bonds with the
+carboxy groups of Rpt6, Glu140, and Val141 (“open pocket”)
+(Fig. 4 A and C). Despite nonengagement of the Rpt3 Arg-finger,
+there is still nucleotide density in the Rpt6/3 pocket. Indeed, the
+density volume of the Rpt6/3 pocket is smaller than the nucleotide
+densities of the rest of the subunits, implying ADP binding (22).
+The conformations of the binding pockets in the s2 state are
+identical to the conformations of the binding pockets in the s1 state
+(Fig. 4 B and G), supporting the notion that there is no ATP hydrolysis involved in the conformational change from s1 to s2 (Figs.
+S8 and S9). Interestingly, we identified nucleotide densities in all
+Rpt subunits in both the s3 and s4 states (Fig. 4G). Similar to the
+s1/s2 states, the interface modules of the s3 and s4 states are in
+close contact with each other, except for the split sites, probably for
+tight ATP binding (Fig. 4 A–D). In the s3 state, the pocket distance
+of Rpt5/1, which is localized at the split site, is longer than the
+others (∼28 Å), indicating a different coordination of the nucleotide
+from the coordination in the engaged pockets. In the s4 state,
+the pockets of two subunits, Rpt3/4 and Rpt4/5, are expanded
+(∼21 Å) (Fig. 4D). Considering that the pocket distance probably
+corresponds to different nucleotide binding, the conformational
+changes between s2, s3, and s4 may reflect different nucleotide
+binding by the AAA+ ATPase.
+
+Discussion
+Here, we present four different conformational states of the yeast
+26S proteasome obtained in the presence of different nucleotides
+and nucleotide analogs. One of the states represents a previously
+unobserved s4 conformation in which the lockwasher conformation
+of the AAA+ ATPase is rearranged to position the pore-1 loop
+differently from the three other known states. The four conformers
+provide insights into the functional cycle of the ATPase module
+PNAS | February 7, 2017 | vol. 114 | no. 6 | 1307
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Structural Features of the s4 Conformation. Although, overall, the
+s4 structure seems similar to the s3 structure, some subunits,
+such as Rpn1, Rpn6, Rpn11, and the AAA+ ATPase, adopt
+different conformations (Fig. 2C). For example, compared with
+the s3 conformer, the N-terminal α-solenoid of Rpn6 moves by
+∼12 Å toward Rpn7, independent of the overall rotation of the
+lid complex, whereas Rpn11 shifts by ∼11 Å together with the
+entire oligosaccharide-binding (OB) ring. The rigid-body rotation of Rpn1 from s3 to s4 positions the Rpn1 N terminus ∼24 Å
+closer to the AAA+ ring (Fig. S3 E and F). Compared with the s1
+state, Rpn1 shifts and rotates in the s4 state, leading to an interaction of its N terminus with Rpt2 and Rpt6. This conformational
+change increases the distance between the central leucine-rich repeats domain of Rpn1 and the coiled coil of Rpt4/5, which might
+facilitate Ubp6 binding (Fig. S3F). Indeed, we observed an additional density between Rpn1 and the OB ring in the s4 state (Fig.
+2B, box), which coincides with the position of Ubp6 (30). Further
+focused classification of the s4 dataset revealed that ∼50% of the
+particles do not possess Ubp6 (Fig. S3D), roughly consistent with
+the amount of Ubp6 in the sample determined by MS.
+
+Fig. 3. Conformation of the AAA+ ATPase in the four states. (A) To visualize the arrangement of the pore-1 loops (purple, the conserved tyrosine residues are
+shown as spheres), the α8 helices of the Rpt subunits, which are C-terminal of the pore-1 loop, are depicted as cylinders (s1, green; s2, blue; s3, red; and s4,
+yellow). (Left) Each α8 helix of the Rpt subunits is shown individually in the same orientation with the Rpt3 structure in the s1 state (ribbon). (B) Height (h) of
+the N-terminal tip of the α8 helix with respect to the CP gate (plane spanning through the Cα atoms of α4 Arg-27, α2 Glu-30, and α6 Glu-30) is shown.
+(C) Conformation of the α8 helices of the four states.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+and its role in substrate translocation: (i) The AAA+ ring changes
+the positions of the split site of the lockwasher conformation, which
+leads to rearrangements of the pore-1 loop; (ii) all six nucleotidebinding pockets are occupied, although the Arg-fingers are not
+engaged in all sites; (iii) the conformational change of the AAA+
+ATPase is coupled with the CP gate opening; and (iv) three HbYX
+motifs constitutively bind to the α-pockets of the CP.
+Substrate Translocation in the Lockwasher Conformation. The
+AAA+ ATPase family belongs to an additional strand catalytic
+glutamate (ASCE) superfamily, which includes RecA-like ATPases (33). Despite the high degree of structural conservation among
+the members of the ASCE superfamily (33), there are major differences in their hexameric assemblies. ClpX assembles into a
+closed planar ring but breaks symmetry by rotating the hinge region between the small and large domains of a subunit to form an
+“unloadable” conformation (34). The RecA ATPase DNA helicases, Rho and E1, also have a planar conformation, whereas
+DnaB6 is assembled into a lockwasher conformation (35). In the
+yeast 26S AAA+ ATPase, all four structures adopt a lockwasher
+conformation with different split sites. So far, the only planar
+conformation of the 26S proteasome was found in the presence of
+a model ubiquitylated substrate, in which the pore-1 loops were
+suggested to be arranged in a plane (36). In the substrate-engaged
+structure, the position of the AAA+ ring with respect to the CP is
+similar to the positions of the s3 and s4 conformers. However, the
+conformation of each Rpt subunit, including the arrangement of
+the pore-1 loop, is rather close to the s3 state. In the lockwasher
+conformation, the elongated pitch of the pore-1 loop may allow
+the ATPase to translocate polypeptides with a larger distance than
+the planar conformation. The distance between the top and bottom positions of the pore-1 loops of the 26S proteasome is ∼2 nm,
+almost double the ClpX substrate translocation step size (37). This
+finding indicates that the proteasome pore-1 loops in the staircase
+arrangement can likely translocate a polypeptide with a similar or
+even larger step size than ClpX.
+In all reported conformations of the 26S proteasome, including
+the “open-gate” conformation (SD conformation) (22–25), the
+AAA+ ATPase adopts a lockwasher conformation. However,
+we note that the lockwasher conformation of the AAA+ ATPase
+and the staircase arrangement of the pore-1 loops in the s4 state
+are not similar to the SD conformation or any other reported
+conformation.
+1308 | www.pnas.org/cgi/doi/10.1073/pnas.1621129114
+
+CP Gate-Opening Mechanisms. A previous structural study showed
+that insertion of the C-terminal HbYX motifs causes a conformational change for the CP gate opening concomitant with a rotation of the α-subunits (11). Although our s4 map shows no clear
+density in the pore region, probably representing an open-gate
+state, we did not observe any significant rotation of the α-subunits:
+Only the N-terminal extensions turn up toward the RP, as seen in the
+PA26–CP complex (38). In contrast, a strong density within the
+gate in the s1 state (Fig. S5A) suggests a closed gate. In the s2 and
+s3 states, the normalized intensity within the gate is between the
+normalized intensities of s1 and s4, indicating incomplete gate
+opening. In the crystal structure of the CP with the proteasome
+activator Blm10, the N-terminal extensions were not in the closed
+conformation but did not show a clear density, suggesting a
+“partial closed-gate” (10). The gate conformation of the s2 and s3
+states may be similar to such a partial closed-gate state. Considering the elasticity of an unfolded polypeptide (39), the partial
+closed-gate may hinder the diffusion of the translocated polypeptide by gripping it with the N-terminal extensions. In addition, the fact that all four states exhibit densities of three HbYX
+motifs in the α-pockets but only the s4 conformation adopts an
+open-gate conformation, suggests that HbYX engagement is not
+sufficient to open the gate for the yeast 26S proteasome.
+The reported SD conformation of the human 26S proteasome
+showed a reduced density within the gate. However, analysis of
+the normalized intensity of the SD conformation (Fig. S5L)
+shows that the gate area is rather similar to the s3 state (Fig.
+S5O), implying that the SD state represents a conformation different from the s4 state. In the SD conformation, two additional
+C-terminal tails (Rpt1 and Rpt6), together with insertion of the
+three HbYX motifs into the α-pockets, were suggested to trigger
+CP gate opening (25). However, only the C-terminal tail of Rpt6
+was detected in the map of the s4 state (Fig. S6A). Due to the
+relatively low resolution of the s4 and SD states, it is unclear whether
+this difference is due to a different gate-opening mechanism in yeast
+and humans or to different interpretation of the EM maps.
+Functional Model. Mechanochemical studies of ClpX have revealed
+that a conformational change of the pore-1 loop is coupled with Pi
+release to power translocation (39). In addition, among the six
+protomers, a subunit whose pore-1 loop is in direct contact with a
+translocated polypeptide may have a higher probability of hydrolyzing ATP first (40), indicating that an Rpt subunit at the top of
+the staircase may hydrolyze first. Interestingly, the pore-1 loop of
+the Rpt subunit at the top of the staircase is adjacent to the Rpt
+Wehmer et al.
+
+subunit with an open nucleotide-binding pocket, in which the
+pore-1 loop is located at the bottom of the staircase.
+Based on our structures, we propose the following functional
+model of the 26S proteasome (Fig. S10). In the absence of
+substrate, the proteasome is present in the ground state (s1),
+which represents the lowest energy conformation of the four
+states. When the proteasome is activated, most likely by substrate binding, it undergoes a conformational change from the
+ground state to the translocation-competent states (s2–s4). Because no structural change is observed in the AAA+ ring between
+s1 and s2, this transition is most likely not ATP-dependent. The
+translocation of substrates may be initiated by Rpt3, whose pore1 loop is at the top position of the staircase in the s2 state.
+Polypeptide binding to the Rpt3 pore-1 loop may trigger ATP
+hydrolysis, probably followed by Pi release. The Pi release from
+the Rpt3/4 pocket brings the Rpt3 pore-1 loop to the bottom of
+the staircase. As a consequence, the pockets of the neighboring
+subunits (Rpt3/4 and Rpt4/5) undergo a conformational change,
+resulting in the relocation of the Rpt5 pore-1 loop at the top position (s4). A concerted conformational change occurs to open the CP
+gate, which allows substrate translocation into the CP antechamber.
+Coupling the gate opening with ATP hydrolysis prevents the polypeptide from slipping back. In a similar manner, the Rpt5 pore-1
+Wehmer et al.
+
+loop undergoes a conformational change coupled with Pi release to
+be located at the bottom of the staircase (s3), again powering the
+work for the translocation. It is very likely that there exists more
+states than the four discussed here, in which the nucleotide pockets
+of Rpt1/2 and 2/6 are open. We assume that the cycle continues until
+the substrate translocation process is finished. Our structures favor a
+model in which the hydrolysis cycle occurs in a sequential order
+around the ring rather than in a stochastic manner.
+Materials and Methods
+Purification and Characterization of 26S Proteasome. Yeast 26S proteasomes
+were isolated from Saccharomyces cerevisae by affinity purification using the
+3× FLAG-tagged subunit Rpn11. Different ATP analogs were introduced during or after the sucrose gradient purification step (SI Materials and Methods).
+Samples (∼1 mg/mL) were stored at −80 °C until further use.
+Data Acquisition and Image Processing. All datasets were collected on a Titan
+Krios with a direct electron detector in movie mode. The pixel size at the
+specimen level was 1.35 Å for Falcon cameras and 1.38 Å for the K2 camera (SI
+Materials and Methods). Both single-capped 26S and double-capped particles
+were used in all datasets for classification and to obtain the final reconstructions
+(SI Materials and Methods). All image processing steps were carried out in TOM
+(41) and RELION (42).
+
+PNAS | February 7, 2017 | vol. 114 | no. 6 | 1309
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 4. Comparison of the nucleotide-binding pockets of the AAA+ ATPase in the s1 (A) and s2 (B) states. Nucleotide-binding pockets with modeled nucleotides (orange), neighboring Arg-fingers (red), the Walker A motif (yellow), and the Walker B motif (green) of the Rpts (Rpt2, Rpt3, and Rpt5 are colored
+cyan, and Rpt1, Rpt4, and Rpt6 are colored blue) are shown. (C) Close-up view of the model of an engaged pocket and an open pocket in the s1 state, showing
+the position of the helices α6 and α10. (D) Pocket distance of the N-terminal tip of α6 and the center of α10 for all nucleotide-binding pockets and states. (E)
+Histogram of the pocket distances from D. (F) Subtraction of the simulated map of the AAA+ ring of the ATPase model (without nucleotides) from the
+experimental EM map of the s1 state. (G) Comparison of difference maps calculated as described in F for all four states.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Model Building. Initial models were obtained by comparative and de novo
+modeling (SI Materials and Methods). The initial structure for the s1 state was
+the merged structure of the CP crystal structure [PDB ID code 5cz4 (31)] and
+the RP homology model based on the human structure [PDB ID code 5l4g
+(22)]. The subunits were positioned into the EM map and subsequently refined. Real-space refinement was first performed as described by Goh et al.
+(43) using MDFF (27) and then in reciprocal space. MDFF simulations were
+prepared using QwikMD (44), analyzed with VMD (45), and carried out with
+NAMD (46). The refined final structure of s1 was used to initiate an MDFF run
+into the density of the s2 state. The final refined structure of the s2 state was
+fitted through MDFF into the density of the s3 state, and the final s3 state
+structure was finally fitted into the s4 density.
+
+ACKNOWLEDGMENTS. We thank F. Stengel for assistance with cross-linking
+MS analysis; M. R. Eisele, N. Eisele, and R. Fernández-Busnadiego for critical
+reading; M. Khoshouei for discussion; and R. McGreevy and M. Scheurer for
+scripting support with the integrative modeling tools. This work was supported by the German Science Foundation [Excellence Cluster Center for
+Integrated Protein Science Munich (CIPSM) and SFB-1035/Project A01] and
+by National Science Foundation (NSF) Grant PHY1430124 and NIH Grant
+9P41GM104601. Computer time was provided by the NSF-funded Extreme
+Science and Engineering Discovery Environment MCA93S028 and a Blue
+Waters Illinois allocation, which is part of the Blue Waters sustained-petascale
+computing project supported by the NSF (Awards OCI-0725070 and ACI1238993) and the state of Illinois. E.S. is supported by a Marie Curie Career
+Integration Grant (PCIG14-GA-2013-631577), and T.R. is supported by a Feodor
+Lynen von Humboldt Postdoctoral Fellowship.
+
+1. Hershko A, Ciechanover A, Varshavsky A (2000) Basic Medical Research Award. The
+ubiquitin system. Nat Med 6(10):1073–1081.
+2. Voges D, Zwickl P, Baumeister W (1999) The 26S proteasome: A molecular machine
+designed for controlled proteolysis. Annu Rev Biochem 68:1015–1068.
+3. Finley D (2009) Recognition and processing of ubiquitin-protein conjugates by the
+proteasome. Annu Rev Biochem 78:477–513.
+4. Peters JM, Cejka Z, Harris JR, Kleinschmidt JA, Baumeister W (1993) Structural features
+of the 26 S proteasome complex. J Mol Biol 234(4):932–937.
+5. Pühler G, et al. (1992) Subunit stoichiometry and three-dimensional arrangement in
+proteasomes from Thermoplasma acidophilum. EMBO J 11(4):1607–1616.
+6. Seemüller E, et al. (1995) Proteasome from Thermoplasma acidophilum: A threonine
+protease. Science 268(5210):579–582.
+7. Groll M, et al. (1997) Structure of 20S proteasome from yeast at 2.4 A resolution.
+Nature 386(6624):463–471.
+8. Baumeister W, Walz J, Zühl F, Seemüller E (1998) The proteasome: Paradigm of a selfcompartmentalizing protease. Cell 92(3):367–380.
+9. Smith DM, et al. (2007) Docking of the proteasomal ATPases’ carboxyl termini in the 20S
+proteasome’s alpha ring opens the gate for substrate entry. Mol Cell 27(5):731–744.
+10. Sadre-Bazzaz K, Whitby FG, Robinson H, Formosa T, Hill CP (2010) Structure of a
+Blm10 complex reveals common mechanisms for proteasome binding and gate
+opening. Mol Cell 37(5):728–735.
+11. Yu Y, et al. (2010) Interactions of PAN’s C-termini with archaeal 20S proteasome and
+implications for the eukaryotic proteasome-ATPase interactions. EMBO J 29(3):692–702.
+12. Shi Y, et al. (2016) Rpn1 provides adjacent receptor sites for substrate binding and
+deubiquitination by the proteasome. Science 351(6275):aad9421.
+13. Husnjak K, et al. (2008) Proteasome subunit Rpn13 is a novel ubiquitin receptor.
+Nature 453(7194):481–488.
+14. Deveraux Q, Ustrell V, Pickart C, Rechsteiner M (1994) A 26 S protease subunit that
+binds ubiquitin conjugates. J Biol Chem 269(10):7059–7061.
+15. Verma R, et al. (2002) Role of Rpn11 metalloprotease in deubiquitination and degradation by the 26S proteasome. Science 298(5593):611–615.
+16. Yao T, Cohen RE (2002) A cryptic protease couples deubiquitination and degradation
+by the proteasome. Nature 419(6905):403–407.
+17. Lander GC, et al. (2012) Complete subunit architecture of the proteasome regulatory
+particle. Nature 482(7384):186–191.
+18. Lasker K, et al. (2012) Molecular architecture of the 26S proteasome holocomplex
+determined by an integrative approach. Proc Natl Acad Sci USA 109(5):1380–1387.
+19. Sauer RT, Baker TA (2011) AAA+ proteases: ATP-fueled machines of protein destruction. Annu Rev Biochem 80:587–612.
+20. Nyquist K, Martin A (2014) Marching to the beat of the ring: Polypeptide translocation by AAA+ proteases. Trends Biochem Sci 39(2):53–60.
+21. Unverdorben P, et al. (2014) Deep classification of a large cryo-EM dataset defines the
+conformational landscape of the 26S proteasome. Proc Natl Acad Sci USA 111(15):5544–5549.
+22. Schweitzer A, et al. (2016) Structure of the human 26S proteasome at a resolution of
+3.9 Å. Proc Natl Acad Sci USA 113(28):7816–7821.
+23. Luan B, et al. (2016) Structure of an endogenous yeast 26S proteasome reveals two
+major conformational states. Proc Natl Acad Sci USA 113(10):2642–2647.
+24. Huang X, Luan B, Wu J, Shi Y (2016) An atomic structure of the human 26S proteasome. Nat Struct Mol Biol 23(9):778–785.
+25. Chen S, et al. (2016) Structural basis for dynamic regulation of the human 26S proteasome. Proc Natl Acad Sci USA 113(46):12991–12996.
+26. Beck F, et al. (2012) Near-atomic resolution structural model of the yeast 26S proteasome. Proc Natl Acad Sci USA 109(37):14870–14875.
+27. Trabuco LG, Villa E, Schreiner E, Harrison CB, Schulten K (2009) Molecular dynamics
+flexible fitting: A practical guide to combine cryo-electron microscopy and X-ray
+crystallography. Methods 49(2):174–180.
+28. Chen X, Lee BH, Finley D, Walters KJ (2010) Structure of proteasome ubiquitin receptor
+hRpn13 and its activation by the scaffolding protein hRpn2. Mol Cell 38(3):404–415.
+ z P, et al. (2013) Structure of the 26S proteasome with ATP-γS bound provides
+29. Sled
+insights into the mechanism of nucleotide-dependent substrate translocation. Proc
+Natl Acad Sci USA 110(18):7264–7269.
+30. Aufderheide A, et al. (2015) Structural characterization of the interaction of Ubp6
+with the 26S proteasome. Proc Natl Acad Sci USA 112(28):8626–8631.
+31. Huber EM, et al. (2016) A unified mechanism for proteolysis and autocatalytic activation in the 20S proteasom. Nat Commun 7:10900.
+32. Förster A, Masters EI, Whitby FG, Robinson H, Hill CP (2005) The 1.9 A structure of a
+proteasome-11S activator complex and implications for proteasome-PAN/PA700 interactions. Mol Cell 18(5):589–599.
+
+33. Wendler P, Ciniawsky S, Kock M, Kube S (2012) Structure and function of the AAA+
+nucleotide binding pocket. Biochim Biophys Acta 1823(1):2–14.
+34. Glynn SE, Martin A, Nager AR, Baker TA, Sauer RT (2009) Structures of asymmetric
+ClpX hexamers reveal nucleotide-dependent motions in a AAA+ protein-unfolding
+machine. Cell 139(4):744–756.
+35. Itsathitphaisarn O, Wing RA, Eliason WK, Wang J, Steitz TA (2012) The hexameric helicase DnaB adopts a nonplanar conformation during translocation. Cell 151(2):267–277.
+36. Matyskiela ME, Lander GC, Martin A (2013) Conformational switching of the 26S
+proteasome enables substrate degradation. Nat Struct Mol Biol 20(7):781–788.
+37. Liu S, Chistol G, Bustamante C (2014) Mechanical operation and intersubunit coordination of ring-shaped molecular motors: Insights from single-molecule studies.
+Biophys J 106(9):1844–1858.
+38. Whitby FG, et al. (2000) Structural basis for the activation of 20S proteasomes by 11S
+regulators. Nature 408(6808):115–120.
+39. Sen M, et al. (2013) The ClpXP protease unfolds substrates using a constant rate of
+pulling but different gears. Cell 155(3):636–646.
+40. Martin A, Baker TA, Sauer RT (2008) Diverse pore loops of the AAA+ ClpX machine
+mediate unassisted and adaptor-dependent recognition of ssrA-tagged substrates.
+Mol Cell 29(4):441–450.
+41. Nickell S, et al. (2005) TOM software toolbox: Acquisition and analysis for electron
+tomography. J Struct Biol 149(3):227–234.
+42. Scheres SH (2012) RELION: Implementation of a Bayesian approach to cryo-EM
+structure determination. J Struct Biol 180(3):519–530.
+43. Goh BC, et al. (2016) Computational methodologies for real-space structural refinement of large macromolecular complexes. Annu Rev Biophys 45:253–278.
+44. Ribeiro JV, et al. (2016) QwikMD-integrative molecular dynamics toolkit for novices
+and experts. Sci Rep 6:26536.
+45. Humphrey W, Dalke A, Schulten K (1996) VMD: Visual molecular dynamics. J Mol
+Graph 14(1):33–38.
+46. Phillips JC, et al. (2005) Scalable molecular dynamics with NAMD. J Comput Chem
+26(16):1781–1802.
+47. Cox J, et al. (2014) Accurate proteome-wide label-free quantification by delayed
+normalization and maximal peptide ratio extraction, termed MaxLFQ. Mol Cell
+Proteomics 13(9):2513–2526.
+48. Bartolommei G, Moncelli MR, Tadini-Buoninsegni F (2013) A method to measure
+hydrolytic activity of adenosinetriphosphatases (ATPases). PLoS One 8(3):e58615.
+49. Korinek A, Beck F, Baumeister W, Nickell S, Plitzko JM (2011) Computer controlled
+cryo-electron microscopy–TOM2 a software package for high-throughput applications. J Struct Biol 175(3):394–405.
+50. Grant T, Grigorieff N (2015) Automatic estimation and correction of anisotropic
+magnification distortion in electron microscopes. J Struct Biol 192(2):204–208.
+51. Li X, et al. (2013) Electron counting and beam-induced motion correction enable nearatomic-resolution single-particle cryo-EM. Nat Methods 10(6):584–590.
+52. Mindell JA, Grigorieff N (2003) Accurate determination of local defocus and specimen
+tilt in electron microscopy. J Struct Biol 142(3):334–347.
+53. Pettersen EF, et al. (2004) UCSF Chimera–a visualization system for exploratory research and analysis. J Comput Chem 25(13):1605–1612.
+54. Bohn S, et al. (2010) Structure of the 26S proteasome from Schizosaccharomyces
+pombe at subnanometer resolution. Proc Natl Acad Sci USA 107(49):20992–20997.
+55. Sali A, Blundell TL (1993) Comparative protein modelling by satisfaction of spatial
+restraints. J Mol Biol 234(3):779–815.
+56. He J, et al. (2012) The structure of the 26S proteasome subunit Rpn2 reveals its PC repeat
+domain as a closed toroid of two concentric α-helical rings. Structure 20(3):513–521.
+57. Mackerell AD, Jr, Feig M, Brooks CL, 3rd (2004) Extending the treatment of backbone
+energetics in protein force fields: Limitations of gas-phase quantum mechanics in
+reproducing protein conformational distributions in molecular dynamics simulations.
+J Comput Chem 25(11):1400–1415.
+58. Stone JE, McGreevy R, Isralewitz B, Schulten K (2014) GPU-accelerated analysis and
+visualization of large structures solved by molecular dynamics flexible fitting. Faraday
+Discuss 169:265–283.
+59. Greber BJ, et al. (2014) The complete structure of the large subunit of the mammalian
+mitochondrial ribosome. Nature 515(7526):283–286.
+60. Adams PD, et al. (2002) PHENIX: Building new software for automated crystallographic
+structure determination. Acta Crystallogr D Biol Crystallogr 58(Pt 11):1948–1954.
+61. Emsley P, Lohkamp B, Scott WG, Cowtan K (2010) Features and development of Coot.
+Acta Crystallogr D Biol Crystallogr 66(Pt 4):486–501.
+
+1310 | www.pnas.org/cgi/doi/10.1073/pnas.1621129114
+
+Wehmer et al.
+
+

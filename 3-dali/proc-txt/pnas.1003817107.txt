@@ -1,0 +1,608 @@
+Plasmid protein TubR uses a distinct mode of HTHDNA binding and recruits the prokaryotic tubulin
+homolog TubZ to effect DNA partition
+Lisheng Ni, Weijun Xu, Muthiah Kumaraswami, and Maria A. Schumacher1
+Department of Biochemistry and Molecular Biology, University of Texas, M. D. Anderson Cancer Center, Unit 1000, Houston, TX 77030
+
+The segregation of plasmid DNA typically requires three elements:
+a DNA centromere site, an NTPase, and a centromere-binding
+protein. Because of their simplicity, plasmid partition systems
+represent tractable models to study the molecular basis of DNA
+segregation. Unlike eukaryotes, which utilize the GTPase tubulin
+to segregate DNA, the most common plasmid-encoded NTPases
+contain Walker-box and actin-like folds. Recently, a plasmid stability cassette on Bacillus thuringiensis pBtoxis encoding a putative
+FtsZ/tubulin-like NTPase called TubZ and DNA-binding protein
+called TubR has been described. How these proteins collaborate
+to impart plasmid stability, however, is unknown. Here we show
+that the TubR structure consists of an intertwined dimer with a
+winged helix-turn-helix (HTH) motif. Strikingly, however, the TubR
+recognition helices mediate dimerization, making canonical HTH–
+DNA interactions impossible. Mutagenesis data indicate that a
+basic patch, encompassing the two wing regions and the N termini
+of the recognition helices, mediates DNA binding, which indicates
+an unusual HTH–DNA interaction mode in which the N termini of
+the recognition helices insert into a single DNA groove and the
+wings into adjacent DNA grooves. The TubZ structure shows that
+it is as similar structurally to eukaryotic tubulin as it is to bacterial
+FtsZ. TubZ forms polymers with guanine nucleotide-binding
+characteristics and polymer dynamics similar to tubulin. Finally,
+we show that the exposed TubZ C-terminal region interacts with
+TubR-DNA, linking the TubR-bound pBtoxis to TubZ polymerization.
+The combined data suggest a mechanism for TubZ-polymer powered plasmid movement.
+
+deviant Walker A-type ATPase folds, whereas type II systems utilize actin-like NTPases. Interestingly, both types of NTPases form
+polymers in NTP-dependent manners that are implicated to play
+a role in plasmid DNA separation (16–19). The recent discovery
+of TubZ NTPases has led to the designation of “type III” par systems (13, 14). The best studied of these systems is that found on
+the pBtoxis plasmid in B. thuringiensis. This plasmid stability system is represented by an operon encoding two proteins: ORF156
+(TubZ) and ORF157 (TubR) (7–9, 11). TubR is a 11.6 kDa DNAbinding protein that shows no sequence homology to any known
+protein. Studies showed that TubR binds a 48-bp centromere containing four repeat sites in the pBtoxis plasmid and also autoregulates tubRZ transcription (8, 9). TubZ is a 54.4 kDa protein that
+can assemble into filaments in a GTP-dependent manner (12).
+Both proteins were found to be required for plasmid stability
+(9). However, how the TubR and TubZ proteins work together
+to effect pBtoxis plasmid segregation is not known. To gain insight
+into the molecular mechanism utilized by these proteins in DNA
+segregation, we carried out structural and biochemical studies on
+the pBtoxis TubR and TubZ proteins. The TubR structure reveals
+that it employs a helix-turn-helix (HTH) motif in a previously undescribed manner to bind DNA. TubZ contains a tubulin/FtsZ
+fold but has structural distinctions from these proteins indicating
+that it forms distinct protofilaments. TubR binds the flexible
+C-terminal region of TubZ, thus attaching the TubZ filament
+to the pBtoxis plasmid, providing a mechanism for plasmid movement and, ultimately, segregation.
+
+T
+
+Overall Structure of pBtoxis TubR. The crystal structure of the 107-
+
+he cytoskeletons of eukaryotic cells are constructed of three
+primary elements: actin, tubulin, and intermediate filaments.
+Although it had long been presumed that the proteins forming
+these elements were absent in prokaryotes, it is now known that
+prokaryotes contain structural homologs to all three components.
+These prokaryotic proteins appear to carry out distinct functions
+compared to their eukaryotic counterparts; however, their roles
+are similar enough to indicate a likely common ancestor. The best
+known prokaryotic homolog of tubulin is FtsZ. Both FtsZ and
+tubulin form long filamentous structures by head to tail association in a manner regulated by GTP, which binds between adjacent
+subunits (1–4). However, unlike tubulin, FtsZ does not function
+in DNA segregation but rather cell division. Specifically, it forms
+a cytokinetic ring called the Z ring at midcell, which mediates
+septation (5, 6). Recently, however, prokaryotic proteins encoded
+on large plasmids harbored in bacilli showing 15–20% sequence
+similarity to both FtsZ and tubulin have been identified and
+dubbed TubZ (7–12). Studies showed that the Bacillus thuringiensis TubZ protein from the pBtoxis plasmid is essential for plasmid
+DNA segregation.
+DNA segregation of most low copy number plasmids is carried
+out by specific partition (par) systems. These systems require only
+three elements: a centromere DNA site, a centromere-binding
+protein, and a partition NTPase (13, 14). Partition systems have
+been classified into two main types on the basis of the kind
+of NTPase present (15). Type I systems contain NTPases with
+www.pnas.org/cgi/doi/10.1073/pnas.1003817107
+
+Results and Discussion
+residue pBtoxis TubR protein was solved to 2.0-Å resolution by
+selenomethionine multiple wavelength anomalous diffraction
+(MAD) methods (Table S1). The structure contains two TubR
+molecules in the crystallographic asymmetric unit and consists
+of residues 6–102 of one subunit and 4–100 of the second subunit,
+and has Rwork ∕Rfree ¼ 23.8%∕27.0%. The TubR structure forms a
+highly intertwined dimer with dimensions 30 × 30 × 60 Å3
+(Fig. 1A). Each TubR subunit has the topology β1 -α1 -α2 -α3 -α4 -β2 β3 -α5 , which is similar to winged HTH motifs found in a number
+of DNA-binding proteins in both prokaryotes and eukaryotes
+(20). In TubR, α3-α4 forms the HTH motif and the loop between
+Author contributions: M.A.S. designed research; L.N., W.X., M.K., and M.A.S. performed
+research; M.A.S. analyzed data; and M.A.S. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission.
+Freely available online through the PNAS open access option.
+Data deposition: The atomic coordinates and structure factor amplitudes for the WT TubR
+(C2), WT TubR (I222), TubR(S63W), TubZ, and TubZ-GTP-γ-S structures have been
+deposited with the Protein Data Bank, www.pdb.org (PDB ID codes 3M8E, 3M9A,
+3M8F, 3M8K, and 3M89).
+1
+
+To whom correspondence may be addressed. E-mail: maschuma@mdanderson.org.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/
+doi:10.1073/pnas.1003817107/-/DCSupplemental.
+
+PNAS ∣ June 29, 2010 ∣ vol. 107 ∣ no. 26 ∣ 11763–11768
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Edited by Robert T. Sauer, Massachusetts Institute of Technology, Cambridge, MA, and approved May 11, 2010 (received for review March 22, 2010)
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 1. B. thuringiensis pBtoxis TubR structure. (A) One TubR subunit is red
+and the other cyan. Secondary structural elements and N and C termini are
+labeled. (B) Superimposition of one subunit of TubR (Red) onto a S. aureus
+CzrA subunit (Yellow). Regions with different structures are labeled. (C) Same
+superimposition as B showing the location of the other subunit in the TubR
+and CzrA dimers after one subunit is overlaid. A–C are in the same orientation to highlight differences. Figs. 1 A–C, 2 C and D, 3 A, C, and E, 4B, and 5B
+were made by using PyMOL (31).
+
+β2 and β3, the wing. Indeed, each TubR subunit shows the strongest structural similarity to members of the ArsR family of
+prokaryotic winged helix transcription regulators, in particular
+the Staphylococcus aureus CzrA protein (21, 22). Superposition
+of one subunit of TubR onto that of CzrA results in a rmsd of
+2.7 Å. This similarity includes the core regions of the winged
+HTH, because the loops and N-terminal regions of the proteins
+are structurally distinct. For example, TubR contains a β-strand in
+its N-terminal region compared to a long helix in the CzrA structure (Fig. 1B). This structural similarity initially suggested that
+TubR may be a member of the ArsR family of proteins. However,
+the arrangement of the TubR dimer was found to be strikingly
+different from the dimer organization exhibited by the ArsR
+proteins (Fig. 1C).
+ArsR family members are involved in metal-regulated transcription processes whereby they act as repressors in their apo
+forms and are induced off their DNA sites upon metal binding
+(22). The specific dimer structures of the ArsR proteins are critical for creation of their metal-binding motifs. Not only does
+TubR form a very different dimer from the ArsR proteins, it also
+does not harbor any of their metal-binding signatures nor does it
+contain any other characterized metal-binding motif. Consistent
+with this, we find that the addition of metals has no effect on TubR
+DNA binding. Dimerization of the ArsR proteins is imparted by
+residues from the N-terminal regions, α1 and α5, which, importantly, leaves its recognition helices exposed for DNA interaction
+(22). By contrast, the TubR dimer is formed primarily by contacts
+between its twofold related “recognition helices” α4 and α4·. This
+interaction results in a near complete burial of these helices, leaving only the N-terminal residues exposed to solvent. Whereas the
+α4 and α4· interaction creates the dimer core, the dimer is further
+stabilized by interactions between the twofold related β1 strands,
+which swap to form an antiparallel β-sheet. Residues from α1 and
+α5 interact with β1 to further seal the top of the dimer. The dimer
+interface formed by these interactions is predominantly hydrophobic and buries a large 1;200 Å2 of subunit surface from solvent.
+TubR Forms a “Recognition Helix Dimer”: Implications for DNA Binding. Gel filtration studies on TubR confirmed that it is a dimer in
+
+solution. However, the finding from the structure that the TubR
+α4 recognition helices are buried in the dimer core has important
+implications in terms of its DNA-binding mechanism. Indeed, it
+suggests that, although TubR contains a structurally canonical
+HTH, it is not utilized for DNA binding in a manner typical
+of HTH proteins. A second crystal form (I222) of TubR, which
+was solved to 2.5-Å resolution, revealed the same TubR dimer.
+The presence of the identical dimer in two different crystal forms
+and its large buried surface area supports that the dimer observed
+in the crystal structures is physiologically relevant. However, to
+11764 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1003817107
+
+test this, we mutated residues within the recognition helices that
+the structure indicates are critical for dimerization and assayed
+the ability of the mutant proteins to dimerize via gel filtration.
+Specifically, we mutated Ser-63 and Ala-67 individually to tryptophan and arginine.
+The structure shows that residues occupying positions 63 and
+67 must be small and largely hydrophobic to permit the proper
+packing of the α4 helices in the dimer (Fig. S1A). Hence, the introduction of the bulky side chain of tryptophan and, in particular, the large as well as charged side chain of arginine would be
+predicted to be highly disruptive to dimerization. Gel filtration
+analyses on purified mutant proteins clearly showed that the arginine mutants exist primarily as monomers in solution (>80%),
+whereas the tryptophan mutants were able to maintain the dimeric state (Fig. 2A and Fig. S1B). However, all mutant proteins
+showed reduced or loss of DNA-binding activity as ascertained by
+fluorescence polarization (FP) studies, which examined TubR
+protein binding to its centromere site (Fig. 2B and Fig. S1 C
+and D) (9). The fact that the monomeric mutants were severely
+impaired in DNA binding was not surprising. However, the
+finding that the tryptophan mutants, which were largely dimeric,
+displayed reduced DNA-binding activity suggested that their oligomer structures might be altered. To address this issue, the structure of S63W TubR was solved to 2.8-Å resolution, resulting in
+Rwork ∕Rfree values of 20.4%∕26.6% (Table S1). The subunit structure of S63W TubR is essentially identical to that of WT TubR as
+revealed by their superimposition (rmsd of 1.2 Å) (Fig. 2 C and
+D). However, this single subunit overlay shows that the S63W
+TubR dimer, although the same as the WT in general arrangement, is forced into a more open oligomer conformation in which
+one subunit is rotated 20° away from its dimer mate compared to
+WT. This rotation is required to accommodate the bulky S63W
+side chains (Fig. 2D). The N-terminal β1–β1′-sheet interaction
+appears to play a key role in holding the TubR subunits together.
+In addition, the tight stacking of the twofold related Trp63 indole
+groups (3.5 Å) provides a compensatory interaction that, combined with the β1–β1′ interaction, apparently permits retention
+of the dimer state, indicating why the TubR tryptophan mutants
+were able to maintain the dimer state, albeit an altered dimer
+state relative to WT (Fig. 2 C and D). By contrast, the TubR
+arginine mutations, which introduced both bulk and charge within the predominantly hydrophobic dimer interface, were highly
+destabilizing for dimerization. In addition, the finding that the
+S63W TubR mutant forms an altered dimer explains the severe
+effect on DNA binding because a correct dimer orientation is
+likely essential for binding to its palindromic DNA sites (9).
+TubR-DNA Model. Because all but the N-terminal residues of the
+
+TubR recognition helices are buried in the dimer interface, TubR
+must use a different mode of DNA binding than the ArsR or other
+HTH containing proteins (23). Examination of surface electrostatics of TubR reveals that one face of the protein is electronegative, whereas the other is strongly electropositive (Fig. 3A).
+Notably, the positive region is composed of one large and contiguous basic patch. Basic residues in this region correspond to Arg74, Arg-77, and Lys-79, in the wing and Lys-43, which is on α3, the
+helix preceding α4 in the HTH motif. These residues were mutated
+singly to alanine to examine their roles in DNA binding (Fig. 3B).
+FP experiments showed that mutation of the basic wing residues
+resulted in either a complete (R74A and R77A) or nearly complete (K79A) abrogation of DNA binding, indicating that the
+wings play a major role in TubR DNA binding. Residue Lys-43
+is surface exposed and located at the center of the basic region
+on the TubR dimer (Fig. 3A). The K43A mutant also showed
+no binding to TubR, supporting the notion that the continuous
+basic patch of TubR represents its DNA-binding surface.
+To gain insight into the structural mechanism of DNA binding,
+a DNA duplex was docked onto the basic patch of the TubR diNi et al.
+
+mer by using the location of the mutations that affected DNA
+binding as a guide (Fig. 3C). This model revealed that the wings
+are positioned to interact with successive minor grooves, with
+
+either the bases or the phosphate backbone depending on the
+ability of the DNA to deform. In the model TubR interacts with
+a minimum of 14 bp of DNA. However, the centromere bound by
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 2. The TubR “recognition helix” dimer. (A) Gel filtration studies on TubR mutants S63W and S63R showing that the S63W mutant remains dimeric whereas
+S63R is >80% monomer. (B) Fluorescence polarization
+studies examining the ability of WT TubR, S63R, and
+S63W TubR mutants to bind iteronic DNA. Fluorescence
+polarization units (millipolarization) and TubR concentration (nM) are along the y and x axes, respectively.
+The K d of WT TubR for the centromere DNA is
+8  2 nm. (C) Superimposition of WT TubR (Green) onto
+the TubR S63W mutant structure (Tan). (D) Close-up of
+the site of the S63W mutation in the expanded TubR
+S63W dimer showing stacking interactions between
+the twofold related tryptophans.
+
+Fig. 3. TubR-DNA binding. (A) Electrostatic surface potential of the TubR dimer. Blue and red represent electropositive and electronegative regions, respectively. (Left) The electronegative side of the TubR dimer, and the side on the right is the electropositive side. Labeled on the left side are the locations of the
+mutated residues. (B) FP binding isotherms showing the DNA binding of WT TubR and the K43A, R74A, R77A, and K79A mutants. Fluorescence polarization
+units (millipolarization) and TubR concentration (nM) are along the y and x axes, respectively. (C) TubR-DNA model showing TubR electrostatic potential.
+(D) Stoichiometry of TubR (subunit) binding showing titration curve of TubR into the 48-mer iteron resulting in a molar ratio of TubR subunit to DNA of
+eight (or four) dimers. (E) Left: Ribbon diagram of the TubR-DNA model with the recognition helices colored yellow. Right: Ribbon diagram showing a canonical
+HTH–DNA interaction (the λ repressor-DNA complex) with the recognition helices colored yellow (32).
+
+Ni et al.
+
+PNAS ∣
+
+June 29, 2010 ∣
+
+vol. 107 ∣
+
+no. 26 ∣
+
+11765
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+TubR consists of four 12-bp sites with the consensus T(T/A)(T/A)
+(C/A)(G/A)GTTTA(A/C)(A/C) (9). Thus, we used FP to ascertain the binding stoichiometry of TubR for its 48-bp centromere.
+As shown in Fig. 3D, eight TubR subunits or four TubR dimers
+bind the 48-mer centromere, consistent with a dimer of TubR
+binding each palindrome. Thus, either TubR distorts its DNA
+or the TubR dimers bind with some degree of overlap on their
+DNA sites perhaps imparting cooperativity, as observed in other
+centromere-binding protein–DNA interactions (13, 14). In addition to the insertion of the wings, a striking outcome of the modeling was the finding that the N termini of the recognition helices,
+which interact with each other in a parallel, coiled-coil-like manner, are in position to insert into a single major groove. Structures
+of HTH proteins bound to DNA have thus far shown that the
+recognition helices insert singly into successive major grooves
+by using residues in the first few turns or the central portion
+of the recognition helix to contact the DNA bases (Fig. 3E). Thus,
+in the TubR-DNA model, the HTH–DNA interaction is dramatically different from any displayed previously by a HTH protein.
+TubZ Binds TubR-DNA. A characteristic feature exhibited by
+partition centromere-binding proteins is the ability to bind their
+partner NTPase (13, 14). To determine if TubR binds TubZ, we
+utilized a FP assay and found that full length (FL) TubZ bound
+avidly to the TubR-centromere complex (Fig. 4A). However,
+unlike other partition systems in which the NTPase must be complexed with nucleotide to bind its centromere-binding protein,
+the interaction of TubR with TubZ did not require the presence
+of GTP-Mg2þ . Previous studies have shown that the C-terminal
+regions of tubulin and FtsZ mediate key binding events with their
+target proteins (24–26). We noted that the terminal region of
+TubZ, consisting of residues 407–484, is the most divergent region
+between TubZ proteins and between TubZ and tubulin/FtsZ proteins, suggesting that it may be similarly utilized and bind TubR.
+To test this hypothesis, we constructed various TubZ truncations,
+TubZ(1-407), TubZ(1-442), TubZ(1-460), and TubZ(1-470), and
+examined the ability of each protein to bind TubR-DNA. TubZ
+(1-407) showed no binding to TubR, whereas the remaining truncation mutants bound weakly to TubR-DNA (Fig. 4A). Thus, the
+data indicate that the last 14 amino acids of TubZ are critical for
+the ability of TubZ to form a tight interaction with TubR but that
+residues 408–470 also play an important role in this interaction.
+These data demonstrate that TubR acts as a partition partner for
+TubZ, linking it to pBtoxis plasmid DNA. Although TubZ has
+been shown to form polymers in a GTP-dependent manner,
+the TubZ protein displays limited sequence similarity to tubu-
+
+Fig. 4. TubZ interacts with TubR-DNA and contains a tubulin/FtsZ fold. (A) FP
+assay measuring binding of FL TubZ, TubZ(1-470), TubZ(1-460), TubZ(1-442),
+and TubZ(1-407) to TubR-DNA. Below is the control (TubZ titrated into DNA
+alone). Millipolarization units and TubZ concentration (nM) are along the y
+and x axes, respectively. (B) TubZ(1-428) structure. The N domain or GTP-binding domain is colored salmon and the C domain purple. The interdomain
+helix, H7, is red. TubZ also contains an N-terminal helix, H0 (Yellow), and
+a C-terminal helix, H11 (White).
+
+11766 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1003817107
+
+lin/FtsZ, suggesting potential differences in TubZ and tubulin/
+FtsZ structures (7–9). To gain insight into TubZ function, we next
+determined structures of B. thuringiensis pBtoxis TubZ.
+Structure of TubZ. Crystallization of FL TubZ was not successful, in
+either its apo form or bound to guanine nucleotides. We noted that
+FL TubZ degraded over time whereby C-terminal residues were
+proteolyzed. Therefore, truncated TubZ proteins were utilized
+in crystallization trials, and crystals were obtained of apo TubZ
+(1-428) and the structure solved by MAD (Table S2). The model
+consists of residues 1–79 and 91–404 and has an Rwork ∕Rfree of
+21.4∕24.9% to 2.3-Å resolution (Fig. 4B). No discernible oligomerization of apo TubZ(1-428) was observed in the crystal packing,
+and gel filtration analyses confirmed that it is monomeric
+(Fig. S2). The overall TubZ structure can be divided into two main
+domains: an N domain (residues 25–235) and a C domain (residues 258–377). These domains are connected by a long, core helix,
+H7. The TubZ N domain has a Rossman fold and consists of six
+parallel β-strands with topology 3-2-1-4-5-6. The resulting β-sheet
+is sandwiched by five α-helices, with two helices on one side and
+three on the other. The C domain consists of four β-strands with
+the topology 1-4-2-3. The C-domain β-strands are arranged nearly
+perpendicular to those in the N domain. In addition to these main
+protein domains, there are two helices: one at the N terminus, H0,
+and a long helix at the C terminus, H11 (Fig. 4B). Database
+searches showed that TubZ indeed belongs to the tubulin/FtsZ family of proteins and is similar to both eukaryotic and prokaryotic
+members of the family; TubZ can be optimally superimposed with
+rmsds of 3.4 Å onto both bovine α tubulin and Pseudomonas
+aeruginosa FtsZ (1, 5). Whereas the two-domain architectures
+of tubulin, FtsZ, and TubZ are similar in overall structure, the
+extreme N- and C-terminal regions of these proteins are very divergent (Fig. S3 A–D).
+N-Terminal and C-Terminal Differences in TubZ, FtsZ, and Tubulin: Implications for Polymer Formation and Target Protein Binding. Tubulin
+
+proteins do not contain significant N-terminal extensions,
+whereas FtsZ proteins from different organisms show structural
+variability within their N-terminal regions. For instance, in the
+Escherichia coli FtsZ structure the N-terminal residues are disordered, whereas Methanococcus jannaschii FtsZ has an extra
+N-terminal helix, H0, which is flexibly attached to the body of
+the protein and has been captured in multiple orientations (5).
+Although H0 is not conserved in FtsZ proteins, one M. jannaschii
+FtsZ structure revealed a semicontinuous polymer in the crystal,
+thought to closely represent in vivo protofilaments, which utilizes
+H0 in subunit-subunit contacts (4). This finding suggests that
+the flexibly attached H0 is stabilized in a specific orientation
+by protofilament formation, at least in the M. jannaschii protein.
+The TubZ H0 helix extends in the opposite direction compared to
+that of the protofilament stabilized FtsZ H0 helix. Moreover, in
+TubZ, H0 is not flexibly attached to the N domain but is tightly
+anchored to the C domain through numerous interactions with
+the core helix and C-domain residues. The large number of interactions involving H0, and the fact that it covers what would otherwise be a surface exposed hydrophobic patch, indicate that the
+TubZ H0 does not undergo conformational changes during
+protofilament formation and is important for the general fold
+of TubZ (Fig. S3 A and C).
+Data suggest that FtsZ and tubulin form protofilaments with
+similar longitudinal contacts (4). However, the TubZ structure
+reveals key differences, primarily in its C-domain and C-terminal
+regions, which suggest that it forms protofilaments distinct from
+those formed by tubulin/FtsZ. A notable difference is the structure of loop 7 (L7). This loop inserts into the adjacent subunit
+providing the key catalytic residues required for GTP hydrolysis.
+In tubulin/FtsZ proteins, L7 has the consensus GXXNXDXAD.
+In TubZ, the loop is very divergent in conformation compared
+Ni et al.
+
+TubZ Interactions with Guanine Nucleotides. Consistent with TubZ
+being a member of the tubulin/FtsZ family, our isothermal titration calorimetry (ITC) studies showed that TubZ binds guanine
+nucleotides with high affinity; K d s for GTP-γ-S and GDP were
+∼0.69 and 26 μM, respectively (Fig. 5A). We next determined
+the structure of the TubZ-GTP-γ-S complex by soaking GTP-γ-S
+into preformed TubZ(1-428) crystals. The TubZ-GTP-γ-S structure contains TubZ residues 1–79 and 91–404, one GTP-γ-S,
+and has Rwork ∕Rfree ¼ 21.8%∕25.5% (Fig. 5B and Table S2).
+The structure shows that TubZ binds GTP-γ-S in the same GTP
+binding pocket as tubulin/FtsZ (1–5). Comparison of the apo
+and GTP-γ-S bound TubZ structures indicated that, like FtsZ,
+guanine nucleotide binding does not lead to significant conformational changes (5). The phosphate binding pocket is formed by
+two of the most highly conserved regions between TubZ and
+tubulin/FtsZ called loops 1 and 4 (L1 and L4) (1–3). L1 contacts
+the GTP-γ-S α- and β-phosphate groups via the Gln-32 and Lys-33
+amide nitrogens. The L1 region of FtsZ and tubulin contain the
+sequences GQ(A/G)G and GQCG, respectively, whereas in TubZ
+the motif is 31-GQKG-34. However, the alanine/glycine and
+cysteine residues in FtsZ and tubulin do not contact the bound
+nucleotide; the TubZ Lys-33 side chain makes stacking interacNi et al.
+
+Fig. 5. TubZ-guanine nucleotide interactions. (A) ITC binding isotherms
+showing TubZ-GDP (Left) and TubZ-GTP-γ-S interaction (Right). (B) Left:
+Overall structure of the TubZ-GTP-γ-S complex. β-strands are colored magenta and helices cyan, and the GTP-γ-S molecule is shown as cpk. Right: Close-up
+view of the GTP binding pocket with the initial F o -F c electron density map
+(Blue Mesh), contoured at 4.5σ, and calculated before the GTP-γ-S was
+included in refinement.
+
+tions with the guanine base (Fig. 5B). L4 represents the so-called
+signature motif [GGGTG(T/S)G], which serves as an identifier of
+tubulin/FtsZ family members. Like FtsZ and tubulin, the L4
+region of TubZ-GTP-γ-S makes phosphate interactions via its
+glycine amide nitrogens. Whereas L1 and L4 residues of the N
+domain mediate phosphate contacts, the GTP-γ-S guanine moiety
+is specified from residues in the core helix, H5, and C domain. In
+this regard, an important motif is loop 6 (L6). In FtsZ and tubulin,
+L6 has the consensus (F/Y)XXX(N/D) and the conserved (F/Y)
+residue functions in guanine base stacking. This region in TubZ,
+236-WKXXXN-241, is in an altered conformation compared to
+FtsZ and tubulin structures. Despite the presence of the tryptophan, which might be expected to interact with the guanine,
+the side chain of Lys-237 instead stacks with the guanine ring.
+Hence, in the TubZ-GTP-γ-S structure, the guanine base does
+not interact with aromatic residues as in tubulin/FtsZ but is sandwiched between the aliphatic portions of two lysine side chains,
+Lys-33 and Lys-237. Finally, two asparagine residues, Asn-213
+and Asn-241, from L6 effectively read the guanine N2/N3 and
+N1/O6 atoms, respectively, providing high specificity in TubZ’s interaction with guanine nucleotides.
+pBtoxis DNA Segregation: TubR Plasmid Partition Model. Our data
+show that TubR binds to the flexible, C-terminal, basic region
+of TubZ. The flexibility and location of the TubZ C-terminal
+extension suggest that it is not required for polymerization and
+thus may be exposed on the surface of TubZ filaments. Indeed,
+negative stain EM images show that TubZ(1-407) forms polymers
+in a GTP-dependent manner similar to the FL protein (Fig. S5).
+Recent data suggesting that TubZ filaments are stabilized by
+PNAS ∣
+
+June 29, 2010 ∣
+
+vol. 107 ∣
+
+no. 26 ∣
+
+11767
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+to that in FtsZ/tubulin and consists of the sequence 256DNVTYDPSD-266. In addition to the N-terminal region, the
+extreme C-terminal extensions of tubulin, FtsZ, and TubZ are
+structurally divergent (Fig. S3B). In FtsZ, the C-terminal region
+forms a small, two-stranded β-sheet and continues into an extended region that is involved in binding adaptor proteins such
+as FtsA and ZipA (6, 25). By contrast, the C-terminal regions
+of tubulin proteins consist of a two-helix bundle followed by an
+extended region. Like FtsZ, however, these regions interact with
+numerous target proteins such as the microtubule-associated proteins (MAPs) (24). Consistent with this, the C-terminal regions of
+tubulin have been shown to face the outside of the microtubule. A
+characteristic feature of the extreme C-terminal extensions of
+tubulin proteins is their highly acidic nature (3). This acidic region
+has been shown to be critical for binding to several MAPs that
+harbor a substantial basic character, such as tau, MAP2, and
+MAP4 (24, 27).
+The TubZ C-terminal region is also helical, but it contains a
+single, long helix. Notably, the TubZ-tubulin overlay shows that
+the long C-terminal helix of TubZ would dramatically clash with
+the adjacent subunit in a polymer, providing support for the notion that TubZ forms protofilaments different from tubulin/FtsZ
+(Figs. S3B and S4). Interestingly, and in contrast to tubulin proteins, the flexible C-terminal region of TubZ that follows H11 is
+highly basic, in particular the last 14 residues. We have shown that
+these residues play a central role in TubR binding (Fig. 4A). TubR
+uses its electropositive face for DNA binding, leaving exposed its
+opposite face for TubZ interaction. Notably, this exposed face is
+strongly electronegative and hence would complement the basic
+C-terminal tail of TubZ (Fig. 3A).
+Tubulin/FtsZ protofilaments combine to form higher-order
+structures. In tubulin, the protofilaments interact in a parallel
+manner to form microtubules. Central to microtubule formation
+are lateral contacts between protofilaments from the so-called M
+loop, between H10 and S9. In tubulin, this loop is composed of 13
+residues (1–3). The corresponding loop is much shorter in FtsZ
+proteins, consistent with the fact that FtsZ does not form tubulin
+microtubule-like structures (5, 28–30). In TubZ, the M loop is
+even shorter than in FtsZ, spanning only four residues. In fact,
+the TubZ/tubulin overlay shows that the side of the molecule containing the M loop is the most divergent between these proteins.
+These combined findings suggest that TubZ not only forms protofilaments with distinct longitudinal contacts compared to FtsZ
+and tubulin, but it also does not form tubulin-like microtubule
+structures.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+shown in Fig. 6. In this model, multiple TubR dimers first bind
+to the iteronic DNA on the pBtoxis plasmid leading to the creation of a high local concentration of TubR, which can recruit a
+TubZ polymer, likely by interactions between the acidic TubR
+dimer face and the basic C-terminal TubZ region. Importantly,
+this interaction serves to attach the pBtoxis plasmid to the TubZ
+polymer, which undergoes treadmilling, adding subunits at the þ
+end and losing subunits at the − end. The bound TubR-pBtoxis
+can be handed off from the − end to the molecules in the growing
+þ end, leading to the transport of the pBtoxis plasmid to the cell
+pole. Interestingly, it has been shown that once TubZ polymers
+reach and interact with the cell pole, they bend around the curved
+pole and continue growing in the other direction (7). The force of
+the interaction with the membrane likely causes the release of
+TubR-pBtoxis, the net result being transport of pBtoxis to the cell
+pole. Of course, this model is simplified and many questions remain. For example, how directionality is achieved and how the
+replicated plasmids are driven to opposite cell poles is not clear.
+However, given the large size of the pBtoxis plasmid (8), it may be
+that only one TubR-pBtoxis “tram” can be bound at once by the
+rapidly treadmilling TubZ polymer and that, once one such a tram
+is unloaded after reaching the cell pole, another engages when the
+now reversed polymer treadmills toward the opposite cell pole.
+Fig. 6. pBtoxis DNA partition model. In the first step, TubR, which is bound
+to its centromere on one of the replicated pBtoxis plasmids, contacts the TubZ
+C-terminal region (indicated by lines pointing from the TubZ “circles”) in a
+treadmilling TubZ polymer. TubZ subunits are lost from the − end and are
+added to the þ end. TubR is pulled along the growing polymer by its
+TubR-TubZ interaction until it reaches the cell pole and is knocked off when
+it comes into contact with the membrane at the cell pole. TubZ reverses
+direction and may pick up the other TubR-pBtoxis complex and deliver it
+similarly to the opposite cell pole.
+
+Materials and Methods Summary
+Detailed methods are provided in SI Materials and Methods.
+Briefly, the tubR and tubZ genes were codon optimized (for
+E. coli expression), subcloned into pET15b, expressed, and purified. WT TubR crystals were grown with NaCl and phosphate.
+TubR S63W was crystallized with PEG and ethylene glycol and
+TubZ with sodium formate. Detailed assay conditions for FP,
+ITC, electron microscopy, and gel filtration are provided in
+SI Materials and Methods.
+
+the presence of a GTP cap and undergo treadmilling are consistent with the notion that TubZ displays tubulin-like polymer dynamics (12). Thus, on the basis of the combined data, we suggest
+a model for TubR/TubZ mediated pBtoxis plasmid segregation
+
+ACKNOWLEDGMENTS. This work was supported by the Burroughs Wellcome
+Career Development Award 992863 and National Institutes of Health Grant
+GM074815 (to M.A.S.).
+
+1. Nogales E, Wolf SG, Downing KH (1998) Structure of the αβ tubulin dimer by electron
+crystallography. Nature 391:199–203.
+2. Nogales E, Whittaker M, Milligan RA, Downing KH (1999) High-resolution model of
+the microtubule. Cell 96:79–88.
+3. Nogales E (2000) Structural insights into microtubule function. Annu Rev Biochem
+69:277–302.
+4. Oliva MA, Cordell SC, Löwe J (2004) Structural insights into FtsZ protofilament
+formation. Nat Struct Mol Biol 11:1243–1250.
+5. Oliva MA, Trambaiolo D, Löwe J (2007) Structural insights into the conformational
+variability of FtsZ. J Mol Biol 373:1229–1242.
+6. Margolin W (2005) FtsZ and the division of prokaryotic cells and organelles. Nat Rev
+Mol Cell Biol 6:862–871.
+7. Larsen RA, et al. (2007) Treadmilling of a prokaryotic tubulin-like protein, TubZ,
+required for plasmid stability in Bacillus thuringiensis. Genes Dev 21:1340–1352.
+8. Tang M, Bideshi DK, Park H-W, Federici BA (2006) Minireplicon from pBtoxis of Bacillus
+thuringiensis subsp. israelensis. App Environ Microbiol 72:6948–6954.
+9. Tang M, Bideshi DK, Park H-W, Federici BA (2007) Iteron-binding ORF157 and FtsZ-like
+ORF156 proteins encoded by pBtoxis play a role in its replication in Bacillus thuringiensis subsp. israelensis. J Bacteriol 189:8053–8058.
+10. Anand SP, Akhtar P, Tinsley E, Watkins SC, Khan SA (2008) GTP-dependent polymerization of the tubulin-like RepX replication protein encoded by the pXO1 plasmid of
+Bacillus anthracis. Mol Microbiol 67:881–890.
+11. Berry C, et al. (2002) Complete sequence and organization of pBtoxis, the toxincoding plasmid of Bacillus thuringiensis subsp israelensis. Appl Environ Microbiol
+68:5082–5095.
+12. Chen Y, Erickson HP (2008) In vitro assembly studies of FtsZ/tubulin-like proteins (TubZ)
+from Bacillus plasmids: Evidence for a capping mechanism. J Biol Chem 283:8102–8109.
+13. Hayes F, Barillà D (2006) The bacterial segrosome: A dynamic nucleoprotein machine
+for DNA trafficking and segregation. Nat Rev Microbiol 4:133–143.
+14. Schumacher MA (2008) Structural biology of plasmid partition: Uncovering the
+molecular mechanisms of DNA segregation. Biochem J 412:1–18.
+15. Gerdes K, Møller-Jensen J, Bugge Jensen R (2000) Plasmid and chromosome
+partitioning: Surprises from phylogeny. Mol Microbiol 37:455–466.
+16. Møller-Jensen J, et al. (2003) Bacterial mitosis: ParM of plasmid R1 moves plasmid DNA
+by an actin-like insertional polymerization mechanism. Mol Cell 12:1477–1487.
+
+17. Popp D, et al. (2008) Molecular structure of the ParM polymer and the mechanism
+leading to its nucleotide-driven dynamic instability. EMBO J 27:570–579.
+18. Salje J, Löwe J (2008) Bacterial actin: Architecture of the ParMRC DNA partitioning
+complex. EMBO J 27:2230–2238.
+19. Dunham TD, Xu W, Funnell BE, Schumacher MA (2009) Structural basis for ADPmediated transcriptional regulation by P1 and P7 ParA. EMBO J 28:1792–1802.
+20. Gajiwala KS, Burley SK (2000) Winged helix proteins. Curr Opin Struct Biol 10:110–116.
+21. Eicken C, et al. (2003) A metal-ligand-mediated intersubunit allosteric switch in
+related SmtB/ArsR zinc sensor proteins. J Mol Biol 333:683–695.
+22. Pennella M, Giedroc DP (2005) Structural determinants of metal selectivity in
+prokaryotic metal-responsive transcriptional regulators. Biometals 18:413–428.
+23. Arunkumar AI, Campanello GC, Giedroc DP (2009) Solution structure of a
+paradigm ArsR family zinc sensor in the DNA-bound state. Proc Natl Acad Sci USA
+106:18177–18182.
+24. Downing KH (2000) Structural basis for the interaction of tubulin with proteins and
+drugs that affect microtubule dynamics. Annu Rev Cell Dev Biol 16:89–111.
+25. Adams DW, Errington J (2009) Bacterial cell division: Assembly, maintenance and
+disassembly of the Z ring. Nat Rev Microbiol 7:642–653.
+26. Errington J, Daniel RA, Scheffers DJ (2003) Cytokinesis in bacteria. Microbiol Mol Biol
+Rev 67:52–65.
+27. Chau MF, et al. (1998) The microtubule-associated protein tau cross-links to two
+distinct sites on each alpha and beta tubulin monomer via separate domains.
+Biochemistry 37:17692–17703.
+28. Bi EF, Lutkenhaus J (1991) FtsZ ring structure associated with division in Escherichia coli.
+Nature 354:161–164.
+29. Erickson HP, Taylor D, Taylor KA, Bramhill D (1996) Bacterial cell division protein FtsZ
+assembles into protofilament sheets and minirings, structural homologs of tubulin
+polymers. Proc Natl Acad Sci USA 93:519–523.
+30. Osawa M, Anderson DE, Erickson HP (2008) Reconstitution of contractile FtsZ rings in
+liposomes. Science 320:792–794.
+31. Delano WL (2002) The PyMOL Molecular Graphics System (DeLano Scientific, San
+Carlos, CA).
+32. Pabo CO, Lewis M (1982) The operator-binding domain of λ repressor: Structure and
+DNA recognition. Nature 298:443–447.
+
+11768 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1003817107
+
+Ni et al.
+
+

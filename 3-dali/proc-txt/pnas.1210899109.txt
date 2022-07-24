@@ -1,0 +1,749 @@
+Superstructure of the centromeric complex of
+TubZRC plasmid partitioning systems
+Christopher H. S. Aylett and Jan Löwe1
+Medical Research Council Laboratory of Molecular Biology, Division of Structural Studies, Cambridge CB2 0QH, United Kingdom
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Edited by J. Richard McIntosh, University of Colorado, Boulder, CO, and approved August 30, 2012 (received for review June 26, 2012)
+
+Bacterial plasmid partitioning systems segregate plasmids into each
+daughter cell. In the well-understood ParMRC plasmid partitioning
+system, adapter protein ParR binds to centromere parC, forming
+a helix around which the DNA is externally wrapped. This complex
+stabilizes the growth of a ﬁlament of actin-like ParM protein, which
+pushes the plasmids to the poles. The TubZRC plasmid partitioning
+system consists of two proteins, tubulin-like TubZ and TubR, and
+a DNA centromere, tubC, which perform analogous roles to those
+in ParMRC, despite being unrelated in sequence and structure. We
+have dissected in detail the binding sites that comprise Bacillus
+thuringiensis tubC, visualized the TubRC complex by electron microscopy, and determined a crystal structure of TubR bound to the
+tubC repeat. We show that the TubRC complex takes the form of
+a ﬂexible DNA–protein ﬁlament, formed by lateral coating along the
+plasmid from tubC, the full length of which is required for the successful in vitro stabilization of TubZ ﬁlaments. We also show that
+TubR from Bacillus megaterium forms a helical superstructure resembling that of ParR. We suggest that the TubRC DNA–protein
+ﬁlament may bind to, and stabilize, the TubZ ﬁlament by forming
+such a ring-like structure around it. The helical superstructure of this
+TubRC may indicate convergent evolution between the actincontaining ParMRC and tubulin-containing TubZRC systems.
+FtsZ
+
+| X-ray crystallography | DNA segregation
+
+L
+
+ow copy number plasmids often encode their own segregation
+machinery, ensuring that copies are partitioned into each
+daughter cell. These plasmid-partitioning systems organize replicated plasmids and actively separate them. The known plasmidpartitioning systems are minimalist and elegant. They consist of
+just three components: a DNA centromere, an adapter protein
+that binds the centromere, forming the centromeric complex,
+and a nucleotide triphosphate-dependent ﬁlament-forming protein, which produces the force to move the plasmids (1, 2).
+Plasmid partitioning systems have been divided into types
+I–III, based upon the homology of their ﬁlament-forming proteins to known protein families (2, 3). Type I plasmid partitioning systems (4, 5) are based on deviant Walker A ATPases
+(6, 7), type II (8) on actin-like proteins (9), and type III (10–12)
+on tubulin/FtsZ-like proteins (13, 14). Although the structure of
+the ﬁlament implicated in segregation has been determined for
+all three systems (9, 14–16), only examples of type I and II
+centromeric complexes have so far been resolved (17–19).
+The centromeric complex of the type II (actin-like) ParMRC
+plasmid partitioning system is formed by the binding of adapter
+protein ParR to parC, a series of parallel (direct), 11-base pair
+(bp) repeats (20). The superstructure this complex forms is helical,
+right-handed, and places the parC DNA on the exterior of the
+helix and ParR on the interior (18, 19). This arrangement clusters
+the interaction surfaces between ParM and ParR, which are located at the tip of the ParM ﬁlament and within the last few
+residues of ParR (18, 19). This clustering probably enables processive ﬁlament tip tracking by promoting binding between the
+ﬁlament end and the RC helix, ensuring that only parC-bound
+ParR is able to seed and grow, or at least stabilize ﬁlaments.
+The centromeric complex of the type III (tubulin-like) TubZRC
+plasmid partitioning system is also composed of an adapter, TubR,
+and a DNA centromere, tubC. The rough disposition of four of the
+repeats making up Bacillus thuringiensis serovar israelensis pBtoxis
+16522–16527 | PNAS | October 9, 2012 | vol. 109 | no. 41
+
+(Bt) tubC, but not the TubR binding site or register, has been
+assigned by Tang and colleagues who demonstrated binding by
+Bt TubR to this region of pBtoxis (10, 21). Furthermore, the
+structure of the TubR adapter protein has been determined in
+the absence of DNA (13), revealing that it forms a recognitionhelix dimer with a potential DNA binding surface and demonstrating that it is unrelated to type II ParR (18, 19). Finally, it
+has been shown that the TubRC complex is capable of recruiting
+TubZ (13, 21). A summary of previous work on the TubZRC
+system is provided in Table S1.
+In this study we examine in detail the superstructures formed
+by TubRC complexes. We show that Bt tubC in fact contains
+seven high-afﬁnity binding sites, the full region being required
+for proper in vitro activity. Furthermore we reveal that TubR
+coats tubC: the centromeric complex of TubZRC plasmid partitioning systems therefore takes the form of a DNA–protein
+ﬁlament. We present a 7.0-Å crystal structure revealing the superstructure of the ﬂexible Bt TubRC ﬁlament and provide
+electron microscopy and a 3.5-Å crystal structure that imply
+a preferred conformation for the TubRC ﬁlament of Bacillus
+megaterium (Bm), allowing us to compare the superstructures of
+type III (tubulin-like) centromeric complexes to those of type II
+(actin-like) plasmid partitioning systems.
+Results
+Bt tubC Dissected by Microarray. We initially set out to precisely
+deﬁne B. thuringiensis (Bt) tubC. The structure of the centromere
+is deﬁned by the binding of its protein partner; therefore, we
+dissected the binding of Bt TubR to each independent site within
+this part of pBtoxis. We designed a microarray in which each experimental measurement consisted of a 24-bp double-stranded
+DNA sequence (Fig. 1B), formed by a hairpin stabilized through
+a tetraloop (22). This 24-base “window” was scanned through the
+plasmid in successive measurements; a 4-bp shift per measurement
+was used to conduct a coarse scan of a large area of pBtoxis, and
+single base pair shifts were then used for a high-resolution scan of
+the Bt tubC region (Fig. 1 B and C). Bt TubR bound the array in
+only a few places, and binding was sustained reproducibly with the
+movement of the experimental window. The Bt tubC region was
+readily identiﬁed as the sole site of strong, sustained binding.
+Bt TubR Binds to tubC Cooperatively. Peaks of binding by Bt TubR
+were clearly identiﬁable (Fig. 1C). Fourier analysis of this signal
+with respect to sequence conﬁrmed the repeat length to be between 12 and 13 bp (Fig. S1) (10). We aligned the sequences
+producing peak signal allowing for a 12-bp repeat and produced
+a weighted consensus sequence of the repeats found in Bt tubC
+(Figs. S1 and S2). Two directly repeated sequences were required to produce each peak, troughs in binding occurring
+
+Author contributions: C.H.S.A. and J.L. designed research; C.H.S.A. performed research;
+C.H.S.A. and J.L. analyzed data; and C.H.S.A. and J.L. wrote the paper.
+The authors declare no conﬂict of interest.
+This article is a PNAS Direct Submission.
+Data deposition: The atomic coordinates and structure factors have been deposited in the
+Protein Data Bank, www.pdb.org (PDB ID codes 4ASN, 4ASO, and 4ASS).
+1
+
+To whom correspondence should be addressed. E-mail: jyl@mrc-lmb.cam.ac.uk.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1210899109/-/DCSupplemental.
+
+www.pnas.org/cgi/doi/10.1073/pnas.1210899109
+
+greatest width of a single TubR dimer, whereas the separation of
+the subunits (from Fourier transform) was 4–5 nm, suggesting
+that a single ﬁber of Bt tubC DNA was bound by a single row of
+TubR dimers. The ﬁlaments were typically extended, although
+some exhibited a higher degree of curvature, indicating that
+these complexes are ﬂexible.
+
+on centering of a single binding site (Fig. 1C and Fig. S2),
+implying that Bt TubR binding is highly cooperative, dependent on lateral stabilization. This mechanism is consistent
+with the known activity of TubR as a repressor (12), providing
+a mechanism by which afﬁnity may be tuned. Stronger sites
+(such as sites 1, 3, and 4) were capable of supporting binding on
+adjacent DNA, indicated by low signal peaks in the absence of
+adjacent cognate sites, implying that spreading of Bt TubR
+along the plasmid is possible (Fig. 1C). We conﬁrmed that such
+lateral spreading occurs in vitro by electrophoretic mobility shift
+assay (Fig. S3).
+Bt tubC Is Seven TubR Binding Sites in Two Clusters. Bt TubR binding
+was limited almost exclusively to the region of DNA 3′ from tubR.
+Whereas four direct repeats have previously been identiﬁed (21)
+we found that there are in fact two clusters of Bt TubR binding
+sites, the ﬁrst comprising three adjacent sites (sites 1–3) and the
+second four (sites 4–7), which together we identify as the native Bt
+tubC (Fig. 1C). Each block binds Bt TubR independently in vitro
+(Fig. S3). Because the two blocks are separated by 54 bp,
+spreading of Bt TubR cannot coat all intervening DNA; however,
+it is well established in the case of ParR from Escherichia coli
+plasmid R1 that separate blocks of sites are linked by looping of
+the intervening DNA, so a single complex may be formed (18, 23).
+Evolution has selected for the production of an array of Bt tubCbound TubR dimers; these must presumably therefore be required
+to perform the function of the TubRC centromeric complex.
+Bt TubRC Forms a DNA–Protein Filament in Vitro. To understand why
+Bt tubC had evolved an array of parallel repeats, we examined
+the complex formed by Bt TubR on its centromere using electron
+microscopy. We produced full-length, untagged Bt TubR and
+puriﬁed it to homogeneity (Fig. 2A); it was then bound to a PCR
+product encompassing the full Bt tubC region. DNA–protein
+ﬁlaments composed of blocky subunits were clearly visible in
+samples of the Bt TubRC complex (Fig. 2B). Bt TubRC ﬁlaments
+had an average width measuring 5–6 nm, consistent with the
+Aylett and Löwe
+
+Bt TubRC Crystals Contain a DNA–Protein Filament. Bt TubRC24
+forms an extended DNA–protein ﬁlament in our crystals. The
+DNA component, tubC24, describes a continuous linear ﬁber,
+curving in a slight right-handed superhelix, which forms the core of
+the complex. The outside of the ﬁlament is decorated with TubR
+molecules, forming an 8/1 helix with a rise of 38.4 Å, corresponding exactly to the 12-bp cognate repeat found in Bt tubC
+(Fig. 2 C and D). The coating of the outside of the DNA helix by
+Bt TubR enables the majority of crystal contacts to be formed
+between protein side chains rather than by DNA, as is expected
+because of the highly charged nature of the phosphate backbone.
+The Bt TubRC24 ﬁlament has very similar dimensions to the extended ﬁlaments observed by electron microscopy, and we conclude that this structure is representative of the predominant state
+of Bt TubRC in solution.
+DNA Binding by Bt TubR. Bt TubR bound predominantly within the
+major groove of tubC. The N termini of the paired “recognition”
+helices together protrude deep into the major groove where they
+are able to make contact with 5 bp. This is the only major groove
+contact made, and it is therefore likely to correspond to the sequence-speciﬁc component of Bt tubC. The consensus binding sequence GTTTAA is not a simple twofold however, suggesting that
+DNA conformation must also play a role. On either side of the
+major groove binding site, the phosphate backbone descends into
+a cleft between the short helix and loop N-terminal to the recognition helix and the β-hairpin of Bt TubR. The negative charge of
+the phosphates will be complemented by lysines 43, 54, and 79, and
+arginine 74, which form the sides and base of this cleft. Finally, the
+tip of the β-hairpin protrudes toward the minor groove where arginine 77, which clashes with the phosphate backbone after rigid
+body reﬁnement, must intrude into the groove itself (Fig. 2E).
+Currently, only one other structure of a recognition helix
+dimerized form of the winged helix-turn-helix fold bound to DNA
+is available, that of FadR from E. coli (24). The DNA binding
+mode is conserved between the two structures, although the minor
+groove binding β-hairpin is positioned slightly differently in FadR.
+The conformation of the DNA in the two structures deviates
+substantially, however. Both proteins extend the DNA helix relative to its conformation in standard B-DNA; however in the case
+of FadR, the DNA is bound closely within the minor grooves,
+bending the course of the ﬁber toward the surface of the protein,
+whereas Bt TubR binds less closely in the minor groove, the DNA
+bending slightly away from the protein. The minor groove is also
+elongated, possibly due to the interaction with the β-hairpin. The
+full length of DNA contacted by a single Bt TubR dimer is 16 bp,
+PNAS | October 9, 2012 | vol. 109 | no. 41 | 16523
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 1. Bt tubC is composed of seven repeats, which bind TubR in a cooperative fashion. (A) Schematic comparing the tubZRC loci of Bt pBtoxis and
+Bm pBM400. (B) Illustration of the DNA hairpins produced on a microarray to
+sample the sequence of pBtoxis, and a schematic indicating how this window
+was scanned through a region of the plasmid sequence by successive single
+base pair movements. The variable window is shown in cyan, and all other
+base pairs in black. (C) Plot of the recorded signal for each microarray spot in
+a 1-bp scan over the region of Bt tubC (bp 126688 to 126496). Each point is
+plotted over the 12th bp of the 24-bp hairpin, with the sequence shown below. The assigned binding sites for Bt TubR are shown above, and the corresponding sequences are colored magenta below. The site(s) resulting in each
+peak have been annotated above the graph.
+
+Structure of Bt TubRC at 7 Å. Unfortunately the Bt TubRC DNA–
+protein ﬁlaments were not sufﬁciently ordered for either helical or
+single-particle reconstruction; therefore, we obtained a higher
+resolution model by cocrystallizing Bt TubR with oligonucleotides
+from tubC. Cocrystals were obtained with Bt TubR and a 24-bp
+double-stranded oligonucleotide (tubC24). Diffraction was recorded to 7 Å. The structure shown in Fig. 2 C–E was solved by
+molecular replacement using PDB ID code 3M9A and B-form
+DNA (13) and veriﬁed by phasing selenium anomalous differences to conﬁrm that the difference density obtained identiﬁed
+the selenomethionine sites (Fig. S4 and Table S2). Bt TubRC24
+crystals were of space group C2, each asymmetric unit containing
+eight Bt TubR dimers and four tubC24 oligonucleotides. Electron
+density was surprisingly good (Fig. S4) and the positions after rigid
+body reﬁnement resulted in close contacts but few clashes, implying a reasonable model; however, determination of the register
+of the DNA sequence lay beyond the resolution of our data.
+
+A
+
+B
+
+C
+
+90 Å
+
+40
+30
+20
+Bt TubR
+
+D
+300 Å
+
+DNA shared between
+two TubR dimers
+TubZ 90º Light
+Scattering (%)
+
+E
+
+100
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+50
+
+Minor
+groove
+binding
+hairpin
+
+Major groove
+binding site
+
+GTPγS
+TubRC PCR
+TubRC plasmid
+TubRC 4 sites
+TubRC 2 sites
+Bt tubC alone
+
+Bt TubR / tubC
+
+GTP or GTPγS
+
+16 bp
+
+F
+
+0
+0
+
+600
+
+900
+
+although the tubC repeat length is 12 bp (13). This requires 4 bp to
+be shared between adjacent dimers, which occurs at the site of
+protein–protein contact between the minor groove binding hairpins (Fig. 2 C–E). These β-hairpins from adjacent Bt TubR dimers
+are tightly paired in the minor groove, their opposition favoring
+the DNA curvature in the Bt TubRC24 structure.
+TubRC Stabilizes TubZ Polymerization in Vitro. To conﬁrm that the
+TubRC complex we had discovered was relevant to the activity of
+the TubZRC plasmid partitioning system, we assayed its effect
+on TubZ polymerization by 90° light scattering. A recent study by
+Oliva and colleagues (25) has shown that TubRC increases polymerization of TubZ. We therefore mixed Bt TubZ with GTP
+below the critical point of ﬁlament formation measurable by light
+scattering. Bt TubRC complex was then added, which stabilized
+ﬁlament growth. A similar effect, with the same maximum polymerization, can be produced by replacing GTP with GTPγS,
+implying that the bar to growth is due to hydrolysis of the nucleotide and disassembly of the ﬁlament at a higher rate than
+growth (Fig. 2F). Given that the Bt TubRC complex was present
+at a substoichiometric level, this suggests that it might prevent
+depolymerization of TubZ ﬁlaments, possibly switching from
+treadmilling to elongation.
+To determine whether or not the whole Bt TubRC complex is
+required for the action of the system, we performed the assay
+with Bt tubC containing plasmid and with linear DNA representing full-length tubC, four repeats (sites 4–7) and two repeats
+(sites 6 and 7). These Bt TubRC complexes were compared at
+a constant concentration of TubR binding sites. Bt TubRC
+complexes bearing only two repeats did not have any measurable
+effect on TubZ polymerization below stoichiometric levels,
+whereas both linear DNA and plasmid containing Bt tubC
+16524 | www.pnas.org/cgi/doi/10.1073/pnas.1210899109
+
+1800 (s)
+
+Fig. 2. Bt TubR bound to tubC forms a DNA–protein
+ﬁlament that effects TubZ polymerization. (A) Coomassie-stained SDS/PAGE of puriﬁed Bt TubR. (B) Electron micrographs of negatively stained (Left) and rotary
+shadowed (Right) Bt TubR bound to full-length tubC
+showing the morphology of the DNA–protein ﬁlaments
+formed. (Scale bars, 10 nm.) (C and D) Crystal structure of
+Bt TubR (Cα ribbon representation, the ﬁrst four dimers
+are colored by chain, the second four a continuum between blue at the N terminus and red at the C terminus)
+bound to two repeats of tubC (stick representation, C in
+white/CPK colors). Dimensions in angstroms are shown
+alongside the structure, whereas the ﬁlament has been
+rotated by 90° between the two plates. (E) Single Bt
+TubR dimer (surface charge representation, red negative,
+blue positive) from the structure, with B-DNA [ball and
+stick representation, C in white/Corey, Pauling, Koltun
+(CPK) coloring] extended from the 12-bp section used in
+reﬁnement in order to show the interaction with the full
+16-bp region covered by the dimer. (F) Effect of Bt TubRC
+on the polymerization of TubZ measured using 90° light
+scattering. GTP or GTPγS was added to all reactions at
+200 s, and the complexes indicated to the Right of the
+graph were added at 600 s (color coded). The four- and
+two-site versions of Bt tubC encompassed binding sites 4–
+7 and 6–7.
+
+showed a similar substoichiometric effect. The four-repeat long
+Bt TubRC complex affected polymerization; however, this effect
+was substantially reduced relative to full-length tubC, requiring
+four times as much complex to match polymerization (Fig. 2F).
+TubR from a tubZR Operon in pBM400. Having deﬁned tubC in the
+Bt TubZRC plasmid partitioning system and shown that Bt
+TubRC forms a ﬂexible DNA–protein ﬁlament, the full length of
+which is required to match native in vitro efﬁcacy, we moved on
+to consider whether or not there might be a preferred structural
+mode that the TubRC complex might take up, given that the
+ﬂexible TubRC complex must presumably become ordered upon
+binding to the TubZ ﬁlament, which might explain the requirement
+for the length of tubC.
+Fortuitously, in the course of our investigation of TubZRC
+plasmid partitioning systems we discovered an additional TubR
+homolog that adopts a more consistent preferred conformation
+as a DNA–protein complex, shedding light on this question. Bm
+TubR (UniProt Q848W2_BACMQ) lies within an operon containing a TubZ homolog in B. megaterium QM B1551 (Bm)
+plasmid pBM400 (Fig. S5). The gene encoding this TubR was
+synthesized and we overexpressed and puriﬁed the full-length
+protein without any tags or additions (Fig. 3A).
+Bm TubR Forms Ring-Like DNA–Protein Filaments. To determine
+whether or not the Bm and Bt TubR–DNA complexes were
+comparable, we imaged the Bm TubR–DNA complex by electron microscopy. Whereas Bm TubR binds its intergenic DNA 5′
+to tubZR with a slight preference over Bt tubC (Fig. S3), we were
+unable to identify the exact Bm TubR binding sites by microarray
+(its structure suggests an explanation for this). Electron microscopy of Bm TubR bound to DNA revealed DNA–protein
+Aylett and Löwe
+
+A
+
+40
+
+B
+
+D
+
+30
+20
+Bm TubR
+β-hairpin
+
+C
+
+F
+
+“recognition” helices
+
+G
+
+major
+
+H
+
+I
+
+minor
+40
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Å
+
+ﬁlaments (Fig. 3D), the dimensions of which were similar to
+those recorded for Bt TubRC (Bm TubR formed identical DNA–
+protein ﬁlaments on intergenic, Bt tubC, and bulk DNA; tubC
+DNA was used here to allow direct comparison). The Bm TubR–
+DNA ﬁlament width averaged between 5 and 6 nm, and in
+general the ﬁlaments seemed similar in structure. In a notable
+contrast to the lack of a consistent preferred curvature by the Bt
+TubRC complex, however, although Bm TubR–DNA still produced relatively ﬂexible ﬁlaments, they more often favored
+highly curved ring-like structures, with a typical diameter of 15–
+20 nm, mean 17.5, n = 43 (Fig. 3D). Bm TubR–DNA ﬁlaments
+adopted ring-like structures (deﬁned as less than 15 nm separation between the tips of each end of the ﬁlament) and poorly
+ordered ﬁlaments in a ratio of 73.6:26.4 (n = 253), in contrast to
+Bt TubRC, for which the ratio was 10.7:89.3 (n = 242).
+Bm TubR Is Structurally Homologous to Bt TubR. To aid our understanding of Bm TubR, we crystallized the protein and recorded
+diffraction to 3.5 Å. The crystal structure was then solved by
+selenomethionine single anomalous dispersion (SeMet SAD). Bm
+TubR crystallized in space group H32, the asymmetric unit containing three protein molecules (Table S2). Bm TubR shares the
+Aylett and Löwe
+
+Fig. 3. Bm TubR forms helices of similar appearance in
+crystals and bound to DNA. (A) Coomassie-stained SDS/
+PAGE of puriﬁed Bm TubR. (B) Structural superimposition
+of monomers of Bt and Bm TubR (Cα ribbon representation, colored as indicated). (C) Structural superimposition
+of dimers of Bt and Bm TubR (Cα ribbon representation,
+colored as indicated). (D) Electron micrographs of negatively stained Bm TubR bound to Bt tubC DNA. (Scale bars,
+10 nm.) (E and F) Crystal structure of Bm TubR helix (Cα
+ribbon representation, continuum between blue at the N
+terminus and red at the C terminus). Dimensions in angstroms are shown alongside the structure, whereas the
+helix has been rotated by 90° between the two plates. (G–
+I) Four Bm TubR dimers (surface charge representation,
+red negative, blue positive) with the DNA from Protein
+Data Bank (PDB) ID code 1HW2 (stick representation, C in
+yellow or magenta/CPK colors) shown after the two
+structures have been superimposed for the two central
+dimers. The two plates are rotated by 90° relative to one
+another. (H) Surface charge representation of the Bm
+TubR helix (red negative, blue positive).
+
+same fold as Bt TubR, with a single chain backbone rmsd of 2.0 Å
+(Fig. 3B). Furthermore the quaternary structure of Bt TubR (13),
+in which the dimer is formed by twofold rotation about the recognition helix, is also recapitulated (Fig. 3C). In Bm TubR, the
+two monomers making up the dimer are splayed slightly, relative
+to those in Bt TubR, leaving a cleft between the recognition helices. Although it appears likely that this ﬁssure may close slightly
+during DNA binding, the cleft may explain the observed lack of
+a clearly deﬁned binding sequence. Superimposition of the surface
+of Bm TubR onto our structure of Bt TubRC shows that this cleft
+opens directly beneath the major groove: contacts with the DNA
+bases can therefore be expected to be substantially reduced. This
+implies that less base speciﬁc, more conformation-dependent minor groove binding may be expected to dominate, and that the
+overall protein–DNA contact area would also be considerably
+smaller, suggesting that larger numbers of dimers would be required to associate cooperatively for stable binding, whereas our
+microarrays cannot accommodate more than two dimers (Fig. S6).
+The putative DNA binding surface identiﬁed for Bt TubR is also
+conserved between the two proteins, a cluster of lysine and arginine
+residues characterizing the same face of the dimer (Fig. 3H) (13).
+The minor groove binding β-hairpin in Bm TubR is in a different
+PNAS | October 9, 2012 | vol. 109 | no. 41 | 16525
+
+BIOCHEMISTRY
+
+110 Å
+
+E
+
+Bt TubR
+Bm TubR
+
+conformation from that in Bt TubR; however, this region has
+higher B factors in both cases, and given that it is also slightly
+separated from the body of the protein, it may be ﬂexible in vivo.
+Bm TubR Helices Externalize the DNA Binding Site. Importantly, the
+dimers within the crystal structure of Bm TubR form helical
+ﬁlaments (Fig. 3 E and F). The dimensions of these helices are
+similar to the Bm TubR–DNA rings visualized by electron microscopy, with a ﬁlament width of 48 Å and a maximum helical
+width of 155 Å. The helices place Bm TubR dimers back to back,
+allowing the wedge-shaped proteins to make signiﬁcant contacts
+with one another. The mean buried interface between pairs of
+dimers is 399.5 Å2 in our structure of Bt TubRC, but this
+increases to 723.8 Å2 in the case of our structure of Bm TubR.
+The extended β-hairpins of adjacent dimers are paired with
+a small gap between each dimer, extending the groove between
+recognition helices around the entire helix. Signiﬁcantly this
+superstructure displays the positively charged DNA binding
+surface on the exterior of these helices (Fig. 3H).
+
+Discussion
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Bm TubR Helices Are in Principle Compatible with DNA Wrapping. The
+
+length of DNA used to produce the ring-shaped Bm TubR–DNA
+ﬁlaments resolved by electron microscopy is consistent with
+DNA wrapping on the external surface. Ring diameter averaged
+17.5 nm, implying a circumference of 55 nm, whereas the
+expected length of the PCR product would be 50 nm. The internal circumference would therefore be too short, whereas the
+external diameter would roughly match the expected length.
+Given the similarity in the dimensions of the Bm TubR–DNA
+rings, and the crystallographic helix, the most parsimonious explanation is that these structures are similar. If we assume that
+the DNA binding mode of Bm TubR is identical to that of Bt
+TubR, given their structural similarity, then superimposing the
+available structures of this class of DNA binding proteins (Bt
+TubRC/FadR–DNA) onto the structure of the Bm TubR helix
+will describe the path of the DNA. When this is carried out, it is
+clear that, although the surface is not immediately compatible
+with a continuous strand of DNA, only a relatively small distance
+(6.1 Å, Bt TubRC/3.4 Å, FadR–DNA) would separate the DNA
+backbones from adjacent dimers. FadR–DNA better matches
+the curve of the Bm TubR helix as the DNA from this structure
+curves in the same direction. Closer pairing of the minor groove
+binding β-hairpins would be required to bind DNA, which might
+be achieved through closure of the notch in the surface of Bm
+TubR or a slight rotation of the helix (Fig. 3 G–I and Fig. S7).
+TubRC Is a DNA–Protein Filament. Our results conclusively show that
+
+the centromeric complex of TubZRC plasmid partitioning systems
+forms a DNA–protein ﬁlament. The disposition of tubC has
+evolved to facilitate its formation, ensuring coverage of a minimum length of plasmid DNA; furthermore, the binding mechanism of TubR is highly cooperative, allowing coating, further
+favoring its formation. We have shown that such a ﬁlament is
+required for the activity of TubR upon TubZ polymerization in
+vitro, activity falling to nil as the length of the centromeric complex decreases, even though the total concentration of TubR–
+DNA binding pairs was held constant. It is clear, therefore, that
+a TubRC ﬁlament is essential for the activity of the centromeric
+complex. Why must this be the case?
+Interaction with the centromeric complex must stabilize the
+assembly of its cognate ﬁlament, whereas the free adapter protein must be incapable of this activity. The formation of the
+complex must therefore either produce a novel binding site between its components with substantially higher afﬁnity or cluster
+the adapter protein in space to achieve binding to the ﬁlament
+through higher avidity. In both the ParMRC and TubZRC
+plasmid partitioning systems, it would seem that the second
+mechanism appears to have won out over the ﬁrst. This may well
+occur because this mechanism can take advantage of both the
+clustering of the adapter protein on an array of DNA binding
+16526 | www.pnas.org/cgi/doi/10.1073/pnas.1210899109
+
+sites and clustering of the subunits within the cognate protein
+ﬁlament. Because the superstructure of a linear ﬁlament of
+identical subunits consists of a repeated vector, it must form
+a helix of tighter or looser curvature. Close clustering in space by
+a linear ﬁlament will therefore, by deﬁnition, be achieved
+through the formation of tight helical structures.
+Although different TubZRC systems have so far been observed
+to have considerable similarity (25, 26), our Bt and Bm TubR
+complexes exhibit different curvatures. Bt TubRC crystallized as
+an extended DNA–protein ﬁlament with protein wrapping helically around the outside of the DNA, whereas the Bm TubR–
+DNA complex appears to form a ring or short helix with external
+DNA. Whereas it is possible that the two TubRC structures represent entirely diverged forms of the adapter complex, we think
+this unlikely; the Bt TubRC ﬁlament was clearly quite ﬂexible in
+vitro, and it is in fact possible to reconcile the two structures as
+“ﬂexible” and “curled” modes of a similar complex. The 12-bp
+repeat between major groove binding sites in the Bt TubRC ﬁlament is approximately conserved when DNA is superimposed
+upon the Bm TubR helix, so the binding periodicity would be
+similar (11–13 bp). The main structural change in DNA binding
+between the two would be rearrangement of the minor groove
+binding β-hairpins. These are roughly paired in both structures;
+however, the difference being that their orientation is reversed,
+providing a convenient switch between the two states. This proposed closure would neatly wrap the DNA and close up the space
+between adjacent TubR dimers (Fig. 4 A and B and Fig. S7).
+Why then would the two DNA–protein ﬁlaments have different curvatures in vitro? One possible cause could be that binding
+
+A
+
+B
+Proposed Model
+Bm TubR-DNA
+
+Proposed
+topological
+rearrangement
+
+Crystal Structure
+Bt TubR-tubC
+
+C
+
+D
+
+Centromere
+parC
+
+Filament
+parM
+
+Adaptor
+parR
+
+Centromere Adaptor
+tubC
+tubR
+
+Filament
+tubZ
+
+Linear centromeric repeats
+First block Second block
+
+Linear centromeric repeats
+First block Second block
+
+R1 parC
+
+Bt tubC
+
+R1 ParR
+Adaptor helix
+
+R1 ParM
+Double-helical filament
+
+Bt TubZ
+Double-helical filament
+
+Bm TubR
+Adaptor helix
+
+Fig. 4. Bm TubR helix suggests further convergent evolution of type II and
+III partitioning systems. (A) Structure of Bt TubR (Cα ribbon representation,
+blue at N terminus, red at C terminus) bound to tubC (stick representation, C
+in white/CPK colors). (B) Structure of Bm TubR (Cα ribbon representation,
+blue at N terminus, red at C terminus) shown with the DNA (stick representation, C in white/CPK colors) from PDB ID code 1HW2 after superimposition of the protein chains. (C and D) Comparison of operon structure (3, 10,
+12), centromeric structure (20, 21), ﬁlament superstructure (9, 14, 16), and
+adapter complex superstructure (18, 19, this study) for the (actin-like)
+ParMRC and (tubulin-like) TubZRC plasmid partitioning systems.
+
+Aylett and Löwe
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Convergent Evolution of Type II and III Centromeric Complexes? It
+has not escaped our notice that an intriguing parallel emerges
+from this work. The structure of Bt tubC is strongly reminiscent of
+that of R1 parC, both consisting of two series of linear repeats
+separated by a linker, whereas the ring-like structure of Bm TubR
+is similar in superstructure to the known ParRC complex (Fig.
+4C). This similarity adds to our earlier ﬁnding that TubZ, being
+tubulin related, forms actin- (and ParM)-like double helical ﬁlaments that are the smallest closed-symmetrical polymers possible
+and seem exquisitely tailored to the plasmid segregation task at
+hand (14). The observation of such similar superstructures,
+1. Gerdes K, Howard M, Szardenings F (2010) Pushing and pulling in prokaryotic DNA
+segregation. Cell 141:927–942.
+2. Salje J (2010) Plasmid segregation: How to survive as an extra piece of DNA. Crit Rev
+Biochem Mol Biol 45:296–317.
+3. Gerdes K, Møller-Jensen J, Bugge Jensen R (2000) Plasmid and chromosome partitioning: Surprises from phylogeny. Mol Microbiol 37:455–466.
+4. Austin S, Abeles A (1983) Partition of unit-copy miniplasmids to daughter cells. II. The
+partition region of miniplasmid P1 encodes an essential protein and a centromere-like
+site at which it acts. J Mol Biol 169:373–387.
+5. Ogura T, Hiraga S (1983) Partition mechanism of F plasmid: Two plasmid gene-encoded products and a cis-acting region are involved in partition. Cell 32:351–360.
+6. Leonard TA, Butler PJ, Löwe J (2005) Bacterial chromosome segregation: Structure
+and DNA binding of the Soj dimer—a conserved biological switch. EMBO J 24:
+270–282.
+7. Barillà D, Carmelo E, Hayes F (2007) The tail of the ParG DNA segregation protein
+remodels ParF polymers and enhances ATP hydrolysis via an arginine ﬁnger-like motif.
+Proc Natl Acad Sci USA 104:1811–1816.
+8. Gerdes K, Larsen JE, Molin S (1985) Stable inheritance of plasmid R1 requires two
+different loci. J Bacteriol 161:292–298.
+9. van den Ent F, Møller-Jensen J, Amos LA, Gerdes K, Löwe J (2002) F-actin-like ﬁlaments formed by plasmid segregation protein ParM. EMBO J 21:6935–6943.
+10. Tang M, Bideshi DK, Park HW, Federici BA (2006) Minireplicon from pBtoxis of Bacillus
+thuringiensis subsp. israelensis. Appl Environ Microbiol 72:6948–6954.
+11. Tinsley E, Khan SA (2006) A novel FtsZ-like protein is involved in replication of the
+anthrax toxin-encoding pXO1 plasmid in Bacillus anthracis. J Bacteriol 188:2829–2835.
+12. Larsen RA, et al. (2007) Treadmilling of a prokaryotic tubulin-like protein, TubZ, required for plasmid stability in Bacillus thuringiensis. Genes Dev 21:1340–1352.
+13. Ni L, Xu W, Kumaraswami M, Schumacher MA (2010) Plasmid protein TubR uses
+a distinct mode of HTH-DNA binding and recruits the prokaryotic tubulin homolog
+TubZ to effect DNA partition. Proc Natl Acad Sci USA 107:11763–11768.
+
+Aylett and Löwe
+
+produced to perform similar functions by entirely unrelated
+proteins in different systems, suggests that convergent evolution
+may have taken place, driving both systems toward the same solution to the problem of binding a cytomotive ﬁlament, with entirely different protein and DNA building blocks.
+Materials and Methods
+Detailed information is provided in SI Materials and Methods. Brieﬂy, all
+proteins were produced in E. coli and puriﬁed by chromatography; DNA was
+either synthesized (Bt tubC24), produced by PCR (all other linear DNA), or
+puriﬁed as a plasmid (ptubC); the Bt tubC aptamer microarray experiment was
+performed in conjunction with LC Sciences; electron microscopy was carried
+out using a 2% (wt/vol) uranyl acetate negative stain in an FEI T12 electron
+microscope; the sequence of Bt tubC24 was TTTAAGTTTAACTTTCAGTTTACA;
+Bt TubRC24 crystals were solved at 7 Å by molecular replacement and conﬁrmed by selenomethionine SAD, whereas Bm TubR crystals were solved at 3.5
+Å by selenomethionine SAD; 90° light scattering was carried out at 400 nm
+using 1.25 μM Bt TubZ, 500 nM TubR, and 125 nM of TubR binding sites in each
+tubC DNA, except for tubC repeats 4–7, where the concentration was doubled
+to make the difference from tubC24 clearly visible.
+ACKNOWLEDGMENTS. We thank Rachel Larsen, Joseph Pogliano (both
+University of California at San Diego), and Katherine Michie [Medical
+Research Council Laboratory of Molecular Biology (MRC-LMB)] for providing
+materials; Sebastian Eustermann (MRC-LMB) for his tetraloop sequence;
+Fabrice Gorrec and Sonja Kuhlman for their help at MRC-LMB crystallization
+facility; Chen Shaoxia, Qing Wang, and Colin Palmer for their aid with
+electron microscopy at MRC-LMB; Sonja Dunbar for summer work and
+Ramona Duman (both MRC-LMB) for help at the European Synchrotron
+Radiation Facility (ESRF); and LC Sciences, the ESRF, and Diamond Light
+Source for their excellent service and support. This work was supported by
+Medical Research Council Grant U105184326.
+
+14. Aylett CHS, Wang Q, Michie KA, Amos LA, Löwe J (2010) Filament structure of bacterial tubulin homologue TubZ. Proc Natl Acad Sci USA 107:19766–19771.
+15. Hui MP, et al. (2010) ParA2, a Vibrio cholerae chromosome partitioning protein, forms
+left-handed helical ﬁlaments on DNA. Proc Natl Acad Sci USA 107:4590–4595.
+16. Orlova A, et al. (2007) The structure of bacterial ParM ﬁlaments. Nat Struct Mol Biol
+14:921–926.
+17. Schumacher MA, Funnell BE (2005) Structures of ParB bound to DNA reveal mechanism of partition complex formation. Nature 438:516–519.
+18. Møller-Jensen J, Ringgaard S, Mercogliano CP, Gerdes K, Löwe J (2007) Structural
+analysis of the ParR/parC plasmid partition complex. EMBO J 26:4413–4422.
+19. Schumacher MA, et al. (2007) Segrosome structure revealed by a complex of ParR
+with centromere DNA. Nature 450:1268–1271.
+20. Dam M, Gerdes K (1994) Partitioning of plasmid R1. Ten direct repeats ﬂanking the
+parA promoter constitute a centromere-like partition site parC, that expresses incompatibility. J Mol Biol 236:1289–1298.
+21. Tang M, Bideshi DK, Park HW, Federici BA (2007) Iteron-binding ORF157 and FtsZ-like
+ORF156 proteins encoded by pBtoxis play a role in its replication in Bacillus thuringiensis subsp. israelensis. J Bacteriol 189:8053–8058.
+22. Eustermann S, et al. (2011) The DNA-binding domain of human PARP-1 interacts with
+DNA single-strand breaks as a monomer through its second zinc ﬁnger. J Mol Biol 407:
+149–170.
+23. Salje J, Löwe J (2008) Bacterial actin: Architecture of the ParMRC plasmid DNA partitioning complex. EMBO J 27:2230–2238.
+24. Xu Y, Heath RJ, Li Z, Rock CO, White SW (2001) The FadR.DNA complex. Transcriptional control of fatty acid metabolism in Escherichia coli. J Biol Chem 276:
+17373–17379.
+25. Oliva MA, Martin-Galiano AJ, Sakaguchi Y, Andreu JM (2012) Tubulin homolog TubZ
+in a phage-encoded partition system. Proc Natl Acad Sci USA 109:7711–7716.
+26. Chen Y, Erickson HP (2008) In vitro assembly studies of FtsZ/tubulin-like proteins
+(TubZ) from Bacillus plasmids: Evidence for a capping mechanism. J Biol Chem 283:
+8102–8109.
+
+PNAS | October 9, 2012 | vol. 109 | no. 41 | 16527
+
+BIOCHEMISTRY
+
+to the TubZ ﬁlament is required to stabilize the TubRC complex
+in one state or another. It seems quite plausible that interactions
+with the linear ﬁlament stabilize the relatively ﬂexible structure
+of the TubRC centromeric complex. The internally clustered
+TubR dimers in a ring-like structure would seem more capable of
+making a protein–protein contact than the sparsely distributed
+dimers in the ﬂexible, extended form, as this form does not
+present TubR on a consistent side of the ﬁlament. The internal
+diameter of the Bm TubR crystal structure, at ∼6.5 nm, is smaller
+than the diameter of the TubZ ﬁlament (14), at ∼10 nm; however, the rings observed by electron microscopy exhibit internal
+diameters between 5 and 10 nm, allowing sufﬁcient ﬂexibility to
+encompass TubZ ﬁlaments in theory. A switch between a ﬂexible
+and a ring-like form might allow the TubRC complex to clamp
+onto a growing TubZ ﬁlament during partitioning. Further
+structural studies of the TubZRC system will be required to
+understand the mechanism of binding and it is worth mentioning
+that the interaction sites between TubZ and TubR currently
+remain unknown.
+
+

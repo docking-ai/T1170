@@ -1,0 +1,936 @@
+PNAS PLUS
+
+Mechanistic insights into c-di-GMP–dependent
+control of the biofilm regulator FleQ from
+Pseudomonas aeruginosa
+Bruno Y. Matsuyamaa,1, Petya V. Krastevab,c,1, Claudine Baraquetd, Caroline S. Harwoodd,2, Holger Sondermannc,2,
+and Marcos V. A. S. Navarroa,2
+a
+
+Departamento de Física e Ciência Interdisciplinar, Instituto de Física de São Carlos, Universidade de São Paulo, São Carlos 13563-120, SP, Brazil;
+Department of Structural Biology and Chemistry, Unité G5 Biologie Structurale de la Sécrétion Bactérienne and UMR 3528, CNRS, Institut Pasteur,
+75015 Paris, France; cDepartment of Molecular Medicine, College of Veterinary Medicine, Cornell University, Ithaca, NY 14853; and dDepartment of
+Microbiology, University of Washington, Seattle, WA 98195
+b
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Bacterial biofilm formation during chronic infections confers increased fitness, antibiotic tolerance, and cytotoxicity. In many
+pathogens, the transition from a planktonic lifestyle to collaborative, sessile biofilms represents a regulated process orchestrated
+by the intracellular second-messenger c-di-GMP. A main effector
+for c-di-GMP signaling in the opportunistic pathogen Pseudomonas aeruginosa is the transcription regulator FleQ. FleQ is a bacterial enhancer-binding protein (bEBP) with a central AAA+ ATPase
+σ54-interaction domain, flanked by a C-terminal helix-turn-helix
+DNA-binding motif and a divergent N-terminal receiver domain.
+Together with a second ATPase, FleN, FleQ regulates the expression
+of flagellar and exopolysaccharide biosynthesis genes in response to
+cellular c-di-GMP. Here we report structural and functional data that
+reveal an unexpected mode of c-di-GMP recognition that is associated with major conformational rearrangements in FleQ. Crystal
+structures of FleQ’s AAA+ ATPase domain in its apo-state or bound
+to ADP or ATP-γ-S show conformations reminiscent of the activated
+ring-shaped assemblies of other bEBPs. As revealed by the structure
+of c-di-GMP–complexed FleQ, the second messenger interacts with
+the AAA+ ATPase domain at a site distinct from the ATP binding
+pocket. c-di-GMP interaction leads to active site obstruction, hexameric ring destabilization, and discrete quaternary structure transitions. Solution and cell-based studies confirm coupling of the
+ATPase active site and c-di-GMP binding, as well as the functional
+significance of crystallographic interprotomer interfaces. Taken together, our data offer unprecedented insight into conserved regulatory mechanisms of gene expression under direct c-di-GMP control
+via FleQ and FleQ-like bEBPs.
+enhancer binding protein
+
+and exopolysaccharide (EPS) secretion to mediate the transition
+between planktonic and biofilm lifestyles (12–14). FleQ contains
+an N-terminal REC receiver domain (Pa_FleQREC), a central
+AAA+ ATPase σ54-interaction domain (Pa_FleQAAA), and a
+C-terminal helix-turn-helix DNA binding motif (Pa_FleQHTH)
+(Fig. 1A). FleQ shares significant homology and similarities in
+gene-expression regulation with members of the NtrC subfamily of
+bacterial enhancer binding proteins (bEBPs) (15).
+Typically, bEBP with REC domains are regulated by phosphorylation via cognate histidine kinases, whereby transfer of a
+phosphoryl group from the kinase to the REC domain alters
+molecular interactions within or between bEBPs (16, 17). As a
+result, phosphorylated bEBPs, reorganized into ring-shape hexamers, bind ∼150 bp upstream of the transcription start site,
+recruit the σ54-RNAP–promoter complex, and initiate transcription in an ATPase-dependent manner (18–20). Despite
+similar domain architecture, however, FleQ appears to use a
+drastically different mechanism of regulation (13, 14, 21). FleQ
+Significance
+Pseudomonas aeruginosa, an opportunistic pathogen that can
+cause fatal chronic infections, relies on the intracellular secondmessenger c-di-GMP to form robust multicellular biofilms during
+host tissue colonization. c-di-GMP is sensed directly by the
+transcription regulator FleQ, which inversely regulates flagellar
+motility and exopolysaccharide secretion to secure a planktonic
+to sessile life-form transition. FleQ belongs to the diverse family
+of AAA+ ATPase enhancer-binding proteins, but how its noncanonical function on transcriptional regulation is controlled by
+c-di-GMP remains enigmatic. Here, we report structural and
+functional data that identify an unusual mode of c-di-GMP
+recognition accompanied by a major quaternary structure reorganization. Our analyses offer a consensus to previous studies
+and unique insights into the mechanism of action of FleQ and
+FleQ-like proteins.
+
+| flagella | structure | gene expression
+
+B
+
+acterial adaptations to diverse environments, including human hosts, involve collaborative group behaviors, such as
+quorum sensing, swarming, and biofilm formation (1–5). In
+general, quorum-sensing during host tissue colonization is associated with virulence gene expression and acute-phase infections,
+whereas biofilm formation facilitates the development of chronic
+infections, evasion of host immune response, and increased tolerance to treatments (6). It is now well appreciated that these
+social behaviors result from highly regulated signal transduction
+processes, which in many bacteria are choreographed by the
+nucleotide-based second messenger c-di-GMP (7–9). Synthesized by GGDEF domain-containing diguanylate cyclases and
+hydrolyzed by EAL or HD-GYP domain-containing phosphodiesterases, c-di-GMP is sensed by a variety of protein- and
+RNA-based effectors to exert control at transcriptional, translational, and posttranslational levels (10, 11).
+In Pseudomonas aeruginosa, an opportunistic pathogen that
+causes severe chronic infections in cystic fibrosis patients, burn
+victims, and other immunocompromised individuals, the transcription factor FleQ acts as a master regulator of flagellar motility
+
+www.pnas.org/cgi/doi/10.1073/pnas.1523148113
+
+Author contributions: B.Y.M., P.V.K., C.B., C.S.H., H.S., and M.V.A.S.N. designed research;
+B.Y.M., P.V.K., C.B., and M.V.A.S.N. performed research; B.Y.M., P.V.K., C.B., C.S.H., H.S.,
+and M.V.A.S.N. analyzed data; and P.V.K., H.S., and M.V.A.S.N. wrote the paper.
+Reviewers: M.B., Imperial College London; and A.M.S., Center for Advanced Biotechnology and Medicine, University of Medicine and Dentistry of New Jersey-Robert Wood
+Johnson Medical School.
+The authors declare no conflict of interest.
+Freely available online through the PNAS open access option.
+Data deposition: The atomic coordinates have been deposited in the Protein Data Bank,
+www.pdb.org (PDB ID codes 5EXP, 5EXS, 5EXT, and 5EXX).
+1
+
+B.Y.M. and P.V.K. contributed equally to this work.
+
+2
+
+To whom correspondence may be addressed. Email: csh5@uw.edu, hs293@cornell.edu,
+or mvasnavarro@ifsc.usp.br.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1523148113/-/DCSupplemental.
+
+PNAS | Published online December 28, 2015 | E209–E218
+
+MICROBIOLOGY
+
+Contributed by Caroline S. Harwood, November 24, 2015 (sent for review September 29, 2015; reviewed by Martin Buck and Ann M. Stock)
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 1. Crystal structures of P. aeruginosa FleQ AAA+ domain reveal ring-shaped, hexameric assemblies. (A) Domain organization of FleQ. AAA+ functional
+motifs and bEBPs specific features discussed in the text are labeled. Full-length P. aeruginosa FleQ (Pa_FleQFull) and domain construct boundaries (Pa_FleQAAA
+and Pa_FleQAAA-HTH) used in this work are indicated. (B) Structure of an ATP-γ-S-bound Pa_FleQAAA protomer. Coloring of structural elements and AAA+
+subdomains SD1 and SD2 is consistent with the diagram shown in A. (C) Superimposition of apo (gray), ADP-bound (pink), and ATP-γ-S-bound (orange) crystal
+structures. Red and brown dashed lines highlight interactions between FleQ residues and ADP or ATP-γ-S, respectively. (D) Crystallographic apo-Pa_FleQAAA
+hexamer assembly as viewed down the 65 fold axis. Symmetry generated protomers are colored in black. Walker A motif and σ54-interacting loops L1 and L2
+are shown in blue, magenta and cyan, respectively. (Right) An extended view of the crystal lattice in an orthogonal view. Intercalated black and white “open”
+hexamers appear as helical Pa_FleQAAA filaments running along the screw axis through the entire crystals.
+
+lacks both a cognate sensor kinase and conserved REC domain
+residues that are crucial for phosphotransfer and phosphorylation-dependent conformational changes. Instead of relying on
+covalent modifications, its function depends on direct protein–
+protein interactions with FleN, a distinct ATPase that acts largely
+as a FleQ antagonist (22). Furthermore, at promoters of the flagellar biosynthesis gene cluster, FleQ not only binds to enhancer
+sequences upstream of the transcription start site—like classic
+E210 | www.pnas.org/cgi/doi/10.1073/pnas.1523148113
+
+bEBPs—but also at sites downstream from the transcription start
+sites (13, 23). In addition, and most relevant for this study, c-diGMP directly binds to and regulates FleQ, altering target promoter activity (13, 14, 21).
+C-di-GMP exerts distinct effects on FleQ’s regulatory roles at
+the flagellar and EPS biosynthesis operons, underscoring the system’s multifaceted role in biofilm formation (21). The dinucleotide dampens FleQ’s ATPase activity and causes a modest but
+Matsuyama et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Results
+Canonical, Ring-Shaped FleQ Hexamers Revealed by Crystal Structures of
+Its AAA+ Domain. The AAA+ ATPase domain of bEBPs couples
+
+ATP binding and hydrolysis to transcription complex remodeling
+(18). All bEBPs’ functional features, including the specific σ54interaction loops—L1, which contains the signature GAFTGA
+motif (27), and L2—are conserved in FleQ (Fig. 1A). Purified,
+nucleotide-free Pa_FleQAAA (residues 137–394) crystallized in
+space group P65 and its structure was determined to 1.8 Å resolution
+by single-wavelength anomalous dispersion (SAD) phasing on iodidederivatized crystals. Using the apo-structure as the search model,
+structures of Pa_FleQAAA cocrystallized with ADP or ATP-γ-S were
+solved by molecular replacement and refined to a resolution of
+2.4 Å and 2.5 Å, respectively (Table S1). In these structures,
+Pa_FleQAAA adopts a canonical bilobal fold comprising a larger
+N-terminal α/β subdomain typical for P-loop NTPases (SD1) and
+an α-helical subdomain specific for AAA+ ATPases (SD2) (Fig.
+1B) (20, 28). Apart from subtle changes caused by nucleotide
+coordination, the apo- and nucleotide-bound structures are
+virtually identical, with an all-atom rmsd lower than 0.6 Å
+in pairwise superpositions of protomers. Both ADP and ATPγ-S interact with residues S176 and K180 from Walker A
+(G174xxGxGKE), as well as with a conserved R363 from the so-called
+sensor II motif in subdomain SD2 (Fig. 1C and Fig. S1D) (28).
+Ribose sugar moieties are additionally coordinated by the SD2
+residue R334. In the ATP-γ-S–bound form, the γ-phosphate of the
+nucleotide is sensed by D245 and, indirectly, by E246 from the
+Walker B motif (T241LFLDE) (Fig. 1C and Fig. S1A).
+Although the asymmetric units of all three structures contain a
+single polypeptide chain, a view along the sixfold symmetry axes
+reveals protomer packing similar to the hexameric rings of activated canonical AAA+ proteins (Fig. 1D) (28). Rather than
+forming discrete oligomers, however, the protomers arrange in
+continuous spirals along the screw axes (Fig. 1D, Right). Interestingly, similar spiral arrangements are observed in the
+crystal packing of the isolated AAA+ domain of Escherichia coli
+Matsuyama et al.
+
+Molecular Determinants for c-di-GMP Recognition by FleQ’s AAA+
+Domain. In the presence of c-di-GMP, a purified AAA–HTH
+
+dual domain construct of P. aeruginosa FleQ (Pa_FleQAAA-HTH,
+residues 137–477) crystallized in space group P6322 with a single
+protomer per asymmetric unit. Although the crystals were
+characterized by extremely high solvent content (∼80%) and
+suboptimal anisotropic diffraction, the structure was determined
+by Se-SAD to 3.3 Å resolution with good refinement statistics (Table
+S1). The refined electron density map covers residues 138–393 and
+excludes the C-terminal HTH domain, likely because of flexibility in
+the loosely packed crystals and insignificant contribution to the X-ray
+diffraction data.
+Two molecules of c-di-GMP bind in their preferred intercalated dimer conformation in a region between subdomains
+SD1 and SD2 that is different from the ATP-binding active site
+(Fig. 2A and Fig. S1A). An earlier modeling study on a FleQ
+homolog from Vibrio cholerae, FlrA, suggested that residues
+corresponding to R144 and R185 of P. aeruginosa FleQ constitute
+a conserved c-di-GMP binding site at the REC and AAA+ domain interface (26), which was recently confirmed by another
+modeling-based study (32). The Pa_FleQAAA-HTH–c-di-GMP
+cocrystal structure not only confirms the importance of these
+residues for c-di-GMP recognition, but also reveals a composite
+binding site with contributions from three key motifs within a single
+FleQ protomer (Fig. 2A). Cis-acting residues include: a proximal
+c-di-GMP-binding switch located at the N-terminus of the AAA+
+domain that is composed of the LFR144S motif (R-switch); residues
+R185 and N186 in helix α7 of subdomain SD1 (post-Walker A); and
+finally, a distal c-di-GMP-binding motif comprising the ExxxR334
+sequence in helix α13 of subdomain SD2 (Fig. 2 A and B). Isothermal titration calorimetry confirms both the stoichiometry of
+binding (∼2:1 for c-di-GMP:Pa_FleQFull with an apparent affinity
+constant Kd of ∼4.1 μM) and the role of conserved arginine residues in ligand coordination (Fig. S2 A and B).
+A systematic sequence analysis of bEBPs revealed a higher
+degree of conservation of c-di-GMP binding motifs (R-switch,
+post-Walker A and ExxxR consensus motifs) within FleQ homologs (Fig. 2B). This group includes the c-di-GMP–responsive
+regulator FlrA from V. cholerae, for which the importance of R135
+PNAS | Published online December 28, 2015 | E211
+
+PNAS PLUS
+
+PspF (Ec_PspFAAA), a bEBP known to form discrete hexameric
+rings in solution (29). PspF ring oligomers are believed to undergo sequential hydrolysis where asymmetry in the intersubunit
+interactions confers cooperativity in nucleotide binding and catalysis (30). In addition, solution structural studies on ring hexamers of another nonhelical bEBP, NtrC1, revealed that one of
+the intersubunit interfaces is significantly less tight, which led to
+a mechanistic model where bEBP planar ring split is necessary to
+drive interactions with the σ54-RNAP holoenzyme and ATPdependent remodeling (31).
+Because the formation of ring-shaped FleQ assemblies would
+only require subtle changes in the protomer-packing interfaces
+observed in the crystalline spirals, we continued by examining the
+actual oligomerization states of FleQ in solution. To this end, we
+visualized full-length FleQ (Pa_FleQFull) by negative-stain electron microscopy following gel filtration in the presence of the
+transition-state analog ADP-vanadate. Single-particle analysis of
+the micrographs failed to reveal any filamentous structures but
+showed discrete hexameric species that are consistent with canonical bEBP ring assembly rather than helical organization
+(Fig. S1B). Although these experiments were performed under
+saturating conditions of a single, nonhydrolyzable nucleotide
+species and more studies are necessary to examine potential
+conformational changes and asymmetry along the hydrolytic
+cycle, it is possible that the crystal packing of the isolated AAA+
+domain from both Pa_FleQ and Ec_PspF in the form of open
+oligomers reflects a conserved mechanism for bEBP activation
+and function.
+
+MICROBIOLOGY
+
+significant down-regulation of flagellar gene expression (13, 14,
+21). In contrast, FleQ acts as a repressor of Pel EPS expression in
+the absence of c-di-GMP. An increase of intracellular c-di-GMP
+levels through the action of diguanylate cyclases not only relieves
+FleQ-mediated gene repression, but it converts the protein into a
+potent transcription activator (13). Strikingly, gene expression
+activation under these conditions does not appear to require
+FleQ’s intrinsic ATPase activity, is σ54-independent, and likely
+proceeds through σ70 (21, 24). On both flagellar and pel promoters
+FleN further modulates FleQ-mediated gene regulation (14, 21).
+However, FleN’s effect on the regulation of flagella expression and
+assembly is much more pronounced, with deletion of P. aeruginosa
+fleN leading to multiflagellated cells and only a small down-regulation
+in pel expression (14, 25).
+How FleQ is able to exert such different effects and to sense
+different regulatory inputs at its target promoters has so far
+remained enigmatic. With regard to c-di-GMP signal recognition, at least two distinct modes of second-messenger binding in
+the context of FleQ’s tertiary structure have been proposed (21,
+26). It is unclear, however, how c-di-GMP recognition would
+affect the various aspects of the protein’s higher-order regulatory
+mechanics. Here we present crystallographic data and solutionbased structure-function analyses that reveal an unexpected
+mode of c-di-GMP regulation. In particular, we show that
+binding of the second messenger occurs at a composite site
+within the FleQ AAA+ domain and is accompanied by a major
+quaternary structure reorganization and allosteric ATPase inhibition. Our results reconcile previous modeling and functional
+studies (13, 14, 21, 26), and provide an integrated model for
+FleQ-dependent transcription regulation of genes involved in
+EPS production and secretion.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 2. Crystal structure of c-di-GMP–bound Pa_FleQAAA-HTH reveals major oligomeric rearrangements. (A) Close-up view of the c-di-GMP binding site. Interactions (green dashes) between intercalated c-di-GMP dimer and conserved dinucleotide binding residues R144, R185, N186, E330, and R334 are shown. A
+crystal symmetry-related protomer that completes the c-di-GMP binding site is shown in gray. Labels that refer to the symmetric protomer contain asterisks.
+(B) Sequence conservation of the c-di-GMP binding site. Sequence logo representations of multisequence alignment for FleQ and NtrC1 homologs cover the
+three motifs involved in c-di-GMP recognition within the AAA+ domain. bEBPs sequences without a regulatory N-terminal domain or with REC, GAF or FleQlike N-terminal domains were selected from the RP55 database with HMMER (60) and logos were generated with Skylign (61). Representative sequences are
+shown on top of the logos: P. aeruginosa FleQ (Pa_FleQ); V. cholerae FlrA (Vc_FlrA); X. citri FleQ (Xc_FleQ); V. cholerae VpsR (Vc_VpsR); A. aeolicus (Aa_NtrC1);
+Geobacter sulfurreducens NtrC (Gs_NtrC). (C) Comparison between c-di-GMP and ATP-γ-S–bound structures. Superposition of the respective SD1 domains
+reveals a 9° rigid body rotation (black arrow) of the SD2 subdomain relative to the SD1 domain upon c-di-GMP binding. The c-di-GMP–bound Pa_FleQAAA-HTH
+structure is colored as in Fig. 1; bound nucleotides are shown as sticks (yellow carbon atoms). (D) The N-terminal segment of FleQ’s AAA+ domain partially
+occupies the ATP site in the c-di-GMP–bound structure. Solid surface representation of S145’s side chain and G179’s main chain indicate steric hindrance at the
+ATP binding site caused by the conformational change induced by c-di-GMP. (E) Assembly composed of head-to-head dimers of c-di-GMP–stabilized trimers in
+two orthogonal views. Pa_FleQAAA-HTH crystal symmetry-related protomers are colored in different shades of gray. (F) Protein–protein interfaces within the
+c-di-GMP–bound Pa_FleQAAA-HTH dimer-of-trimers. The assembly involves head-to-head SD1/SD2 (Left) and SD2/SD2 (Center) interfaces and a c-di-GMP–
+mediated (Right) interface. Dissociation energies (ΔiG) and corresponding interaction-specificities (ΔiG P value) for each individual interface (green dashes)
+were calculated with the PISA server (36).
+
+and R176 (corresponding to FleQ R144 and R185, respectively) for
+c-di-GMP binding has been determined experimentally (26).
+In particular, the coconservation of all three c-di-GMP-binding
+E212 | www.pnas.org/cgi/doi/10.1073/pnas.1523148113
+
+motifs, and especially their arginine residues, is striking (Fig. 2B).
+Consistent with this notion, isothermal titration calorimetry
+(ITC) experiments with a FleQ homolog from Xanthomonas
+Matsuyama et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Consequences of c-di-GMP Binding on FleQ’s Tertiary and Quaternary
+Structure. Compared with apo, ADP-, and ATP-γ-S–bound
+
+Pa_FleQAAA structures, the conformation of the c-di-GMPbound AAA+ ATPase σ54-interaction domain reveals novel and
+unexpected features at both the tertiary and quaternary structure
+levels. Protomer superposition using subdomain SD1 as the
+reference reveals a 9° rigid body movement of subdomain SD2 to
+a more compact, c-di-GMP–stabilized conformation relative to
+the apo-, ADP-, and ATP-γ-S–bound structures (Fig. 2C). It has
+been proposed previously that c-di-GMP competes with ATP for
+binding to the AAA+ ATPase domain active site based on the fact
+that c-di-GMP competitively inhibits ATP hydrolysis and that a
+Walker A disruptive mutation (FleQ K180A) abolishes c-di-GMP
+binding to FleQ (21). However, this model is at first sight inconsistent with the crystallographic analysis. Superposition of the
+c-di-GMP– and ATP-γ-S–bound Pa_FleQAAA structures reconciles
+the apparent contradictions by revealing that c-di-GMP binding
+shifts the N terminus of the AAA+ domain into the ATP-binding
+pocket (Fig. 2D), thus acting as an allosteric inhibitor of the protein’s hydrolytic activity and, by extension, of σ54-dependent transcription activation. Importantly, in the context of the full-length
+protein, such an N-terminal movement in the FleQ AAA+ domain
+would cause a drastic repositioning of the preceding FleQREC
+module, possibly contributing to the disruption of the active-state
+hexameric ring (Fig. S1C). Finally, residue K180 in the Walker A
+motif occupies a pivotal location between the two AAA+ subdomains and plays a significant role in stabilizing interprotomer
+interaction within Pa_FleQAAA hexameric rings (Fig. S1D). A
+mutation in this position could interfere with both c-di-GMP–
+mediated AAA+ interdomain movement and oligomeric assembly.
+The structural organization of the c-di-GMP binding pocket
+provides further evidence for negative coupling of this site with
+the ATPase active site. The highly conserved residues R144, R185,
+and R334 are not only directly involved in c-di-GMP coordinaTable 1. Sequences of bEBPs presenting conserved c-di-GMP
+binding motifs
+N-terminal regulatory
+domain
+FleQ‡
+GAF
+—
+REC
+
+Total of sequences
+in RP55 database*
+90
+238
+1257
+3047
+
+Sequences with
+conserved c-di-GMP
+binding motifs†
+67
+5
+8
+62
+
+(74.4%)
+(2.1%)
+(0.6%)
+(2.0%)
+
+*Sequences of FleQ and NtrC (REC) homologs used for the Logo generation
+in Fig. 2B.
+†
+All three motifs conserved; see Table S2 for accession numbers.
+‡
+FleQ refers to the N-terminal degenerated REC domain.
+
+Matsuyama et al.
+
+C-di-GMP Drives FleQ Oligomeric Reorganization in Solution. External signal stimuli, such as ligand binding (ATP or promoter
+DNA) and protein phosphorylation at the REC domain, usually
+trigger the switch of inactive bEBP dimers to ring-like activated
+hexamers (17, 19, 37). In this regard, FleQ behavior deviates
+once again from canonical bEBPs, by being able to spontaneously hexamerize in solution (21). In addition, although the
+N-terminal domain of FleQ shares sequence homology with canonical REC domains, it lacks both sequence conservation at the
+putative phosphorylation site and a cognate histidine kinase (12),
+making regulatory phosphorylation unlikely.
+To evaluate the role of ligand binding on FleQ oligomerization in solution, we captured discrete oligomeric species through
+chemical cross-linking with the amine-reactive compound ethylene glycol bis-(succinimidyl succinate) (EGS). In agreement with
+previous results (21), wild-type full-length FleQ (Pa_FleQFull)
+showed a dimeric fraction as well as discrete higher-order species
+(mostly tetramers and hexamers), regardless of the absence
+or presence of ATP-γ-S (Fig. 3). A cross-linking time-course
+revealed a gradual accumulation of the higher oligomeric species, suggesting an equilibrium between FleQ oligomers in solution (Fig. 3A). Most notably, however, addition of c-di-GMP
+stalled FleQ oligomerization beyond a dimeric species, regardless of
+ATP-γ-S availability (Fig. 3B). The striking effect of c-di-GMP on
+FleQ’s oligomeric assembly mirrors the dinucleotide’s effect on
+FleQ’s protease sensitivity (21), and corroborates c-di-GMP–driven
+quaternary structure changes inferred from the crystal structures
+(Figs. 1 and 2).
+Similar cross-linking experiments using FleQ constructs lacking
+the REC domain, Pa_FleQAAA and Pa_FleQAAA-HTH, showed less
+pronounced effects (Fig. S4). In particular, oligomerization of
+Pa_FleQAAA was severely compromised, with the protein migrating
+mostly as a monomer, independent of nucleotide (Fig. S4A). This
+result is consistent with a recent report that dimerization of the
+noncanonical REC domains is critical for FleQ oligomerization and
+function (32). Inclusion of the C-terminal HTH domain restored insolution dimerization partially (Fig. S4B). Addition of c-di-GMP
+PNAS | Published online December 28, 2015 | E213
+
+PNAS PLUS
+
+tion (Fig. 2A and Fig. S2), but also directly or indirectly stabilize
+ATP binding, as observed in the ADP and ATP-γ-S–complexed
+Pa_FleQAAA crystal structures (Fig. 1C). In particular, residue R334
+is in direct contact with the ribose moiety of ATP, while also stabilizing the N-terminal AAA+ domain segment through π-stacking
+interactions with R144 (Fig. 1C). Similarly, residue R185 forms a salt
+bridge with the Walker A residue E181, and might also sense nucleotide binding (Fig. 1C). All these specific interactions important
+for ATP binding and hydrolysis are disrupted in the c-di-GMP–
+bound state.
+The most striking feature of the c-di-GMP–bound structure,
+however, is the profound reorganization of crystallographic interfaces, which suggests dramatic quaternary structure reorganization upon allosteric second-messenger recognition. The observed
+c-di-GMP–mediated subdomain movement and N-terminal
+restructuring appear incompatible with the maintenance of canonical bEBP ring hexamers. Indeed, symmetry-related protomers
+arrange into a distinct hexameric species where c-di-GMP–
+stabilized trimers dimerize in a head-to-head fashion (“dimerof-trimers”) (Fig. 2E). Dissociation energy analyses of proteinprotein and c-di-GMP–protein interfaces (SD1/SD2, SD2/SD2, and
+c-di-GMP–mediated interfaces) suggest biological relevance for
+this unique oligomeric arrangement (Fig. 2F) (36). Within the trimeric assembly mediated by c-di-GMP, a total buried surface area
+of about 1,400 Å2 yields a gain of −14.4 kcal/mol in solvation energy. The hexamer formed by SD1/SD2 and SD2/SD2 subdomain
+pairings further occludes ∼4,300 Å2 of surface area, with a total
+gain in solvation energy of −23.7 kcal/mol. To our knowledge, such
+architecture is unprecedented for bEBP family members and underscores the unique mechanism of FleQ regulation and function.
+
+MICROBIOLOGY
+
+citri (XAC1967), which contains divergent c-di-GMP binding
+motifs (Fig. 2B), failed to show c-di-GMP binding (Fig. S2C). On
+the other hand, co-occurring arginine residues important for
+c-di-GMP binding were found in several bEBPs with different
+N-terminal regulatory domains (Fig. 2B, Table 1, Fig. S3, and Table
+S2). Of 4,632 bEBPs mined from a representative proteome database (33), ∼3% presented conserved c-di-GMP binding residues,
+suggesting that c-di-GMP regulation of bEBP-mediated transcription
+may be more widely used than previously anticipated, potentially
+participating in other cellular processes beyond flagellar regulation and EPS secretion (Fig. 2B and Table 1). Additionally, the
+absence of the aforementioned conserved c-di-GMP binding
+motifs in the atypical bEBP VpsR from V. cholerae (34) and in
+AAA+ ATPases involved in multiple bacterial secretion systems
+(35), all shown to bind to c-di-GMP, further suggest that bacterial
+AAA+ domains may represent ubiquitous targets for c-di-GMP,
+yet with distinct binding sites.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 3. Cross-linking analysis of full-length FleQ oligomerization in solution.
+SDS/PAGE analyses of PA_FleQFull protein (10 μM) incubated with or without
+the primary amine-specific cross-linker EGS are shown. (A) FleQ cross-linking
+time course in the absence of nucleotides. The sample in lane 2 was not
+incubated with EGS. All other samples were incubated with EGS (250 μM).
+(B) Effects of nucleotides on FleQ cross-linking. Addition of nucleotides (100 μM)
+is indicated above the gel. Where indicated, samples were incubated for
+30 min at room temperature in the presence of EGS (1 mM). Migration pattern
+of probable oligomeric species are indicated on the right of each gel.
+
+stablized higher-order oligomers of Pa_FleQAAA (and to a lesser
+extent Pa_FleQAAA-HTH) including trimers and hexamers, consistent with a change in quartenary structure and our crystallographic
+analyses. These results mirror studies on trunctation mutants of
+other bEBPs, which revealed oligomerization properties and functional activities distinct from their full-length counterparts. For example, removal of the N-terminal regulatory domain of Salmonella
+enterica serovar Typhimurium NtrC and Aquifex aeolicus NtrC1
+inhibits or promotes, respectively, the formation of activated oligomeric ring assemblies (19, 20).
+Taken together, our data indicate that c-di-GMP antagonizes
+different FleQ oligomeric assemblies, in accordance with our
+structural analyzes. The cross-linking studies not only indicate a
+crucial role of the REC domain for spontaneous FleQ oligomerization but also suggest that hexamer formation may be a
+prerequisite of c-di-GMP binding.
+Functional Analysis of Interface-Disruptive FleQ Variants Confirm
+Biological Significance of Crystallographic Oligomers. We next designed
+
+a set of single-point mutations to confirm the role of crystallographic protein–protein and protein–ligand interfaces on full-length
+FleQ oligomerization, as well as on ATPase activity and c-di-GMP
+binding. Mutant I374E was designed to perturb formation of bEBP
+canonical ring-like hexamers apparent in the apo-, ADP-, and ATPγ-S–bound Pa_FleQAAA structures; mutants R185E, N186A, E330A
+and R334E were designed to directly inhibit c-di-GMP binding; and
+two additional mutations were chosen to disrupt the SD1/SD2
+(T149E) or SD2/SD2 (V380E) interfaces observed in the c-diGMP–bound Pa_FleQAAA-HTH structure (Fig. 4A). The proper
+folding and preserved stability of all mutants introduced in the fulllength protein were verified by circular dichroism experiments of
+thermal denaturation (Fig. S5A).
+In the absence of c-di-GMP, higher molecular weight oligomers beyond dimers were severely disrupted only with the I374E
+mutant, consistent with our structure-based prediction (Fig. 4B).
+Mutants with disrupted c-di-GMP binding pocket (R185E and
+R334E) retained wild-type–like oligomerization patterns, but
+were impaired in c-di-GMP’s antagonistic effect on assembly
+(Fig. 4B and Fig. S5B). Mutations designed to disrupt the interfaces SD1/SD2 and SD2/SD2 observed in the c-di-GMP–
+bound structure, T149E and V380E, respectively, maintained
+FleQ’s propensity to form hexamers, rendering the protein apE214 | www.pnas.org/cgi/doi/10.1073/pnas.1523148113
+
+parently insensititve to c-di-GMP (Fig. 4B, lanes 5–6, and Fig.
+S4B). Hence, destabilization of the crystallographically observed
+dimer-of-trimers appears to have a positive effect on the stability
+of the canonical bEBP hexamer. Similar to wild-type FleQ, ATPγ-S did not alter the oligomerization propensities of any of the
+mutants (Fig. S5B).
+Based on the fact that FleQ is an active ATPase that is primarily dimeric in solution, it has been proposed previously that
+the dimers are the catalytically active conformation (21). As we
+show here, however, FleQ samples higher-order oligomeric
+conformations in solution, including hexameric rings (Fig. 3 and
+Fig. S1B), and its AAA+ domain crystallizes in a conformation
+consistent with the active-state ring hexamers of canonical
+bEBPs (Fig. 1D). These data prompted us to dissect the role of
+oligomerization on the protein’s catalytic activity. In ATPase activity assays, we observed a severe reduction in the ATP hydrolysis
+rate with the I374E mutant (Fig. 4C). Because the cross-linking
+indicates a defect in hexamer formation while dimerization is
+preserved in this mutant, these data assert the hexamer as the
+catalytically active conformation.
+The ATPase activity data also confirm conformational coupling between the c-di-GMP– and ATP-binding pockets: disruption of the conserved R185 and R334 residues abolishes not
+only c-di-GMP binding, but also ATPase activity (Fig. 4C and
+Fig. S2B), in line with their structural role in active-site stabilization (Fig. 1C). Mutants designed to disrupt crystallographic,
+c-di-GMP–mediated dimer-of-trimers, T149E and V380E, have
+preserved and even enhanced ATPase activity (7.5- and 1.5-fold
+increase over wild-type for T149E and V380E, respectively) (Fig.
+4C). Analysis of the known inhibitory effect of c-di-GMP on
+FleQ’s ATPase activity (21) revealed that although the V380E
+mutation reduces c-di-GMP sensitivity only slightly, the high
+activity of the T149E mutant remains unaffected (Fig. 4D).
+To evaluate the impact of SD1/SD2 or canonical ring interface
+perturbations on c-di-GMP binding, we performed ITC experiments with FleQ variants T149E and I374E, respectively.
+Under the same experimental conditions used for wild-type
+Pa_FleQFull, ITC results with both mutants revealed a severe
+reduction of heat released during the titration (Fig. 4E), indicating that disruptive mutations at both oligomeric interfaces
+observed in the distinct crystallographic hexamers (ring-shaped
+or dimer-of-trimers) (Figs. 1D and 2E) negatively affects c-di-GMP
+binding.
+FleQ Oligomeric Reorganization Triggered by c-di-GMP Is Compatible
+with Its Repressor-to-Activator Functional Transition on EPS Gene
+Expression. FleQ recognizes two sites (FleQ boxes 1 and 2),
+
+separated by 34 bp, in the pelA promoter region (Fig. S6) (13).
+Previous reports showed that FleQ, stabilized by FleN and ATP/
+ADP, binds to both sites simultaneously, promoting a kink in
+the DNA and thus repressing gene expression (13). C-di-GMP
+binding to FleQ relieves the DNA distortion and activates gene
+expression without affecting the apparent protein occupancy on
+DNA (13, 14). In a mutant strain with a fleN deletion, FleQ still
+acts as an ATP-independent repressor of pel expression and increased c-di-GMP levels induce FleQ-mediated pel expression,
+albeit at a reduced level (14). Hence, the ΔfleN genetic background offers a unique possibility to examine directly the role of
+FleQ’s quaternary structure on pel transcriptional repression and
+activation. To evaluate the physiological role of the structural
+transition observed in vitro on transcriptional regulation via
+FleQ, we tested the effect of the various FleQ variants on pel
+operon expression in vivo.
+Wild-type or mutant FleQ was expressed from a single-copy
+under its native promoter in a ΔfleN background. Elevated c-diGMP levels were achieved by the coexpression of the active
+diguanylate cyclase YfiN/TpbB/PA1120 (38, 39). In line with
+previous results, pel expression was markedly enhanced upon YfiN
+Matsuyama et al.
+
+PNAS PLUS
+MICROBIOLOGY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 4. Functional analyses of structure-guided Pa_FleQFull mutants. (A) Overview of site-directed mutants and predicted outcome. The diagram shows the
+position of each mutant on a cartoon of the hexameric ring or the dimer-of-trimers assembly. Predicted outcomes on FleQ function are indicated, distinguishing between indifferent (=), positive (↑), and negative (↓). (B) Cross-linking analysis. Mutant proteins were treated as described in Fig. 3, which shows
+the corresponding data for wild-type protein. (C) ATPase activity. Initial velocity of Pa_FleQFull variant-catalyzed ATP hydrolysis is shown expressed as percentage of wild-type Pa_FleQFull activity (1 μM protein; 1 mM ATP). The error bars represent SDs of triplicates. (D) c-di-GMP effect on ATP hydrolysis. ATPase
+activity of selected FleQ variants preincubated with c-di-GMP (50 μM). The error bars represent SDs of triplicates. (E) c-di-GMP binding. ITC of Pa_FleQFull T149E
+and I374E. The heat change upon ligand binding (μcal/s) and fitted curves to the integrated heat peaks are shown in the top and bottom titration curves,
+respectively. Binding stoichiometry and apparent dissociation constants are indicated in the table inset.
+
+coexpression with wild-type FleQ, indicating c-di-GMP–dependent
+transcription derepression and activation (Fig. 5A) (14). As expected, both promoter repression and YfiN effects were abolished
+in a fleQ deletion strain. Consistent with the structural and
+biochemical data, c-di-GMP binding mutants (R185E, N186A,
+E330A, and R334E) exhibited markedly repressed pel transcription
+similar to wild-type fleQ, but remained virtually unchanged upon
+YfiN overexpression (Fig. 5A). The mutant T149E, predicted to
+disrupt the c-di-GMP–stablized crystallographic dimer-of-trimers, also yielded repressed pel transcription, independent of
+c-di-GMP. Consistent with its residual c-di-GMP sensitivity
+as demonstrated by the ATPase data, mutant V380E showed a
+somewhat derepressed pel transcription upon coexpression of a
+diguanylate cyclase (Figs. 4 and 5A). Notably, the I374E mutant
+was characterized by constitutively active pel expression, suggesting that hexameric ring formation is required for repression of the operon (Fig. 5A).
+Taken together, the expression data in mutant genetic backgrounds corroborate the structural and biochemical results, indicating an equilibrium between ATPase-active, pel repressive
+Matsuyama et al.
+
+hexamers, and other less-functional oligomeric species. However, ATPase activity is not required for FleQ’s function as a
+transcriptional repressor at the pel operon. C-di-GMP appears to
+exert its stimulatory effect on pel expression on FleQ variants
+that retain their ability to form hexamers and display an intact
+dinucleotide binding site (e.g., wild-type and V380E).
+Discussion
+In response to specific stimuli, canonical bEBPs from the large
+AAA+ family of σ54-dependent transcription regulators couple
+ATP hydrolysis to promoter-RNAP initiation complex remodeling
+to control associated gene expression (15). Although unusual, some
+bacterial activators, such as Pseudomonas putida PhhR, E. coli
+TyrR, Rhodobacter capsulatus HupR, and Myxococcus xanthus HsfA
+share similar domain architecture with bEBPs, but activate the
+σ70-RNAP holoenzyme instead of the σ54-associated transcriptional
+machinery (40–42). P. aeruginosa FleQ combines both canonical
+bEBP σ54- and atypical σ70-dependent transcriptional mechanisms to
+inversely control flagellar motility and EPS production, respectively
+(13, 14, 21). Significantly, FleQ is also regulated by the bacterial
+PNAS | Published online December 28, 2015 | E215
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 5. Effect of FleQ site-directed mutants on pel transcriptional control. (A) Expression data. Relative pelA transcript levels in strains of P. aeruginosa PAO1
+that lack fleN (designated WT) or fleN and fleQ (designated/ΔfleQ) were quantified by RT-PCR. Structure-guided mutations in the fleQ gene were expressed
+from a single copy introduced into the ΔfleN/ΔfleQ genome. Transcripts were measured with (blue; + c-di-GMP) or without (gray; − c-di-GMP) expression of
+the diguanylate cyclase PA1120 from a plasmid. Unbroken (ΔfleN/ΔfleQ) and dashed (ΔfleN; wild-type FleQ) colored lines indicate reference pel expression
+levels at low and high c-di-GMP conditions. (B) Molecular model of FleQ-mediated pel transcription. The diagram depicts a model incorporating our structural
+and functional data, focusing on the events in the absence of FleN and ATP.
+
+second messenger dinucleotide, c-di-GMP (14). To gain molecular
+insight into the mechanism of c-di-GMP–dependent regulation
+of P. aeruginosa EPS gene expression by FleQ, we determined
+structures of its AAA+ domain in the apo-state and bound to
+ADP, ATP-γ-S, and c-di-GMP. Analyses of these structures,
+combined with in vitro and in vivo functional studies, revealed
+that P. aeruginosa FleQ undergoes a major conformational
+change upon c-di-GMP binding, concomitant with oligomeric
+rearrangement.
+On one hand, the results presented here indicate a hexameric
+FleQ as the functional pel transcription repressor and as the
+target of c-di-GMP, because destablilization of the canonical
+AAA+ ring interfaces reduces c-di-GMP binding to FleQ (mutant I374E) (Figs. 4 and 5 and Fig. S1C). On the other hand,
+perturbations at the unique interfaces that support the crystallographic, c-di-GMP–bound FleQ dimer-of-trimers (e.g., mutants T149E and V380E) not only render the protein variants
+insensitive to c-di-GMP, but also stabilize highly ATPase-active
+FleQ oligomers (Fig. 4). This finding may suggest that different
+FleQ oligomers with distinct properties exist in equilibrium
+(Fig. 4).
+In light of our results and previous studies on the regulation of
+EPS gene expression, we propose that canonical bEBP ring-like
+FleQ hexamers (Fig. 1D and Fig. S1B) bind both boxes 1 and 2 at
+the pelA promoter, which inhibits transcription initiation (Fig.
+5B). Apparently, FleQ’s function as a pel repressor in the absence of the cofactor FleN does not require its ATPase activity,
+but depends on the protein’s ability to form higher-order oligomers, in particular hexameric rings (Figs. 4 and 5). The hexamerto-DNA interaction model is also compatible with the promoter
+bending observed previously (Fig. S6) (13). The current hypothesis
+is that association of ATP-bound FleN to the FleQ:DNA complex
+is necessary to increase DNA curvature in vitro and that the FleQ–
+FleN interaction cooperatively enhances c-di-GMP binding (13,
+21), consistent with full activation of FleQ-c-di-GMP–mediated
+pel transcription requiring FleN (14). In analogy, the repression of
+σ70-dependent tyrR expression by the atypical bEBP TyrR from
+E. coli occurs via binding of tyrosine-stabilized hexamers to two
+adjacent sites at the promoter DNA (14, 43–46), suggesting that the
+E216 | www.pnas.org/cgi/doi/10.1073/pnas.1523148113
+
+mechanism described here might be a recurrent form of transcriptional repression by atypical bEBPs.
+In the presence of c-di-GMP, FleQ undergoes conformational
+changes and alters its quaternary structure (Figs. 2 and 3), which
+may decrease affinity for at least some promoter interaction
+sites, thus relieving DNA bending and activating gene transcription (Fig. 5 and Fig. S6) (14). bEBPs interact with σ54 via
+two loops, L1 and L2. However, in our structures, these loops are
+accessible in the c-di-GMP–stabilized oligomer and not subject
+to conformational changes (Fig. 2C), suggesting a mode of
+transcriptional activation different from canonical bEBPs (18).
+The lack of conservation or absence of σ54-interacting loops in
+other σ70-dependent bEBP, such as E. coli TyrR and P. putida
+PhhR, respectively, argues further against their role in the direct
+activation of pel expression (40, 46).
+Our data explain the molecular mechanism underlying c-diGMP regulation of FleQ’s functions as repressor and activator of
+pel expression, which likely depends on σ70 and is only moderately affected by the cofactor ATPase FleN. Future studies will
+focus on the roles of the N-terminal regulatory domains upstream of the AAA+ core and accessory proteins such as FleN in
+the context of FleQ’s oligomeric states, and in particular on the
+regulation of flagellar gene regulation. The latter process requires FleQ’s ATPase activity and σ54, distinct from the mechanism described here, and presumably mirrors those of canonical
+bEBPs. How σ54- and ATPase-dependent processes are coordinated with σ70-dependent but ATPase-independent regulation at different promoters remains an open question.
+Materials and Methods
+Recombinant DNA Techniques. DNA manipulations were carried out using
+standard molecular biology techniques. For protein expression and purification, the ORFs of full-length and truncated FleQ variants were PCRamplified from P. aeuruginosa PA14 genomic DNA and cloned in-frame into a modified pET28a expression plasmid (Novagen). Expression yields
+recombinant proteins with an N-terminal hexahistidine-SUMO moiety that
+can be liberated by incubation with yeast Ulp1 protease. FleQ point mutants
+were generated using QuikChange site-directed mutagenesis kit (Agilent),
+following the manufacturer’s instructions. Successful mutagenesis was confirmed by DNA sequencing.
+
+Matsuyama et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Circular Dichroism Spectroscopy. Circular dichroism measurements were
+performed using a J-720 (JASCO) spectroscope. Initial spectra of Pa_FleQFull
+and mutants (5 μM in 20 mM phosphate buffer, pH 7.2; 0.1-cm light-path
+quartz cuvette) were obtained by averaging 16 scans over a wavelength
+range of 200–260 nm. To eliminate background effects, buffer contributions
+were subtracted in all measurements. Spectra were transformed to molar
+ellipticity (θ). Thermal denaturation analyses were carried out by measuring
+the ellipticity at 220 nm over a temperature range from 10 °C to 95 °C, at a
+constant heating rate of 10 °C/h. The fraction of denatured protein was
+calculated from the relationship (θn − θobs)/(θn − θd), where θobs is the ellipticity of the sample at a particular temperature and θd and θn are the values
+of ellipticity characteristic of the denatured and native state, respectively.
+Crystallization, Data Collection, and Structure Determination. Initial crystallization screens were conducted via sitting-drop vapor diffusion using commercial crystallization screens. Pa_FleQAAA crystallized at 18 °C against a
+solution of 0.1 M Bis-Tris pH 6.5, 0.2 M ammonium sulfate, and 25% (wt/vol)
+PEG3350. For crystallization of ADP- and ATP-γ-S–bound Pa_FleQAAA, the
+protein was preincubated with a fivefold molar excess of nucleotide for 2 h
+at 10 °C. Crystals of c-di-GMP–bound Pa_FleQAAA-HTH were obtained at 4 °C
+in the presence of 1 mM c-di-GMP in the drop and 0.05 M Bis-Tris pH 6.5,
+30% (vol/vol) pentaerythritol ethoxylate (15/4 EO/OH), and 0.05 M ammonium sulfate in the mother liquor.
+For data collection, crystals were soaked in mother liquor supplemented
+with cryo-protectants [up to 25% (wt/vol) xylitol or ethylene glycol] and flashfrozen in liquid nitrogen. Diffraction data were collected using either a Curotating anode X-ray source (Pa_FleQAAA–ATP-γ-S) or synchrotron beamlines
+(beamline MX2 of the Laboratório Nacional de Luz Síncrotron, Campinas,
+Brazil, for apo-Pa_FleQAAA and Pa_FleQAAA-ADP; beamline A1 at Cornell
+High Energy Synchrotron Source, Cornell University, Ithaca, NY or beamline
+24-ID at Advanced Photon Source, Argonne National Laboratories, Argonne,
+IL, for Pa_FleQAAA-HTH-c-di-GMP). All diffraction images were processed using the software package XDS (47). The apo-FleQAAA structure was solved
+using SAD with iodine as the anomalous scatterer, collected on crystals that
+were soaked in mother liquor supplemented with 500 mM NaI and 10% (vol/vol)
+ethylene glycol (48, 49). Initial phases were extended to 1.8 Å resolution from a
+native dataset using the PHENIX program package (50). ADP- and ATP-γ-S–
+bound Pa_FleQAAA were solved by molecular replacement in PHENIX, with the
+apo structure as the starting model. The structure of Pa_FleQAAA-HTH–c-di-GMP
+was solved by SAD phasing with data collected on crystals grown from selenomethionine-derivatized protein. The heavy atom positions were determined
+with SHELX (51) and automatic building was conducted in PHENIX. For all constructs, iterative model building and refinement in COOT (52) and PHENIX
+yielded the final structural models.
+Electron Microscopy. Pa_FleQFull (50 μM) was incubated with 100 μM ADP,
+200 μM sodium vanadate, and 500 μM MgCl2. Following a 30-min incubation on
+ice, the protein was gel-filtered against an ADP-vanadate–containing buffer
+
+Matsuyama et al.
+
+Isothermal Titration Calorimetry. Apparent dissociation constants (Kd) and
+stoichiometry of interaction (n) were measured by ITC using a VP-ITC calorimeter (Microcal). Calorimetric titrations of c-di-GMP (700 μM in the syringe;
+7-μL injections) and wild-type or mutant Pa_FleQFull (30 μM in the cuvette)
+were carried out at 25 °C in assay buffer (25 mM Tris·HCl pH 8.0, 300 mM
+NaCl, 5 mM MgCl2) with 150-s spacing between injections. ITC data were
+analyzed by integrating heat effects normalized to the amount of injected
+protein and curve-fitting based on a single-site binding model using the
+MicroCal Origin 7.0 software. Heat changes during ITC titrations likely
+combine contributions from c-di-GMP binding and accompanied changes in
+intra- and intermolecular protein interfaces. Heat from the dilution of c-diGMP alone was subtracted before data analysis and the first injection was
+omitted from data processing.
+In-Solution Chemical Cross-Linking. For oligomeric state detection, protein in
+cross-linking buffer (25 mM Hepes pH 8.0 and 300 mM NaCl) was incubated
+with EGS at room temperature. Protein and cross-linker concentrations and
+incubation times are specified in the respective figure legends. Cross-linking
+reactions were quenched by adding 50 mM Tris·HCl pH 8.0, followed by
+incubation at 97 °C for 10 min in standard SDS/PAGE sample buffer. Oligomer formation was analyzed by SDS/PAGE.
+ATPase Activity Assay. ATPase activity of wild-type and mutant Pa_FleQFull
+was measured with the EnzChek Phosphate Assay kit (Life Technologies)
+(56). Assays were performed in triplicates in a 96-well plate according to the
+manufacturer’s instructions. Briefly, ATPase reactions (200 μL; 1 μM enzyme)
+were carried in ATPase buffer (25 mM Hepes pH 8.0, 300 mM NaCl buffer,
+1 mM DTT, 10 mM KCl, 1 mM MgCl2, and 1 mM ATP). The reactions were
+monitored at 1-min intervals at 360 nm in a microplate reader.
+P. aeruginosa Strain Construction, RNA Isolation, and Real-Time Quantitative
+PCR. P. aeruginosa strains PAO1ΔfleQΔfleN or strains containing different
+mutations in the fleQ gene were routinely grown in LB medium at 37 °C.
+Mutations in the fleQ gene were generated by an overlapping PCR procedure. Briefly, PCR fragments containing the mutated fleQ gene and
+flanking genomic DNA were cloned into pEX19Gm or miniCTX2. fleQWT
+and fleQR334E were cloned into miniCTX2. fleQI374E, fleQV256E, fleQR185E,
+fleQV380E, and fleQT149E were cloned into pEX19Gm. The resulting plasmids
+were then used to transform E. coli S17-1 strain and mobilized into the
+PAO1ΔfleQΔfleN strain. MiniCTX2 constructions allow the introduction of
+fleQWT and fleQR334E at the attB site on the P. aeruginosa chromosome,
+whereas pEX19Gm constructions allow the introduction of fleQ variant alleles at the fleQ native location. Plasmids pJN1120 (expressing YfiN/TpbB/
+PA1120 diguanylate cyclase) and pJN105 (empty vector) were electroporated
+into the constructed strains (14, 57, 58). Cell growth, RNA extraction, and RTPCR were performed essentially as previously described (13, 14, 59). The
+pelA-forward (CCT TCA GCC ATC CGT TCT TCT) and pelA-reverse (TCG CGT
+ACG AAG TCG ACC TT) primers were used. Genomic DNA was used as a
+standard and transcript levels of all genes were normalized to total cDNA.
+Data presented are at least the average of two biological replicates. Error
+bars represent the SD between samples.
+ACKNOWLEDGMENTS. We thank Rémi Fronzes for providing access to
+electron microscopy data collection and analysis software; and João
+Muniz and Raj Rajashankar for collecting diffraction data. Part of this
+work is based upon research conducted at the Cornell High Energy Synchrotron Source (CHESS), which is supported by the National Science
+Foundation (NSF) under award DMR-1332208, using the Macromolecular
+
+PNAS | Published online December 28, 2015 | E217
+
+PNAS PLUS
+
+[20 mM Tris·HCl pH 8.0, 100 mM NaCl, 2.5% (wt/vol) xylitol, 100 μM ADP,
+200 μM sodium vanadate, and 500 μM MgCl2] on a Superdex 200 10/300 GL
+size exclusion column (GE Healthcare). Five-microliter drops of protein at concentrations between 0.005 and 0.1 mg/mL were placed directly on glow-discharged
+carbon-coated grids (EMS) for 1 min. The grids were then blot-dried on filter
+paper and negatively stained with 2% (wt/vol) uranyl acetate in water. Specimens were examined on an FEI Tecnai T12 BioTWIN LaB6 electron microscope
+operating at 120 kV at nominal magnifications of 49,000 and 1–3 μm defocus.
+Images were recorded on a Gatan Ultrascan 4000 CCD camera. The contrast transfer function parameters were assessed using CTFFIND3 (53) and
+the phase flipping was done in SPIDER (54). Single particles were boxed
+manually and a single-particle stack was generated in EMAN2 (4,856
+particles, 170 × 170-pixel box, 2.2 Å per pixel) (55). Normalization, centering,
+multireference alignment, multistatistical analysis, classification (∼40 particles
+per class), and rotational autocorrelation function calculation were done in
+IMAGIC-4D (Image Science Software).
+
+MICROBIOLOGY
+
+Protein Expression and Purification. Native and selenomethionine-derivatized
+proteins were overexpressed in E. coli BL21 (DE3) (Novagen) or T7 Crystal
+Express (New England Biolabs) cells, respectively. For the expression of native proteins, cells were grown at 37 °C in lysogeny broth (LB) medium
+supplemented with 50 μg/mL kanamycin. At a cell density corresponding to
+an absorbance of 0.6 at 600 nm (OD600), the temperature was reduced to
+20 °C and protein production was induced with 1 mM IPTG. Selenomethionine-derivatized proteins were produced in cells grown in M9 minimal medium supplemented with 50 μg/mL kanamycin, 1 μg/mL thiamine, 1 μg/mL
+biotin, 0.4% glucose, and 40 μg/mL of each of the 20 amino acids with
+selenomethionine substituting for methionine. Protein expression was induced at an OD600 of 0.4. After overnight expression, the cells were harvested by centrifugation, resuspended in resuspension buffer (25 mM
+Tris·HCl pH 8.0 and 300 mM NaCl) and lysed by sonication. Cell debris was
+removed by centrifugation and the cleared lysates were loaded onto TALON
+metal affinity resin (Clontech). The matrix was washed with 20 column
+volumes (CV) of resuspension buffer, followed by elution of bound proteins
+with elution buffer (25 mM Tris·HCl pH 8.0, 300 mM NaCl, and 500 mM
+imidazole). The eluted fractions were buffer-exchanged into resuspension
+buffer and incubated with Ulp1 protease at 4 °C overnight. Cleaved His6SUMO tags and uncut protein was removed via TALON metal affinity
+chromatography, and the cleaved target proteins were recovered in the
+flow-through. Purified protein was subjected to size exclusion chromatography on a HiLoad 16/600 Superdex 75 column (GE Healthcare) in gelfiltration buffer (25 mM Tris·HCl pH 8.0 and 300 mM NaCl). Purity of the
+proteins was analyzed by SDS/PAGE.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Diffraction at CHESS (MacCHESS) facility, which is supported by award
+GM-103485 from the National Institute of General Medical Sciences, National Institutes of Health (NIH). The Northeastern Collaborative Access
+Team beamlines are funded by National Institute of General Medical Sciences/NIH under Award P41-GM103403. This research used resources of
+the Brazilian National Synchrotron Light Source (LNLS) and the Advanced
+Photon Source, a US Department of Energy Office of Science User Facility
+
+operated for the Department of Energy Office of Science by Argonne
+National Laboratory under Contract DE-AC02-06CH11357. P.V.K. is currently supported by the European Research Council. Our work was supported by Fundaçao de Amparo à Pesquisa do Estado de Sao Paulo under
+Grant 2009/13238-0 (to M.V.A.S.N.) and Fundaçao de Amparo à Pesquisa
+do Estado de Sao Paulo Fellowship 2011/24168-2 (to B.Y.M.); and by the
+NIH under Grants R01-AI097307 (to H.S.) and R01-GM56665 (to C.S.H.).
+
+1. Hall-Stoodley L, Costerton JW, Stoodley P (2004) Bacterial biofilms: From the natural
+environment to infectious diseases. Nat Rev Microbiol 2(2):95–108.
+2. Solano C, Echeverz M, Lasa I (2014) Biofilm dispersion and quorum sensing. Curr Opin
+Microbiol 18:96–104.
+3. Srivastava D, Waters CM (2012) A tangled web: Regulatory connections between
+quorum sensing and cyclic Di-GMP. J Bacteriol 194(17):4485–4493.
+4. Teschler JK, et al. (2015) Living in the matrix: Assembly and control of Vibrio cholerae
+biofilms. Nat Rev Microbiol 13(5):255–268.
+5. Tolker-Nielsen T (2014) Pseudomonas aeruginosa biofilm infections: From molecular
+biofilm biology to new treatment possibilities. APMIS Suppl (138):1–51.
+6. Furukawa S, Kuchma SL, O’Toole GA (2006) Keeping their options open: Acute versus
+persistent infections. J Bacteriol 188(4):1211–1217.
+7. Mills E, Pultz IS, Kulasekara HD, Miller SI (2011) The bacterial second messenger c-diGMP: Mechanisms of signalling. Cell Microbiol 13(8):1122–1129.
+8. Römling U, Galperin MY, Gomelsky M (2013) Cyclic di-GMP: The first 25 years of a
+universal bacterial second messenger. Microbiol Mol Biol Rev 77(1):1–52.
+9. Sondermann H, Shikuma NJ, Yildiz FH (2012) You’ve come a long way: c-di-GMP
+signaling. Curr Opin Microbiol 15(2):140–146.
+10. Krasteva PV, Giglio KM, Sondermann H (2012) Sensing the messenger: The diverse
+ways that bacteria signal through c-di-GMP. Protein Sci 21(7):929–948.
+11. Schirmer T, Jenal U (2009) Structural and mechanistic determinants of c-di-GMP signalling. Nat Rev Microbiol 7(10):724–735.
+12. Arora SK, Ritchings BW, Almira EC, Lory S, Ramphal R (1997) A transcriptional activator, FleQ, regulates mucin adhesion and flagellar gene expression in Pseudomonas
+aeruginosa in a cascade manner. J Bacteriol 179(17):5574–5581.
+13. Baraquet C, Murakami K, Parsek MR, Harwood CS (2012) The FleQ protein from
+Pseudomonas aeruginosa functions as both a repressor and an activator to control
+gene expression from the pel operon promoter in response to c-di-GMP. Nucleic Acids
+Res 40(15):7207–7218.
+14. Hickman JW, Harwood CS (2008) Identification of FleQ from Pseudomonas aeruginosa as a c-di-GMP–responsive transcription factor. Mol Microbiol 69(2):376–389.
+15. Ghosh T, Bose D, Zhang X (2010) Mechanisms for activating bacterial RNA polymerase. FEMS Microbiol Rev 34(5):611–627.
+16. Gao R, Mack TR, Stock AM (2007) Bacterial response regulators: Versatile regulatory
+strategies from common domains. Trends Biochem Sci 32(5):225–234.
+17. Gao R, Stock AM (2010) Molecular strategies for phosphorylation-mediated regulation of response regulator activity. Curr Opin Microbiol 13(2):160–167.
+18. Bush M, Dixon R (2012) The role of bacterial enhancer binding proteins as specialized
+activators of σ54-dependent transcription. Microbiol Mol Biol Rev 76(3):497–529.
+19. De Carlo S, et al. (2006) The structural basis for regulated assembly and function of
+the transcriptional activator NtrC. Genes Dev 20(11):1485–1495.
+20. Lee SY, et al. (2003) Regulation of the transcriptional activator NtrC1: Structural
+studies of the regulatory and AAA+ ATPase domains. Genes Dev 17(20):2552–2563.
+21. Baraquet C, Harwood CS (2013) Cyclic diguanosine monophosphate represses bacterial flagella synthesis by interacting with the Walker A motif of the enhancer-binding
+protein FleQ. Proc Natl Acad Sci USA 110(46):18478–18483.
+22. Dasgupta N, Ramphal R (2001) Interaction of the antiactivator FleN with the transcriptional activator FleQ regulates flagellar number in Pseudomonas aeruginosa.
+J Bacteriol 183(22):6636–6644.
+23. Jyot J, Dasgupta N, Ramphal R (2002) FleQ, the major flagellar gene regulator in
+Pseudomonas aeruginosa, binds to enhancer sites located either upstream or atypically downstream of the RpoN binding site. J Bacteriol 184(19):5251–5260.
+24. Dasgupta N, et al. (2003) A four-tiered transcriptional regulatory circuit controls
+flagellar biogenesis in Pseudomonas aeruginosa. Mol Microbiol 50(3):809–824.
+25. Dasgupta N, Arora SK, Ramphal R (2000) fleN, a gene that regulates flagellar number
+in Pseudomonas aeruginosa. J Bacteriol 182(2):357–364.
+26. Srivastava D, Hsieh ML, Khataokar A, Neiditch MB, Waters CM (2013) Cyclic di-GMP
+inhibits Vibrio cholerae motility by repressing induction of transcription and inducing
+extracellular polysaccharide production. Mol Microbiol 90(6):1262–1276.
+27. Dago AE, Wigneshweraraj SR, Buck M, Morett E (2007) A role for the conserved
+GAFTGA motif of AAA+ transcription activators in sensing promoter DNA conformation. J Biol Chem 282(2):1087–1097.
+28. Wendler P, Ciniawsky S, Kock M, Kube S (2012) Structure and function of the AAA+
+nucleotide binding pocket. Biochim Biophys Acta 1823(1):2–14.
+29. Rappas M, et al. (2005) Structural insights into the activity of enhancer-binding proteins. Science 307(5717):1972–1975.
+30. Zhang N, et al. (2014) Subunit dynamics and nucleotide-dependent asymmetry of an
+AAA(+) transcription complex. J Mol Biol 426(1):71–83.
+31. Sysoeva TA, Chowdhury S, Guo L, Nixon BT (2013) Nucleotide-induced asymmetry
+within ATPase activator ring drives σ54-RNAP interaction and ATP hydrolysis. Genes
+Dev 27(22):2500–2511.
+
+32. Su T, et al. (2015) The REC domain mediated dimerization is critical for FleQ from
+Pseudomonas aeruginosa to function as a c-di-GMP receptor and flagella gene regulator. J Struct Biol 192(1):1–13.
+33. Chen C, et al. (2011) Representative proteomes: A stable, scalable and unbiased
+proteome set for sequence analysis and functional annotation. PLoS One 6(4):e18910.
+34. Srivastava D, Harris RC, Waters CM (2011) Integration of cyclic di-GMP and quorum
+sensing in the control of vpsT and aphA in Vibrio cholerae. J Bacteriol 193(22):
+6331–6341.
+35. Trampari E, et al. (2015) Bacterial rotary export ATPases are allosterically regulated by
+the nucleotide second messenger cyclic-di-GMP. J Biol Chem 290(40):24470–24483.
+36. Krissinel E (2015) Stock-based detection of protein oligomeric states in jsPISA. Nucleic
+Acids Res 43(W1):W314–W319.
+37. Wigneshweraraj SR, et al. (2005) The second paradigm for activation of transcription.
+Prog Nucleic Acid Res Mol Biol 79:339–369.
+38. Kulasakara H, et al. (2006) Analysis of Pseudomonas aeruginosa diguanylate cyclases
+and phosphodiesterases reveals a role for bis-(3′-5′)-cyclic-GMP in virulence. Proc Natl
+Acad Sci USA 103(8):2839–2844.
+39. Malone JG, et al. (2010) YfiBNR mediates cyclic di-GMP dependent small colony variant formation and persistence in Pseudomonas aeruginosa. PLoS Pathog 6(3):
+e1000804.
+40. Herrera MC, Krell T, Zhang X, Ramos JL (2009) PhhR binds to target sequences at
+different distances with respect to RNA polymerase in order to activate transcription.
+J Mol Biol 394(3):576–586.
+41. Pittard J, Camakaris H, Yang J (2005) The TyrR regulon. Mol Microbiol 55(1):16–26.
+42. Ueki T, Inouye S (2002) Transcriptional activation of a heat-shock gene, lonD, of
+Myxococcus xanthus by a two component histidine-aspartate phosphorelay system.
+J Biol Chem 277(8):6170–6177.
+43. Andrews AE, Lawley B, Pittard AJ (1991) Mutational analysis of repression and activation of the tyrP gene in Escherichia coli. J Bacteriol 173(16):5068–5078.
+44. Dixon MP, et al. (2002) The central domain of Escherichia coli TyrR is responsible for
+hexamerization associated with tyrosine-mediated repression of gene expression.
+J Biol Chem 277(26):23186–23192.
+45. Wilson TJ, Maroudas P, Howlett GJ, Davidson BE (1994) Ligand-induced self-association of the Escherichia coli regulatory protein TyrR. J Mol Biol 238(3):309–318.
+46. Yang J, et al. (2004) Mode of action of the TyrR protein: Repression and activation of
+the tyrP promoter of Escherichia coli. Mol Microbiol 52(1):243–256.
+47. Kabsch W (2010) XDS. Acta Crystallogr D Biol Crystallogr 66(Pt 2):125–132.
+48. Dauter Z, Dauter M, Rajashankar KR (2000) Novel approach to phasing proteins:
+Derivatization by short cryo-soaking with halides. Acta Crystallogr D Biol Crystallogr
+56(Pt 2):232–237.
+49. Nagem RA, et al. (2005) Getting the most out of X-ray home sources. Acta Crystallogr
+D Biol Crystallogr 61(Pt 8):1022–1030.
+50. Adams PD, et al. (2010) PHENIX: a comprehensive Python-based system for macromolecular structure solution. Acta Crystallogr D Biol Crystallogr 66(Pt 2):213–221.
+51. Sheldrick GM (2008) A short history of SHELX. Acta Crystallogr A 64(Pt 1):112–122.
+52. Emsley P, Lohkamp B, Scott WG, Cowtan K (2010) Features and development of Coot.
+Acta Crystallogr D Biol Crystallogr 66(Pt 4):486–501.
+53. Mindell JA, Grigorieff N (2003) Accurate determination of local defocus and specimen
+tilt in electron microscopy. J Struct Biol 142(3):334–347.
+54. Shaikh TR, et al. (2008) SPIDER image processing for single-particle reconstruction of
+biological macromolecules from electron micrographs. Nat Protoc 3(12):1941–1974.
+55. Tang G, et al. (2007) EMAN2: An extensible image processing suite for electron microscopy. J Struct Biol 157(1):38–46.
+56. Webb MR (1992) A continuous spectrophotometric assay for inorganic phosphate and
+for measuring phosphate release kinetics in biological systems. Proc Natl Acad Sci USA
+89(11):4884–4887.
+57. Choi KH, Kumar A, Schweizer HP (2006) A 10-min method for preparation of highly
+electrocompetent Pseudomonas aeruginosa cells: Application for DNA fragment
+transfer between chromosomes and plasmid transformation. J Microbiol Methods
+64(3):391–397.
+58. Newman JR, Fuqua C (1999) Broad-host-range expression vectors that carry the
+L-arabinose-inducible Escherichia coli araBAD promoter and the araC regulator. Gene
+227(2):197–203.
+59. Schuster M, Lostroh CP, Ogi T, Greenberg EP (2003) Identification, timing, and signal
+specificity of Pseudomonas aeruginosa quorum-controlled genes: A transcriptome
+analysis. J Bacteriol 185(7):2066–2079.
+60. Finn RD, et al. (2015) HMMER web server: 2015 update. Nucleic Acids Res 43(W1):
+W30–W38.
+61. Wheeler TJ, Clements J, Finn RD (2014) Skylign: A tool for creating informative, interactive logos representing sequence alignments and profile hidden Markov models.
+BMC Bioinformatics 15:7.
+62. Vidangos N, et al. (2013) Structure, function, and tethering of DNA-binding domains
+in σ(54) transcriptional activators. Biopolymers 99(12):1082–1096.
+
+E218 | www.pnas.org/cgi/doi/10.1073/pnas.1523148113
+
+Matsuyama et al.
+
+

@@ -1,0 +1,594 @@
+Crystal structure of a junction between
+two Z-DNA helices
+Matteo de Rosaa,b, Daniele de Sanctisc, Ana Lucia Rosariob, Margarida Archerb, Alexander Richd,1,
+Alekos Athanasiadisa,2, and Maria Armenia Carrondob
+a
+Instituto Gulbenkian de Ciência, Rua da Quinta Grande, 6 P-2780-156 Oeiras, Portugal; bInstituto de Tecnologia Química e Biologica, Universidade Nova
+de Lisboa, Avenida da República Estação Agronómica Nacional, 2780-157 Oeiras, Portugal; dMassachusetts Institute of Technology, 77 Massachusetts
+Avenue, Cambridge, MA 02139-4307; and cEuropean Synchrotron Radiation Facility Grenoble, 6 Rue Jules Horowitz, B.P. 220, 38043 Grenoble Cedex 9,
+France
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Contributed by Alexander Rich, March 25, 2010 (sent for review January 18, 2010)
+
+The double helix of DNA, when composed of dinucleotide purinepyrimidine repeats, can adopt a left-handed helical structure called
+Z-DNA. For reasons not entirely understood, such dinucleotide
+repeats in genomic sequences have been associated with genomic
+instability leading to cancer. Adoption of the left-handed conformation results in the formation of conformational junctions: A
+B-to-Z junction is formed at the boundaries of the helix, whereas
+a Z-to-Z junction is commonly formed in sequences where the
+dinucleotide repeat is interrupted by single base insertions or deletions that bring neighboring helices out of phase. B-Z junctions are
+shown to result in exposed nucleotides vulnerable to chemical or
+enzymatic modification. Here we describe the three-dimensional
+structure of a Z-Z junction stabilized by Zα, the Z-DNA binding
+domain of the RNA editing enzyme ADAR1. We show that the junction structure consists of a single base pair and leads to partial or
+full disruption of the helical stacking. The junction region allows
+intercalating agents to insert themselves into the left-handed helix,
+which is otherwise resistant to intercalation. However, unlike a B-Z
+junction, in this structure the bases are not fully extruded, and the
+stacking between the two left-handed helices is not continuous.
+base stacking ∣ DNA structure ∣ extruded base ∣ X-ray diffraction
+
+I
+
+n 1979 the crystal structure of a DNA molecule was published
+(1). Although it was already known that nucleic acids could
+adopt various alternative conformations, this crystal structure
+was concrete evidence of the left-handed helical form of
+DNA. This DNA conformation was called Z-DNA because of
+its zigzag, sugar-phosphate backbone; its full biological relevance
+had yet to be established.
+Interest in Z-DNA has grown in time as additional evidence
+for its in vivo existence has accumulated. Unlike right-handed
+nucleic acids, Z-DNA is highly immunogenic, and both monoclonal and polyclonal antibodies were raised against Z-DNA (2, 3).
+Antibodies allowed different groups to show that Z-DNA does
+exist in vivo and also to map several regions more prone to be
+in such conformation (4–7). Recently, bioinformatics tools have
+been developed (8) that predict several genomic hot spots for
+Z-DNA formation and suggested roles for such structures.
+Significant experimental evidence regarding the in vivo presence of Z-DNA has accrued, but its biological role has not been
+fully elucidated. Considerable progress has been made in discovering proteins that bind Z-DNA with great specificity. At present, four proteins able to bind the Z form of nucleic acids
+have been described: the IFN-induced form of the RNA editing
+enzyme ADAR1, the innate immune system receptor DAI (also
+known as DLM-1 and ZBP1), the fish kinase PKZ, and the poxvirus inhibitor of IFN response E3L (9–12). These proteins all
+have important roles in physiological and pathological processes
+related to the IFN system. In addition, they share Z-DNA binding
+ability because of a common, winged helix-turn-helix (wHTH)
+domain named Zα. Isolated Zα domains from all of the abovementioned proteins have been crystallized in complexes with
+9088–9092 ∣ PNAS ∣ May 18, 2010 ∣ vol. 107 ∣ no. 20
+
+short stretches of DNA duplex ðCGÞ3 and shown to bind DNA
+in the left-handed Z form in a very similar fashion (10, 13–16).
+The Zα domain of ADAR1 was the first to be discovered and is
+the best characterized of all Z-DNA binding proteins. ADAR1
+is an adenosine deaminase responsible for the A-to-I editing of
+RNA and exists in two alternative isoforms, one expressed constitutively and the other induced by IFNs. The IFN inducible form of
+ADAR1 possesses two wHTH domains, Zα and Zβ, the former of
+which became the prototype of all the Z domains and later was
+shown to bind Z-RNA as well (17). Although Zβ shows the same
+topology as other Z domains, it does not bind left-handed nucleic
+acids (18). Apart from interest in the protein itself, Zα-ADAR1
+is also a powerful tool to study left-handed nucleic acids
+structures, because it is able to strongly stabilize such structures
+under nearly physiological conditions.
+Most of the structural and in vitro biochemical studies on
+Z-DNA have been performed with short stretches of DNA
+and mostly with plain CG repeats. CG repeats are used because
+this sequence undergoes the B-to-Z structural transition most
+readily. Unlike the right-handed B form, the repeating unit of
+Z-DNA is a dinucleotide and in particular a purine-pyrimidine
+repeat. Whereas such short oligonucleotides have been good
+starting models because of the ease with which they can support
+the B-to-Z transition, they do not accurately reflect the context in
+which Z-DNA may form in vivo. Long stretches of perfect CG
+repeats are infrequent in genomes because they represent hot
+spots of genomic instability (19). Instead, in genomic sequences
+we frequently find Z-DNA forming sequences in which the pattern of the Pu-Py dinucleotide repeat is broken by Pu-Pu or Py-Py
+dinucleotides. Thus, in vivo, stretches of Z-DNA are characterized by the formation of B-Z and Z-Z conformational junctions.
+The B-Z junction is formed at the interface between B- and
+Z-DNA, and two of them form when a stretch of Z-DNA forms.
+The Z-Z junction forms at a discontinuity when a single base is
+inserted or deleted from the dinucleotide repeat leading to
+Z-DNA helices out of phase from each other. The crystal structure of a B-Z junction was solved a few years ago (20). Its formation requires little structural disruption because it preserves
+the integrity of both B- and Z-DNA helices as well as base stacking between the two helices. This stacking is made possible because of the full extrusion from the helix of the two junctional
+bases that allows continuous stacking between the left- and
+right-handed helices. The two extruded bases become accessible
+Author contributions: M.d.R., A.R., A.A., and M.A.C. designed research; M.d.R., D.d.S.,
+A.L.R., and A.A. performed research; D.d.S. and M.A.C. contributed new reagents/analytic
+tools; M.d.R., D.d.S., M.A., A.R., A.A., and M.A.C. analyzed data; and M.d.R., M.A., A.R.,
+A.A., and M.A.C. wrote the paper.
+The authors declare no conflict of interest.
+1
+
+To whom correspondence may be addressed at: Department of Biology, Massachusetts
+Institute of Technology, 31 Ames Street, Cambridge, MA 02139.
+
+2
+
+To whom correspondence may be addressed. E-mail: alekos@igc.gulbenkian.pt.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/
+doi:10.1073/pnas.1003182107/-/DCSupplemental.
+
+www.pnas.org/cgi/doi/10.1073/pnas.1003182107
+
+Results
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Structure Determination of a Z-Z DNA Junction Bound by the ADAR1
+Zα Domain. Here we report two crystal structures of the same com-
+
+plex between Zα and a Z-Z junction forming the duplex sequence
+ðCGÞ3 AðCGÞ3 , crystallized in slightly different conditions. The
+best diffracting crystals were obtained initially at pH 7.0 by using
+Hepes as a buffer, which has been the buffer used historically for
+Zα purification and storage. When we found a Hepes molecule
+located in the center of the junction (see details and Discussion
+below), we set up crystallization trials of a Hepes-free sample with
+different buffers in order to clarify the role of such a molecule in
+junction formation and to evaluate to what extent the overall
+structure is affected by its presence. We managed to obtain a
+second dataset from crystals grown in a Tris buffered solution,
+and here we compare the two structures.
+Whereas the best conditions for the Hepes-containing structure required an initial high throughput robot screening and some
+efforts in optimization, crystals of the Hepes-free sample were
+obtained with just minor adjustments in the original conditions.
+Crystals obtained in both conditions showed similar plate-like
+morphology and kinetics of formation. They both belong to
+the orthorhombic P21 21 21 space group, and even their cell
+dimensions are very similar (see Table S1). The quality of the
+two datasets collected is equivalent: The first crystal form
+diffracted to 2.65 Å with an Rmerge of 9.2%, whereas the
+
+Hepes-free one diffracted to 2.8 Å but with a slightly better
+Rmerge equal to 8.3%.
+Apart from the junction, the two structures are quite similar
+(Fig. 1). A superimposition of the whole complex would not
+be meaningful because the DNA molecule is differently kinked
+at the junction position (see details below). Instead, we cut the
+complex in an equatorial plane to obtain two ternary complexes
+(two Zα molecules binding a six-mere duplex) and superimposed
+these structures. We obtained an rmsd equal to 1.18 and 0.84 Å by
+using all 500 of the DNA duplex atoms and 491 atoms of the protein
+backbone. We will now describe one of the two complexes and underline the differences when it is appropriate. From now on, we will
+refer to the Hepes-free complex as the Zα∕Z-Z-DNA structure.
+The structure was solved by molecular replacement using
+the first published Zα∕ðCGÞ3 structure as the searching model
+[Protein Data Bank (PDB) ID code 1QBJ]. More precisely, to
+avoid introduction of bias, we decided to use a minimal model
+consisting in a single molecule of Zα-ADAR1 binding a single
+strand six-mer of Z-DNA. We found four such complexes in
+the asymmetric unit, and we could build the biological unit by
+reassembling the molecules to form one double-stranded
+Z-DNA molecule bound by four Zα monomers (Fig. 1).
+Overall Structure and Stoichiometry of the Zα∕ðCGÞ3 AðCGÞ3 Complex.
+
+Two complementary oligonucleotides were designed to study the
+structure of a Z-Z junction. They consist in two overhanging
+bases (AC and GT) at the 5′ followed by two ðCGÞ3 stretches
+interrupted by an A (T in the complementary strand). Three consecutive CG repeats have been identified as the minimum binding
+site for Zα. The two overhanging bases, even if not visible in most
+of the previously published structures, are believed to help in
+crystal packing. The out-of-phase base pair (A-T in our case)
+should interrupt the Z-DNA helix, because the repeating unit
+of Z-DNA is a dinucleotide.
+It is already known that the protein/DNA stoichiometry is
+crucial in the crystallization of Zα∕Z-DNA complexes. To determine the initial conditions for the optimal ratio Zα to Z-DNA, we
+performed solution experiments by using CD. The CD spectra of
+left- and right-handed DNA are significantly different (Fig. S1),
+and by using different protein/DNA ratios we could show that four
+molecules of Zα are required to obtain full conversion of the oligonucleotide to the left-handed conformation (Fig. S1, Inset).
+
+Fig. 1. Overall structure of a Z-Z junction. The DNA duplex is shown as a skeletal model for the Hepes-free (Left, A) and Hepes (Right, B) structures, respectively,
+colored according to atom type except for the Hepes molecule (Orange). In both cases four Zα domains are bound to the duplex ðCGÞ3 AðCGÞ3 DNA oligonucleotide and shown as ribbon diagrams. The molecular surface of each chain is shown transparent. We show aligned the oligonucleotide sequence (Middle).
+The helical axis for each ðCGÞ3 segment appears as a straight line, and the angle corresponding to the DNA kink is indicated.
+de Rosa et al.
+
+PNAS ∣
+
+May 18, 2010 ∣
+
+vol. 107 ∣
+
+no. 20 ∣
+
+9089
+
+BIOCHEMISTRY
+
+to solvent, giving rise to speculation that they could be sites for
+enzymatic or chemical DNA modification. Aberrant translocations at CpG repeats involve the recruitment of the DNA repair
+machinery (19). Thus, such base modifications may be an underlying causative agent of tumors in an unknown number of cases.
+Z-Z junctions are expected to be as common as B-Z junctions,
+and they require less energy to form (21). Long runs of CG
+repeats interrupted by out-of-phase bases can be found in both
+DNA (CpG islands) and RNA (Alu’s sequences) (22). The
+frequency of such sequences has led to extensive work aiming
+to understand the molecular features of Z-Z junctions.
+Here we report the crystal structure of a Z-Z junction
+stabilized by binding to Zα-ADAR1. Our results show that the
+junction bases are not fully extruded, and unlike the B-Z junction
+the base stacking is partially disrupted. We also show how such a
+junction can be the target of intercalating agents to which Z-DNA
+is resistant.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Indeed, we find the same stoichiometry in the crystal structures
+(Fig. 1). Two molecules of Zα bind each of the two ðCGÞ3 portions.
+Overall, the Zα domain interaction with the DNA helix is similar to
+the one described previously for its complex with a single ðCGÞ3
+duplex (13). Not only is the broad surface of interaction the same,
+but also the intricate network of direct and indirect interactions
+between protein and DNA is conserved in our structure, as can
+be noted in Fig. 2. The Zα monomers show an average rmsd of
+0.5 Å (56 Cα atoms used) when compared to the search model.
+Most of the residues involved in the interaction are located in
+the helix α3 and in the wing (Fig. 2). They can be divided into van
+der Waals interacting residues (Pro192 and Pro193), residues interacting directly through hydrogen bonds to the DNA backbone
+(Thr191, Lys169, Lys170, and Tyr177), and residues whose interaction with DNA is mediated by water molecules as Trp195.
+Asn173 is at the same time able to directly bind the DNA and
+also interact with one of the conserved water molecules. These
+residues represent the core binding motif of Z-DNA and together
+with the complementarity of the interacting surface lead to a very
+high specificity and binding affinity.
+Taken separately, the two stretches of six base-pair Z-DNA do
+not differ significantly from previously published Z-DNA structures. In fact, if we ignore the junction, our structure shows
+two Z-DNA helices that are close to ideal in conformational
+parameters (Tables S2–S4). In particular, the slide and the twist
+parameters are notable because they characteristically alternate
+between purines and pyrimidines and apparently are in no way
+affected either by the crystal packing or by the presence of the
+junction. The unique exception is the adjacent CG pairs to the
+junction in the Hepes-free structure that show a deformation
+described in detail later.
+Z-DNA possesses a straight helical axis. In our structure the
+axes of the two CG hexamers form a sharp ∼20° angle because
+of the presence of the junction, resulting in an overall kinked
+DNA structure. This angle is slightly different in the two structures and equal to 20° in the Hepes structure and 27° in the
+HEPES-free structure (Fig. 1).
+A Close View of the Z-Z DNA Junction. Z-Z junctions have already
+been investigated. In particular, two structural studies have been
+published suggesting models for the Z-Z junction: An NMR
+investigation carried out by Yang and Wang (23) was of a structure containing mismatches at the junction site and in which
+the Z conformation was induced by organic and inorganic
+compounds, not by Zα. Another study used diethyl pyrocarbonate
+and hydroxylamine chemical probing along with molecular
+
+Fig. 2. Conservation of the protein–DNA interactions in the Zα/Z-Z DNA
+complex. Superimposition of the Zα domain from the search model PDB
+ID 1QBJ (Cyan) and chain C of the Hepes-free structure of the ZZ junction
+(Yellow). Residues interacting with DNA are shown in stick representation,
+whereas dotted lines show hydrogen bonds. Side chains involved in interactions with DNA are drawn as sticks and labeled.
+9090 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1003182107
+
+modeling to define features of the junction (21). More recent work
+uses fluorescent modified bases containing 2-amino purine (2AP)
+to study base stacking at the junction site by fluorescence spectroscopy (24). The two older studies suggest that the junction bases
+remain intrahelical with the NMR study predicting that the junction bases form a reverse Watson–Crick base pair. In contrast, in
+the more recent study on the basis of 2AP fluorescence, the authors
+interpreted the data with the junctional bases extruded from the
+double helix similar to what has been seen for the B-Z junction
+(20). Our results show no such base extrusion. However, the
+base-pair formation at the junction shows differences from the
+suggested models. These differences are described below.
+During the refinement of the first structure with crystals
+obtained in the presence of Hepes, we noticed a feature in the
+electron density in the junction area adjacent to the well defined
+base density (Fig. 3A). An initial hypothesis was that this density
+represented some kind of double conformation of the bases;
+however, occupancy refinement showed base occupancy close
+to 1 and their electron density well defined. Discarding this option, we inspected the composition of the crystallization solution
+and found that such electron density can be modeled as a Hepes
+molecule. The structure was further refined and the Hepes
+molecule ended up with a 0.8 occupancy and B factors varying
+between 30 and 50 Å2 for the ring and slightly higher for the
+hydroxyl and sulfonate groups (Table S5). The two bases of
+the junction show a large roll and are almost orthogonal to
+the plane of the previous and next base pair. The A-T pair interacts according to a reverse Watson–Crick geometry because
+the hydrogen bonding atoms are N6 -O2 and N1 -N3 , although
+the N-O hydrogen bond is very weak with a distance between
+donor and acceptor of 3.5 Å (Fig. 3A).
+The unexpected Hepes ligand, intercalating in a cavity created
+between the A-T pair and the two C-G pairs before and after the
+junction (Fig. 3B), seems to restore base stacking because its
+semiplanar ring is parallel to the planes of the other bases. No
+other interactions are observed between Hepes and DNA, apart
+from the interactions between the sulfonate group of the molecule with N4 of C8 and O4′ of T7 and N7 of G6. The junctional
+bases are almost perpendicular to the rest of the bases and can
+be accommodated only because of the 20° kink of the helical axis.
+Because the observed structure of the Z-Z junction might have
+been influenced by the intercalation of Hepes, we also determined the structure in Hepes-free conditions. The Hepes-free
+structure is significantly different at the junction site. Whereas
+
+Fig. 3. The Z-Z junction structure in the presence of Hepes. (A) Electron
+density of the Z-Z junction contoured at 1σ (Blue); the density for the Hepes
+molecule is shown orange. Dotted lines represent base-base hydrogen bonds.
+Note the perpendicular orientation of the A-T reverse Watson–Crick base
+pair. (B) Surface representation of the ðCGÞ3 AðCGÞ3 DNA colored according
+to atom B factors (range blue rigid—red mobile). The Hepes molecule (Stick)
+is seen intercalating at the junction site. Note the mobility of the thymine
+at the junction site (Yellow). The region where Zα interacts with DNA is
+characterized by low B factors (Deep Blue Areas).
+
+de Rosa et al.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Discussion
+We determined the crystal structure of a complex between a
+ðCGÞ3 AðCGÞ3 DNA duplex and the Zα domain of ADAR1.
+The ðCGÞ3 parts of the DNA adopt a typical Z-DNA structure,
+but the overall DNA helix is significantly kinked at the junction.
+This kink results in the creation of a cavity on one side of the
+DNA structure and a compression on the opposite side. In our first
+attempt of structure determination we found a Hepes molecule
+occupying the predicted location of the AT base pair with the
+bases themselves forming a partial base pair surprisingly oriented
+perpendicular to the plane of the other bases in the DNA. In
+this way the junction forms a cage for the buffer molecule. Whereas
+this obviously is a crystallization artifact, it provides significant
+insight into the dynamic nature of the junction, and it points
+to the fact that the junction bases are sterically uncomfortable
+and mobile.
+Determining the structure in the absence of Hepes shows that
+the junction bases can partially stack with the rest of the helix. The
+adenosine is found in its expected position in the syn conformation
+typical for Z-DNA but breaking the syn-anti alternation, whereas
+the thymine is partially disordered apparently occupying two
+positions, one in the syn and one in the anti orientation with an
+occupancy of 0.5 for each orientation. Indeed the pyrimidine of
+the junction shows the most unfavorable contacts and in solution
+is expected to shift dynamically between the two conformations.
+Unlike the B-Z junction, which by fully extruding the junction
+bases succeeds in maintaining continuous stacking between the
+
+Fig. 4. The Z-Z junction structure and its comparison with a B-Z junction.
+(A) Electron density of the Z-Z junction contoured at 1σ. Dotted lines
+represent base-base hydrogen bonds. (B) Comparison of the Z-Z junction
+(present work) to the B-Z junction (20) PDB ID code 2ACJ.
+
+de Rosa et al.
+
+right- and the left-handed helix, bases of the Z-Z junction remain
+intrahelical and base stacking is partially lost (Fig. 4). Also, unlike
+the B-Z junction, where only the Z portion is bound by Zα, in the
+Z-Z junction both Z-DNA helices are bound by the protein. We
+have to ask whether unfavorable protein–protein contacts affect
+the junction structure by not allowing the two 6-mers getting
+closer through extrusion of the junction bases. Indeed, modeling
+of Zα binding to continuous 12-mer yields protein–protein
+clashes between Zα molecules. Thus, the presence of Zα might
+lead to capturing an intermediate state of the junction formation
+blocking base extrusion and stacking of the two hexamers. On the
+other hand, there is reasonable agreement of our structure with
+the model of a Z-Z junction derived from the NMR data. That
+model was derived from structures with mismatched A-A and T-T
+pairs at the junction and predicted intrahelical junctional bases.
+On the basis of the NMR structures, a model was proposed of an
+AT junction with the bases being in syn (A) and anti (T) conformation and forming a reverse Watson–Crick base pair. We find
+the adenosine in the syn conformation (χ ¼ 50), whereas the thymidine appears to have more than one conformation. However,
+in none of the alternative conformations do we observe base
+pairing, which is in good agreement with the observation that
+the energetic cost of a Z-Z junction (3.5 kcal∕mol) (21) is similar
+to that of the mismatched junctions. Another important feature
+of the present structure that is absent in previous models is a partial melting of one of the adjacent CG pairs with hydrogen bonding distances that are more than 0.5 Å longer than the average
+distances for the other CG base pairs of the helix (Table S2). The
+mobility we observe for the T residue is also in good agreement
+with the chemical reactivity results of Johnston et al. (21) showing
+that a corresponding C (in this work the junction was a CG instead of AT) becomes hypersensitive in a Z-Z junction, whereas
+the N7 of corresponding purine of the junction is shown to be
+protected as would be expected from our structure. Overall,
+the Hepes-free structure is in good agreement and explanatory
+to the available biochemical and NMR data.
+Another question is the extent to which the observed angle of
+bending (27° in the Hepes-free structure) is influenced by the
+enclosing Zα proteins. It can be seen (Fig. 1A) that the two
+Zα molecules on the side of the bend are closer together when
+the angle is 27°, compared to 20° for the Hepes structure (Fig. 1B).
+The two Zαs are in van der Waals contact, suggesting that they
+may limit further bending. This observation might support the
+argument that the observed structure is trapped in an intermediate state. It is clear that this issue can be resolved only by further
+structural studies, perhaps with fewer Zα molecules.
+In recent work, base analogs of adenosine (2AP) were used to
+monitor stacking of bases in different types of junctions using
+fluorescent spectroscopy. This work suggested the loss of stacking
+of the adenosine base at a Z-Z junction with a sequence similar
+to the one we describe here. Although we do observe loss of base
+stacking at the junction, this is because of the mobility of the
+thymine residue. The adenosine residue, however, is not extruded; it is well defined and maintains optimal stacking with
+the adjacent bases. The reason behind this disagreement is possibly because of the use of Hepes as a buffer in these fluorometric
+studies that, as we see in the corresponding structure, results in
+loss of stacking for the adenosine at the junction. It is also possible that the 2-amino purine substitution in this context alters
+the properties of the already deformed junction in a way that
+adenosine becomes more exposed.
+Here we show how sequences containing imperfect CpG
+repeats can adopt the left-handed conformation and tolerate
+the formation of Z-Z junctions. This finding increases significantly the number of potential Z-forming sequences in genomic
+DNA. Because Z-forming sequences and CpG repeats are
+implicated in mammalian genomic instability (19) and cancer,
+the structure presented here provides the basis to understand
+PNAS ∣
+
+May 18, 2010 ∣
+
+vol. 107 ∣
+
+no. 20 ∣
+
+9091
+
+BIOCHEMISTRY
+
+it maintains the kink at the junction, the AT base pair (A7-T7) in
+this structure lays on a plane that is almost parallel to the plane of
+the other base pairs (Fig. 4A), and it occupies the position where
+the Hepes molecule was found in the first structure. The observed
+kink of the DNA helix in the absence of Hepes is slightly greater
+(27°), and in this case we find the junction bases located in the
+helix compression instead of the bulky Hepes molecule. The
+Hepes-free structure is consistent with aspects of the model predicted by Yang and Wang with the well defined adenine base in
+syn conformation like the preceding G6, maintaining stacking interactions. However, the electron density for the opposing base
+T7 demonstrates ambiguity, which is best interpreted by the base
+alternating between syn and anti conformation. This mobility of
+T7 is supported from the fact that no optimal hydrogen bonding
+to A7 on the opposite strand can be formed in any of the alternative conformations. In the anti conformation a single hydrogen
+bond is formed between O4 of T7 to N6 of A7, whereas no hydrogen bonding is observed with T7 in the syn conformation.
+Nevertheless, both conformations of ∼0.5 occupancy support
+partial stacking of this base with the rest of the helix. While stacking is maintained, formation of the junction in the Hepes-free
+structure also affects the lower G6-C8 base pair (Fig. 4A and
+Table S2), resulting in a widening of the helix and hydrogen
+bonding distances in the range of 3.3–3.8 Å. Interestingly, this
+helix deformation is asymmetric affecting only one of the two
+base pairs adjacent to the junction base pairs.
+
+some of the molecular features that are involved in their mutagenic role. Whereas formation of B-Z and Z-Z junctions
+increases the exposure of bases to modifying agents with mutagenic effects, the Hepes structure suggests also that a Z-Z junction can be a site for intercalation and a potential target of a
+number of anticancer drugs that target DNA replication. Such
+intercalation is expected to stabilize the left-handed conformation by restoring base stacking to some extent. Such stabilization
+may have deleterious effects for cancer cells resulting in lethal
+DNA rearrangements and may be potentially one of the sources
+of the anticancer action of intercalating agents.
+Materials and Methods
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Protein and DNA Sample Preparation. The Zα domain of human ADAR1 was
+expressed and purified as previously reported (17). The protein was concentrated by using Centricon filtration devices (Millipore) to a final concentration 10 mg∕mL in 10 mM Hepes, pH 7.0, 20 mM NaCl. Oligonucleotides
+ACðCGÞ3 AðCGÞ3 and GTðCGÞ3 TðCGÞ3 were purchased by IDT (Coralville) and
+resuspended in 10 mM Hepes, pH 7.0, 20 mM NaCl or in 10 mM Tris-HCl,
+pH 7.0, 20 mM NaCl. The Hepes-free protein sample was prepared by dialysis
+against a 10 mM Tris-HCl, pH 7.0, and 20 mM NaCl solution. The duplex
+(Z-Z DNA) was prepared by heating a stoichiometric mixture of the two oligonucleotides to 80 °C and leaving the sample to slowly cool for 12 h.
+Crystallization, Data Collection, and Processing. The Zα∕Z-Z DNA complex was
+obtained by mixing 0.8 mM Zα and 0.2 mM DNA duplex. The mixture was
+incubated at room temperature for 1 h before crystallization trials. Best diffracting crystals were obtained, in two different conditions, by the hanging
+drop vapor diffusion method at 20 °C, by using 1 μL of the mixture with 1 μL
+of the reservoir solution (16% PEG 2000 monomethyl ether), 0.1 M Hepes, pH
+7.0, 0.2 M ammonium acetate or 17% PEG 2000, 0.1 M Tris-HCl, pH 7.0, 0.2 M
+ammonium acetate. Platelet-like crystals were obtained in both conditions.
+Then 20% PEG 400 was added as cryoprotectant, and the crystals were flashcooled in liquid nitrogen. X-ray diffraction data were measured at 100 K at
+the European Synchrotron Radiation Facility (Grenoble) on beam lines
+ID23EH2 or ID14EH4 and at the Diamond Light Source. Two datasets were
+collected from single crystals, grown with either Hepes or Tris as a buffer,
+to 2.65 and 2.8 Å resolution, respectively. Diffraction data were processed
+with MOSFLM/SCALA (25, 26) resulting in Rmerge 9.2 (Hepes) and 8.3
+(Hepes-free). The crystals belong to the orthorhombic P21 21 21 space group
+with similar unit cell parameters of a ¼ 30.67 Å, b ¼ 102.21 Å, c ¼ 105.89 Å,
+1. Wang AH, et al. (1979) Molecular structure of a left-handed double helical DNA
+fragment at atomic resolution. Nature 282:680–686.
+2. Lafer EM, Moller A, Nordheim A, Stollar BD, Rich A (1981) Antibodies specific for
+left-handed Z-DNA. Proc Natl Acad Sci USA 78:3546–3550.
+3. Moller A, et al. (1982) Monoclonal antibodies recognize different parts of Z-DNA.
+J Biol Chem 257:12081–12085.
+4. Arndt-Jovin DJ, et al. (1983) Left-handed Z-DNA in bands of acid-fixed polytene
+chromosomes. Proc Natl Acad Sci USA 80:4344–4348.
+5. Nordheim A, et al. (1981) Antibodies to left-handed Z-DNA bind to interband regions
+of Drosophila polytene chromosomes. Nature 294:417–422.
+6. Lancillotti F, Lopez MC, Arias P, Alonso C (1987) Z-DNA in transcriptionally active
+chromosomes. Proc Natl Acad Sci USA 84:1560–1564.
+7. Lipps HJ, et al. (1983) Antibodies against Z DNA react with the macronucleus but
+not the micronucleus of the hypotrichous ciliate stylonychia mytilus. Cell 32:435–441.
+8. Li H, et al. (2009) Human genomic Z-DNA segments probed by the Z alpha domain of
+ADAR1. Nucleic Acids Res 37:2737–2746.
+9. Herbert A, Lowenhaupt K, Spitzner J, Rich A (1995) Chicken double-stranded RNA
+adenosine deaminase has apparent specificity for Z-DNA. Proc Natl Acad Sci USA
+92:7550–7554.
+10. Schwartz T, Behlke J, Lowenhaupt K, Heinemann U, Rich A (2001) Structure of
+the DLM-1-Z-DNA complex reveals a conserved family of Z-DNA-binding proteins.
+Nat Struct Biol 8:761–765.
+11. Rothenburg S, et al. (2005) A PKR-like eukaryotic initiation factor 2alpha kinase
+from zebrafish contains Z-DNA binding domains instead of dsRNA binding domains.
+Proc Natl Acad Sci USA 102:1602–1607.
+12. Kim YG, et al. (2003) A role for Z-DNA binding in vaccinia virus pathogenesis. Proc Natl
+Acad Sci USA 100:6974–6979.
+13. Schwartz T, Rould MA, Lowenhaupt K, Herbert A, Rich A (1999) Crystal structure of the
+Zalpha domain of the human editing enzyme ADAR1 bound to left-handed Z-DNA.
+Science 284:1841–1845.
+14. Kim D, Hwang HY, Kim YG, Kim KK (2009) Crystallization and preliminary x-ray
+crystallographic studies of the Z-DNA-binding domain of a PKR-like kinase (PKZ) in
+complex with Z-DNA. Acta Crystallogr F 65:267–270.
+15. Ha SC, et al. (2004) A poxvirus protein forms a complex with left-handed Z-DNA:
+Crystal structure of a Yatapoxvirus Zalpha bound to DNA. Proc Natl Acad Sci USA
+101:14367–14372.
+
+9092 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1003182107
+
+α ¼ β ¼ γ ¼ 90¨ and a ¼ 29.28 Å, b ¼ 99.76 Å, c ¼ 106.48 Å, α ¼ β ¼ γ ¼ 90¨
+(for the Hepes and Tris structure, respectively). See Table S1 for data collection and processing statistics.
+Structure Determination. Zα∕Z-Z DNA structure was solved by molecular
+replacement using a single Zα domain bound to a single strand ðCGÞ3 oligonucleotide (PDB ID code 1QBJ) as a search model using the program PHASER
+(27). We were able to identify four molecules in the asymmetric unit. The
+structure was refined with PHENIX (28) and model building was carried
+out by using COOT (29). The structure in the presence of Hepes was refined
+at 2.65 Å to a final Rfactor of 0.23 (Rfree 0.28), whereas the structure in the
+presence of Tris was refined at 2.8 Å and to a final Rfactor of 0.23 (Rfree
+0.27). Noncrystallographic symmetry was used throughout the refinement
+process relating portions of the four Zα monomers. Excellent quality electron
+density was observed for all protein residues except the C-terminal residues
+V199-Q202 (for all chains) and the solvent exposed side chains of Q141, K145,
+E152, K170, and K187, which were not visible in electron density maps. No
+density was observed also for the two DNA overhanging bases. Respectively,
+94.4% and 91.8% of the residues belong to the most favored Ramachandran
+plot regions for the Hepes and Tris structures. All other residues are found
+allowed regions of the plot. The two structures have been deposited to
+the Research Collaboratory for Structural Bioinformatics database with
+PDB ID codes 3IRQ and 3IRR (Hepes). Analysis of the Z-DNA helix parameters
+was performed with 3DNA (30).
+CD Spectroscopy. CD measurements were performed by using a Jasco J-815 CD
+system in a 0.1-mm cuvette. We mixed 5–10 μM of the ZZ-DNA duplex with
+different concentrations of Zα to final molar ratios of 1∶0, 1∶1, 1∶2, 1∶4, and
+1∶6. Kinetics of the B → Z conversion were followed at single wavelength
+(254 nm) and CD spectra were collected in 1-nm steps from 230 to
+330 nm after 10 min of incubation when absorbance changes reach plateau.
+Experiments were performed at 25 °C in 10 mM Hepes, pH 7.0, 20 mM NaCl or
+10 mM Tris-HCl, pH 7.0, 20 mM NaCl.
+ACKNOWLEDGMENTS. We thank Dr. Vasco M. Barreto and Dr. Thiago Carvalho
+for critically reading the manuscript. M.d.R. was supported by a short-term
+Federation of European Biochemical Societies fellowship. This work has been
+supported by Fundação para a Ciência ea Tecnologia [PTDC/SAU-MII/69084/
+2006] (to M.A.C.) and a Marie Curie International Reintegration Grant
+[PFE-GI-UE-PIRG03-GA-2008-231000] (to A.A.). A.A. has been partly supported by Fundação para a Ciência ea Tecnologia [SFRH/BI/33631/2009].
+16. Ha SC, et al. (2008) The crystal structure of the second Z-DNA binding domain of
+human DAI (ZBP1) in complex with Z-DNA reveals an unusual binding mode to
+Z-DNA. Proc Natl Acad Sci USA 105:20671–20676.
+17. Placido D, Brown BA, 2nd, Lowenhaupt K, Rich A, Athanasiadis A (2007) A left-handed
+RNA double helix bound by the Z alpha domain of the RNA-editing enzyme ADAR1.
+Structure 15:395–404.
+18. Athanasiadis A, et al. (2005) The crystal structure of the Zbeta domain of the
+RNA-editing enzyme ADAR1 reveals distinct conserved surfaces among Z-domains.
+J Mol Biol 351:496–507.
+19. Wang G, Christensen LA, Vasquez KM (2006) Z-DNA-forming sequences generate
+large-scale deletions in mammalian cells. Proc Natl Acad Sci USA 103:2677–2682.
+20. Ha SC, Lowenhaupt K, Rich A, Kim YG, Kim KK (2005) Crystal structure of a junction
+between B-DNA and Z-DNA reveals two extruded bases. Nature 437:1183–1186.
+21. Johnston BH, Quigley GJ, Ellison MJ, Rich A (1991) The Z-Z junction: The boundary
+between two out-of-phase Z-DNA regions. Biochemistry 30:5257–5263.
+22. Athanasiadis A, Rich A, Maas S (2004) Widespread A-to-I RNA editing of Alu-containing mRNAs in the human transcriptome. PLoS Biol 2:e391.
+23. Yang XL, Wang AH (1997) Structural analysis of Z-Z DNA junctions with A:A and T:T
+mismatched base pairs by NMR. Biochemistry 36:4258–4267.
+24. Kim D, et al. (2009) Base extrusion is found at helical junctions between right- and
+left-handed forms of DNA and RNA. Nucleic Acids Res, 13 pp:4353–4359.
+25. Leslie AGW (1992) Recent changes to the MOSFLM package for processing film
+and image plate data. Joint CCP4 + ESF-EAMCB Newsletter on Protein Crystallography
+No 26 (Daresbury Laboratory, Warrington).
+26. CCP4 (1994) The CCP4 suite: Programs for protein crystallography. Acta Crystallogr D
+50:760–763.
+27. McCoy AJ, et al. (2007) Phaser crystallographic software. J Appl Crystallogr 40:658–674.
+28. Adams PD, et al. (2002) PHENIX: Building new software for automated crystallographic
+structure determination. Acta Crystallogr D 58:1948–1954.
+29. Emsley PC, Cowtan Kevin (2004) Coot: Model-building tools for molecular graphics.
+Acta Crystallogr D 60:2126–2132.
+30. Lu XJ, Olson WK (2003) 3DNA: A software package for the analysis, rebuilding
+and visualization of three-dimensional nucleic acid structures. Nucleic Acids Res
+31:5108–5121.
+
+de Rosa et al.
+
+

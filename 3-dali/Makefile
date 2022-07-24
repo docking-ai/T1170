@@ -1,2 +1,2 @@
 all:
-	head -1 proc.txt | proc.py
+	cat proc.txt | proc.py

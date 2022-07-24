@@ -1,0 +1,673 @@
+Graded expression of zinc-responsive genes through
+two regulatory zinc-binding sites in Zur
+Jung-Ho Shina,1, Hoi Jong Jungb,1, Young Jun Anb, Yoo-Bok Choa, Sun-Shin Chab,c,2, and Jung-Hye Roea,2
+a
+Laboratory of Molecular Microbiology, School of Biological Sciences, and Institute of Microbiology, Seoul National University, Seoul 151-742, Republic of
+Korea; bMarine Biotechnology Research Center, Korea Ocean Research and Development Institute, Ansan 426-744, Republic of Korea; and cDepartment of
+Marine Biotechnology, University of Science and Technology, Daejeon 305-333, Republic of Korea
+
+Zinc is one of the essential transition metals in cells. Excess or lack of
+zinc is detrimental, and cells exploit highly sensitive zinc-binding
+regulators to achieve homeostasis. In this article, we present a crystal
+structure of active Zur from Streptomyces coelicolor with three zincbinding sites (C-, M-, and D-sites). Mutations of the three sites differentially affected sporulation and transcription of target genes, such
+that C- and M-site mutations inhibited sporulation and derepressed
+all target genes examined, whereas D-site mutations did not affect
+sporulation and derepressed only a sensitive gene. Biochemical and
+spectroscopic analyses of representative metal site mutants revealed
+that the C-site serves a structural role, whereas the M- and D-sites
+regulate DNA-binding activity as an on-off switch and a ﬁne-tuner,
+respectively. Consistent with differential effect of mutations on target genes, zinc chelation by TPEN derepressed some genes (znuA,
+rpmF2) more sensitively than others (rpmG2, SCO7682) in vivo. Similar pattern of TPEN-sensitivity was observed for Zur-DNA complexes
+formed on different promoters in vitro. The sensitive promoters
+bound Zur with lower afﬁnity than the less sensitive ones. EDTAtreated apo-Zur gained its DNA binding activity at different concentrations of added zinc for the two promoter groups, corresponding to
+free zinc concentrations of 4.5 × 10−16 M and 7.9 × 10−16 M for the
+less sensitive and sensitive promoters, respectively. The graded expression of target genes is a clever outcome of subtly modulating
+Zur-DNA binding afﬁnities in response to zinc availability. It enables
+bacteria to detect metal depletion with improved sensitivity and
+optimize gene-expression pattern.
+ferric uptake regulator
+
+| graded transcription regulation | regulatory metal
+
+V
+
+arious transition metal ions are essentially required for cell
+growth and survival because they stabilize the folded conformations or mediate chemical reactions of metalloproteins,
+which constitute about one-third of all proteins (1, 2). Zinc is an
+abundant transition metal that serves as a cofactor for diverse
+enzymes and regulatory proteins. It is estimated that about 5% to
+10% of all proteins predicted from the genomes of all three
+domains of life are zinc-proteins (3). In Escherichia coli the total
+zinc content inside the cell is reported to be in the millimolar range,
+whereas the zinc-responsive transcriptional regulators respond to
+femtomolar (fM) range of free zinc, reﬂecting its dramatic zincbinding capacity and sensitive regulation (4). In bacteria, zinc
+homeostasis is regulated primarily by zinc-speciﬁc regulators of the
+ferric uptake regulator (Fur) family (Zur), MerR family (ZntR),
+and ArsR/SmtB family (SmtB, CzrA) (5). In E. coli, zinc uptake
+genes are repressed by Zur, whereas export genes are activated by
+ZntR, in femtomolar concentration ranges of free zinc (4). In many
+bacteria, zinc depletion causes inactivation of zinc-speciﬁc Zur to
+derepress zinc transporter genes (6). In Gram-positive bacteria,
+genes for zincless ribosomal proteins are derepressed to replace
+zinc-bound paralogs as a way of mobilizing zinc (7–12). Coelibactin, a putative zincophore, has been recently reported to be
+regulated by Zur in Streptomyces coelicolor (13, 14). In addition,
+Zur can also act as a direct activator to induce a zinc-export system
+in Xanthomonas campestris (15).
+www.pnas.org/cgi/doi/10.1073/pnas.1017744108
+
+The Fur family members, widely distributed among bacteria,
+are versatile metalloregulators that respond to diverse transition
+metals, such as iron, zinc, manganese, and nickel (16, 17). The
+mechanisms of metal-speciﬁcity and metal-mediated activity
+modulation have been extensively investigated, revealing some
+common and speciﬁc principles among members of this family.
+Crystal structures of several metal-bound Fur regulators have
+been reported for iron-responsive Fur from Pseudomonas aeruginosa (PaFur) (18) and Vibrio cholerae (VcFur) (19), zincresponsive Zur from Mycobacterium tuberculosis (MtZur) (20),
+nickel-responsive Nur from S. coelicolor (ScNur) (21), and peroxide-sensing PerR from Bacillus subtilis (BsPerR) (22). All of the
+available structures demonstrate that the Fur family members are
+homodimeric and each monomer consists of an N-terminal DNAbinding (DB) domain, a C-terminal dimerization (D) domain, and
+a hinge loop between the two. Metal-bound functional proteins
+usually exhibit two metal-binding sites. One site lies in the interdomain hinge-loop region (M-site). The other resides in the Ddomain, constructed by either four conserved cysteines near the
+C terminus (C-site) or residues at the surface of the D-domain
+pointing toward the hinge region (D-site). Structural comparison
+between inactive apo- and metallated active forms of BsPerR
+suggested that regulatory metal binding causes DB-domains to
+swing around the hinge region with respect to the D-domain, from
+an open (swung-out) to closed (converged) conformations (22–
+24). This process leads to a model that the rearrangement of DBdomains by binding a regulatory metal in the hinge region is responsible for the allosteric transition of all Fur family regulators,
+from the inactive open conformation to the active closed one (23).
+In this respect, the presence of three metal (Zn) binding sites
+determined from the structural study of MtZur (20) has been
+hard to interpret. The reported structure assumes an open dimeric conformation inadequate for DNA-binding, despite zinc
+occupation of the M-site in the hinge region. Here, we present
+the active conformation of zinc-bound Zur that assumes the
+closed conformation suitable for DNA-binding, on the basis of
+the 2.4 Å resolution crystal structure of S. coelicolor Zur (ScZur).
+Through mutational and functional studies, we reveal that ScZur
+contains two regulatory metal sites (M- and D-sites) in addition
+to one structural one (C-site). Functional role of two regulatory
+
+Author contributions: J.-H.S., H.J.J., Y.-B.C., S.-S.C., and J.-H.R. designed research; J.-H.S.,
+H.J.J., Y.J.A., and S.-S.C. performed research; J.-H.S. and J.-H.R. contributed new reagents/
+analytic tools; J.-H.S., H.J.J., Y.J.A., Y.-B.C., S.-S.C., and J.-H.R. analyzed data; and J.-H.S.,
+S.-S.C., and J.-H.R. wrote the paper.
+The authors declare no conﬂict of interest.
+This article is a PNAS Direct Submission.
+J.D.H. is a guest editor invited by the Editorial Board.
+Data deposition: The sequences in this paper have been deposited in PDB (Code
+number 3MWM).
+1
+
+J.-H.S. and H.J.J. contributed equally to this work.
+
+2
+
+To whom correspondence may be addressed. E-mail: jhroe@snu.ac.kr or chajung@kordi.
+re.kr.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1017744108/-/DCSupplemental.
+
+PNAS | March 22, 2011 | vol. 108 | no. 12 | 5045–5050
+
+MICROBIOLOGY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Edited by John D. Helmann, Cornell University, Ithaca, NY, and accepted by the Editorial Board February 9, 2011 (received for review December 1, 2010)
+
+metal sites and its implication for differential expression of Zur
+target genes are presented.
+Results
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Overall Structure of ScZur with a Closed Conformation. ScZur is
+a homodimer with a modular architecture similar to previously
+determined Fur-family members. DB-domain (residues 1–77)
+with the winged helix motif consists of a three-helical bundle and
+a two-stranded sheet (Fig. 1A, H1–H3 and S1–S2). The D-domain
+(residues 86–145) has a three-stranded sheet (Fig. 1A, S3–S5)
+with a long helix (Fig. 1A, H4) and a short 310 helix (Fig. 1A, H5)
+on opposite edges of the sheet, respectively. In the dimeric
+structure, two D-domains build up the dimeric core where two
+three-stranded sheets from each D-domain are combined to form
+a six-stranded intermolecular sheet. Two DB-domains are positioned below the dimeric core (Fig. 1A), generating the arch shape
+of the dimeric ScZur.
+The anomalous scattering from zinc was exploited to determine
+the number and the position of zinc sites. There are three zincbinding sites in each monomer of ScZur; site 1 (M), site 2 (C), and
+site 3 (D) (Fig. 1B). Each site accommodates a zinc ion with the
+tetrahedral geometry. The M-site at the domain interface is
+formed by Asp65 from the DB-domain (S1), Cys79 and His85
+from the hinge loop, and His87 from the D-domain (S3). The Csite is constructed by four cysteines (Cys90, Cys93, Cys130, and
+Cys133) at one end of the D-domain. The D-site is located at the
+other end of the D-domain, where His84, His86, Glu105, and
+His122 participate in zinc coordination.
+Effect of Mutations in Sporulation of S. coelicolor. To ﬁnd the contribution of various residues, especially metal-coordinating ones
+identiﬁed by the crystal structures of ScZur and other Fur family
+members, we made substitution mutants of ScZur. Cysteine residues were changed to serines, and others were changed to alanines to create variants such as E28A, F29A, R30A, H36A, H41A,
+D65A, R68A, E71A, R77A, C79S, H84A, H85A, H86A, H87A,
+C90S, C93S, E98A, E105A, H115A, H122A, C130S, and C133S.
+The position of 22 mutated residues was presented in the 3D
+structure (Fig. 2A) and in the primary sequence of ScZur aligned
+with other Fur family members (SI Appendix, Fig. S1).
+In contrast to wild-type S. coelicolor, which forms gray-green
+spores on soya ﬂour mannitol (SFM) plates, the Δzur mutant did not
+sporulate, forming only aerial mycelia of a white puffy appearance.
+This phenotype has been proposed to result partly from overexpression of a Zur target gene SCO7682, encoding a putative zincophore called coelibactin (13, 14). When the wild-type zur gene was
+introduced to Δzur on a pSET162-based vector, it enabled sporulation, restoring gray-green colors of the colony (Fig. 2B, WT). We
+used this complementation analysis as a way to judge functionality of
+Zur in S. coelicolor. Introduction of various mutant genes revealed
+that some mutations did not restore sporulation, suggesting that they
+lost functionality with respect to sporulation and possibly SCO7682
+regulation. The nonfunctional mutations were F29A, R77A, C79S,
+H85A, H87A, C90S, C93S, C130S, and C133S, retaining white colors
+
+A
+
+B
+
+5046 | www.pnas.org/cgi/doi/10.1073/pnas.1017744108
+
+of the colonies. The other mutations appeared as nearly functional as
+the wild-type gene, showing light to deep gray-green colors. The
+nonfunctional mutations all resided at the C- or M-site, except for
+F29A and R77A, which are at the interdomain interface and thus
+very likely to affect domain arrangement.
+Effect of ScZur Mutations on Target-Gene Expression. We then
+monitored the effect of mutations on the expression of three
+target genes of Zur. Transcripts from the znuA gene, encoding
+a component of zinc-uptake system, rpmG2, encoding a zinc-less
+paralog of ribosomal protein L33, and SCO7682, encoding coelibactin, were analyzed by S1 mapping. Fig. 3 shows representative
+results for three genes, indicated with average values obtained
+from three independent experiments. (The quantiﬁed data with
+SDs was presented in SI Appendix, Fig. S2.) The three genes were
+all derepressed in an Δzur mutant by 14-, 29-, and 33-fold, relative
+to the wild-type. Introduction of a wild-type zur gene to the Δzur
+mutant successfully repressed all gene expression. To our surprise, however, the effect of each mutation on repressing target
+genes was varied, depending on targets. The znuA gene expression
+was affected very sensitively by mutations, whereas rpmG2 and
+SCO7682 were affected less sensitively. For example, 15 mutations affected znuA expression by more than twofold, whereas 8 or
+9 mutations affected rpmG2 or SCO7682 by more than twofold. In
+other words, transcription from the znuA gene responded more
+sensitively to changes in Zur than did the other two genes.
+We categorized the mutations into three or four groups based
+on the extent of their effect. The critical residues that abolished
+Zur activity to derepress all three genes by more than 10-fold are
+Cys79 and Cys90, which constitute the C-site. Important residues
+that affected Zur activity in all three genes by more than twofold
+are Phe29, Arg77, His85, His87, Cys93, and Cys130. Cys133
+mutation affected two genes. The rest (His36, Asp65, His84,
+His86, Glu98, and Glu105) affected only the znuA expression,
+implying that they serve a more subtle role in modulating Zur
+activity. Interestingly, the critical and important residues that
+affected all three genes constitute the M- or C-site, except Phe29
+and Arg77, whereas the subtly modulating residues are at the Dsite (His84, His86, Glu105), near the M-site (Glu98), or in the
+DB-domain (His36, Asp65). The effect of each residue on the
+function of Zur to enable sporulation and transcriptional regulation is summarized in SI Appendix, Table S2. The residues that
+affected all three genes also affected spore-formation.
+Role of Each Metal-Binding Site. To delineate the role of each
+metal-binding site in forming an active Zur structure, we performed biochemical and spectroscopic analyses of wild-type and
+mutant Zur proteins. The C79S, C90S, and H84A mutants were
+examined as representatives of M-, C-, and D-site mutations, respectively. Gel permeation chromatography through a Superdex
+75 column indicated that C90S variant does not form dimers,
+whereas others do (12) (SI Appendix, Fig. S3). Electrophoresis on
+SDS/PAGE also demonstrated that C90S variant does not form
+dimers (Fig. 4A). Circular dichroism spectroscopy revealed that
+
+Fig. 1. Structure of ScZur. (A) Overall structure of ScZur determined at 2.4 Å resolution. The D- and DB-domains are
+colored by yellow and cyan, respectively. The hinge loop is in
+red. Zinc ions and metal-coordinating residues are represented by spheres and sticks, respectively. Pink, green, and
+blue spheres indicate zinc ions bound to the D-, M-, and Csites, respectively. For clarity, secondary structure elements
+for one monomer are labeled. (B) Electron-density maps
+of three zinc-binding sites. Stereoview of the ﬁnal 2Fo − Fc
+electron density maps contoured at 1σ, showing the M-, C-,
+and D-sites. Zn and Zn-coordinating residues are shown in
+spheres and sticks, respectively.
+
+Shin et al.
+
+B
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 2. Sporulation phenotype of various zur mutants. (A) The Cα atoms of
+22 mutated residues are indicated as small spheres in 3D structure of ScZur
+drawn by transparent cartoon. Large spheres colored in pink, green, and
+blue represent zinc ions bound to the D-, M-, and C-sites, respectively. For
+clarity, one monomer is colored in white. The orientation is identical to Fig.
+1A. (B) Activity of Zur variants to allow sporulation of Δzur mutant. About
+1 × 105 spores of M145 (wild-type) and various Zur variant strains were
+streaked on SFM. Photos were taken at 7 d after inoculation. Mutants that
+do not restore sporulation remained white (underlined).
+
+both the C79S and H84A mutants gave nearly identical spectra as
+the wild-type, whereas the C90S mutant gave a remarkably different spectrum (SI Appendix, Fig. S4). All these results indicate
+that the C90S mutation caused signiﬁcant changes in secondary
+structure, consistent with the loss of dimerization. Therefore, zinc
+binding to the C-site serves a structural role. We then measured
+the metal content of various Zur preparations by inductively
+coupled plasma atomic emission spectroscopy (SI Appendix, Table S3). The average stoichiometry of zinc per monomeric Zur
+was 2.4 for the wild-type, 1.5 for H84A, 1.0 for C79S, 0.25 for
+C90S, and 1.2 for EDTA-treated apo-Zur. The observed amounts
+of zinc support the presence of more than two zinc-binding sites,
+structural importance of the C-site, and the more subtle role of
+the D-site compared with the M-site.
+We then measured the ability of each Zur variant to bind different target promoter probes by EMSA. In addition to the three
+genes examined above, a probe for rpmF2 that encodes a paralogue of ribosomal protein L32 was included in this assay. Plotting
+of the autoradiographic gel data (SI Appendix, Fig. S5) revealed
+characteristic binding curves (Fig. 4 B–D). The apparent binding
+afﬁnity (KD) of the wild-type, presented as the concentration of
+Zur at 50% up-shift of DNA probes, was stronger for rpmG2 and
+SCO7682 (17.7 and 17.6 nM) than for znuA and rpmF2 (74.9 and
+68.3 nM) (Fig. 4B and SI Appendix, Fig. S5). The difference in
+DNA binding afﬁnity parallels the differential sensitivity of gene
+expression to mutations in vivo (Fig. 3). The C79S mutation nearly
+abolished DNA binding to all promoters. On the other hand, the
+H84A mutation reduced DNA binding afﬁnities of all promoters
+in the order of rpmF2 (by 61-fold), SCO7682 (19-fold), znuA (11fold), and rpmG2 (7-fold). The sensitive promoter rpmF2 was
+affected most, whereas the less sensitive promoter rpmG2 was
+affected least. The results suggest that the H84A mutation can
+also affect the nearby M-site, but they clearly reveal the potential
+
+of modulating the D-site to achieve differential induction of
+target genes.
+Differential Expression of Zur Target Genes on Zinc Depletion. We
+then explored whether each target gene responds to different
+concentrations of zinc. For this purpose, we treated cells with [N,
+N,N′,N′-Tetrakis-(2-pyridylmethyl) ethylenediamine] (TPEN),
+a potent zinc-chelator, at varying concentrations for 5 min, and
+analyzed transcripts by S1 mapping. The results in Fig. 5A
+demonstrate that znuA and rpmF2 genes are induced at lower
+TPEN, reaching nearly full induction at 4 μM TPEN with about
+93% of the maximal level at 50 μM treatment. In contrast,
+rpmG2 and SCO7682 genes responded less sensitively to TPEN,
+with about 28% and 22% of full induction, respectively, at 4 μM
+TPEN. Even at 50 μM TPEN, 5-min incubation allowed only
+65% and 48% of induction at 40 min, respectively. This differential zinc-dependent induction pattern echoes the differential
+sensitivity of promoters toward Zur mutations. We then examined the effect of TPEN on Zur-DNA binding in vitro. EMSA
+analysis revealed that Zur-DNA complexes on znuA and rpmF2
+promoters dissociated at lower TPEN (1.5–2 μM at 50% dissociation) than those on rpmG2 and SCO7682 (5.6 μM TPEN)
+(Fig. 5 B and C). The EMSA results coincide with a differential
+gene-expression pattern in vivo, indicating that graded modulation of Zur activity by zinc lies behind differential expression of
+its targets.
+Activation of Promoter-Binding Activities of Zur Occurs at Two Different Zinc Concentrations in Vitro. We then tried to estimate the
+
+zinc concentration ranges that Zur senses to regulate different
+genes. For this purpose, we determined the concentration of
+added zinc that conferred DNA-binding activity to apo-Zur that
+lacks regulatory metals because of EDTA treatment (SI Appendix,
+Table S3). DNA-binding curves were obtained for each promoter
+as a function of added ZnSO4 in the presence of a metal buffer
+TPEN, as described by Outten and O’Halloran (4). Fig. 6 demonstrates clearly that binding to the two sets of promoters occurred at different zinc concentration ranges. Zur bound to the
+sensitive genes (znuA, rpmF2) at higher zinc (∼3.8 μM at 50%
+binding) than to the others (at ∼3.2 μM). In the presence of 5 μM
+TPEN, these values correspond to free-zinc concentrations of
+7.8 × 10−16 M and 4.5 × 10−16 M, respectively, reﬂecting two
+different binding afﬁnities to Zur (4) (www.stanford.edu/∼cpatton/
+webmaxc/webmaxcS.htm). These values are comparable with the
+value (∼0.2 fM) observed for E. coli Zur (4). However, it is evident in
+this study that ScZur responds to at least two different concentration
+ranges, albeit not drastically apart.
+Discussion
+Regulatory Role of M- and D-sites in Zur. Through mutation studies,
+we demonstrated that zinc binding to the C-site ensures dimeric
+structural integrity of Zur. This observation coincides with previous reports that zinc binding ensures dimeric structure for Fur
+from E. coli (25, 26) and that the Cys4-Zn site, which corresponds to the C-site, is critically required to maintain dimeric
+
+Fig. 3. Effect of various Zur mutations on the expression of
+three target genes in vivo. S1 mapping of znuA, rpmG2 and
+SCO7682 transcripts. RNA samples for S1 mapping were prepared from the same strains used in Fig. 2. The amount of S1protected band was presented relative to the level in wild-type
+(M145) cells containing parental vector (pSET162), as an average value from three independent experiments.
+
+Shin et al.
+
+PNAS | March 22, 2011 | vol. 108 | no. 12 | 5047
+
+MICROBIOLOGY
+
+A
+
+A
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+C
+
+B
+
+Fig. 4. Contribution of each metal-binding site on structural
+integrity and DNA-binding activity of ScZur. (A) Gel electrophoresis of puriﬁed Zur proteins. Wild-type and mutated Zur
+proteins (7 μg) were subjected to 13% SDS/PAGE. To visualize
+dimeric forms better, boiled samples in SDS-loading dye were
+mixed with nonboiled protein before loading. C79S, C90S,
+and H84A variants represent mutations in the M-, C-, and Dsites, respectively. (B–D) Zur-DNA binding was examined by
+EMSA for different Zur variants and promoters (SI Appendix,
+Fig. S5). Each labeled promoter probe of 100 bp (■ PznuA, ▲
+PrpmF2, □ PrpmG2, and ○ PSCO7682) was incubated with
+increasing amounts of puriﬁed Zur of WT (B), C79S (C), and
+H84A (D) mutant form. A fraction of shifted (bound) DNA
+probes was plotted against Zur concentration, the plot was
+ﬁt to a binding curve of Hill equation (connected lines).
+
+D
+
+structure of BsPerR and Fur from Helicobacter pylori (HpFur)
+(27, 28). On the other hand, mutations at M- and D-sites did not
+affect dimerization as well as the characteristics of secondary
+structure. Therefore, it can be safely assumed that both M- and
+D-sites serve regulatory roles to modulate Zur activity. D-site
+occupation has been observed in PaFur (18) and VcFur (19). In
+these iron-responsive Fur proteins, the conserved C-terminal
+cysteines are lacking, and metals were found to occupy M- and
+D-sites. Because D-sites are occupied by zinc and M-sites can
+accommodate iron, the D-site in these proteins is regarded to
+serve a structural role. On the other hand, a recent report on the
+structure of active zinc-bound variant of HpFur, which contains
+C-terminal cysteines, revealed the occupation of the D-site in
+addition to M- and C-sites (29). In this structure, the D-site
+metallation has been proposed to be nonessential for DNAbinding, but to serve a secondary role to modulate binding afﬁnity, consistent with what we discovered in the present study.
+Although the domain structures of ScZur are virtually identical to those of MtZur, a remarkable difference exists between
+
+dimeric conformations of the two structures. ScZur assumes an
+arch-shaped DNA binding-competent closed conformation,
+whereas MtZur is reported to assume an inactive open conformation (20). In this context, the difference in metal content at
+the D-site between the two Zur proteins attracts our attention.
+According to the structural report of MtZur, a zinc ion at the Dsite was reﬁned with a low occupancy because of an initially high
+temperature factor (20). In contrast, the temperature factor and
+the occupancy of a zinc ion at the D-site in ScZur are comparable to those of coordinating residues, clearly indicating the
+presence of a zinc ion at the D-site. The fact that His84 in the
+hinge loop participates in metal coordination at the D-site (Fig.
+1A) suggests that metal-binding to this site may affect the metalinduced swing motion of the DB-domain.
+Based on our observations, we postulate a simpliﬁed model for
+modulating Zur activity through two regulatory zinc sites. Zinc
+binding to the M-site at the interdomain hinge loop activates Zur
+to bind its targets. Because the M-site has been revealed to accommodate various divalent cations, such as zinc, nickel, man-
+
+A
+
+B
+
+C
+
+5048 | www.pnas.org/cgi/doi/10.1073/pnas.1017744108
+
+Fig. 5. Differential sensitivity of Zur target genes to zinc
+chelation in vivo and in vitro. (A) The wild-type cells grown
+in liquid YEME to early exponential phase were treated
+with various concentrations of TPEN from 2 to 50 μM (ﬁnal) for 5 min, or for 40 min at 50 μM to allow full derepression. RNA samples were analyzed by S1 mapping.
+Average values from three independent experiments were
+indicated at the bottom of each lane, with the value of the
+nontreated sample set as 1.0. (B and C) Effect of TPEN on
+Zur-DNA binding in vitro. Each of four promoter DNA
+probes was incubated with WT-Zur (340 nM ﬁnal) with
+increasing amounts of TPEN (0 to ∼25 μM), and subjected
+to EMSA. Representative gel images with average KD
+values (B) and binding curves (C) from three independent
+experiments are presented.
+
+Shin et al.
+
+ganese, and iron, in diverse active Fur family members (18, 19,
+22, 23), it ﬁts the previously proposed activation model (23).
+Without M-site occupation, Zur cannot bind and repress any of
+its target genes, causes disturbance in zinc homeostasis, and
+affects sporulation, most likely because of elevated synthesis of
+coelibactin (13). Nevertheless, it appears that M-site occupation
+may not be sufﬁcient to guarantee binding to all target genes of
+Zur. The in vivo and in vitro observations that the D-site mutations affected target genes differently and that a higher amount
+of zinc was needed to allow Zur to bind to the more sensitive
+promoters (znuA and rpmF2) can be interpreted to imply that
+additional zinc binding to the D-site is needed to repress some
+targets, such as the sensitive group of genes. Therefore, in this
+model, the M- and D-sites can serve as an on-off switch and
+a tuner, respectively, for activity modulation. However, considering that Zur binds to its target sites with different afﬁnity and
+that the presence of bound DNA can affect zinc-binding afﬁnity of Zur, the more sensitive induction of a subset of genes upon
+smaller zinc depletion can be speculated to arise also from
+the weaker afﬁnity of sensitive promoters to Zur. Even though
+the precise mechanism is currently beyond our understanding,
+the combined effect of two regulatory metal-binding sites and
+differential DNA-binding afﬁnity of Zur seems to be behind the
+scenes. Even though we formulated the model based on negatively regulated target genes of Zur as a repressor, it can also be
+applied for positively regulated genes by Zur as an activator. No
+such gene has been reported yet in S. coelicolor, but we expect
+these genes exist, considering the example of positively regulated
+zinc-exporter gene by Zur in Xanthomonas (15).
+Graded Expression of Metal-Sensitive Genes in Accordance with
+Metal Availability. The sensitive induction of a ZnuACB zinc
+
+transporter system and the ribosomal L32 paralog ahead of L33
+paralog and coelibactin reﬂects the presence of a graded expression of metal-responsive genes in accordance with metal
+availability. The concentration range of free zinc, over which
+ScZur responds to modulate transcription of the four studied
+genes, spans from around 0.78 to 0.45 fM. Even though this is
+not a wide range, our ﬁnding clearly demonstrates that Zur
+differentially regulates its regulon members depending on the
+amount of available zinc. In E. coli, Zur responds to ∼0.2 fM of
+free zinc to regulate the zinc uptake gene (znuC), whereas ZntR
+responds to ∼1.2 fM zinc to regulate the zinc export gene (zntA)
+(4). This ﬁnding gives an idea about the range of free intracellular zinc over which E. coli responds to modulate its zincShin et al.
+
+Materials and Methods
+Bacterial Strains and Culture Conditions. S. coelicolor strains M145 (wild-type),
+Δzur, or Δzur with chromosomally integrated zur gene (wild-type or sitespeciﬁc mutant), were routinely grown in YEME liquid media with 10.3%
+sucrose (36). To cause zinc-depletion, various concentrations of TPEN were
+added at 2 to 50 μM (ﬁnal) to exponentially growing cells in YEME for 5 or
+40 min. For surface culture and to obtain spores, SFM media was used (36).
+For Δzur mutants, which scarcely form spores, 30 SFM plates were grown to
+obtain about 5 × 108 spores, whereas only one SFM plate was sufﬁcient to
+obtain 1 × 109 spores for wild-type strains. For PCR-targeted mutagenesis, E.
+coli BW25113 with pIJ790 plasmid were used as recommended (37). E. coli
+ET12567 with pUZ8002 plasmid were used for conjugal transfer (38).
+Preparation of ScZur Proteins. Wild-type, C79S, C90S, and H84A mutant Zur
+proteins were puriﬁed from E. coli BL21 (DE3) cells containing pET3a-based
+recombinant plasmid, as previously described, with some modiﬁcations (12).
+EDTA was omitted in the buffer, except for preparing apo-Zur (SI Appendix).
+For gel electrophoresis to detect oligomerization status, samples of 7 μg each
+of puriﬁed Zur protein were used. Proteins boiled at 95 °C were mixed with
+the same amount of nonboiled proteins before 13% SDS/PAGE at 80 V (39).
+Crystallization, Structure Determination, and Reﬁnement. Crystals were obtained at 23 °C by the batch crystallization method with mother liquors of
+15% PEG 3350 (wt/vol), 0.1 M magnesium formate, 0.1 M Bis-Tris (pH 6.5),
+and 0.8 mM CHAPSO. The crystals belonged to the space group C2 with cell
+parameters a = 103.6, b = 36.98, c = 71.65 Å, and β = 103.26°. For data collection, crystals were frozen at −170 °C after a brief immersion in a cryoprotectant solution containing 15% ethylene glycol in the same mother
+liquor. A 2.4 Å dataset (SI Appendix, Table S1) was collected at beamline 17A
+at Photon Factory. The model building was performed using COOT and reﬁnement was done with a maximum-likelihood algorithm implemented in
+CNS (SI Appendix, Table S1). The structure was determined by molecular
+replacement using MolRep in the CCP4 program suite. Structures of DB- and
+D-domains in MtZur were separately used as search models. That is, two
+independent models were used to obtain phasing information. Several
+
+PNAS | March 22, 2011 | vol. 108 | no. 12 | 5049
+
+MICROBIOLOGY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 6. Concentration ranges of zinc that activate Zur binding to different
+promoters. Each promoter DNA probe was incubated with EDTA-treated
+apo-Zur in the presence of varying amounts of ZnSO4 (0–5 μM) and 5 μM
+TPEN in the binding buffer for 1 h. Following EMSA (SI Appendix, Fig. S6),
+the percent of bound DNA was plotted against added zinc, and the data
+were ﬁt to the Hill equation. Average values with SDs were obtained from
+six independent experiments. The micromolar concentrations of ZnSO4 at
+50% binding were 3.83 ± 0.14 for znuA, 3.81 ± 0.16 for rpmF2, 3.25 ± 0.20
+for rpmG2, and 3.26 ± 0.18 for SCO7682. The calculated concentration of
+free zinc was indicated in fentomolar on the parallel x axis.
+
+responsive factors. In S. coelicolor, no zinc export system has yet
+been reported, even though genome sequence predicts sequence
+homologs of ZntA, ZntR, and several P-type ATPases. Future
+studies on zinc-speciﬁc export systems and their regulators will
+provide complementing information on the range of zinc over
+which this organism responds to control transcription.
+Behind the differential sensitivity of promoters to Zur activity
+modulation by zinc lie the differences in Zur-binding afﬁnities of
+the two groups of promoters (Fig. 4B). We tried to ﬁnd any characteristic sequence information in the promoter region, such as the
+number of and sequence similarity to consensus Zur-box (SI Appendix, Fig S7). No obvious sequence patterns correlated with
+binding afﬁnities. Expression of different tiers of genes has been
+observed in a number of stress responses in response to the extent
+of stressors, such as heat and oxidants. However, in most cases the
+modulation is mediated by different sensor-regulators that detect
+different range or intensity of stimuli. For example, in E. coli, where
+heat-shock response is primarily mediated by a heat-shock σ factor
+RpoH (σ32), heat at 42 °C increases the amount of RpoH to govern
+heat response, whereas extreme heat at around 50 °C requires an
+additional heat shock factor RpoE (σ24) (30–32). In ﬁssion yeast
+Schizosaccharomyces pombe, responses to low and high levels of
+peroxide are modulated by Pap1 and Atf1, respectively (33). Differential activation of target genes by a single regulator (Zap1) in
+response to zinc deﬁciency has been reported in Saccharomyces
+cerevisiae (34), where the elucidation of an underlying mechanism is
+awaited. Activity modulation through two regulatory metal-binding
+sites in Zur extends the versatility of this regulator to allow graded
+expression of target genes in response to expanded concentration
+ranges of zinc. This mechanism will be beneﬁcial for bacteria in all
+zinc-limiting environments, including those in animal hosts where
+zinc depletion is exploited as a defense mechanism against invading
+pathogens (35). There also remains a possibility that a similar
+principle abides in other metalloregulators, waiting to be examined.
+
+rounds of reﬁnement and remodeling produced a ﬁnal model reﬁned to R
+and Rfree values to 21.4% and 24.9%, respectively.
+Site-Speciﬁc Mutagenesis of zur and Introduction to Δzur Cells. The template
+plasmid containing the entire coding region of zur was constructed in pGEMTeasy vector (Promega), resulting in pSJ703. Site-speciﬁc mutagenesis was
+done with QuixChange mutagenesis kit (Stratagene). Twenty-two pairs of
+mutagenic primers were synthesized to change codons for cysteines to serines, and other amino acids to alanines. The mutated genes were veriﬁed by
+DNA sequencing, and recloned into pET3a (for pSJ704 series) and pSET162
+(a derivative of pSET151, for pSJ705 series) plasmids for in vitro and in vivo
+studies, respectively. The ﬁnal clones were conﬁrmed again by DNA sequencing. The pSET162-based recombinant plasmids were introduced into
+Δzur mutant of S. coelicolor by conjugal transfer, and the correct exconjugants were selected on antibiotics plates according to standard procedures
+(36). Each representative conjugant was isolated from a single colony, and
+conﬁrmed by nucleotide sequencing of PCR products.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+S1-Mapping Analysis. RNA samples were prepared from wild-type and Δzur cells
+harboring chromosomally integrated copies of wild-type and mutated zur
+genes. Preparation of RNA, PCR ampliﬁcation of gene-speciﬁc probes, radiolabeling of 5′ ends by 32P, and S1-mapping analysis were done as described
+previously (12) and in the SI Appendix. Quantiﬁcation of S1-protected bands
+was done through phosphor screen and image analyzer (FLA-2000; Fuji).
+
+ends with [γ-32P] ATP using T4 polynucleotide kinase. The binding reaction
+was carried out by incubating ∼3.07 fmol of labeled DNA with varying
+amounts (6.8 fmol ∼27.84 pmol) of puriﬁed Zur proteins as isolated in 20 μL
+of binding reaction buffer [20 mM Tris-HCl (pH 7.8), 50 mM KCl, 1 mM DTT,
+0.1 mg of BSA/mL, 5% glycerol, 0.1 μg of poly (dI-dC)] for 1 h at room
+temperature. For zinc-depletion experiments, further incubation with TPEN
+(up to 25 μM, 30 min) was carried out, followed by gel electrophoresis (12).
+For zinc-addition experiments, DNA probes were preincubated in binding
+reaction buffer with added ZnSO4 (up to 5 μM) and 5 μM TPEN for 30 min
+before adding EDTA-treated apo-Zur (170 nM), followed by further incubation (1 h) and electrophoresis. The dried gels were exposed and quantiﬁed by a phosphorimage analyzer (BAS-2500; Fujiﬁlm). We combined
+signals from all shifted bands for obtaining bound fraction, and the nonshifted band for nonbound fraction. Digitalized data were ﬁt to binding
+curves through SigmaPlot 2001 program (SPSS Inc.). Apparent KD values,
+corresponding to the concentration of variables (Zur, TPEN, or ZnSO4) at
+half-maximal upshift of DNA probes, were determined from at least three
+independent sets of experiments.
+
+Zur-DNA Binding Analysis-EMSA. Each promoter DNA probe of ∼100 bp
+containing Zur binding sites was prepared by PCR, using primer pairs as
+detailed in SI Appendix, Fig. S7. Puriﬁed PCR products were labeled at 5′
+
+ACKNOWLEDGMENTS. The authors thank Dr. Bairagi Mallick and Dr. Caryn
+Outten for circular dichroism spectroscopy and advice on free-zinc calculations,
+respectively. This work was supported by Grant NRF-2009-0079278 from the
+National Research Laboratory of Molecular Microbiology (to J.-H.R.); the Marine
+and Extreme Genome Research Center program, the Development of Biohydrogen Production Technology Using Hyperthermophilic Archaea program of
+the Ministry of Land, Transport, and Maritime Affairs, and the National Research
+Foundation of Korea Grant 2009-0084757 (to S.-S.C.); and a BK21 postdoctoral
+fellowship for Life Sciences at Seoul National University (to J.-H.S.).
+
+1. Waldron KJ, Rutherford JC, Ford D, Robinson NJ (2009) Metalloproteins and metal
+sensing. Nature 460:823–830.
+2. Andreini C, Bertini I, Cavallaro G, Holliday GL, Thornton JM (2008) Metal ions in
+biological catalysis: From enzyme databases to general principles. J Biol Inorg Chem
+13:1205–1218.
+3. Andreini C, Banci L, Bertini I, Rosato A (2006) Zinc through the three domains of life. J
+Proteome Res 5:3173–3178.
+4. Outten CE, O’Halloran TV (2001) Femtomolar sensitivity of metalloregulatory proteins
+controlling zinc homeostasis. Science 292:2488–2492.
+5. Giedroc DP, Arunkumar AI (2007) Metal sensor proteins: Nature’s metalloregulated
+allosteric switches. Dalton Trans 29:3107–3120.
+6. Hantke K (2005) Bacterial zinc uptake and regulators. Curr Opin Microbiol 8:196–202.
+7. Akanuma G, Nanamiya H, Natori Y, Nomura N, Kawamura F (2006) Liberation of zinccontaining L31 (RpmE) from ribosomes by its paralogous gene product, YtiA, in
+Bacillus subtilis. J Bacteriol 188:2715–2720.
+8. Maciag A, et al. (2007) Global analysis of the Mycobacterium tuberculosis Zur (FurB)
+regulon. J Bacteriol 189:730–740.
+9. Nanamiya H, et al. (2004) Zinc is a key factor in controlling alternation of two types
+of L31 protein in the Bacillus subtilis ribosome. Mol Microbiol 52:273–283.
+10. Owen GA, Pascoe B, Kalliﬁdas D, Paget MS (2007) Zinc-responsive regulation of
+alternative ribosomal protein genes in Streptomyces coelicolor involves zur and
+sigmaR. J Bacteriol 189:4078–4086.
+11. Panina EM, Mironov AA, Gelfand MS (2003) Comparative genomics of bacterial zinc
+regulons: Enhanced ion transport, pathogenesis, and rearrangement of ribosomal
+proteins. Proc Natl Acad Sci USA 100:9912–9917.
+12. Shin JH, Oh SY, Kim SJ, Roe JH (2007) The zinc-responsive regulator Zur controls a zinc
+uptake system and some ribosomal proteins in Streptomyces coelicolor A3(2). J
+Bacteriol 189:4070–4077.
+13. Hesketh A, Kock H, Mootien S, Bibb M (2009) The role of absC, a novel regulatory
+gene for secondary metabolism, in zinc-dependent antibiotic production in Streptomyces coelicolor A3(2). Mol Microbiol 74:1427–1444.
+14. Kalliﬁdas D, et al. (2010) The zinc-responsive regulator Zur controls expression of the
+coelibactin gene cluster in Streptomyces coelicolor. J Bacteriol 192:608–611.
+15. Huang DL, et al. (2008) The Zur of Xanthomonas campestris functions as a repressor
+and an activator of putative zinc homeostasis genes via recognizing two distinct
+sequences within its target promoters. Nucleic Acids Res 36:4295–4309.
+16. Lee JW, Helmann JD (2007) Functional specialization within the Fur family of
+metalloregulators. Biometals 20:485–499.
+17. Cha SS, Shin JH, Roe JH (2010) Sensing Metals: The Versatility of Fur in Bacterial Stress
+Responses (ASM Press, Washington, D.C), 2nd Ed, pp 191–204.
+18. Pohl E, et al. (2003) Architecture of a protein central to iron homeostasis: Crystal
+structure and spectroscopic analysis of the ferric uptake regulator. Mol Microbiol 47:
+903–915.
+19. Sheikh MA, Taylor GL (2009) Crystal structure of the Vibrio cholerae ferric uptake
+regulator (Fur) reveals insights into metal co-ordination. Mol Microbiol 72:1208–1220.
+
+20. Lucarelli D, et al. (2007) Crystal structure and function of the zinc uptake regulator
+FurB from Mycobacterium tuberculosis. J Biol Chem 282:9914–9922.
+21. An YJ, et al. (2009) Structural basis for the specialization of Nur, a nickel-speciﬁc Fur
+homolog, in metal sensing and DNA recognition. Nucleic Acids Res 37:3442–3451.
+22. Jacquamet L, et al. (2009) Structural characterization of the active form of PerR:
+Insights into the metal-induced activation of PerR and Fur proteins for DNA binding.
+Mol Microbiol 73:20–31.
+23. Giedroc DP (2009) Hydrogen peroxide sensing in Bacillus subtilis: It is all about the
+(metallo)regulator. Mol Microbiol 73:1–4.
+24. Traoré DA, et al. (2006) Crystal structure of the apo-PerR-Zn protein from Bacillus
+subtilis. Mol Microbiol 61:1211–1219.
+25. Pecqueur L, et al. (2006) Structural changes of Escherichia coli ferric uptake regulator
+during metal-dependent dimerization and activation explored by NMR and X-ray
+crystallography. J Biol Chem 281:21286–21295.
+26. D’Autréaux B, et al. (2007) Reversible redox- and zinc-dependent dimerization of the
+Escherichia coli fur protein. Biochemistry 46:1329–1342.
+27. Lee JW, Helmann JD (2006) Biochemical characterization of the structural Zn2+ site in
+the Bacillus subtilis peroxide sensor PerR. J Biol Chem 281:23567–23578.
+28. Vitale S, et al. (2009) A ZnS(4) structural zinc site in the Helicobacter pylori ferric
+uptake regulator. Biochemistry 48:5582–5591.
+29. Dian C, et al. (2011) The structure of the Helicobacter pylori ferric uptake regulator
+Fur reveals three functional metal binding sites. Mol Microbiol, 10.1111/j.13652958.2010.07517.x.
+30. Raina S, Missiakas D, Georgopoulos C (1995) The rpoE gene encoding the sigma E
+(sigma 24) heat shock sigma factor of Escherichia coli. EMBO J 14:1043–1055.
+31. Rouvière PE, et al. (1995) rpoE, the gene encoding the second heat-shock sigma
+factor, sigma E, in Escherichia coli. EMBO J 14:1032–1042.
+32. Erickson JW, Gross CA (1989) Identiﬁcation of the sigma E subunit of Escherichia coli
+RNA polymerase: a second alternate sigma factor involved in high-temperature gene
+expression. Genes Dev 3:1462–1471.
+33. Quinn J, et al. (2002) Distinct regulatory proteins control the graded transcriptional
+response to increasing H(2)O(2) levels in ﬁssion yeast Schizosaccharomyces pombe.
+Mol Biol Cell 13:805–816.
+34. Wu CY, et al. (2008) Differential control of Zap1-regulated genes in response to zinc
+deﬁciency in Saccharomyces cerevisiae. BMC Genomics 9:370.
+35. Kehl-Fie TE, Skaar EP (2010) Nutritional immunity beyond iron: A role for manganese
+and zinc. Curr Opin Chem Biol 14:218–224.
+36. Kieser T, Bibb MJ, Buttner MJ, Chate KF, Hopwood DA (2000) Practical Streptomyces
+Genetics. (The John Innes Foundation, Norwich, United Kingdom).
+37. Gust B, Challis GL, Fowler K, Kieser T, Chater KF (2003) PCR-targeted Streptomyces
+gene replacement identiﬁes a protein domain needed for biosynthesis of the
+sesquiterpene soil odor geosmin. Proc Natl Acad Sci USA 100:1541–1546.
+38. Mazodier P, Petter R, Thompson C (1989) Intergeneric conjugation between Escherichia
+coli and Streptomyces species. J Bacteriol 171:3583–3585.
+39. Cortes DM, Perozo EP (1997) Structural dynamics of the Streptomyces lividans K+
+channel (SKC1): Oligomeric stoichiometry and stability. Biochemistry 36:10343–10352.
+
+5050 | www.pnas.org/cgi/doi/10.1073/pnas.1017744108
+
+Shin et al.
+
+

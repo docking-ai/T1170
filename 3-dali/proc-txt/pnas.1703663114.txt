@@ -1,0 +1,631 @@
+Structures of the peptide-modifying radical SAM
+enzyme SuiB elucidate the basis of
+substrate recognition
+Katherine M. Davisa, Kelsey R. Schrammaa, William A. Hansenb, John P. Bacika, Sagar D. Khareb,
+Mohammad R. Seyedsayamdosta,c,1, and Nozomi Andoa,1
+a
+Department of Chemistry, Princeton University, Princeton, NJ 08544; bDepartment of Chemistry and Chemical Biology, Rutgers University, New Brunswick,
+NJ 08901; and cDepartment of Molecular Biology, Princeton University, Princeton, NJ 08544
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Edited by Perry Allen Frey, University of Wisconsin–Madison, Madison, WI, and approved August 18, 2017 (received for review March 3, 2017)
+
+Posttranslational modification of ribosomally synthesized peptides
+provides an elegant means for the production of biologically
+active molecules known as RiPPs (ribosomally synthesized and
+posttranslationally modified peptides). Although the leader sequence of the precursor peptide is often required for turnover, the
+exact mode of recognition by the modifying enzymes remains
+unclear for many members of this class of natural products. Here,
+we have used X-ray crystallography and computational modeling
+to examine the role of the leader peptide in the biosynthesis of a
+homolog of streptide, a recently identified peptide natural product
+with an intramolecular lysine–tryptophan cross-link, which is installed by the radical S-adenosylmethionine (SAM) enzyme, StrB.
+We present crystal structures of SuiB, a close ortholog of StrB, in
+various forms, including apo SuiB, SAM-bound SuiB, and a complex of SuiB with SAM and its peptide substrate, SuiA. Although
+the N-terminal domain of SuiB adopts a typical RRE (RiPP recognition element) motif, which has been implicated in precursor peptide recognition, we observe binding of the leader peptide in the
+catalytic barrel rather than the N-terminal domain. Computational
+simulations support a mechanism in which the leader peptide
+guides posttranslational modification by positioning the crosslinking residues of the precursor peptide within the active site.
+Together the results shed light onto binding of the precursor peptide and the associated conformational changes needed for the
+formation of the unique carbon–carbon cross-link in the streptide
+family of natural products.
+radical SAM enzyme
+
+StrB (5). Homologs SuiB and AgaB carry out similar reactions
+(8). As in the production of other RiPPs, streptide biosynthesis
+requires an N-terminal leader sequence preceding the core
+peptide sequence (5) (Fig. 1A, Top). Although such leader sequences are ubiquitous in RiPP precursors, their roles are still
+under scrutiny. Mounting evidence suggests that the leader sequence directly interacts with the tailoring enzymes to act as a
+guide that facilitates the modification (9). Recent crystal structures of the lanthipeptide dehydratase NisB and cyanobactin
+cyclodehydratase LynD have shed light onto leader-sequence
+recognition by RiPP-tailoring enzymes (10, 11). In both structures, the leader peptide forms an extended β-sheet with a domain that contains a winged helix-turn-helix (wHTH) topology,
+which was recently classified by HHPred-based bioinformatics as
+a RiPP precursor peptide recognition element (RRE) (12). Intriguingly, this study further identified the presence of RRE-like
+domains in the majority of prokaryotic RiPP classes, including
+those modified by the so-called SPASM-domain containing
+radical SAM enzymes. Named after founding members subtilosin
+A, pyrroloquinoline quinone (PQQ), anaerobic sulfatase, and
+mycofactocin, this subfamily harbors a Cys-rich C-terminal domain that accommodates binding of one or two additional Fe–S
+clusters. Notably, StrB, AgaB, and SuiB are also members of
+this subfamily.
+Significance
+
+| SPASM domain | RRE domain | RiPP | streptide
+
+Ribosomally synthesized and posttranslationally modified peptides (RiPPs) are an important class of bioactive natural products.
+The tailoring enzymes involved in their biogenesis include radical
+(S-adenosylmethionine) SAM metalloenzymes, which often install unusual modifications. The structural basis for substrate
+recognition in these reactions remains unknown. Herein, we
+present the X-ray crystal structures of a radical SAM enzyme
+involved in RiPP biosynthesis. Our structures identify conformational changes correlated with the binding of peptide-substrate
+and SAM. Surprisingly, we find that the peptide-substrate is not
+associated with the RiPP recognition element (RRE) but rather
+observe key contacts to the active site and an important, previously unidentified, bridging domain. These findings reveal
+unanticipated roles for the RRE and additional domains during
+RiPP biosynthesis by radical SAM enzymes.
+
+P
+
+eptide natural products have had a profound impact on human
+health as sources of antibacterial, anticancer, and antifungal
+therapeutics (1, 2). Broadly speaking, they may be synthesized in a
+ribosome-dependent or -independent manner. The former category comprises the family of ribosomally-synthesized and posttranslationally modified peptides (RiPPs). Recent advancements
+in genome sequencing and bioinformatics have led to the rapid
+discovery of a multitude of RiPPs and their biosynthetic gene
+clusters (3). Unlike nonribosomal peptides, which are assembled
+by large multimodular enzymes (4), RiPP biosynthetic pathways
+are comparatively simple and thus attractive targets for bioengineering (3). Biosynthesis commences with the ribosomal production of a precursor peptide whose core sequence is modified by
+tailoring enzymes. Proteolytic removal of the N- and/or C-terminal
+portions of the peptide, which occurs in most studied cases, followed by export of the mature product, completes RiPP biogenesis. RiPPs encompass structurally and chemically diverse
+subclasses, such as lanthipeptides, cyanobactins, thiopeptides, and
+sactipeptides (3). Most recently, a new subclass of RiPPs was
+identified with the discovery of streptide. It contains an unprecedented lysine–tryptophan carbon–carbon cross-link and is
+produced by many streptococci (5–7).
+Installation of the Lys–Trp cross-link in streptide biosynthesis
+is catalyzed by the radical S-adenosylmethionine (SAM) enzyme
+10420–10425 | PNAS | September 26, 2017 | vol. 114 | no. 39
+
+Author contributions: K.M.D., S.D.K., M.R.S., and N.A. designed research; K.M.D., K.R.S.,
+W.A.H., and N.A. performed research; K.M.D., W.A.H., J.P.B., and N.A. analyzed data; and
+K.M.D., M.R.S., and N.A. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission.
+Data deposition: The atomic coordinates and structure factors have been deposited in the
+Protein Data Bank, www.wwpdb.org (PDB ID codes 5V1Q, 5V1S, and 5V1T).
+1
+
+To whom correspondence may be addressed. Email: mrseyed@princeton.edu or nozomi.
+ando@princeton.edu.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1703663114/-/DCSupplemental.
+
+www.pnas.org/cgi/doi/10.1073/pnas.1703663114
+
+Radical SAM enzymes reductively cleave SAM bound to a
+[4Fe-4S]+ cluster to generate a 5′-deoxyadenosyl radical (5′-dA·),
+which initiates turnover by abstraction of a hydrogen atom from
+the substrate (13, 14). In the biosynthesis of streptide and its homologs, hydrogen atom abstraction occurs from the lysine β-hydrogen in the precursor peptide (5, 8). The resultant lysyl radical
+then reacts with the tryptophan side chain to create a cross-link
+(Fig. 1B). Like other members of the SPASM subfamily, StrB,
+AgaB, and SuiB, which install Lys–Trp cross-links in their respective
+peptides, also contain a C-terminal domain with a characteristic
+7-cysteine motif (CX9–15GX4C–gap–CX2CX5CX3C–gap–C), which
+allows for binding of additional, so-called “auxiliary” [4Fe–4S]
+clusters (15). Although this motif has been shown to be necessary
+for streptide biosynthesis (5), the precise role of auxiliary clusters in
+SPASM enzymes remains an active area of investigation (16–18).
+Here, we report crystal structures of SuiB and thus a visualization
+of a RiPP-modifying radical SAM enzyme. Using X-ray diffraction, we determined three structures that illustrate conformational
+changes associated with binding of SAM and substrate SuiA. These
+structures depict an N-terminal RRE domain positioned at the
+entrance to the active site that appears poised to support precursor
+binding. Surprisingly, however, we detect little interaction between
+the RRE domain and SuiA and instead observe an α-helical peptide corresponding to the leader sequence of SuiA bound within
+the catalytic barrel formed by the radical SAM and SPASM domains. We identify specific hydrogen-bonding interactions made by
+a region of the barrel that is stabilized by an auxiliary [4Fe–4S]
+cluster and a highly conserved amino acid motif (LESS) within the
+SuiA leader sequence. Using computational methods, we further
+demonstrate that binding of the leader sequence within the catalytic barrel facilitates conformations that position the core sequence
+within the active site, bringing the cross-linking residues in proximity of the 5′-carbon of 5′-dA. Together, these results provide
+structural insights into binding of the precursor peptide to SuiB and
+the conformational changes needed for the unprecedented C–C
+cyclization reaction.
+Davis et al.
+
+Results
+Overall Structure of SuiB. SuiB is encoded by Streptococcus suis and
+
+is 96% homologous to the enzyme StrB from Streptococcus thermophilus. Both enzymes install Lys–Trp cross-links in their respective substrates, SuiA and StrA (5, 8). Purification and
+reductive reconstitution of N-terminally His6-tagged SuiB leads to
+an average Fe/S content of 10.4 ± 0.1 Fe and 9.0 ± 0.1 S per
+protomer. To visualize the overall architecture of SuiB and the
+conformational changes associated with substrate binding, we
+determined three crystal structures (SI Appendix, Tables S1 and
+S2). A substrate-free crystal structure of SuiB was determined to
+2.5-Å resolution. Additionally, crystals were soaked with excess
+SAM to yield a structure of SAM-bound SuiB to 2.5-Å resolution.
+The highest resolution structure at 2.1 Å was solved for reconstituted SuiB cocrystallized with excess SAM and precursor peptide SuiA. Crystals did not form in the presence of peptide alone.
+The overall structure of SuiB contains three functionally
+distinct domains (Fig. 1C), described in detail below: the
+N-terminal RRE domain (residues 1–106), the radical SAM
+domain (residues 107–310) followed by a short bridging region (residues 311–346), and the C-terminal SPASM domain
+(residues 347–437).
+SuiB Contains a Canonical Radical SAM Domain. The catalytic core of
+SuiB (residues 107–439) forms a hollow barrel composed of the
+radical SAM domain bridged to the C-terminal SPASM domain.
+Characteristic to many members of the radical SAM superfamily,
+the SAM domain consists of a partial (β/α)6 triose phosphate
+isomerase (TIM) barrel (Fig. 1D, blue) that houses the active site
+[4Fe–4S] cluster in a loop immediately after the β1 strand (13, 19).
+Contained within this loop (Fig. 1D, yellow), Cys117, Cys121, and
+Cys124 form the so-called radical SAM CX3CXΦC motif (in
+which Φ is an aromatic residue) and ligate three of the four irons
+in the SAM cluster. As expected, our substrate-free structure has
+an open coordination site at the remaining “unique Fe,” whereas
+in our SAM-soaked structure, we observe intact SAM forming a
+PNAS | September 26, 2017 | vol. 114 | no. 39 | 10421
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 1. The sui gene cluster and the reaction catalyzed by SuiB. (A) The sui gene cluster is highly homologous to str. It encodes a 22-mer precursor peptide (SuiA),
+a tailoring radical SAM enzyme (SuiB), and a putative transporter/protease (SuiC). The sequence of SuiA is depicted with the 8-mer sequence of the mature
+product shown in bold. Cross-linked residues are shown in red. (B) SuiB catalyzes Lys–Trp cross-link formation in SuiA. The new bond installed is shown in red.
+(C) SuiB contains three [4Fe–4S] clusters and multiple functional domains. (D) The radical SAM domain (blue) forms a partial TIM barrel that is laterally closed by
+the auxiliary cluster-containing SPASM domain (green). The canonical catalytic [4Fe–4S] cluster-binding motif following β1 is shown in yellow. The bridging region
+and N-terminal domains are shown in light blue and red, respectively. (E) Placement of the three [4Fe–4S] clusters, shown in ball and stick representation
+(Fe, orange; S, yellow). Distances are calculated between the nearest atoms. (F) Topologies of the N-terminal domain, SPASM domain, and bridging region.
+
+chelate at this position (SI Appendix, Fig. S1). Additional structural motifs critical for SAM binding are also conserved in SuiB
+(SI Appendix), such as hydrogen bonding between the main-chain
+carbonyl oxygen of the hydrophobic residue Φ (Phe123) and the
+N6-amino group of adenine (19) (SI Appendix, Fig. S1). Although
+a canonical TIM barrel is composed of eight strands and eight
+helices, the entire fold has rarely been observed among radical
+SAM enzymes (13, 19). Instead, the C-terminal SPASM domain
+provides a lateral closure in SuiB (16, 17, 20) (Fig. 1D, green).
+The Bridging Region Provides a Critical Residue for Auxiliary Cluster
+Ligation. Previous biochemical analyses with StrB and SuiB have
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+not unambiguously determined the number of auxiliary clusters.
+Our structures clearly reveal two intact auxiliary [4Fe–4S] clusters
+(Fig. 1E), similar to anSMEcpe, the anaerobic sulfatase maturating enzyme from Clostridium perfringens and the only other
+structurally characterized member of the SPASM subfamily (17).
+Full ligation of two auxiliary clusters in SuiB is enabled by an
+eighth anterior cysteine (Cys321) within the bridging region. This
+cysteine is located much farther upstream compared with previously characterized SPASM enzymes, at a position 26 residues
+before the 7-cysteine motif (Fig. 1F, light blue). Following the
+C terminus of the radical SAM domain, the β6a strand of the
+bridging region dips into the barrel to provide this initial coordinating residue for the first auxiliary cluster, Aux I, before
+exiting the barrel as a fragmented helix (Fig. 1 C and F). Although
+the presence of a cysteine within the bridging region appears to be
+common to many SPASM radical SAM enzymes (15–17, 20, 21),
+the large gap in sequence appears to be unique to characterized
+members within this subfamily and a key feature of Lys–Trp crosslinking enzymes (5).
+The SPASM Domain Binds Two Fe–S Clusters. The SPASM domain
+incorporates the auxiliary clusters around a β-hairpin and α-helix.
+It is initiated by two cysteines, Cys347 and Cys365, which, in addition to Cys-321, ligate Aux I and flank the β-hairpin. The first
+strand of the SPASM motif (β1′) interacts with β1 of the radical
+SAM domain to extend the β-sheet within the barrel (Fig. 1 D and
+F). Following residue Cys365, the 7-cysteine SPASM motif is
+punctuated by the α2′ helix and resumes with the remaining
+CX2CX5CX3C sequence. The first three cysteines in this sequence—
+Cys406, Cys409, and Cys415—encircle and ligate the second
+auxiliary cluster, Aux II, before the chain hooks back to provide
+the final coordinating residue for Aux I, Cys419. The SuiB sequence then doubles back again to fully coordinate Aux II with the
+final cysteine of the SPASM motif, Cys437, after which it terminates
+at Leu439, in contrast to the extended C-terminal helix (α6′) observed in anSMEcpe (17) (Fig. 1F and SI Appendix, Fig. S2). Aux I
+and II are located 16.0 Å and 27.4 Å from the radical SAM cluster,
+respectively, measured between the closest atoms (Fig. 1E). As in
+anSMEs, full cysteine ligation precludes a substrate-binding role
+
+for the auxiliary clusters, a conclusion that is further supported by
+the SuiA-bound structure described below.
+The N-Terminal Domain Adopts an RRE Fold. As predicted by previous bioinformatics studies (12), the N-terminal domain of SuiB
+shows structural homology with the archetypal RRE domain,
+PqqD (22, 23). Although PqqD is believed to act as a peptide
+chaperone for PqqE, the radical SAM enzyme involved in PQQ
+biosynthesis, these two proteins have never been visualized in
+complex (24–26). Our structures thus provide insight into the arrangement of an RRE-like domain associated with a radical SAM
+enzyme. The RRE domain in SuiB is initiated by a three-stranded
+antiparallel β-sheet that adjoins a trihelical bundle (Fig. 1F, red),
+forming a wHTH-like motif that protrudes from the catalytic core
+(27) (Fig. 1C, red). This domain is then anchored in a cleft formed
+between the SPASM domain (Fig. 1C, green) and adjacent
+bridging region (Fig. 1C, light blue) via an additional helix α4n
+(Fig. 1C and SI Appendix, Fig. S3), placing the β-sheet of the
+wHTH motif above the TIM barrel entrance. In the recent
+structures of NisB and LynD, the leader peptides are observed in
+between α3n and β3n, forming an extended antiparallel β-sheet
+with the wHTH motif (10, 11) (SI Appendix, Fig. S3). Differences
+in sequence between SuiB and its close homologs are also concentrated in this groove (SI Appendix, Fig. S4).
+Recognition of the Leader Sequence by the Catalytic Core. The enzyme crystallized in the presence of SAM and SuiA yields clear
+density for the leader portion of the substrate peptide (residues
+−13 to −1) (Fig. 2A), while density for the core sequence (residues
+1–8) is disjointed and difficult to assign. In contrast to the structures of NisB and LynD, where the RRE domains make many
+direct interactions with the respective substrates (10, 11) (SI Appendix, Fig. S3), we observe the leader sequence of SuiA bound
+within the SuiB barrel, adjacent to both the bridging region, which
+provides the first cysteine ligand for Aux I, and the SPASM domain (Fig. 2B). Furthermore, the α-helical nature of the SuiA
+leader, predicted from sequence analysis, is maintained within the
+catalytic barrel before it transitions into a loop, whose contiguous
+density terminates immediately before the core sequence, adjacent
+to Aux I (Fig. 2C). While many RiPP leader peptides have been
+shown to adopt α-helical conformations in trifluoroethanol, the
+persistence of this secondary structure upon binding to the tailoring enzyme has only been observed in our structures and the
+recent structure of MdnC, which binds the leader peptide as a
+single-turn α-helix but lacks sequence homology to a typical RRE
+(3, 9, 11, 28).
+Recognition of the SuiA leader sequence is primarily achieved
+through interactions with the bridging region (Fig. 2C). These
+interactions orient the substrate helix and thereby facilitate proper
+arrangement of the core sequence in the active site (Fig. 2C and SI
+Appendix, Fig. S5). Perhaps explaining its high conservation in
+
+Fig. 2. SuiA recognition in the active site is dominated by interactions of the leader sequence with
+the bridging region. (A) Observed electron density
+for the helical leader sequence displayed as a 2FO-FC
+composite omit map contoured at 1.0 σ. The disordered core sequence is represented by a dashed line.
+(B) SuiA (dark gray) binds in the catalytic barrel
+rather than to the putative recognition element, the
+N-terminal domain (red). (C) Hydrogen-bonding
+network of SuiA (dark gray) bound in the active site
+adjacent to the bridging region (light blue) and
+SPASM domain (green). Ordered water molecules
+are shown as red spheres. The LESS motif is highlighted. See SI Appendix, Fig. S5A for a stereoview.
+
+10422 | www.pnas.org/cgi/doi/10.1073/pnas.1703663114
+
+Davis et al.
+
+Substrate Binding Is Coupled to Loop Movements. The three snapshots obtained in this study illustrate the conformational changes
+associated with substrate binding by SuiB. Comparison of the
+substrate-free and SAM-soaked structures shows minimal conformational changes associated with binding of SAM alone (average Cα rmsd of 0.285 ± 0.037 Å) (Fig. 3A, gray curve). In the
+absence of peptide, we observe density for intact SAM bound in
+the active site, suggestive of a preturnover state (SI Appendix, Fig.
+S1). Crystallization with SAM and SuiA results in large-scale
+rearrangements (Fig. 3A, red/blue curves). At the bottom of the
+barrel, as oriented in Fig. 1C, the largest changes are seen in the
+RRE-like domain and the α6 helix, which are angled farther away
+from the barrel opening upon binding of SuiA (Fig. 3A and SI
+Appendix, Fig. S6 A and B). These regions make a number of
+crystal lattice contacts, making further interpretation difficult;
+however, it is evident that the enzyme can accommodate significant motions, particularly in the RRE domain. In contrast, motion
+at the top of the barrel is unencumbered by crystal contacts and is
+dominated by two loops, L1 and L2, linked by hydrogen-bonding
+interactions between the backbone carbonyl of Gly122 and backbone amides of Lys286 and Ile287 (Fig. 3B and SI Appendix, Fig.
+S6C). In particular, residues 125–134 of L1 and 279–285 of
+L2 adopt a new conformation in the SuiA-bound structure, which
+occludes the active site. Interestingly, L1 directly follows the SAMcluster binding motif, and its displacement is likely a result of
+SAM cleavage in the active site.
+A Postturnover Conformation in SuiA-Bound Structure. In our SuiAbound structure, we observe two disconnected regions of density
+in close proximity to the SAM cluster (SI Appendix, Fig. S1). The
+first supports Met bound as a tridentate chelate to the unique Fe
+through its α-amine, carboxylate, and side-chain sulfur atom, an
+arrangement that mirrors previously observed post-SAM cleavage structures (29–31). This is consistent with prereduction of
+
+SuiB with sodium dithionite before crystallization (8). Surprisingly, however, 5′-dA cannot completely account for the second
+region of density. Instead, we observe intact SAM at this position
+(SI Appendix, Fig. S1). In the absence of a suitable reductant, this
+unusual feature possibly occurred following a single turnover, in
+which dynamic motion of the enzyme trapped excess SAM in the
+active site, perhaps poised to replace the Met bound on the SAM
+cluster in preparation for another catalytic cycle.
+The active-site hydrogen-bonding arrangement persists in the
+SuiA-bound and SAM-bound structures, with additional hydrogen bonds observed from Glu319 and Arg272 to the methionine
+moiety of the trapped SAM (13, 19) (SI Appendix, Fig. S1).
+Further analysis of the 5′-dA portion of SAM shows that the 5′-C
+of the ribose group tilts down toward the peptide substrate,
+priming the enzyme for H-atom abstraction. This arrangement of
+the 5′-dA moiety of SAM mimics previously observed SAMcleavage products in other radical SAM enzymes (29–31) (Fig.
+4A). Together, these observations suggest that SuiB in complex
+with SuiA is trapped in a post-SAM cleavage conformation.
+Consistent with this post-SAM cleavage model are the shifts
+observed in L1 upon SuiA binding. The adenine and ribose
+moieties of SAM make all of the previously observed contacts
+observed for the 5′-dA moiety in the SAM-only structure. As in
+the SPASM-containing enzymes anSMEcpe (17) and sporulationkilling factor maturase SkfB (32), as well as the partial-SPASM
+enzyme 2-deoxy-scyllo-inosamine dehydrogenase BtrN (16), an
+additional aromatic residue directly follows the final cysteine of
+the radical SAM motif. In SuiB, this residue is Phe125 (SI
+Appendix, Fig. S2). While the position of the adenine moiety is
+virtually unchanged between structures, L1 shifts to create an
+additional hydrogen bond between the backbone of Phe125
+and the N7 position of adenine (SI Appendix, Fig. S1). Concurrently, the Phe125 side chain flips to stack perpendicularly
+with the nucleobase, creating a hydrophobic pocket that likely
+would facilitate stabilization of the cleaved products (SI Appendix,
+Fig. S1F).
+Coupled together through hydrogen-bonding interactions,
+changes in L1 result in coordinated rearrangement of L2. Furthermore, movement of Phe125 generates an additional interaction between its backbone carbonyl group and the side
+chain of Thr282 (L2) (SI Appendix, Fig. S6C). As a result, the
+residues of L2 move together to cap the barrel (Fig. 3B), perhaps
+also inducing significant motion in the downstream α6 helix. A
+comparison of surface renderings, with and without peptide
+bound, visually confirms constriction of the channel supplying
+bulk-solvent access to the active site from the top of the barrel
+(SI Appendix, Fig. S6B). It is possible that, by limiting solvent
+access, L2 facilitates a dielectric change in the active site, which
+has previously been proposed to lower the free-energy barrier for
+SAM cleavage (33). Intriguingly, an associated channel also
+connects Aux I to SuiA, suggesting that loop motions may be
+important for redox reactions involving Aux I.
+
+Fig. 3. Substrate binding leads to coordinated loop
+movements. (A) Rmsd of the Cα atoms versus residue
+number upon SAM and SAM + SuiA binding, respectively. The two chains (A/B) in the asymmetric
+unit are denoted parenthetically. Binding only SAM
+leads to minimal changes (gray curve), yielding an
+average Cα rmsd of 0.285 ± 0.037 Å, whereas additional binding of SuiA leads to greater changes
+(blue/red), particularly in the loops L1 and L2. See SI
+Appendix, Fig. S6 for additional views. (B) Visualization of loop motions upon SuiA binding. The
+substrate-free enzyme is shown in gray. The RRE is
+omitted for clarity.
+
+Davis et al.
+
+PNAS | September 26, 2017 | vol. 114 | no. 39 | 10423
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+streptide precursor peptides (5), the LESS motif of the leader
+sequence (residues −6 to −3) plays a particularly important role in
+orienting SuiA by providing the only hydrogen-bonding partners
+with SuiB. This hydrogen-bonding network is initiated by watermediated interactions between SuiA-Leu(–6) and Gly346 in the
+bridging region and by Arg348 in the SPASM domain (Fig. 2C and
+SI Appendix, Fig. S5). The SPASM domain further hydrogen
+bonds with the backbone carbonyl oxygens of both SuiA-Glu(–5)
+and, indirectly, SuiA-Ser(–3) through Arg348. The only observed
+interaction with the RRE motif is made between SuiA-Glu(–5)
+and Arg27 in the form of a salt bridge. The remaining interactions
+occur with the bridging region and include Tyr344/SuiA-Glu(–5),
+Gly320/SuiA-Ser(–4), Phe324/SuiA-Ser(–3), and indirect watermediated interactions with Thr318, His322, and Gly346 (Fig. 2C
+and SI Appendix, Fig. S5). The buried surface area along the
+peptide–protein interface spanning from the barrel opening to the
+active site is 730 Å2, almost 51% of the modeled peptide’s total
+surface area.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+Fig. 4. Binding of the SuiA leader sequence supports positioning of the core sequence in the active site of SuiB. (A) The arrangement of Met and SAM (green)
+in our SuiA-bound structure mimics previously observed SAM-cleavage products from RlmN (pink) (29–31). The 5′-C of 5′-dA is marked with an asterisk. (B–D)
+The active-site cavity of SuiB is shown as a white surface. The crystallographic model of the leader peptide is shown in gray. Rosetta-based simulations yield
+low-energy conformations of the core sequence (blue) within our SuiA-bound crystal structure both with (B) intact SAM and (C) the methionine moiety of
+SAM removed. (D) Simulations also yield low-energy conformations of the cyclized core peptide (blue) within the active-site cavity. (E) Of the five titratable
+residues (shown as sticks) near the active site, simulations favor E319 (∼4.9 Å from the SuiA-W6 C7 position) as the catalytic base.
+
+The Leader Sequence Helps Position the Core Sequence. The final
+eight residues of SuiA are disordered in our crystal structure. To
+investigate the possible conformations adopted by these eight
+residues within the SuiA-bound crystal structure, two Rosettabased simulations were performed: one with the Lys–Trp-cyclized
+SuiA and a second with the linear SuiA substrate. First, the cyclized
+SuiA core peptide was modeled using NMR-derived constraints
+for streptide (5) and placed in the active site of the SuiA-bound
+structure using geometric constraints imposed by a peptide bond
+linkage to the crystallographic model of the leader peptide. This
+simulation led to SuiA placements showing considerable steric
+clashes with the methionine moiety of SAM, which occupies the
+5′-dA site. We next modeled uncyclized SuiA in the active site of
+our SuiA-bound structure. This simulation yielded multiple lowenergy conformations of SuiA compatible with the crystallographic model of SuiB (Fig. 4B, modeled region of SuiA shown
+in blue) displaying conformational heterogeneity (Cα rmsds of
+up to 3.4 Å) that may explain the observed lack of resolvable
+electron density in our crystal structure.
+As the adenine and ribose moieties of SAM in our SuiAbound structure mimic the postcleavage conformation of 5′-dA
+(29–31) (Fig. 4A), two additional simulations were performed to
+model the final eight SuiA residues within our SuiA-bound
+structure with the methionine moiety of SAM removed. Eleven
+residues lining the barrel, including those that form hydrogen
+bonds with the methionine moiety of SAM, were allowed to
+sample other side-chain conformations (SI Appendix). Cβ of
+SuiA-K2 was additionally constrained to within reasonable hydrogen abstraction distances (2.8–4.3 Å) from the adenosine 5′-C
+(Fig. 4 C and D, dotted line). Modeling uncyclized SuiA led to
+multiple low-energy conformations (Fig. 4C, modeled region of
+SuiA shown in blue), suggesting that the leader sequence can
+facilitate correct positioning of the substrate. In the final simulation, cyclized SuiA was modeled into the active site (Fig. 4D,
+modeled region of SuiA shown in blue). Four clusters of lowenergy conformations were observed, displaying relatively high
+backbone similarity (SI Appendix, Figs. S7 and S8). Of the 11
+SuiB residues allowed to sample other side-chain conformations,
+Gln26, Glu108, and Asn315 adopt a conformation not seen in
+the crystal structure, while Glu319 and Arg272 adopt multiple
+conformations, including those seen in the structure. Notably,
+Glu319 and Arg272, which interact with the methionine moiety
+of SAM in the SuiA-bound structure (SI Appendix, Fig. S1D),
+form new interactions with the substrate peptide in these simulated models. In all of these conformations, Glu319 is the closest
+residue to C7 of SuiA-W6 (within ∼5 Å) (Fig. 4E). Overall, these
+simulations are consistent with a scenario in which the SuiA
+leader sequence positions the core sequence into the active site
+of SuiB for posttranslational modification.
+10424 | www.pnas.org/cgi/doi/10.1073/pnas.1703663114
+
+Discussion
+In addition to exploring the conformational changes that facilitate Lys–Trp cross-link formation, the crystal structures presented here provide insights into the functions of ancillary
+domains that are prevalent in the radical SAM enzyme superfamily. As expected from bioinformatic analyses, the N-terminal
+domain in SuiB adopts a RRE fold that is docked at the opening
+of the radical SAM catalytic core, poised to mediate peptide
+delivery. However, rather than binding to the RRE domain, we
+observe the SuiA leader peptide primarily interacting with
+the catalytic barrel. Unique among published RRE-containing
+structures, this discovery not only elucidates leader peptide
+function but also provides insights into the role of the RRE
+domain during catalysis. Simulations of the core sequence further support the role of the leader peptide in guiding posttranslational modifications, while the observed interactions
+between SuiA and SuiB highlight the importance of a bridging
+loop linking the radical SAM and SPASM domains. As only the
+second crystallographically characterized radical SAM enzyme
+to contain three [4Fe–4S] clusters, SuiB provides additional
+insights into the SPASM domain and the RRE domain and
+highlights the unsuspected importance of the bridging domain
+during catalysis (34).
+While more than a third of SPASM-containing enzymes include a cysteine in the bridging region (35), the prevalence of
+fully ligated auxiliary clusters is unknown. Coordination of the
+upstream cysteine in SuiB precludes direct substrate binding and
+establishes this feature, first observed in anSMEcpe, as a significant auxiliary cluster-binding motif. There are, however,
+critical differences between SuiB and anSMEcpe, including the
+remote position of the upstream cysteine and fragmentation of
+the α6a helix (SI Appendix, Fig. S9). In addition, the arrangement
+of the bridging region is indicative of a structural role for Aux I
+that is further supported by mutagenesis studies, in which
+C347A/C365A mutants are recalcitrant to purification (8). This
+region further provides critical contacts for both SuiA and the
+peptidyl substrate surrogates of anSMEcpe and likely serves a
+similar binding role in other SPASM-containing enzymes. Thus,
+variability in the bridging region from one enzyme to another
+may indicate adaption to the cognate peptide substrate.
+Although structural insights remain scarce (10, 11, 23, 36, 37),
+recent bioinformatic identification of an RRE motif across all
+RiPP classes has provided invaluable clues to understanding
+interactions between RiPP precursor peptides and tailoring
+enzymes. Supported by structural and biochemical analyses,
+this domain has been implicated in peptide recognition and
+recruitment. Intriguingly, the structures of SuiB provide an
+example of a precursor binding location distinct from the
+RRE domain. This unique SuiA-binding mode suggests that
+Davis et al.
+
+1. Ortega MA, van der Donk WA (2016) New insights into the biosynthetic logic of ribosomally synthesized and post-translationally modified peptide natural products.
+Cell Chem Biol 23:31–44.
+2. Felnagle EA, et al. (2008) Nonribosomal peptide synthetases involved in the production of medically relevant natural products. Mol Pharm 5:191–211.
+3. Arnison PG, et al. (2013) Ribosomally synthesized and post-translationally modified
+peptide natural products: Overview and recommendations for a universal nomenclature. Nat Prod Rep 30:108–160.
+4. Finking R, Marahiel MA (2004) Biosynthesis of nonribosomal peptides1. Annu Rev
+Microbiol 58:453–488.
+5. Schramma KR, Bushin LB, Seyedsayamdost MR (2015) Structure and biosynthesis of a
+macrocyclic peptide containing an unprecedented lysine-to-tryptophan crosslink. Nat
+Chem 7:431–437.
+6. Fleuchot B, et al. (2011) Rgg proteins associated with internalized small hydrophobic
+peptides: A new quorum-sensing mechanism in streptococci. Mol Microbiol 80:1102–1119.
+7. Ibrahim M, et al. (2007) Control of the transcription of a short gene encoding a cyclic
+peptide in Streptococcus thermophilus: A new quorum-sensing system? J Bacteriol
+189:8844–8854.
+8. Schramma KR, Seyedsayamdost MR (2017) Lysine-tryptophan-crosslinked peptides produced by radical SAM enzymes in pathogenic streptococci. ACS Chem Biol 12:922–927.
+9. Oman TJ, van der Donk WA (2010) Follow the leader: The use of leader peptides to
+guide natural product biosynthesis. Nat Chem Biol 6:9–18.
+10. Koehnke J, et al. (2015) Structural analysis of leader peptide binding enables leaderfree cyanobactin processing. Nat Chem Biol 11:558–563.
+11. Ortega MA, et al. (2015) Structure and mechanism of the tRNA-dependent lantibiotic
+dehydratase NisB. Nature 517:509–512.
+12. Burkhart BJ, Hudson GA, Dunbar KL, Mitchell DA (2015) A prevalent peptide-binding
+domain guides ribosomal natural product biosynthesis. Nat Chem Biol 11:564–570.
+13. Broderick JB, Duffus BR, Duschene KS, Shepard EM (2014) Radical S-adenosylmethionine
+enzymes. Chem Rev 114:4229–4317.
+14. Frey PA, Booker SJ (2001) Radical mechanisms of S-adenosylmethionine-dependent
+enzymes. Adv Protein Chem 58:1–45.
+15. Haft DH, Basu MK (2011) Biological systems discovery in silico: Radical S-adenosylmethionine protein families and their target peptides for posttranslational
+modification. J Bacteriol 193:2745–2755.
+16. Goldman PJ, Grove TL, Booker SJ, Drennan CL (2013) X-ray analysis of butirosin biosynthetic enzyme BtrN redefines structural motifs for AdoMet radical chemistry. Proc
+Natl Acad Sci USA 110:15949–15954.
+17. Goldman PJ, et al. (2013) X-ray structure of an AdoMet radical activase reveals an
+anaerobic solution for formylglycine posttranslational modification. Proc Natl Acad
+Sci USA 110:8519–8524.
+18. Grove TL, Lee K-H, St Clair J, Krebs C, Booker SJ (2008) In vitro characterization of
+AtsB, a radical SAM formylglycine-generating enzyme that contains three [4Fe-4S]
+clusters. Biochemistry 47:7523–7538.
+19. Dowling DP, Vey JL, Croft AK, Drennan CL (2012) Structural diversity in the AdoMet
+radical enzyme superfamily. Biochim Biophys Acta 1824:1178–1195.
+
+Davis et al.
+
+precursor peptides and tailoring enzymes more generally. The
+structures presented here further demonstrate that the mode of
+substrate binding greatly contributes to structural diversity within
+ancillary domains of the radical SAM superfamily. In particular,
+we gain a newfound appreciation for the bridging region between
+the SAM and SPASM domains. It will be fascinating to see if
+future investigations into peptide recognition and recruitment by
+RiPP-modifying enzymes uncover similar interactions between
+distinct RRE and catalytic domains, especially those involving
+radical SAM enzymes like the PqqD/PqqE system.
+Materials and Methods
+Detailed descriptions of materials and methods, including purification and
+crystallization of SuiB in various forms, acquisition of X-ray diffraction data,
+structural elucidation of SuiB and refinement, as well as Rosetta-based calculations, are given in SI Appendix.
+ACKNOWLEDGMENTS. We thank Dr. Phil Jeffrey at the Princeton Macromolecular Crystallography Facility for invaluable advice on structure refinement
+and Dr. Steve Meisburger, Saad Imran, and Will Thomas for assistance with
+X-ray data collection. Diffraction data were collected at the Cornell High
+Energy Synchrotron Source (CHESS) A1 Station and 23-ID-B of the Advanced
+Photon Source (APS). CHESS is supported by NSF Grant DMR-1332208, and the
+MacCHESS facility is supported by NIH NIGMS Grant GM-103485. APS is a US
+Department of Energy (DOE) Office of Science User Facility operated for the
+DOE Office of Science by Argonne National Laboratory under Contract DEAC02-06CH11357, and GM/CA@APS is supported by funds from NIH NCI Grant
+ACB-12002 and NIGMS Grant AGM-12006. This work was supported by NIH
+Grants GM098299 (to M.R.S.) and GM100008 (to N.A.), the Arnold O. Beckman
+Postdoctoral Fellowship program (K.M.D.), and start-up funds from Princeton
+University (to M.R.S. and N.A.).
+
+20. Hänzelmann P, Schindelin H (2004) Crystal structure of the S-adenosylmethioninedependent enzyme MoaA and its implications for molybdenum cofactor deficiency in
+humans. Proc Natl Acad Sci USA 101:12870–12875.
+21. Haft DH (2011) Bioinformatic evidence for a widely distributed, ribosomally produced
+electron carrier precursor, its maturation proteins, and its nicotinoprotein redox
+partners. BMC Genomics 12:21.
+22. Söding J (2005) Protein homology detection by HMM-HMM comparison. Bioinformatics
+21:951–960.
+23. Tsai T-Y, Yang C-Y, Shih H-L, Wang AHJ, Chou S-H (2009) Xanthomonas campestris
+PqqD in the pyrroloquinoline quinone biosynthesis operon adopts a novel saddle-like
+fold that possibly serves as a PQQ carrier. Proteins Struct Funct Bioinf 76:1042–1048.
+24. Wecksler SR, et al. (2010) Interaction of PqqE and PqqD in the pyrroloquinoline
+quinone (PQQ) biosynthetic pathway links PqqD to the radical SAM superfamily.
+Chem Commun (Camb) 46:7031–7033.
+25. Latham JA, Iavarone AT, Barr I, Juthani PV, Klinman JP (2015) PqqD is a novel peptide
+chaperone that forms a ternary complex with the radical S-adenosylmethionine
+protein PqqE in the pyrroloquinoline quinone biosynthetic pathway. J Biol Chem 290:
+12908–12918.
+26. Barr I, et al. (2016) The pyrroloquinoline quinone (PQQ) biosynthetic pathway:
+Demonstration of de novo carbon-carbon cross-linking within the peptide substrate
+(PqqA) in the presence of the radical SAM enzyme (PqqE) and its peptide chaperone
+(PqqD). J Biol Chem 291:8877–8884.
+27. Brennan RG (1993) The winged-helix DNA-binding motif: Another helix-turn-helix
+takeoff. Cell 74:773–776.
+28. Li K, Condurso HL, Li G, Ding Y, Bruner SD (2016) Structural basis for precursor protein-directed ribosomal peptide macrocyclization. Nat Chem Biol 12:973–979.
+29. Hänzelmann P, Schindelin H (2006) Binding of 5′-GTP to the C-terminal FeS cluster of
+the radical S-adenosylmethionine enzyme MoaA provides insights into its mechanism.
+Proc Natl Acad Sci USA 103:6829–6834.
+30. Schwalm EL, Grove TL, Booker SJ, Boal AK (2016) Crystallographic capture of a radical
+S-adenosylmethionine enzyme in the act of modifying tRNA. Science 352:309–312.
+31. Rohac R, et al. (2016) Carbon-sulfur bond-forming reaction catalysed by the radical
+SAM enzyme HydE. Nat Chem 8:491–500.
+32. Bruender NA, Bandarian V (2016) SkfB abstracts a hydrogen atom from Cα on SkfA to
+initiate thioether cross-link formation. Biochemistry 55:4131–4134.
+33. Shisler KA, Broderick JB (2012) Emerging themes in radical SAM chemistry. Curr Opin
+Struct Biol 22:701–710.
+34. Grell TAJ, Goldman PJ, Drennan CL (2015) SPASM and twitch domains in S-adenosylmethionine (SAM) radical enzymes. J Biol Chem 290:3964–3971.
+35. Akiva E, et al. (2014) The structure–function linkage database. Nucleic Acids Res 42:
+D521–D530.
+36. Ortega MA, et al. (2016) Structure and tRNA specificity of MibB, a lantibiotic dehydratase from actinobacteria involved in NAI-107 biosynthesis. Cell Chem Biol 23:370–380.
+37. Regni CA, et al. (2009) How the MccB bacterial ancestor of ubiquitin E1 initiates
+biosynthesis of the microcin C7 antibiotic. EMBO J 28:1953–1964.
+38. Moser CC, Anderson JLR, Dutton PL (2010) Guidelines for tunneling in enzymes.
+Biochim Biophys Acta 1797:1573–1586.
+
+PNAS | September 26, 2017 | vol. 114 | no. 39 | 10425
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+the RRE-like domain in SuiB is either vestigial or involved in an
+undetected interaction. Observed motion of the N-terminal domain appears to support the latter, and one can envision a simple
+scenario in which the RRE both recognizes the peptide and delivers it to the active site but at a certain stage in the catalytic cycle
+releases the precursor peptide. Recent biochemical analysis of the
+PqqD/PqqE system not only detected peptide binding to the canonical RRE but also confirmed interaction between the peptide
+chaperone and radical SAM enzyme. Perhaps the RRE domain in
+SuiB serves as a similar intermediate binding site (12).
+The observed location of SuiA within the barrel may provide
+insights into mechanism of SuiB. In the catalytic scheme proposed, an active site base facilitates rearomatization by deprotonating the putative tryptophanyl radical intermediate followed
+by electron transfer to an auxiliary cluster (5). Inspection of the
+barrel interior yields five possible titratable side chains within
+∼10 Å of the adenosine 5′-carbon: Glu319, Glu108, Glu355,
+Tyr112, and Lys353 (Fig. 4E). The positions of simulated Lys–
+Trp cross-link conformations, supported by alignments with
+substrate-bound structures of anSMEcpe and RlmN (SI Appendix, Fig. S10), favor Glu319 for direct active-site deprotonation
+(Fig. 4E). In this step of the catalytic cycle, Aux II is clearly an
+unsuitable direct electron acceptor, as it is too far removed from
+the active site. Electron transfer likely proceeds to Aux I first.
+Decreased access to bulk solvent as a function of loop movements could then justify electron transfer from Aux I to Aux II
+and then to a protein redox partner (38).
+In conclusion, we present a sequence of structures that not
+only helps to elucidate the formation of a streptide C–C crosslink but also provides insights into the interplay between RiPP
+
+

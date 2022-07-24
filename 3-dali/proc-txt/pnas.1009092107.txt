@@ -1,0 +1,1053 @@
+Structure of RavA MoxR AAA+ protein reveals the
+design principles of a molecular cage modulating
+the inducible lysine decarboxylase activity
+Majida El Bakkouria, Irina Gutscheb, Usheer Kanjeea, Boyu Zhaoa, Miao Yua, Gael Goretc, Guy Schoehnb,c,
+Wim P. Burmeisterb,d, and Walid A. Hourya,1
+a
+Department of Biochemistry, University of Toronto, Toronto, ON, Canada M5S 1A8; bUnit for Virus Host-Cell Interactions (UVHCI), Unité Mixte de
+Internationale (UMI) 3265, Université Joseph Fourier (UJF)-European Molecular Biology Laboratory (EMBL) Grenoble Outstation-Centre National de la
+Recherche Scientifique (CNRS), 6 rue Jules Horowitz, 38042 Grenoble, France; cInstitut de Biologie Structurale (IBS) Jean-Pierre Ebel, Unité Mixte de
+Recherche (UMR) 5075, Commissariat à l'Énergie Atomique (CEA)-CNRS-UJF, 41 rue Jules Horowitz, 38027 Grenoble, France; and
+d
+Institut Universitaire de France (IUF), 103 Boulevard St. Michel, 75005 Paris, France
+
+Edited by Gregory A. Petsko, Brandeis University, Waltham, MA, and approved November 5, 2010 (received for review June 24, 2010)
+
+acid stress ∣ alarmone
+
+P
+
+roteins of the AAA+ superfamily (ATPases Associated with
+diverse cellular Activities) are highly ubiquitous and found
+in all kingdoms of life. These proteins are characterized by the
+structural conservation of a central ATPase domain of about 250
+amino acids called the AAA+ module (1, 2). AAA+ ATPases
+employ the energy derived from ATP hydrolysis to remodel
+proteins, DNA, or RNA. Typically, the AAA+ domain can be
+divided into two structural subdomains, an N-terminal P-loop
+NTPase αβα subdomain that is connected to a smaller C-terminal
+all-α subdomain. The αβα subdomain adopts a Rossman fold and
+contains several motifs involved in ATP binding and hydrolysis,
+including Walker A, Walker B, and Sensor 1 signature sequences
+(3–6). The all-α subdomain, which contains the Sensor 2 motif
+(7), is much less conserved across AAA+ proteins.
+AAA+ proteins form oligomers, usually hexameric rings, in
+the presence of nucleotides (8). The ATP-binding pocket is located at the interface between two neighboring subunits. A highly
+conserved arginine from one subunit, called an “arginine finger,”
+contacts the γ-phosphate of bound ATP of the neighboring subunit (9). AAA+ proteins typically go through a cycle of ATP binding, hydrolysis, and release of products. This reaction cycle results
+in a series of conformational changes and mechanical movements
+that allow these proteins to exert their activity either directly or
+through domains attached to the AAA+ domain (3, 10).
+The RavA protein (Regulatory ATPase Variant A) belongs to
+the MoxR AAA+ family (11). Limited experimental data suggest
+a function of MoxR AAA+ proteins as chaperones in the assembly of multimeric complexes and a possible role in small molecule
+cofactor insertion/removal (11). However, how these proteins act
+is not clear. In Escherichia coli, the ravA gene is in an operon with
+another gene of unknown function, which we termed viaA, and
+the operon is under the control of σ S promoter, suggesting a function of RavA and ViaA under stress conditions (12). This is
+www.pnas.org/cgi/doi/10.1073/pnas.1009092107
+
+further substantiated by our discovery that RavA physically interacts with the inducible lysine decarboxylase enzyme, LdcI/CadA,
+a key enzyme in the bacterial acid stress response. We have visualized the LdcI-RavA complex by negative staining electron microscopy and found it to form a large, about 3.3 MDa, unusual cagelike structure consisting of two LdcI decamers that are linked by
+up to five RavA hexamers (12). Because LdcI is fivefold symmetric whereas RavA is sixfold symmetric, understanding the construction of this complex is important to understanding how the
+symmetry mismatch was used in forming the cage-like structure.
+We recently solved the X-ray crystal structure of LdcI decamer
+and unexpectedly found that LdcI activity is strongly inhibited
+by the binding of the alarmone, ppGpp (further details on the
+LdcI structure will be described elsewhere). Here, we have
+determined the three-dimensional structure of RavA full-length
+protein as a monomer in complex with ADP by X-ray crystallography. Insights into the intersubunit organization of the hexameric
+RavA were obtained from electron microscopy. These structures
+provided important insights into how nature solved the symmetry
+mismatch problem between the fivefold symmetric LdcI decamer
+and sixfold symmetric RavA hexamer to allow for the construction
+of the RavA-LdcI molecular cage-like structure. We show that
+the RavA-LdcI interaction reduces the inhibition of LdcI activity
+by the alarmone ppGpp in vitro as well as in vivo. The biological
+implications of this interaction are discussed.
+Results
+The Overall Structure of RavA Protomer. RavA full-length recombi-
+
+nant protein was expressed and purified to homogeneity as previously described (12). Purity was tested by mass spectrometry
+and light scattering. RavA crystals were obtained several years
+
+ago but failed to diffract to better than 7 Å resolution. Highquality crystals were finally obtained by employing a dehydration
+protocol as described in Materials and Methods. The protein
+crystallized in the space group P65 with one molecule in the asym
+metric unit. The crystal structure was solved to 2.9 Å resolution.
+The model includes 475 of the 498 residues of RavA and one
+bound ADP molecule, but no electron density corresponding
+to a Mg2þ ion was found (Table S1). Two segments, 88–97 and
+Author contributions: M.E.B., I.G., U.K., G.S., W.P.B., and W.A.H. designed research; M.E.B.,
+I.G., U.K., B.Z., M.Y., and W.A.H. performed research; M.E.B., I.G., U.K., B.Z., G.G., and
+W.A.H. analyzed data; and M.E.B., I.G., U.K., B.Z., and W.A.H. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission.
+Data deposition: The crystallography, atomic coordinates, and structure factors have been
+deposited in the Protein Data Bank, www.pdb.org (PDB ID code 3NBX).
+1
+
+To whom correspondence should be addressed. E-mail: walid.houry@utoronto.ca.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/
+doi:10.1073/pnas.1009092107/-/DCSupplemental.
+
+PNAS ∣ December 28, 2010 ∣ vol. 107 ∣ no. 52 ∣ 22499–22504
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+The MoxR family of AAA+ ATPases is widespread throughout bacteria and archaea but remains poorly characterized. We recently
+found that the Escherichia coli MoxR protein, RavA (Regulatory
+ATPase variant A), tightly interacts with the inducible lysine decarboxylase, LdcI/CadA, to form a unique cage-like structure. Here, we
+present the X-ray structure of RavA and show that the αβα and allα subdomains in the RavA AAA+ module are arranged as in magnesium chelatases rather than as in classical AAA+ proteins. RavA
+structure also contains a discontinuous triple-helical domain as well
+as a β-barrel-like domain forming a unique fold, which we termed
+the LARA domain. The LARA domain was found to mediate the
+interaction between RavA and LdcI. The RavA structure provides
+insights into how five RavA hexamers interact with two LdcI decamers to form the RavA-LdcI cage-like structure.
+
+438–441 (Fig. 1A), are missing in the final electron density map
+and are indicated by dotted lines in Fig. 1B.
+The RavA monomer has a complex elongated overall structure
+consisting of three distinct domains (Fig. 1 A and B). The N-terminal domain of RavA is the AAA+ module, which is composed
+of two subdomains: the αβα subdomain (residues 1–192, brown)
+and the all-α subdomain (residues 226–306, wheat). The αβα
+subdomain exhibits a Rossmann-type fold commonly found in
+nucleotide binding proteins. It consists of a central β-sheet with
+five parallel β-strands, ordered as 51432, sandwiched between
+seven α-helices. The all-α subdomain consists of four antiparallel
+α-helices. The αβα subdomain and the all-α subdomain are linked
+by a 32-residue helical segment (residues 193–225, green). The
+relative arrangement of the subdomains is similar to that found
+in Mg chelatases (discussed below).
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+A
+
+B
+
+C
+
+Fig. 1. Overall view of RavA protomer structure. (A) Sequence of E. coli RavA
+showing secondary structure and conserved motifs. (B) X-ray structure of
+RavA protomer. αβα subdomain is shown in brown, all-α subdomain is shown
+in wheat, the linker between the two subdomains is shown in green, triplehelical bundle domain is shown in blue, the LARA domain is shown in dark
+blue, and bound ADP is shown in violet. The α-helices and β-strands are labeled sequentially except for βa and βb of the Pre-Sensor 1 β-Hairpin insertion. Residues 88–97 and 438–441 were not observed in the X-ray structure
+and are indicated by a dashed line. The figure was generated using PYMOL.
+(C) Shown is a topological diagram of the LARA domain drawn using TopDraw (25) and its electrostatic surface potential calculated using Delphi
+(26). Colors are according to the calculated electrostatic surface potential
+and range from red (potential of −5 kT) to blue (þ5 kT). The hydrophobic
+core of the domain is made by the side chains of hydrophobic residues from
+each of the β-strands (β1: L362, L364, L366, L372; β2: V377, I380, F382; β3: I397,
+L401; β4: L410, L412; β5: L420, V422; β6: L432) as well as residues L387, W390
+and L391 from the α14 helix.
+22500 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1009092107
+
+The second domain is a discontinuous triple-helical domain
+formed by helices α13, α15, and α16 (residues 307–330 and
+442–497, light blue). This domain has a rigid structure stabilized
+by hydrophobic interactions localized at the interface between
+the three helices. The third domain (residues 331–437, dark
+blue), which we have named the LARA domain (for reasons
+described below), is a protuberance between helices α13 and
+α15 of the triple-helical domain. As shown in Fig. 1 B and C, the
+LARA domain forms a compact antiparallel β-barrel-like structure consisting of six β-strands (β6–β11) and one α-helix (α14).
+The LARA domain also includes an N-terminal flexible region
+(residues D332–S360). The domain is very basic (pI of 9.6) resulting from a highly positively charged surface formed by residues
+R340, R347, R348, R398, K400, K409, and R423 (Fig. 1C). We
+performed an extensive search for structures similar to that of the
+LARA domain in the Protein Data Bank using secondary-structure matching (SSM) (13) and Dali (14), but no such structures
+were found. Hence, we conclude that the E. coli RavA LARA
+domain adopts a unique fold.
+The sequence conservation at the C terminus of RavA spanning the triple-helical and LARA domains diverges quite quickly,
+although, according to secondary-structure prediction, all organisms containing RavA protein with a LARA domain also have a
+triple-helical domain. It was surprising to find that a phenylalanine (F472), located at the turn between helices α15 and α16 of
+the triple-helical domain, is absolutely conserved (Fig. S1A). This
+phenylalanine makes hydrophobic contacts with the AAA+ module and, hence, anchors the triple-helical bundle to the AAA+
+module (Fig. S1 B and C). F472 might serve to transmit the
+nucleotide-dependent conformational changes in the AAA+
+domain to the C-terminal triple-helical and LARA domains
+of RavA.
+RavA Hexameric Assembly. Although RavA and many other AAA+
+ATPases crystallize as monomers, their functional form is well
+known to be an oligomeric ring structure. Previous work in
+our laboratory provided first evidence for a hexameric assembly
+of RavA induced by ATP, ADP, or 5′-adenylyl-β,γ-imidodiphosphate (AMPPNP) binding (12). Here we present a 3D structure
+of the RavA hexamer formed in the presence of ADP obtained by
+negative staining electron microscopy (EM) and image analysis.
+Similar to other AAA+ protein structures, hexameric RavAADP is characterized by a ring-shaped core surrounding a central
+pore. Some representative class averages, as well as corresponding projections of the 3D structure at similar orientations, are
+shown in Fig. 2A. The distinctive feature of the class averages
+is the relatively weak density of the LARA domain, which necessitated a good alignment in order to be properly visualized (see
+Materials and Methods for details). The RavA hexameric ring
+forms a rather unique flower-like structure and is found to be
+about 220 Å in diameter and of 80-Å thickness, whereas the diameter of the central channel is about 25 Å. The 3D reconstruction
+possesses a prominent handedness, visible in the core AAA+ part
+and notably accentuated by the protrusions. An atomic model of
+the hexamer was then generated by docking the crystal structure
+of the monomer into the EM density of the hexamer and adjustment of the resulting intersubunit contacts based on a homology
+model generated from the hexameric crystal structure of HslU
+[PDB ID code 1DO0 (15)] (see Materials and Methods and
+Fig. S2 for details). The final EM reconstruction and the resulting
+atomic model of the RavA-ADP hexamer are shown in Fig. 2B.
+The Organization of the AAA+ Motor Subdomains. In their classification of AAA+ proteins, Aravind and coworkers grouped RavA
+within the helix 2 insert clade (8). Members of this family are found
+to have (i) an insert within helix 2 of the conserved ASCE (refers to
+Additional Strand, Catalytic E) division P-loop ATPase core, (ii) a
+β-hairpin N terminal to Sensor 1, as well as, (iii) a long helical segEl Bakkouri et al.
+
+C
+
+A
+
+RavA
+
+HslU
+
+S-1
+W-A
+100 Å
+
+W-B
+
+S-2
+
+α8
+
+H2-I
+
+S-2
+Arg-Finger
+
+PS1-βH
+
+B
+
+I-domain
+(removed)
+
+D
+
+E
+90°
+
+Fig. 2. RavA-ADP hexamer structure (A, Top) Characteristic class averages of the negatively stained RavA-ADP hexamer; (Bottom) projections of the final 3D
+reconstruction at similar orientations. (B) Top and side views of the EM 3D reconstruction of the RavA-ADP hexamer. An atomic model of RavA hexamer was
+generated from the X-ray structure of the RavA protomer by docking into the EM envelope of the hexamer and comparison with the X-ray structure of the HslU
+hexamer (PDB ID code 1DO0). (C) Ribbon representation of RavA AAA+ module (Left) and HslU AAA+ module (Right, PDB ID code 1DO0). Different subdomains
+are colored as in Fig. 1 and conserved motifs are shown; the Sensor 2 motif is colored in dark blue and the nucleotide is shown in violet. The I-domain of HslU has
+been omitted for clarity. (D, Left) Schematic representation of RavA AAA+ domain from the hexameric model viewed along the sixfold axis. (Right) X-ray
+structure of HslU hexamer AAA+ domain. For each structure, the αβα and all-α subdomains of one protomer are colored in brown and wheat, respectively.
+The other protomers are colored in light and dark gray for the αβα and all-α subdomains, respectively. (E) Space-filling and ribbon models of a representative
+dimer of each hexamer in D. Nucleotide is shown in violet, whereas the blue circle indicates the location of the Sensor 2 motif.
+
+ment separating the C terminus of the αβα subdomain and the
+N terminus of the all-α subdomain. The X-ray structure of the
+RavA AAA+ module agrees with this classification. The αβα subdomain contains two characteristic β-hairpin insertions (Figs. 1A
+and 2C). The helix-2 insert (H2-I, residues Pro85–Pro106) is incorporated within helix α4, but is partially unstructured in our
+model (shown as a dotted line in Figs. 1B and 2C). In the case of
+the Mg chelatase subunit BchI, this insert consists of two β-strands
+flanking a small helix (16). The Pre-Sensor 1 β-Hairpin insertion
+(PS1-βH, residues Gln135–Pro146) is incorporated between the
+Sensor 1 strand (β4) and the preceding helix (α5). It has been
+shown that PS1-βH and H2-I are usually important for substrate
+interaction (17–20). The long helical segment between the αβα
+and all-α subdomains is shown in green in Figs. 1 A and B and 2C;
+this segment consists of two helices that wrap around the surface
+of the αβα subdomain making several contacts with it.
+SSM and Dali structural similarity searches using the whole
+RavA AAA+ module indicated only four proteins to have similar
+structures as the RavA AAA+ domain: the putative ATPase from
+Cytophaga hutchinsonii, BchI subunit of Rhodobacter capsulatus
+Mg chelatase, archaeal minichromosome maintenance protein
+MCM from Sulfolobus solfataricus, and an archaeal MCM homolog from Methanopyrus kandleri (Fig. S3). In all of these proteins,
+the spatial localization of the all-α subdomain relative to the αβα
+subdomain is similar to that of RavA and is significantly different
+El Bakkouri et al.
+
+from its typical position found in most other AAA+ members
+(8, 21).
+Fig. 2C illustrates the differences between the AAA+ module
+organization of HslU, a canonical model of the typical AAA+
+module fold (15), and RavA AAA+ domain. In HslU, the all-α
+subdomain is located on “top” of the αβα subdomain. In the all-α
+subdomain, the Sensor 2 motif (shown in dark blue in Fig. 2C), a
+required motif for nucleotide binding and hydrolysis, is oriented
+toward the ATP-binding site of the same protomer. In the case
+of RavA, the all-α subdomain is on the “right” of the αβα subdomain; consequently, the Sensor 2 motif cannot contribute to ATP
+hydrolysis on the same protomer as in HslU. However, when the
+X-ray structure of the HslU hexamer is compared to the RavA
+hexameric model (Fig. 2D), then it is clear that HslU and RavA
+share similar organization of the subdomains in the oligomer
+although the orientation of the protomers is reversed. In the
+RavA hexamer, the all-α subdomain of one protomer is located
+on top of the αβα subdomain of the protomer on its right (Fig. 2 D
+and E), and the Arg residue of Sensor 2 faces the ATP-binding
+site of a neighboring protomer (Fig. 2E and Fig. S4). In the HslU
+hexamer, the all-α subdomain of one protomer is located on top
+of the αβα subdomain of the protomer on its left (Fig. 2 D and E),
+and the Arg residue of Sensor 2 is facing the ATP-binding site of
+the same protomer (Fig. 2E and Fig. S4). Hence, when viewed
+from the top, the subunits in RavA are organized clockwise,
+PNAS ∣ December 28, 2010 ∣
+
+vol. 107 ∣
+
+no. 52 ∣
+
+22501
+
+BIOCHEMISTRY
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+20 Å
+
+22502 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1009092107
+
+B
+Response (RU)
+
+RavA
+
+RavA + ATP
+
+4000
+
+1200
+3000
+
+800
+
+800
+
+2000
+
+400
+
+1000
+
+0
+
+0
+0
+
+40
+
+120
+
+80
+
+400
+0
+0
+
+200
+
+RU at equilibrium
+
+Time (s)
+
+400
+
+0
+
+40
+
+Time (s)
+
+120
+
+80
+
+Time (s)
+
+4000
+1200
+
+1200
+3000
+
+800
+
+0
+0
+
+800
+
+2000
+
+400
+
+400
+
+1000
+
+Kd =0.56 µM ±0.06
+2
+
+4
+
+6
+
+Kd1 =0.018 µM ±0.004
+Kd2 =1.22 µM ±0.12
+
+0
+8
+
+0
+
+4
+
+[RavA] (µM)
+
+C
+
+LARA domain
+
+1200
+
+D
+
+RavA∆
+∆LARA
+400
+200
+0
+
+-200
+-400
+
+40
+
+80
+
+Time (s)
+
+8
+
+12
+
+Kd =54 µM ±6.01
+
+0
+0
+
+40
+
+[RavA] (µM)
+
+120
+
+Response (RU)
+
+in our laboratory has shown that RavA interacts with LdcI, an
+inducible lysine decarboxylase enzyme, forming an unusual cagelike complex of about 3.3 MDa consisting of two LdcI (81 kDa)
+decamers and up to five RavA (56 kDa) hexamers (Fig. 3A) (12).
+We further confirmed this interaction in this study. The pull-down
+of RavA from an E. coli strain in which a Sequential Peptide Affinity (SPA) tag (22) was fused at the 3′ end of the endogenous
+ravA gene, also pulled down LdcI as previously observed (12).
+Analysis of the complex by size exclusion chromatography
+showed that the majority of RavA was part of a 3.3-MDa complex
+with LdcI (Fig. S5A), which corresponds to the mass of the complex shown in Fig. 3A. LdcI migrated as a complex with RavA but
+also as uncomplexed decamers as well. In another experiment,
+analysis of the interaction between purified RavA and LdcI
+proteins by sedimentation velocity analytical ultracentrifugation
+revealed the presence of 0.8-, 2.7-, and 6.0-MDa complexes
+(Fig. S5B). These complexes would correspond to LdcI decamer
+alone, the RavA-LdcI cage-like complex of Fig. 3A, and a dimer
+of the cage-like complex, respectively.
+Docking of RavA hexameric model of Fig. 2B and LdcI decameric crystal structure that we recently determined into the EM
+envelope suggested that the LARA domain of RavA might interact with LdcI (Fig. 3A and Fig. S6A). To determine the validity of
+the docking model, a RavA construct was made in which the
+LARA domain was deleted and was termed RavAΔLARA (consisting of residues Met1–Ala335 and Leu434–Cys498). An isolated LARA domain construct was also generated (residues
+Gln329–Glu440). Circular dichroism analysis showed that both
+proteins have the expected secondary-structure content. Furthermore, RavAΔLARA formed a hexameric complex in the presence
+of ATP (Fig. S6B), and its ATPase activity was similar to that of
+WT RavA (Fig. S6B, Inset). The interaction of LdcI with RavA
+and its different constructs was then assessed by surface plasmon
+resonance (SPR) using the Biacore system. In these experiments,
+LdcI was immobilized on the chip. The SPR experiments clearly
+showed that, although WT RavA and LARA domain do interact
+with LdcI (Fig. 3B), RavAΔLARA does not bind to LdcI (Fig. 3C).
+In the absence of nucleotide, WT RavA bound LdcI with an
+apparent binding constant of 0.56 μM (Fig. 3B). In the presence
+of ATP, the binding curve was best fit using two independent
+binding sites with apparent binding constants of 0.018 μM and
+1.22 μM (Fig. 3B). This might indicate that the proper hexamerization of RavA, which is attained in the presence of ATP, allows
+for two RavA“legs” to bind the LdcI decamer at two different sites
+as suggested by the docking analysis of Fig. 3A and Fig. S6A. How-
+
+90°
+
+80
+
+120
+
+160
+
+[LARA] (µM)
+
+RavA on chip
+
+RavA∆LARA on chip
+200
+150
+
+200
+
+100
+100
+
+50
+
+0
+
+-50
+
+0
+
+0
+
+100
+
+200
+
+300
+
+400
+
+0
+
+Time(s)
+RU at equilibrium
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+The LARA Domain Mediates RavA-LdcI Interactions. Previous work
+
+A
+
+Responce (RU)
+
+whereas the subunits in HslU are organized counterclockwise
+(Fig. 2D).
+It should be noted that, in the RavA structure, the all-α and
+αβα subdomains from the same monomer make extensive interactions. The buried surface area between these two subdomains is
+much larger in the case of RavA (2;797 Å2 ) than for HslU monomer (1;084 Å2 ) (Fig. 2E). As a result, in the HslU hexamer, the
+all-α subdomain makes more extensive interactions with the αβα
+subdomain of the neighboring protomer (2;930 Å2 ) than in the
+RavA hexamer (754 Å2 ).
+Even with these major differences in the assembly of the
+subunits, the overall structures of the RavA and HslU AAA+ hexamers remain similar with a high conservation in the organization
+of the ATP-binding site. Fig. S4 shows the localization of the
+nucleotide between two subunits of the RavA and HslU hexamers.
+In both cases, the nucleotide makes contact with three subdomains. For HslU, the nucleotide is sandwiched between the αβα
+and the all-α subdomains of the same subunit and faces the αβα
+subdomain of the left neighboring subunit, whereas the nucleotide
+in RavA contacts the αβα subdomain of one subunit and faces the
+all-α and the αβα subdomains of the left neighboring subunit.
+
+50
+
+100
+
+150
+
+200
+
+Time(s)
+200
+
+200
+100
+100
+
+0
+
+Kd = 0.53 µM ± 0.09
+0
+
+1.0
+
+2.0
+
+[LARA] (µM)
+
+3.0
+
+0
+0
+
+40
+
+80
+
+[LARA] (µM)
+
+Fig. 3. The LARA domain mediates RavA-LdcI and RavA-RavA interactions.
+(A) Fit of the RavA hexameric model and LdcI decamer into the EM envelope
+of the LdcI-RavA complex (12) viewed from the side (Left) and the top (Right).
+One LdcI dimer is colored in red (the upper monomer) and green (the lower
+monomer). ppGpp bound to LdcI is drawn as blue spheres. (B) Biacore sensorgrams and equilibrium binding curves showing the interaction between
+LdcI (on chip) and WT RavA in the absence of nucleotide (Left), or WT RavA
+in the presence of ATP (Middle), or the LARA domain (Right). (C) Biacore sensorgram showing the lack of interaction between LdcI (on chip) and RavAΔLARA at 15 μM. (D) Biacore sensorgrams and equilibrium binding curves
+showing the interaction between WT RavA and LARA domain (Left) and
+the very weak interaction between RavAΔLARA and LARA domain (Right).
+
+ever, it should be noted that, because of the experimental setup,
+the full complex shown in Fig. 3A, in which RavA hexamers can
+bridge two LdcI decamers, is unlikely to form under the conditions
+of the SPR experiments because LdcI is cross-linked to the chip.
+The isolated LARA domain is also able to bind LdcI albeit with
+a lower apparent K d of 54 μM (Fig. 3B). Hence, these observations
+strongly suggest that the LARA domain is the RavA domain
+required for LdcI interaction, hence the acronym LARA: LdcI
+associating domain of RavA.
+Bioinformatic analysis provided further support for the finding
+that the LARA domain mediates the interaction of RavA with
+LdcI. In 47 representative bacterial strains that contained RavA
+based on BLAST searches (23), we asked whether these strains
+also contain LdcI. As mentioned earlier, the C-terminal fragment
+of RavA including the triple-helical bundle and LARA domain is
+not well conserved. Hence, the presence of the LARA domain in
+RavA across the different strains was assessed using JPred secEl Bakkouri et al.
+
+our prior observations (12). However, when ppGpp is added to
+the preformed RavA-LdcI complex, the presence of RavA reduces the inhibitory effect of ppGpp on LdcI by about 40% under
+the conditions of the experiment (Fig. 4B). Moreover, the RavAΔLARA truncation mutant is not able to reduce the inhibitory
+effect of ppGpp on LdcI activity, which is consistent with our
+results showing that the LARA domain is responsible for the
+RavA-LdcI interaction. When LdcI is preincubated with ppGpp
+and then RavA is added, RavA is not able to reduce the inhibition
+of LdcI by the alarmone (Fig. 4C). Hence, RavA either blocks the
+access to the ppGpp binding site in LdcI or RavA induces a local
+conformational change in LdcI that reduces its ppGpp binding
+affinity. Alternatively, ppGpp might cause a conformational
+change in LdcI to reduce RavA binding to the decarboxylase.
+It should be pointed out that the effect of RavA on LdcI inhibition by ppGpp is probably underestimated because these experiments were done at low concentrations of MgCl2 . Under such
+conditions, RavA has low ATPase activity; addition of higher concentrations of MgCl2 lead to the precipitation of ppGpp by Mg2þ .
+To further validate our in vitro results and to determine if the
+modulation of ppGpp binding to LdcI by RavA can be observed
+in vivo, the activity of LdcI was tested in different strains undergoing a stringent response. Four strains were used: ΔcadBA, WT
++ ravA, WT + ravAΔLARA, and WT + ravA(K52Q). The last
+three strains overexpress RavA, RavAΔLARA, and RavA
+(K52Q) proteins by IPTG induction (refer to Materials and Methods). RavA(K52Q) is ATPase deficient because the conserved
+Walker A K52 is mutated to Q (Fig. 1A). Endogenous RavA
+is expressed at low levels and is induced only in the stationary
+phase (12). Cells were grown to log phase in defined rich media
+buffered at pH 5, and, when the OD600 of each strain was approximately 0.2, proteins were induced with 1 mM IPTG for 1 h. Cells
+were then shifted to minimal media weakly buffered at pH 5
+containing no amino acids to induce ppGpp production, and
+supplemented with 30 mM lysine to follow the LdcI activity by
+monitoring pH change of the media; no cell growth occurs during
+
+ondary structure prediction program (24). It was interesting to
+find that RavA in all strains containing LdcI has a LARA domain,
+whereas strains that do not have LdcI contain RavA that has or
+does not have the LARA domain (Fig. S6C). The LARA domain
+in these strains might have other functions or the domain will
+eventually degenerate.
+
+200
+
++
+c
+10 leo
++ 0 µ tide
++ 10 M
+10 0 G
+0 µM TP
++ µM G
+10 pp DP
+0
+µM pGp
+pp p
+G
+pp
+
+0
+
+ITC
+Syringe
+ITC
+Well
+
+ITC
+Well
+
+D
+
+60
+
+O.D.
+
+600
+
+50
+
+40
+
+10
+
+1
+
+20
+
+10
+0
+
+250 nM RavA
+250 nM RavA∆LARA
+25 nM LdcI
+50 µM ppGpp
+1 mM L-lysine
+
+pre-shift
+
+0.01
+7.0
+
+10
+
+6.6
+
+0
+
+250 nM RavA
+1 mM L-lysine
+50 µM ppGpp
+25 nM LdcI
+
++
++
++
+
++
++
++
++
+
++
++
++
+
++
++
++
++
+
++
++
++
+
++
++
++
++
+10
+
+1
+
+WT + ravA
+WT + ravA∆LARA
+WT + ravA(K52Q)
+∆cadBA
+
+0.1
+
+0.01
+1.4
+1.3
+
+6.2
+1.2
+5.8
+1.1
+
+5.4
+5.0
+
+0 1 2 3 4 5 6 0+
+
+Time (hr)
+
+El Bakkouri et al.
+
++
++
++
+
+IPTG
+
+0.1
+
+20
+
++
++
+
+post-shift
+
+30
+
+pH
+
+o
+N
+
+C
+
+(nanomoles cadaverine degraded) min-1 (µg LdcI)-1
+
+nu
+
+ITC
+Syringe
+
+30
+
+30+
+
+60+
+
+Time (min)
+
+90+
+
+1.0
+120+
+
+Fig. 4. RavA binding to LdcI antagonizes the inhibitory effect of
+ppGpp on LdcI activity. (A) The ATPase activity of RavA measured
+by ITC in the presence of different nucleotides. Error bars represent
+the standard deviation of the average of three experiments. (B) LdcI
+activity measured by ITC in the presence of RavA or RavAΔLARA and/or
+ppGpp. Note that the concentrations of proteins, substrate, and inhibitor are the final concentrations after mixing. In this panel, the RavALdcI complex is preformed in the syringe before adding ppGpp. (C) LdcI
+activity measured by ITC. In this experiment, LdcI-ppGpp complex is
+preformed in the well before adding RavA. (D) The effect of RavA
+overexpression on LdcI activity in the cell. ΔcadBA knockout strains
+and WT cells overexpressing RavA, RavAΔLARA, or RavA(K52Q) were
+grown to log phase in defined rich media buffered at pH 5. RavA, RavAΔLARA, or RavA(K52Q) were induced and cells were then shifted to
+minimal media weakly buffered at pH 5 containing no amino acids to
+induce ppGpp production and supplemented with 30 mM lysine. The
+OD600 of the cells is shown (Top); the pH of the culture media is shown
+(Bottom Left). (Bottom Right) The increase in pH∕OD600 normalized to
+the value at 0+ (right after shift). Each time point is the result of at
+least three replicates. Error bars represent the standard deviations
+of the measurements.
+PNAS ∣ December 28, 2010 ∣
+
+vol. 107 ∣
+
+no. 52 ∣
+
+22503
+
+BIOCHEMISTRY
+
+400
+
+40
+
+600
+
+600
+
+50
+
+O.D.
+
+LdcI Activity
+
+800
+
+60
+
+Normalized [pH / O.D.600]
+
+B
+
+1000
+Initial rate [(pmoles Pi) min-1 (µg RavA)-1]
+
+RavA ATPase Activity
+
+A
+
+(nanomoles cadaverine degraded) min-1 (µg LdcI)-1
+
+RavA Antagonizes the Inhibitory Effect of ppGpp on LdcI Activity. The
+LdcI crystal structure revealed the presence of a binding site for
+the bacterial alarmone guanosine tetraphosphate (ppGpp) at the
+interface between two protomers in the pentameric ring (Fig. 3A).
+Biochemical assays showed that ppGpp binding to LdcI results in
+drastic inhibition of the LdcI activity of approximately 10-fold at
+pH values greater than 5. The docking shown in Fig. 3A suggests
+that the LARA domain of RavA might bind at a site in LdcI that
+could affect ppGpp binding to the decarboxylase.
+The activity of the decarboxylase was measured in the presence
+and absence of RavA and ppGpp using an isothermal titration
+calorimetry (ITC) approach. Initially, we ensured that the presence of GTP, GDP, ppGpp, and pppGpp does not affect RavA
+ATPase activity (Fig. 4A). When the RavA-LdcI complex is preformed, LdcI activity is not significantly changed consistent with
+
+LdcI Activity
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+The LARA Domain Mediates RavA-RavA Interactions. The docking
+shown in Fig. 3A suggests that the LARA domain might also mediate RavA-RavA interactions within the RavA-LdcI cage-like
+complex by interacting with the triple-helical domain and/or the
+LARA domain of the neighboring RavA (Fig. S6A). SPR experiments were carried out in which RavA or RavAΔLARA is immobilized on the chip and the LARA domain is titrated. The results
+indicate that the LARA domain can bind to RavA with an apparent K d of about 0.5 μM (Fig. 3D). This interaction is drastically
+reduced when the binding experiment is performed between
+RavAΔLARA and the LARA domain (Fig. 3D), suggesting that
+the LARA domain plays an important role in RavA-RavA interactions within the RavA-LdcI cage-like complex.
+
+Downloaded from https://www.pnas.org by 108.172.119.208 on July 24, 2022 from IP address 108.172.119.208.
+
+this time (Fig. 4D and Fig. S7). Consistent with the in vitro results,
+WT + ravA strain increased the pH of the media at a higher rate
+than the WT + ravAΔLARA strain, whereas no significant pH
+change was observed for the ΔcadBA cells (Fig. 4D). Hence, the
+formation of the RavA-LdcI complex reduced the inhibitory
+effect of the alarmone on LdcI, allowing the cells to better
+respond to low acidity. On the other hand, RavAΔLARA cannot
+form a complex with LdcI (Fig. 3D) and, hence, LdcI should still
+be inhibited by ppGpp resulting in a lower rate of pH increase,
+as observed (Fig. 4D). The strain overexpressing RavA(K52Q)
+mutant increased pH faster than the strain overexpressing RavAΔLARA, but not as well as the strain overexpressing WT RavA
+(Fig. 4D), indicating that the binding of RavA to LdcI is not
+enough to modulate alarmone binding to the decarboxylase, but
+that the ATPase activity of RavA is also needed.
+Discussion
+The organization of the AAA+ module of RavA as revealed
+by the X-ray structure of the protein (Figs. 1B and 2C) explicitly
+demonstrates that the protein is closely related to the family of
+Mg chelatases. We had previously found that RavA and LdcI interact tightly to form an unusual cage-like structure (12). Having
+the X-ray structure and the EM reconstruction of RavA (this
+study), as well as the X-ray structure of LdcI and the negative
+staining EM reconstruction of the RavA-LdcI complex (12),
+allowed us to gain important insights into the design principles
+of this cage that is formed by the interaction of a fivefold symmetric oligomer of LdcI with a sixfold symmetric oligomer of
+RavA (Fig. 3A). The RavA hexamer displays six “legs,” which
+are spanning the triple-helical domain and the LARA domain.
+Two of the legs interact with an LdcI dimer at the top of the complex, and two other legs show the same set of interactions with an
+LdcI dimer at the bottom of the complex. These interactions
+seem to be mainly mediated by the LARA domain. The two
+remaining legs of RavA are interacting with a neighboring
+RavA leg on the left and on the right (Fig. 3A and Fig. S6A). The
+RavA-RavA leg–leg interactions seem to involve the triple-helical
+domain, as well as the LARA domain (Fig. 3A). Hence, the construction of the RavA leg makes all these interactions possible.
+The LARA domain exhibits a unique fold and, based on the
+bioinformatic analysis of Fig. S6C, seems to be optimally evolved
+to mediate the interaction of RavA with LdcI.
+1. Kunau WH, et al. (1993) Two complementary approaches to study peroxisome
+biogenesis in Saccharomyces cerevisiae: Forward and reversed genetics. Biochimie
+75:209–224.
+2. Confalonieri F, Duguet M (1995) A 200-amino acid ATPase module in search of a basic
+function. Bioessays 17:639–650.
+3. Ogura T, Wilkinson AJ (2001) AAA+ superfamily ATPases: Common structure—diverse
+function. Genes Cells 6:575–597.
+4. Leipe DD, Koonin EV, Aravind L (2003) Evolution and classification of P-loop kinases
+and related proteins. J Mol Biol 333:781–815.
+5. Ammelburg M, Frickey T, Lupas AN (2006) Classification of AAA+ proteins. J Struct Biol
+156(1):2–11.
+6. Snider J, Thibault G, Houry WA (2008) The AAA+ superfamily of functionally diverse
+proteins. Genome Biol 9:216.
+7. Neuwald AF, Aravind L, Spouge JL, Koonin EV (1999) AAA+: A class of chaperonelike ATPases associated with the assembly, operation, and disassembly of protein
+complexes. Genome Res 9:27–43.
+8. Iyer LM, Leipe DD, Koonin EV, Aravind L (2004) Evolutionary history and higher order
+classification of AAA+ ATPases. J Struct Biol 146:11–31.
+9. Ogura T, Whiteheart SW, Wilkinson AJ (2004) Conserved arginine residues implicated
+in ATP hydrolysis, nucleotide-sensing, and inter-subunit interactions in AAA and AAA+
+ATPases. J Struct Biol 146:106–112.
+10. Hanson PI, Whiteheart SW (2005) AAA+ proteins: Have engine, will work. Nat Rev Mol
+Cell Biol 6:519–529.
+11. Snider J, Houry WA (2006) MoxR AAA+ ATPases: A novel family of molecular chaperones? J Struct Biol 156:200–209.
+12. Snider J, et al. (2006) Formation of a distinctive complex between the inducible
+bacterial lysine decarboxylase and a novel AAA+ ATPase. J Biol Chem 281:1532–1546.
+13. Krissinel E, Henrick K (2004) Secondary-structure matching (SSM), a new tool for fast
+protein structure alignment in three dimensions. Acta Crystallogr D 60:2256–2268.
+14. Holm L, Kaariainen S, Rosenstrom P, Schenkel A (2008) Searching protein structure
+databases with DaliLite v.3. Bioinformatics 24:2780–2781.
+
+22504 ∣
+
+www.pnas.org/cgi/doi/10.1073/pnas.1009092107
+
+The RavA-LdcI cage-like structure might have multiple functions in the cell yet to be elucidated; however, one consequence
+we found here for the formation of the RavA-LdcI complex is the
+reduction of the inhibitory effect of ppGpp on LdcI activity.
+When cells are undergoing acid stress and LdcI is induced to
+about 2,000 decamers per cell, nutrient limitation will result in
+the production of the alarmone. Because we estimate that there
+are about 50–100 RavA hexamers per cell in the stationary phase
+(12), only a small population of LdcI molecules is expected to be
+in complex with RavA. This population of LdcI will not be
+strongly inhibited by ppGpp, allowing the cells to continue to respond to acid stress at the risk of depleting lysine amounts. It is
+interesting to note that RavA and ppGpp have similar binding
+constants to LdcI: K d of 0.02—1 μM for RavA-LdcI interaction
+(Fig. 3B) and K d of 0.01–0.7 μM for LdcI-ppGpp interaction. The
+binding of RavA to apo-LdcI does not affect LdcI activity to any
+significant extent (Fig. 4B and ref. 12). Hence, there is a fine-tuning of LdcI activity by ppGpp and RavA, which is required for the
+cells to respond to acid stress, as well as to prevent the depletion
+of their amino acids. This fine-tuning probably involves other factors and proteins and also occurs for other amino acid decarboxylases involved in the bacterial acid stress response.
+Materials and Methods
+Details of cloning, protein expression and purification, RavA ATPase assay, SPR
+measurements, LdcI enzyme kinetics measurements using ITC, sedimentation
+velocity analytical ultracentrifugation, pull-down experiments, media shift
+assays, X-ray crystallography, and electron microscopy are provided in SI Text.
+ACKNOWLEDGMENTS. We thank Dr. Elisabeth Tillier (University of Toronto)
+for her help with the bioinformatic analysis shown in Fig. S6C. We also
+thank several members of UVHCI: Dr. Rob Ruigrok for his support, Dr. Hassan
+Belrhali for help with data collection and phasing, Dr. Monika Spano,
+Dr. Nicolas Tarbouriech, and Dr. Thibaut Crépin for help with protein crystallization. M.E.B. is the recipient of a fellowship from the Canadian Institutes of
+Health Research (CIHR) Strategic Training Program in Protein Folding and Interaction Dynamics: Principles and Diseases. U.K. is the recipient of a National
+Sciences and Engineering Research Council of Canada (NSERC) Postgraduate
+Scholarship, a Canadian Institutes of Health Research Strategic Training Program in the Structural Biology of Membrane Proteins Linked to Disease, and
+a University of Toronto Open Fellowship. B.Z. is the recipient of NSERC
+Alexander Graham Bell Canada Graduate Scholarship. M.Y. is the recipient
+of Life Sciences Award from the University of Toronto. This work was
+supported by a grant from CIHR (MOP-67210) (to W.A.H.).
+15. Bochtler M, et al. (2000) The structures of HsIU and the ATP-dependent protease
+HsIU-HsIV. Nature 403:800–805.
+16. Fodje MN, et al. (2001) Interplay between an AAA module and an integrin I domain
+may regulate the function of magnesium chelatase. J Mol Biol 311:111–122.
+17. Han YW, et al. (2001) A unique beta-hairpin protruding from AAA+ ATPase domain of
+RuvB motor protein is involved in the interaction with RuvA DNA recognition protein
+for branch migration of Holliday junctions. J Biol Chem 276:35024–35028.
+18. Lee SY, et al. (2003) Regulation of the transcriptional activator NtrC1: Structural studies
+of the regulatory and AAA+ ATPase domains. Genes Dev 17:2552–2563.
+19. Shen J, Gai D, Patrick A, Greenleaf WB, Chen XS (2005) The roles of the residues on
+the channel beta-hairpin and loop structures of simian virus 40 hexameric helicase.
+Proc Natl Acad Sci USA 102:11248–11253.
+20. Jenkinson ER, Chong JP (2006) Minichromosome maintenance helicase activity is
+controlled by N- and C-terminal motifs and requires the ATPase domain helix-2 insert.
+Proc Natl Acad Sci USA 103:7613–7618.
+21. Erzberger JP, Berger JM (2006) Evolutionary relationships and structural mechanisms
+of AAA+ proteins. Annu Rev Biophys Biomol Struct 35:93–114.
+22. Babu M, et al. (2009) Sequential peptide affinity purification system for the systematic
+isolation and identification of protein complexes from Escherichia coli. Methods Mol
+Biol 564:373–400.
+23. Altschul SF, et al. (1997) Gapped BLAST and PSI-BLAST: A new generation of protein
+database search programs. Nucleic Acids Res 25:3389–3402.
+24. Cole C, Barber JD, Barton GJ (2008) The Jpred 3 secondary structure prediction server.
+Nucleic Acids Res 36:W197–201.
+25. Bond CS (2003) TopDraw: A sketchpad for protein structure topology cartoons.
+Bioinformatics 19:311–312.
+26. Rocchia W, et al. (2002) Rapid grid-based construction of the molecular surface and
+the use of induced surface charge to calculate reaction field energies: Applications to
+the molecular systems and geometric objects. J Comput Chem 23:128–137.
+
+El Bakkouri et al.
+
+
